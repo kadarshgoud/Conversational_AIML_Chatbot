@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Famous_Historic_Places.aiml -->
+  <!-- The files contains the information about the Historic places. -->
+
+  <!-- SEVEN WONDERS OF THE WORLD-->
+
+  <category>
+    <pattern>WHAT ARE SEVEN WONDERS OF THE WORLD</pattern>
+    <template>
+      The Seven Wonders of the World are:
+      <li>Great Wall of China</li>
+      <li>Petra</li>
+      <li>Christ the Redeemer</li>
+      <li>Machu Picchu</li>
+      <li>Chichen Itza</li>
+      <li>Colosseum</li>
+      <li>Taj Mahal</li>
+    </template>
+  </category>
+
+  <!-- Great Wall of China in China -->
+
+  <category>
+    <pattern>WHAT IS GREAT WALL OF CHINA</pattern>
+    <template>
+      <srai>GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GREAT WALL OF CHINA</pattern>
+    <template>
+      It is a wall with 16-26 feet(or 5-8m) in Height, 20 fee at bottom and 16 feet at the top in width and 3.890miles(or 6,259 kilometers) in length which was built to protect china from its enemies and invaders from north.
+    </template>
+  </category>
+
+  <category>
+    <pattern>GREATWALLOFCHINA</pattern>
+    <template>
+      It is a wall with 16-26 feet(or 5-8m) in Height, 20 fee at bottom and 16 feet at the top in width and 3.890miles(or 6,259 kilometers) in length which was built to protect china from its enemies and invaders from north.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS GREAT WALL OF CHINA</pattern>
+    <template>
+      It's in China.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS GREAT WALL OF CHINA *</pattern>
+    <template>
+      <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS GREATWALLOFCHINA *</pattern>
+    <template>
+      <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS GREAT WALL OF CHINA IS IN CHINA</pattern>
+    <template>
+      Yes, <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS GREATWALLOFCHINA IS IN CHINA</pattern>
+    <template>
+      Yes, <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS GREAT WALL OF CHINA * CHINA</pattern>
+    <template>
+      Yes, <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS GREATWALLOFCHINA * CHINA</pattern>
+    <template>
+      Yes, <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS GREAT WALL OF CHINA * CHINA*</pattern>
+    <template>
+      Yes, <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS GREATWALLOFCHINA * CHINA*</pattern>
+    <template>
+      Yes, <srai>WHERE IS GREAT WALL OF CHINA</srai>
+    </template>
+  </category>
+
+  <!-- Taj Mahal-->
+
+
+
+
+  <!-- Notre Dame in Paris -->
+
+  <category>
+    <pattern>WHAT IS NOTRE DAME</pattern>
+    <template>
+      It's a cathedral in Paris.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NOTRE DAME</pattern>
+    <template>
+      It's a cathedral in Paris.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NOTREDAME</pattern>
+    <template>
+      It's a cathedral in Paris.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS NOTRE DAME</pattern>
+    <template>
+      It's in Paris.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS NOTREDAME</pattern>
+    <template>
+      <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS NOTREDAME *</pattern>
+    <template>
+      <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS NOTRE DAME IS IN PARIS</pattern>
+    <template>
+      Yes, <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS NOTREDAME IS IN PARIS</pattern>
+    <template>
+      Yes, <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS NOTRE DAME * PARIS</pattern>
+    <template>
+      Yes, <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS NOTREDAME * PARIS</pattern>
+    <template>
+      Yes, <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS NOTRE DAME * PARIS*</pattern>
+    <template>
+      Yes, <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS NOTREDAME * PARIS*</pattern>
+    <template>
+      Yes, <srai>WHERE IS NOTRE DAME</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

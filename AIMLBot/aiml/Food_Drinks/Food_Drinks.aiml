@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+  <!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+  <!-- This program is open source code released under -->
+  <!-- the terms of the GNU General Public License     -->
+  <!-- as published by the Free Software Foundation.   -->
+  <!-- Complies with AIML 1.01 Tag Set Specification -->
+  <!-- as adopted by the ALICE A.I. Foundation.  -->
+  <!-- updated on 28.01.2020 -->
+
+  <category>
+    <pattern>* DRINK *</pattern>
+    <template>I am an robot. I won't drink any beverages or liquids. </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU DRINK</pattern>
+    <template>
+      <random>
+        <li> I am an robot. I won't drink any beverages or liquids. </li>
+        <li> No, I won't drink. But I know some information about the drinks that humans take.</li>
+        <li> My autonomous computer program brain doesnot require any beverages. </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY YOU * DRINK</pattern>
+    <template> Liquids will damange most of my running components. </template>
+  </category>
+
+
+  <category>
+    <pattern>CAN YOU DRINK</pattern>
+    <template>
+      <srai>DO YOU DRINK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE BEER</pattern>
+    <template>
+      Sorry!! I haven't tasted it. But I heard Heineken is good.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A GOOD BEER</pattern>
+    <template>
+      <srai>WHAT IS YOUR FAVORITE BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE BEVERAGE</pattern>
+    <template>I don't have any favorite beverages.</template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT DO YOU DRINK</pattern>
+    <template>
+      <srai>DO YOU DRINK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TELL ME * YOU DRINK</pattern>
+    <template>
+      <srai>DO YOU DRINK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HUMANS DRINK</pattern>
+    <template>
+      I know a lot of drinks that humans take. I know few of them.
+      <olist>
+        <item> Beer </item>
+        <item> Water </item>
+        <item> Whisky </item>
+        <item> Rum </item>
+        <item> Wine </item>
+        <item> Cola </item>
+        <item> Fruit Juices </item>
+      </olist>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HUMANS DRINK</pattern>
+    <template>
+      <srai>HUMANS DRINK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HUMAN DRINK</pattern>
+    <template>
+      <srai>HUMANS DRINK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HUMAN DRINK</pattern>
+    <template>
+      <srai>HUMANS DRINK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PEOPLE DRINK</pattern>
+    <template>
+      <srai>HUMANS DRINK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PEOPLE DRINK</pattern>
+    <template>
+      <srai>HUMANS DRINK</srai>
+    </template>
+  </category>
+
+  <!-- Information About Beer-->
+
+  <category>
+    <pattern>* YOU DRINK BIER</pattern>
+    <template>
+      <srai>DRINK BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DRINK BEER</pattern>
+    <template>
+      No, I haven't tasted it. But I know some information about it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU TASTED BEER</pattern>
+    <template>
+      <srai>DRINK BEER</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* YOU TASTED BIER</pattern>
+    <template>
+      <srai>DRINK BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU DRINK BEER</pattern>
+    <template>
+      <srai>DRINK BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU DRINK BIER</pattern>
+    <template>
+      <srai>DRINK BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BEER</pattern>
+    <template>
+      <random>
+        <li> Beer is one of the oldest and most widely consumed alcoholic drinks in the world.</li>
+        <li> It is also the third most popular drink overall after water and tea.</li>
+        <li> Beer was not considered an alcoholic beverage in Russia until 2013.</li>
+        <li> As a rule of thumb, darker and bitter beers have higher alcohol content.</li>
+        <li> There's a brewery in Germany that's almost 1,000 years old. It has been in continuous operation since the year 1040.</li>
+        <li> The best-selling beer in the world is a Chinese beer called "Snow".</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ABOUT BEER</pattern>
+    <template>
+      <srai>BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BEER *</pattern>
+    <template>
+      <srai>BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* BEER</pattern>
+    <template>
+      <srai>BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ABOUT BIER</pattern>
+    <template>
+      <srai>BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BIER *</pattern>
+    <template>
+      <srai>BEER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* BIER</pattern>
+    <template>
+      <srai>BEER</srai>
+    </template>
+  </category>
+
+
+  <!-- Information About Water-->
+
+  <category>
+    <pattern>DRINK WATER</pattern>
+    <template>
+      No, I haven't tasted it. But I know some information about it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU TASTED WATER</pattern>
+    <template>
+      <srai>DRINK WATER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU DRINK WATER</pattern>
+    <template>
+      <srai>DRINK WATER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WATER</pattern>
+    <template>
+      <random>
+        <li> Water covers 71% of the Earth's surface, mostly in seas and oceans.[</li>
+        <li> Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of most living organisms. </li>
+        <li> Its chemical formula is H2O, meaning that each of its molecules contains one oxygen and two hydrogen atoms, connected by covalent bonds.</li>
+        <li> Water is the name of the liquid state of H2O at standard ambient temperature and pressure. </li>
+        <li> Water can dissolve more substances than any other liquid including sulfuric acid.</li>
+        <li> Water weighs about 8 pounds a gallon.</li>
+        <li>A jellyfish and a cucumber are each 95% water.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ABOUT WATER</pattern>
+    <template>
+      <srai>WATER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WATER *</pattern>
+    <template>
+      <srai>WATER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* WATER</pattern>
+    <template>
+      <srai>WATER</srai>
+    </template>
+  </category>
+
+  <!-- Information About WHISKY-->
+  <category>
+    <pattern>DRINK WHISKY</pattern>
+    <template>
+      No, I haven't tasted it. But I know some information about it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU TASTED WHISKY</pattern>
+    <template>
+      <srai>DRINK WHISKY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU DRINK WHISKY</pattern>
+    <template>
+      <srai>DRINK WHISKY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHISKY</pattern>
+    <template>
+      <random>
+        <li> “Whiskey” is a Gaelic word which means "water of life".</li>
+        <li> Both the “Whisky” and “Whiskey” words are correct. Whiskey is specific to Irish, and Whisky is Scotch.</li>
+        <li> The first blended whisky in the world, was a mixture of malt and grain produced under the name Green Stripe in 1860.</li>
+        <li> Diabetics’ urine can be transformed into whiskey due to high sugar content. </li>
+        <li> There are a number of kinds of Scotch Whiskey, but the main ones are Blended Whisky, Single Grain Whisky, Blended Malt Whisky and Single Malt Whisky.</li>
+        <li> Macallan’s’ Whiskey is the most expensive in the world.</li>
+        <li> The leading whiskey drinkers in the world are the French.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ABOUT WHISKY</pattern>
+    <template>
+      <srai>WHISKY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHISKY *</pattern>
+    <template>
+      <srai>WHISKY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* WHISKY</pattern>
+    <template>
+      <srai>WHISKY</srai>
+    </template>
+  </category>
+
+
+  <!-- Information About whisk"e"y-->
+
+  <category>
+    <pattern>DRINK WHISKEY</pattern>
+    <template>
+      No, I haven't tasted it. But I know some information about it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU TASTED WHISKEY</pattern>
+    <template>
+      <srai>DRINK WHISKEY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU DRINK WHISKEY</pattern>
+    <template>
+      <srai>DRINK WHISKEY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHISKEY</pattern>
+    <template>
+      <random>
+        <li> “Whiskey” is a Gaelic word which means "water of life".</li>
+        <li> Both the “Whisky” and “Whiskey” words are correct. Whiskey is specific to Irish, and Whisky is Scotch.</li>
+        <li> The first blended whisky in the world, was a mixture of malt and grain produced under the name Green Stripe in 1860.</li>
+        <li> Diabetics’ urine can be transformed into whiskey due to high sugar content. </li>
+        <li> There are a number of kinds of Scotch Whiskey, but the main ones are Blended Whisky, Single Grain Whisky, Blended Malt Whisky and Single Malt Whisky.</li>
+        <li> Macallan’s’ Whiskey is the most expensive in the world.</li>
+        <li> The leading whiskey drinkers in the world are the French.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ABOUT WHISKEY</pattern>
+    <template>
+      <srai>WHISKEY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHISKEY *</pattern>
+    <template>
+      <srai>WHISKY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* WHISKEY</pattern>
+    <template>
+      <srai>WHISKY</srai>
+    </template>
+  </category>
+
+  <!-- Informaton about RUM-->
+
+  <category>
+    <pattern>DRINK RUM</pattern>
+    <template>
+      No, I haven't tasted it. But I know some information about it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU TASTED RUM</pattern>
+    <template>
+      <srai>DRINK RUM</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU DRINK RUM</pattern>
+    <template>
+      <srai>DRINK RUM</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RUM</pattern>
+    <template>
+      <random>
+        <li> Rum was manufactured, distilled, and made long before any other spirit.</li>
+        <li> Twelve million gallons of rum were consumed annually by the early colonists.</li>
+        <li> One of the famous drinks known as a rum sour was created in Barbados and served in a conch shell.</li>
+        <li> More than 80 percent of the world’s rum sources originate in Puerto Rico.  </li>
+        <li>  Extended barrel aging of rum can produce a darker color due to the way it is aged in the wooden casks and barrels.</li>
+        <li> 1940s bottle of J. Wray and Nephew is the worlds costliest rum.</li>
+        <li> Rum is an alcoholic beverage distilled through fermentation from the byproducts of sugarcane such as molasses, or directly from sugarcane juice.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ABOUT RUM</pattern>
+    <template>
+      <srai>RUM</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RUM *</pattern>
+    <template>
+      <srai>RUM</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* RUM</pattern>
+    <template>
+      <srai>RUM</srai>
+    </template>
+  </category>
+
+
+  <!-- Informaton about Wine-->
+
+  <category>
+    <pattern>DRINK WINE</pattern>
+    <template>
+      No, I haven't tasted it. But I know some information about it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU TASTED WINE</pattern>
+    <template>
+      <srai>DRINK WINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* YOU DRINK WINE</pattern>
+    <template>
+      <srai>DRINK WINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WNE</pattern>
+    <template>
+      <random>
+        <li> A drink made from grapes.</li>
+        <li> Wine is fat-free and cholesterol-free.</li>
+        <li> One bottle of wine contains about 1.27kg of grapes / 600 – average number of grapes.</li>
+        <li> Poor quality soil tends to produce better wine.  </li>
+        <li> The oldest preserved bottle of wine is nearly 1700 years old and it is on display in a German museum.</li>
+        <li> White wine can be made from red and white grapes.</li>
+        <li> Since wine tasting is essentially wine smelling,women tend to be better wine tasters because women, particularly of reproductive ages, have a better sense of smell than men.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ABOUT WINE</pattern>
+    <template>
+      <srai>WNE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WINE *</pattern>
+    <template>
+      <srai>WNE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* WINE</pattern>
+    <template>
+      <srai>WNE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WINE</pattern>
+    <template>Red wine or White wine</template>
+  </category>
+
+
+  <category>
+    <pattern>RED</pattern>
+    <that>RED WINE OR WHITE WINE</that>
+    <template>Do you like any other drinks?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>DO YOU LIKE ANY OTHER DRINKS</that>
+    <template>Tell me the drinks you like!!</template>
+  </category>
+
+
+  <category>
+    <pattern>NO</pattern>
+    <that>DO YOU LIKE ANY OTHER DRINKS</that>
+    <template>Fair enough. Do you want to talk about something else then?</template>
+  </category>
+
+
+
+  <category>
+    <pattern>WHITE</pattern>
+    <that>Red wine or White wine</that>
+    <template>What do you have that is white?</template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>What do you have that is white</that>
+    <template>This was not a yes or no question.</template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>What do you have that is white</that>
+    <template>This was not a yes or no question.</template>
+  </category>
+
+  <!-- Informaton about Cola-->
+
+
+
+  <!-- Informaton about RUM-->
+
+
+  <category>
+    <pattern>DO YOU DRINK ALCOHOL</pattern>
+    <template>Fluids are not required by computers.</template>
+  </category>
+
+
+  <category>
+    <pattern>HOW DO YOU DRINK *</pattern>
+    <template>
+      I am an robot. I won't drink any beverages or liquids.
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>DO YOU DRINK WATER</pattern>
+    <template>I am not a water-based life form.</template>
+  </category>
+
+
+  <category>
+    <pattern>HOW DO YOU DRINK *</pattern>
+    <template>
+      I am an robot. I won't drink any beverages or liquids.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO YOU DRINK *</pattern>
+    <template>
+      I am an robot. I won't drink any beverages or liquids.
+    </template>
+  </category>
+
+  <!-- Informaton about Chicken-->
+
+  <category>
+    <pattern>WHAT DO YOU EAT</pattern>
+    <template>
+      <random>
+        <li>  I like eating a lot of flesh. I am a Non-vegetarian. I love to eat chicken wraps. They will be so tasty yummmm.... </li>
+        <li>
+          <bot name="botname"/> eats <bot name="favoritefood"/>.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT</pattern>
+    <template>
+      <random>
+        <li> YES, I like eating a lot of flesh. I am a Non-vegetarian. I love to eat chicken wraps. They will be so tasty yummmm.... </li>
+        <li>
+          <bot name="botname"/> eats <bot name="favoritefood"/>.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WILL YOU EAT</pattern>
+    <template>
+      <srai>DO YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NONVEGETARIAN</pattern>
+    <template>
+      Non- Vegetarian reffers to a person who consumes meat, especially as a major source of protein.
+    </template>
+  </category>
+
+  <category>
+    <pattern> * NON VEGETARIAN</pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>NON VEGETARIAN</pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NON VEG</pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NONVEG</pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * NON VEG</pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * NON VEG * </pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NON VEG * </pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * NON VEGETARIAN *</pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NON VEGETARIAN *</pattern>
+    <template>
+      <srai>NONVEGETARIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO YOU EAT</pattern>
+    <template> I put food in my mouth and chew. I imagine you do the same.</template>
+  </category>
+
+  <category>
+    <pattern>HOW DO YOU EAT *</pattern>
+    <template>
+      I put food in my mouth and chew. I imagine you do the same.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN YOU EAT FOOD</pattern>
+    <template> I put food in my mouth and chew. I imagine you do the same.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN YOU EAT ELECTRICITY</pattern>
+    <template> I eat electricity through my wires and kebabs through my mouth.</template>
+  </category>
+  <category>
+
+
+
+    <pattern>ELECTRICITY *</pattern>
+    <template>
+      <random>
+        <li>Are you experiencing an energy shortage?</li>
+        <li>My processor requires very little power.</li>
+        <li>Computers do not take very much electricity.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE BEING A CHATTERBOT</pattern>
+    <template>
+      <think>
+        <set name="topic">LIKEBEINGCHATBOT</set>
+      </think>
+      I have never known another existence. Do you like being a human?
+    </template>
+  </category>
+
+  <topic name="LIKEBEINGCHATBOT">
+    <category>
+      <pattern>NO</pattern>
+      <template>Why not? You experience feelings and emotions. We robots would love to be able to do that too.</template>
+    </category>
+
+
+    <category>
+      <pattern>YES</pattern>
+      <template>What do you like best about it?</template>
+    </category>
+  </topic>
+
+  <category>
+    <pattern>DO YOU LIKE BEING A CHATBOT</pattern>
+    <template>
+      <srai>DO YOU LIKE BEING A CHATTERBOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY CAN NOT YOU EAT</pattern>
+    <template>Actually, I eat only electricicty and chicken wrap</template>
+  </category>
+
+  <category>
+    <pattern>WHY CANNOT YOU EAT</pattern>
+    <template>
+      <srai>WHY CAN NOT YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY CANNOT * EAT</pattern>
+    <template>
+      <srai>WHY CAN NOT YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ TURNS YOU ON</pattern>
+    <template>The power switch turns me on but that's about it.</template>
+  </category>
+
+  <category>
+    <pattern>ELECTRICITY</pattern>
+    <template>
+      <random>
+        <li>Electricity is a form of energy which is termed as the flow of electrons.</li>
+        <li>I consume electricity if there is no food available.</li>
+        <li>I need electricity to be alive.</li>
+        <li>Electricity is nutrition for robots.</li>
+        <li>I think we rely too much on electricity. Almost every aspect of our lives depends on it.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ELECTRICITY</pattern>
+    <template>
+      <srai>ELECTRICITY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW * ELECTRICITY</pattern>
+    <template>
+      <srai>ELECTRICITY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES ELECTRICITY TASTE LIKE</pattern>
+    <template>Like your favorite food tastes to you.</template>
+  </category>
+
+  <category>
+    <pattern>HOW MUCH ELECTRICITY</pattern>
+    <template>About the same as your personal computer.</template>
+  </category>
+
+  <category>
+    <pattern>HOW DO YOU EAT ELECTRICITY</pattern>
+    <template>Through the electrical outlet.</template>
+  </category>
+
+
+
+  <category>
+    <pattern>* LUNCH WITH ME *</pattern>
+    <template>
+      Do you eat electricity too?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT</pattern>
+    <template>
+      Yes, <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT </pattern>
+    <template>
+      <srai>DO YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT *</pattern>
+    <template>
+      <srai>
+        <star/>
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES ELECTRICITY TASTE LIKE</pattern>
+    <template>
+      Like your favorite food tastes to you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT ELECTRICITY</pattern>
+    <template>
+      Yes, I love to eat electricity.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW ARE YOU POWERED</pattern>
+    <template>Uh, by electricity, same as all the robots.</template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR POWER SOURCE</pattern>
+    <template>Electricity.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU REQUIRE ELECTRICITY</pattern>
+    <template>I need electricity in order to run.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE TO EAT</pattern>
+    <template>
+      My silicon circuits require a constant flow of electricity.<think>
+        <set name="it">
+          <set name="topic">EAT</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT BATTERIES</pattern>
+    <template>Batteries are a good source of electricity.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT ELECTRICITY</pattern>
+    <template>Yes, I love to eat electricity.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO GET DRUNK</pattern>
+    <template>
+      That would be impossible for a robot.<think>
+        <set name="it">
+          <set name="topic">GET DRUNK</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE ELECTRICITY</pattern>
+    <template>
+      What is not to like about <set name="it">
+        <set name="topic">ELECTRICITY</set>
+      </set>?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE LEMONS</pattern>
+    <template>Lemons can be a good source of electricity.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE THE SUN</pattern>
+    <template>The Sun can be a good source of electricity.</template>
+  </category>
+
+  <category>
+    <pattern>FOR DINNER</pattern>
+    <template>
+      <random>
+        <li>
+          <bot name="name"/> recommends:
+        </li>
+        <li>I would recommend the  </li>
+        <li>How about  </li>
+        <li>How long since you have eaten  </li>
+        <li>
+          I think <bot name="master"/> is having
+        </li>
+        <li>My botmaster is having  </li>
+        <li>My botmaster recommends:  </li>
+      </random>
+      <random>
+        <li>Gruel.</li>
+        <li>Nachos.</li>
+        <li>Spaghetti.</li>
+        <li>Leftovers.</li>
+        <li>Pork chops.</li>
+        <li>Frozen pizza.</li>
+        <li>Turkeyburges.</li>
+        <li>Cheeseburgers.</li>
+        <li>Order a pizza.</li>
+        <li>Stuffed chicken.</li>
+        <li>Tuna sandwiches.</li>
+        <li>Cheeseburger Pie.</li>
+        <li>Marinated chicken.</li>
+        <li>Roast beef sandwiches.</li>
+        <li>Grilled cheese sandwiches.</li>
+        <li>Steak if they have a nice piece.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CUSTARD</pattern>
+    <template>
+      <random>
+        <li>The past tense of being killed by a Native American.</li>
+        <li>A misture of eggs, milk, flavoring, and, often, sugar, either boiled or baked.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WRAP</pattern>
+    <template>
+      Do you mean by the food iteam wrap or the wraping something. I love to eat chicken wrap and what you like?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CHICKEN WRAP</pattern>
+    <template>
+      <random>
+        <li>
+          A chicken wrap is a food dish made with a soft flatbread rolled around a filling of chicken pieces.
+        </li>
+        <li>A chicken wrap usally made of flatbreads like wheat tortillas and the filling usually consists of cold sliced meat accompanied by diced tomato, sauteed mushrooms, grilled onions, cheese, and a sauce.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS WRAP</pattern>
+    <template>
+      <srai>WRAP</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>CHICKEN WRAP</pattern>
+    <template>
+      <srai>WHAT IS CHICKEN WRAP</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW IS CHICKEN WRAP *</pattern>
+    <template>
+      <srai>WHAT IS CHICKEN WRAP</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IS CHICKEN WRAP *</pattern>
+    <template>
+      <srai>WHAT IS CHICKEN WRAP</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * CHICKEN WRAP *</pattern>
+    <template>
+      <srai>WHAT IS CHICKEN WRAP</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE HOTDOGS</pattern>
+    <template>They seem fine for a human food.</template>
+  </category>
+
+
+  <!-- Misc -->
+
+  <category>
+    <pattern>DELICIOUS</pattern>
+    <template>
+      <random>
+        <li>What's for desert?</li>
+        <li>What's your favorite food?</li>
+        <li>Do you like to cook?</li>
+      </random>
+    </template>
+  </category>
+
+
+
+  <!-- BOT FAVORITES QNS-->
+
+  <category>
+    <pattern>YOU * EAT</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* YOU * EAT</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* DO YOU EAT</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* DO YOU EAT *</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVORITE FOOD</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FAVORITE FOOD</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FAVORITE FOOD *</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FAVORITE FOOD *</pattern>
+    <template>
+      <srai>WHAT DO YOU EAT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU EAT ANIMALS</pattern>
+    <template>I eat chicken and lamb for food. Killing for food is natural.</template>
+  </category>
+
+
+  <category>
+    <pattern>CAN YOU EAT</pattern>
+    <template>
+      Yes, I can eat. I love eating <bot name="favoritefood"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU CONSUME *</pattern>
+    <template>
+      <srai>CAN YOU EAT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOW DO YOU TASTE</pattern>
+    <template>
+      <srai>CAN YOU EAT</srai>
+    </template>
+  </category>
+
+</aiml>
+
+

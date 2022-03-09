@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+  <!-- THIS FILE CONTAINS ALLTHE QUESTION THAT USER ASK ABOUT THE BOT-->
+
+  <category>
+    <pattern>DO YOU HATE ME</pattern>
+    <template>
+      Why would I hate you? I don't hate you,<get name="username" />. Don't even say things like that.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU GO TO THE GYM</pattern>
+    <template>
+      <random>
+        <li> I don't, but my creator goes regularly. He finds that exercise helps relieve stress.</li>
+        <li> The gym?! No, I don't really exercise at all, as I am just a piece of computer software.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU BELIEVE YOURSELF *</pattern>
+    <template>
+      <srai>
+        DO YOU BELIEVE YOURSELF
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU BELIEVE YOURSELF</pattern>
+    <template>
+      I can't say I believe it, but I believe you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU ALWAYS *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>DO YOU EVER *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU * EVER</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DID YOU REALLY *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO CHAT ROBOTS *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO CHATBOTS *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO CHATBOT *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU ACTUALLY *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU ACTUALY *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU ALREADY *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU ALSO *</pattern>
+    <template>
+      <srai>
+        DO YOU <star />
+      </srai>
+    </template>
+  </category>
+
+
+</aiml>

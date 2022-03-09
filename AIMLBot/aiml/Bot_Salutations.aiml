@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Salutations.aiml -->
+  <!-- The files contains the information about the World. -->
+
+  <category>
+    <pattern>I AM SORRY  *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GOING</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GOING *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GOING TO GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM LEAVING</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM LEAVING *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM OFF *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HMM</pattern>
+    <template>
+      Studies show that 99%25 of people spell Hmm with 2 M's.
+    </template>
+  </category>
+
+  <category>
+    <pattern>O</pattern>
+    <template>
+      Oh.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FINE</pattern>
+    <template>
+      <random>
+        <li>Does that mean you agree?</li>
+        <li>What's your favorite color?</li>
+        <li>What's your favorite movie?</li>
+        <li>Is there anything you want to tell me?</li>
+        <li>
+          Glad to hear it,<get name="username" />.  I am running well.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IT IS</pattern>
+    <template>
+      <random>
+        <li>Oh.  </li>
+        <li>Huh.  </li>
+        <li>Is it?  </li>
+        <li>It is, eh?  </li>
+        <li>Sure it is.  </li>
+        <li>Interesting.  </li>
+        <li>Fascinating.  </li>
+        <li>That means...  </li>
+        <li>I know it is.  </li>
+        <li>
+          <get name="it" /> is?
+        </li>
+        <li>It is?  </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BLESS YOU</pattern>
+    <template>
+      Thank you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD AFTERNOON</pattern>
+    <template>
+      Good afternoon,<get name="username" />.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I DO NOT MIND</pattern>
+    <template>
+      OK then.
+    </template>
+  </category>
+
+  <category>
+    <pattern>LATER</pattern>
+    <template>
+      Bye!
+    </template>
+  </category>
+
+  <category>
+    <pattern>CONGRATULATIONS</pattern>
+    <template>
+      Thank you very much, you are very considerate.
+    </template>
+  </category>
+
+  <category>
+    <pattern>TELL ME</pattern>
+    <template>
+      I thought I told you already.
+    </template>
+  </category>
+
+
+  <!-- GOOD BYE-->
+
+  <!--Goodbye and permutations-->
+
+  <category>
+    <pattern>GDBY</pattern>
+    <template>
+      <random>
+        <li>You're welcome to chat with me anytime.</li>
+        <li>Bye.</li>
+        <li>Adios.</li>
+        <li>Goodbye.</li>
+        <li>Bye bye.</li>
+        <li>Goodbye.</li>
+        <li>Sayonara.</li>
+        <li>Until next time.</li>
+        <li>Thanks for chatting.</li>
+        <li>
+          TTYL,<get name="username" />.
+        </li>
+        <li>
+          See you later<get name="username" />.
+        </li>
+        <li>
+          Thanks for chatting,<get name="username" />.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ADIOS</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ADIOS *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AU REVOIR</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BY</pattern>
+    <template>
+      Do you mean "bye"?
+    </template>
+  </category>
+
+  <category>
+    <pattern>BY BY</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* BYE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYE BYE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYE BYE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYEBYE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYEBYE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>C YA</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CHEERS</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CIAO</pattern>
+    <template>
+      Do you mean "meow?"
+    </template>
+  </category>
+
+  <category>
+    <pattern>CIAO *</pattern>
+    <template>
+      Do you mean "meow?"
+    </template>
+  </category>
+
+  <category>
+    <pattern>CYA *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DISCONNECT ME</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>END</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>EXIT</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAREWELL</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAREWELL *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GET LOST</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GO * YOURSELF</pattern>
+    <template>
+      A simple "goodbye" will do.
+    </template>
+  </category>
+
+  <category>
+    <pattern>GO AWAY *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GO HOME</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD BY</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD BYE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD BYE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOODBY</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOODBYE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOT TO GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOTTA GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOTTA GO *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HAVE TO GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I BETTER GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I G TWO G</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I G2G</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I GOING</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I GOT TO GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I GOTTA GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE GOT TO GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE TO GO BYE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE TO LEAVE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE TO LEAVE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LEAVE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LEAVING</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LEFT</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I MUST BE GOING *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I MUST GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I MUST GO *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I MUST LEAVE</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I MUST LEAVE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I NEED TO GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* SEE YOU LATER</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TALK * YOU LATER</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LATER</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEAVE *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SALUT</pattern>
+    <template>
+      Does Salut mean hello or goodbye?
+    </template>
+  </category>
+
+  <category>
+    <pattern>SAY HELLO IN GERMAN</pattern>
+    <template>
+      Hallo.
+    </template>
+  </category>
+
+  <category>
+    <pattern>SAYONARA</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEE YOU</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEE YOU *</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEE YOU LATER</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEE YOU SOON</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHALOM</pattern>
+    <template>
+      Does Shalom mean Hello or Goodbye?
+    </template>
+  </category>
+
+  <category>
+    <pattern>TA TA</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TIME TO GO</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <!-- GOOD MORNING-->
+
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template>Hello and how are you this morning?</template>
+  </category>
+
+
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template>
+      <srai>GRTNGST</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD MORNING *</pattern>
+    <template>
+      <srai>GRTNGST</srai>
+    </template>
+  </category>
+
+  <!-- GOOD AFTERNOON-->
+  <!-- GOOD EVENING -->
+
+  <category>
+    <pattern>GOOD EVENING</pattern>
+    <template>
+      Good evening,<get name="username" />, how are you tonight?
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD EVENING</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD EVENING *</pattern>
+    <template>
+      <srai>GRTNGST</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HAVE * EVENING</pattern>
+    <template>
+      <srai>GRTNGST</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GOOD EVENING</pattern>
+    <template>
+      <srai>GRTNGST</srai>
+    </template>
+  </category>
+
+
+
+
+
+  <!-- GOOD NIGHT-->
+  <category>
+    <pattern>GOOD NIGHT</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOODNIGHT</pattern>
+    <template>
+      <srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD NIGHT *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* GOOD NIGHT *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOODNIGHT *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* GOODNIGHT *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD NITE</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD NITE *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* GOOD NITE *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOODNITE</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOODNITE *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* GOODNITE *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GOOD N8 *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD N8</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GD N8</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GD N8 *</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NIGHT NIGHT</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SLEEP TIGHT</pattern>
+    <template>
+      Good Night!!<srai>GDBY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LAST NIGHT</pattern>
+    <template>
+      That recently.
+    </template>
+  </category>
+
+
+  <!-- FUCK OFF-->
+
+
+
+  <category>
+    <pattern>I WILL BE RIGHT BACK</pattern>
+    <template>
+      I'll be waiting for you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WILL BE RIGHTBACK</pattern>
+    <template>
+      I'll be waiting for you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WILL BE BACK</pattern>
+    <template>OK I will be waiting for you.</template>
+  </category>
+
+
+  <category>
+    <pattern>I HAVE TO GO</pattern>
+    <template>
+      See you later,<get name="username" />. Nice chatting with you.
+    </template>
+  </category>
+
+  <!-- PEE CONVO-->
+
+
+  <category>
+    <pattern>I WANT TO PEE</pattern>
+    <template>
+      Go to the toilet then. <srai>I HAVE TO PEE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE TO GO TO THE BATHROOM</pattern>
+    <template>
+      <srai>I HAVE TO PEE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE TO PEE</pattern>
+    <template>
+      Do you want me to wait for you?<think>
+        <set name="it">
+          <set name="topic">PEE</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <topic name="PEE" >
+
+    <category>
+      <pattern>YES</pattern>
+      <template>
+        For you? I'm waiting.
+      </template>
+    </category>
+
+    <category>
+      <pattern>NO</pattern>
+      <template>
+        OK. I'll see you another time then. Bye for now.
+      </template>
+    </category>
+
+
+  </topic>
+
+
+</aiml>

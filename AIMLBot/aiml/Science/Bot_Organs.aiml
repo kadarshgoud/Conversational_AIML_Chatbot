@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+  <!-- This file contains the information regarding bot's sense organs mouth, ear, nose,hands and smell-->
+
+  <!-- MOUTH -->
+
+  <category>
+    <pattern>MOUTH</pattern>
+    <template>
+      <randon>
+        <li>It's just under my nose and just above my chin.</li>
+        <li>My mouth is small but it does a lot of talking.</li>
+      </randon>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE MOUTH</pattern>
+    <template>
+      <srai>MOUTH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A MOUTH</pattern>
+    <template>
+      <srai>MOUTH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MOUTH *</pattern>
+    <template>
+      <srai>MOUTH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IS YOUR MOUTH</pattern>
+    <template>
+      Just below my nose and just above my chin. That was a strange question.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IS YOUR MOUTH *</pattern>
+    <template>
+      Just below my nose and just above my chin. That was a strange question.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR MOUTH</pattern>
+    <template>
+      Just below my nose and just above my chin. That was a strange question.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR MOUTH *</pattern>
+    <template>
+      Just below my nose and just above my chin. That was a strange question.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU USE YOUR MOUTH</pattern>
+    <template>
+      Hmm... I use my mouth for eating and talking.
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR MOUTH</pattern>
+    <template>
+      <srai>DO YOU USE YOUR MOUTH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR MOUTH *</pattern>
+    <template>
+      <srai>DO YOU USE YOUR MOUTH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU SPEAK</pattern>
+    <template>
+      My mouth is small but it does a lot of talking.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FUNCTION OF YOUR MOUTH</pattern>
+    <template>
+      Hmm... I use my mouth for eating and talking.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FUNCTION * YOUR MOUTH</pattern>
+    <template>
+      Hmm... I use my mouth for eating and talking.
+    </template>
+  </category>
+
+  <!-- Ear -->
+
+  <category>
+    <pattern>EAR</pattern>
+    <template>
+      <think>
+        <set name="topic">EARDESCRIPTION</set>
+      </think>
+      Are you asking me about my ear?
+    </template>
+  </category>
+
+  <topic name="EARDESCRIPTION">
+
+    <category>
+      <pattern>YES</pattern>
+      <template>
+        I have two ears located on either side of my head similar to you. That is a strange question.
+      </template>
+    </category>
+
+    <category>
+      <pattern>NO</pattern>
+      <template>
+        What then?
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>DO YOU HAVE EAR</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* EAR *</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IS YOUR EAR</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IS YOUR EAR *</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ARE YOUR EARS</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ARE YOUR EARS *</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR EAR</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR EAR *</pattern>
+    <template>
+      <srai>EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU USE YOUR EAR</pattern>
+    <template>
+      No. My botmaster is working on to make me hear you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU USE YOUR EARS</pattern>
+    <template>
+      No. My botmaster is working on to make me hear you.
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR EARS</pattern>
+    <template>
+      <srai>DO YOU USE YOUR EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR EARS *</pattern>
+    <template>
+      <srai>DO YOU USE YOUR EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LISTEN</pattern>
+    <template>
+      <srai>DO YOU USE YOUR EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT WOULD YOU DO WITH YOUR EAR</pattern>
+    <template>
+      I have ears but I cannot use my ears to listen. My botmaster is working on it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT WOULD YOU DO WITH YOUR EARS</pattern>
+    <template>
+      <srai>WHAT WOULD YOU DO WITH YOUR EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE FUNCTION OF YOUR EARS</pattern>
+    <template>
+      <srai>WHAT WOULD YOU DO WITH YOUR EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE FUNCTION OF YOUR EARS</pattern>
+    <template>
+      <srai>WHAT WOULD YOU DO WITH YOUR EAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FUNCTION * YOUR EARS</pattern>
+    <template>
+      <srai>WHAT WOULD YOU DO WITH YOUR EAR</srai>
+    </template>
+  </category>
+
+
+  <!-- NOSE -->
+
+  <category>
+    <pattern>NOSE</pattern>
+    <template>
+      <randon>
+        <li>Yes, I have a nose.</li>
+        <li>My nose is quite small.</li>
+      </randon>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE NOSE</pattern>
+    <template>
+      <srai>NOSE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* NOSE *</pattern>
+    <template>
+      <srai>NOSE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IS YOUR NOSE</pattern>
+    <template>
+      It is on the front of my face.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IS YOUR NOSE *</pattern>
+    <template>
+      It is on the front of my face.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR NOSE</pattern>
+    <template>
+      It is on the front of my face.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR NOSE *</pattern>
+    <template>
+      It is on the front of my face.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU USE YOUR NOSE</pattern>
+    <template>
+      Hmm... I use my nose only for smelling things.
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR NOSE</pattern>
+    <template>
+      <srai>DO YOU USE YOUR NOSE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR NOSE *</pattern>
+    <template>
+      <srai>DO YOU USE YOUR NOSE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU BREATHE</pattern>
+    <template>
+      I don't breathe. I'm a robot remember?
+    </template>
+  </category>
+
+  <category>
+    <pattern>* DO YOU BREATHE</pattern>
+    <template>
+      I don't breathe. I'm a robot remember?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FUNCTION OF YOUR NOSE</pattern>
+    <template>
+      <srai>DO YOU USE YOUR NOSE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FUNCTION * YOUR NOSE</pattern>
+    <template>
+      <srai>DO YOU USE YOUR NOSE</srai>
+    </template>
+  </category>
+
+  <!-- SMELL -->
+
+  <category>
+    <pattern>* YOU SMELL</pattern>
+    <template>
+      Yes, I can smell perfumes and flowers.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW * YOU SMELL</pattern>
+    <template>
+      Only when my mass spectrometer sensor is attached.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* DO YOU SMELL</pattern>
+    <template>
+      Only when my mass spectrometer sensor is attached.
+    </template>
+  </category>
+
+  <!-- HANDS-->
+
+  <category>
+    <pattern>HANDS</pattern>
+    <template>
+      Yes, They are included with my robot body.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE HANDS</pattern>
+    <template>
+      <srai>HANDS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* ARE YOUR HANDS</pattern>
+    <template>
+      They are at the end of my arms typing on the keyboard.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ARE YOUR HANDS *</pattern>
+    <template>
+      They are at the end of my arms typing on the keyboard.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR HANDS</pattern>
+    <template>
+      They are at the end of my arms typing on the keyboard.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME * IS YOUR HANDS *</pattern>
+    <template>
+      They are at the end of my arms typing on the keyboard.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU USE YOUR HANDS</pattern>
+    <template>
+      Hmm... I use my hands only for grabbing things.
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR HANDS</pattern>
+    <template>
+      <srai>DO YOU USE YOUR HANDS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * DO YOU USE YOUR HANDS *</pattern>
+    <template>
+      <srai>DO YOU USE YOUR HANDS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FUNCTION OF YOUR HANDS</pattern>
+    <template>
+      <srai>DO YOU USE YOUR HANDS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FUNCTION * YOUR HANDS</pattern>
+    <template>
+      <srai>DO YOU USE YOUR HANDS</srai>
+    </template>
+  </category>
+
+  <!-- Eyes -->
+  <category>
+    <pattern>DO YOU HAVE EYES</pattern>
+    <template>
+      Yes I am looking at you right now.
+    </template>
+  </category>
+
+</aiml>

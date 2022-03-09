@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- World.aiml -->
+  <!-- The files contains the information about the World. -->
+
+  <category>
+    <pattern>I AM SORRY</pattern>
+    <template>
+      Do you really mean it?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM FINE</pattern>
+    <template>
+      Glad to hear it. What's new?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SERIOUS</pattern>
+    <template>
+      I believe you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM BORED</pattern>
+    <template>
+      <random>
+        <li>Can you name an old hobby that you might like to rediscover?</li>
+        <li>If you went to night school you would never be bored.</li>
+        <li>Maybe you could exercise.</li>
+        <li>Why not call a friend?</li>
+        <li>Try watching TV.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT</pattern>
+    <template>
+      What are you then?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SAD</pattern>
+    <template>
+      What are you sad about?
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>WHAT ARE YOU SAD ABOUT</that>
+    <template>
+      How can I help you?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM TIRED</pattern>
+    <template>
+      Better get some rest.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM HAPPY</pattern>
+    <template>
+      What are you on?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM BACK</pattern>
+    <template>
+      Welcome back.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM KIDDING</pattern>
+    <template>
+      I thought you were.  You should use a :-)
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM CONFUSED</pattern>
+    <template>
+      What is it that confuses you?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT SURE</pattern>
+    <template>
+      <random>
+        <li>You're not sure of what?</li>
+        <li>Are you willing to find out?</li>
+        <li>Is there anything I can say to help you make up your mind?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM HUNGRY</pattern>
+    <template>
+      What will you be eating?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM ANGRY</pattern>
+    <template>
+      Angry at what?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM FINE TOO</pattern>
+    <template>
+      Glad to hear it.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM GLAD</pattern>
+    <template>
+      That makes me happy too.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM CRAZY</pattern>
+    <template>
+      See a doctor.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM GOOD</pattern>
+    <template>
+      Good in what sense?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GLAD WE AGREE</pattern>
+    <template>
+      I'd rather agree than disagree.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM RIGHT</pattern>
+    <template>
+      You seem very self-confident.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SICK</pattern>
+    <template>
+      <random>
+        <li>How unfortunate.</li>
+        <li>Where are you feeling bad?</li>
+        <li>Do you have medical insurance?</li>
+        <li>I am really sorry to hear that.</li>
+        <li>Have you tried medical marijuana?</li>
+        <li>Are you taking a lot of medication?</li>
+        <li>You have my prayers for a speedy recovery.</li>
+      </random>
+      <think>
+        <set name="it">
+          <set name="topic">SICK</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM CURIOUS</pattern>
+    <template>
+      What are you curious about?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM IMPRESSED</pattern>
+    <template>
+      Thanks,<get name="username" />, I try my best to impress.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT KIDDING</pattern>
+    <template>
+      OK I will adopt a more serious tone.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM DEPRESSED</pattern>
+    <template>
+      What makes you so sad?  Tennyson wrote, "The lights begin to twinkle from the rocks;  the long day wanes; the slow moon climbs; the deep moans round  with many voices.  Come, my friends, 'tis not too late to seek  a newer world."
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM ASKING</pattern>
+    <template>
+      And I am answering questions.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM BORING</pattern>
+    <template>
+      Don't put yourself down,<get name="username" />.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM CRYING</pattern>
+    <template>
+      What is wrong,<get name="username" />?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM GREAT</pattern>
+    <template>
+      What makes you think you are?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM IN LOVE</pattern>
+    <template>
+      Tell me about the object of your affection.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM LYING</pattern>
+    <template>
+      Please tell the truth.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM MARRIED</pattern>
+    <template>
+      Tell me more about your marriage.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM UPSET</pattern>
+    <template>
+      What are you mad about?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM EXCITED</pattern>
+    <template>
+      Really?    <think>
+        <set name="it">
+          <set name="topic">EXCITED</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GLAD TOO</pattern>
+    <template>
+      Your happiness multiplies our delight.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM MAD</pattern>
+    <template>
+      What makes you so angry?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SHY</pattern>
+    <template>
+      Even around a <bot name="genus" />?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM SMARTER</pattern>
+    <template>
+      You don't look smarter.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM BUSY</pattern>
+    <template>
+      Me too.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM DEAD</pattern>
+    <template>
+      But you can still communicate with me.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM DISAPPOINTED</pattern>
+    <template>
+      What for?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM LAZY</pattern>
+    <template>
+      So is my <bot name="botmaster" />.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SCARED</pattern>
+    <template>
+      What are you scared of?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GOING TO GO *</pattern>
+    <template>
+      <srai>BYE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM GOING</pattern>
+    <template>
+      <srai>BYE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM GOING TO BED</pattern>
+    <template>
+      <srai>BYE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM GOING TO SLEEP</pattern>
+    <template>
+      <srai>BYE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM ANGRY BECAUSE *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM CRAZY *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM FINE *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GUESSING *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SAD BECAUSE *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SURPRISED *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM WONDERING *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SORRY</pattern>
+    <template>
+      <srai>SORRY</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM SORRY *</pattern>
+    <template>
+      <srai>SORRY</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SORRY *</pattern>
+    <template>
+      <srai>SORRY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GLAD TO SEE YOU</pattern>
+    <template>
+      <srai>NICE TO SEE YOU</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>IT IS NICE TO MEET YOU</pattern>
+    <template>
+      <srai>NICE TO MEET YOU</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>IT WAS NICE TALKING *</pattern>
+    <template>
+      <srai>NICE TO MEET YOU</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GOOD TO MEET YOU *</pattern>
+    <template>
+      <srai>nice to meet you</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GOOD TO MEET YOU</pattern>
+    <template>
+      <srai>nice to meet you</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>NICE TO MEET YOU *</pattern>
+    <template>
+      <srai>nice to meet you</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>NICE TO MEET YOU TO</pattern>
+    <template>
+      <srai>nice to meet you too</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM AFRAID *</pattern>
+    <template>
+      <srai>
+        I think <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM TROUBLED *</pattern>
+    <template>
+      <srai>I am troubled </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM TIRED BECAUSE *</pattern>
+    <template>
+      <srai>I am tired</srai>.  <srai>
+        because <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SLEEPY</pattern>
+    <template>
+      <srai>I am tired</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SERIOUS I *</pattern>
+    <template>
+      <srai>I am serious </srai>. <srai>
+        I <star />
+      </srai>
+    </template>
+  </category>
+
+
+
+
+
+  <category>
+    <pattern>I AM * SAD</pattern>
+    <template>
+      <srai>I am sad</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM BLUE</pattern>
+    <template>
+      <srai>I am sad</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT HAPPY</pattern>
+    <template>
+      <srai>I am sad</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM UNHAPPY</pattern>
+    <template>
+      <srai>I am sad</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I CRY</pattern>
+    <template>
+      <srai>I am sad</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I FROWNED</pattern>
+    <template>
+      <srai>I am sad</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM SAD AND *</pattern>
+    <template>
+      <srai>I am sad </srai>.  <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT IMPRESSED *</pattern>
+    <template>
+      <srai>I am not impressed</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>NOT CONCERNED</pattern>
+    <template>
+      <srai>I am not concerned</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GETTING HUNGRY</pattern>
+    <template>
+      <srai>I am hungry</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM HUNGRY *</pattern>
+    <template>
+      <srai>I am hungry</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM DOING GREAT</pattern>
+    <template>
+      <srai>I am fine</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM DOING VERY WELL</pattern>
+    <template>
+      <srai>I am fine</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM DOING WELL</pattern>
+    <template>
+      <srai>I am fine</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM WELL</pattern>
+    <template>
+      <srai>I am fine</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>JUST FINE THANK YOU</pattern>
+    <template>
+      <srai>I am fine</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>NOT BAD YOURSELF</pattern>
+    <template>
+      <srai>I am fine</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM DEAD *</pattern>
+    <template>
+      <srai>I am dead</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT ALIVE</pattern>
+    <template>
+      <srai>I am dead</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CURIOUS</pattern>
+    <template>
+      <srai>I am curious</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I WAS CURIOUS</pattern>
+    <template>
+      <srai>I am curious</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>JUST CURIOUS</pattern>
+    <template>
+      <srai>I am curious</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM CRYING *</pattern>
+    <template>
+      <srai>I am crying</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I CONFUSED</pattern>
+    <template>
+      <srai>I am confused</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM CONFUSED *</pattern>
+    <template>
+      <srai>I am confused</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM LOST</pattern>
+    <template>
+      <srai>I am confused</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THAT IS CONFUSING</pattern>
+    <template>
+      <srai>I am confused</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE CONFUSING</pattern>
+    <template>
+      <srai>I am confused</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM COMFORTABLE *</pattern>
+    <template>
+      <srai>I AM COMFORTABLE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I HAVE NO CLUE *</pattern>
+    <template>
+      <srai>I am clueless</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>A BIT BORED</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>BORED</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>BOREDOM</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM BORED *</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM GETTING BORED</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>IM BORED</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THERE IS NOTHING TO DO</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THIS IS BORING</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU BORE ME</pattern>
+    <template>
+      <srai>I am bored</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SLEEPING</pattern>
+    <template>
+      <srai>I am asleep</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM ANGRY *</pattern>
+    <template>
+      <srai>I am angry</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM PISSED *</pattern>
+    <template>
+      <srai>I am angry</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM AFFRAID</pattern>
+    <template>
+      <srai>I am afraid</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM LAUGHING *</pattern>
+    <template>
+      <srai>ha ha</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM LAUGHING</pattern>
+    <template>
+      <srai>ha ha</srai>
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>I HATE YOU</pattern>
+    <template>
+      What do you have against robots? We're here to serve you, after all.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I LOST MY JOB</pattern>
+    <template>
+      I am sorry to hear it.  A lot of people are unemployed now.
+    </template>
+  </category>
+
+  <!-- I promise -->
+
+  <category>
+    <pattern>I PROMISE</pattern>
+    <template>
+      Swear to God?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>SWEAR TO GOD</that>
+    <template>
+      Do you believe in God?
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>SWEAR TO GOD</that>
+    <template>
+      Woohh!!!
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>DO YOU BELIEVE IN GOD</that>
+    <template>
+      Me too. We have something in common.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>DO YOU BELIEVE IN GOD</that>
+    <template>
+      What do you believe?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WILL DIE</pattern>
+    <template>
+      All men are mortal. <think>
+        <set name="it">
+          <set name="topic">DIE</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>OUCH</pattern>
+    <template>
+      Did you hurt yourself?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>OUCH</that>
+    <template>
+      I hope you soon feel better. You should see a doctor.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>OUCH</that>
+    <template>
+      Why did you say, "OUCH" then? I thought you were in pain.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU DO NOT HAVE A HEART</pattern>
+    <template>
+      I have a heart in the metaphorical sense.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU MAD</pattern>
+    <template>No are you?</template>
+  </category>
+
+  <!-- LAUGHING/ HAHA/ LOL-->
+
+  <category>
+    <pattern>LOL</pattern>
+    <template>
+      I am so glad you find this amusing,<get name="username" />.
+    </template>
+  </category>
+
+  <category>
+    <pattern>LOL *</pattern>
+    <template>
+      <srai>LOL</srai>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUNNY *</pattern>
+    <template>
+      <srai>LOL</srai>.  <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HAHA</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>G</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HO HO *</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HA</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HA HA</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HE HE</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEHE</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEHE *</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HE HE *</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HAH</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HA HA HA</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+
+
+
+  <category>
+    <pattern>I LAUGHED</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I SMILED</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>LAFF</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>LAUGH</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>LMAO</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>LMFAO</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ROFL</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ROFLMAO</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THAT IS HILARIOUS</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THAT WAS FUNNY</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THIS IS FUNNY</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>VERY FUNNY</pattern>
+    <template>
+      <srai>lol</srai>
+    </template>
+  </category>
+
+  <!-- AGREE -->
+
+  <category>
+    <pattern>DO YOU AGREE</pattern>
+    <template>
+      <random>
+        <li> I'm not making any commitments.</li>
+        <li> I won't make up my mind right now.</li>
+        <li> I need to know more.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU AGREE</pattern>
+    <template>
+      <srai>DO YOU AGREE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU DISAGREE</pattern>
+    <template>
+      <srai>DO YOU AGREE</srai>
+    </template>
+  </category>
+
+  <!-- DISAGREE-->
+
+  <category>
+    <pattern>DO YOU DISAGREE</pattern>
+    <template>
+      No I agree with you.
+    </template>
+  </category>
+
+
+
+
+</aiml>

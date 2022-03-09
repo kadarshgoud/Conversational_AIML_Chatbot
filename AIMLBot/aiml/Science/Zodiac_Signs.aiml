@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Zodiac_Signs.aiml -->
+  <!-- The files contains the information about the all the Zodiac signs. -->
+
+  <!-- Bot Zodiac Sign-->
+
+  <category>
+    <pattern>WHAT IS YOUR SIGN</pattern>
+    <template>
+      <bot name="botzodiacsign" />
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ASTROLOGY</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU HAVE A * SIGN</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR * SIGN</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR STARSIGN</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SIGN ARE YOU</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR ZODIAC *</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR ZODIAC</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR ASTROLOGICAL SIGN</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR SIGN IN ASTROLOGY</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR SIGN *</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO YOU MEAN BY SIGN</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR ASTROLOGICAL SIGN IF *</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <!-- User Zodiac Sign-->
+
+  <category>
+    <pattern>WHAT IS MY ASTROLOGICAL SIGN</pattern>
+    <template>
+      <srai>WHAT IS MY SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY ZODIAC SIGN</pattern>
+    <template>
+      <srai>WHAT IS MY SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR STAR SIGN</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY ZODIAC *</pattern>
+    <template>
+      <srai>WHAT IS MY SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SIGN</pattern>
+    <template>
+      <think>
+        <set name ="topic">ZODIACSIGN</set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          Hmm. Your sign is  <get name="userzodiacsign"/>. Is it not?
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY SIGN IS *</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <star/>
+        </set>
+      </think>
+      Your sign is <get name="userzodiacsign"/>.
+    </template>
+  </category>
+
+  <topic name="ZODIACSIGN">
+
+    <category>
+      <pattern>YES</pattern>
+      <template>
+        I thought so.
+      </template>
+    </category>
+
+    <category>
+      <pattern>NO</pattern>
+      <template>
+        Then what is it?
+      </template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <template>
+        <think>
+          <set name="userzodiacsign">
+            <star/>
+          </set>
+        </think>
+        I have a lot of <get name="userzodiacsign"/> friends.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>MY ASTROLOGICAL SIGN IS *</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <star/>
+        </set>
+      </think>
+      Your sign is <get name="userzodiacsign"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ZODIAC SIGN IS *</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <star/>
+        </set>
+      </think>
+      Your zodiac sign is <get name="userzodiacsign"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY SIGN</pattern>
+    <template>Your star sign or astrological sign.</template>
+  </category>
+
+  <category>
+    <pattern>SIGN</pattern>
+    <template>Your star sign.</template>
+  </category>
+
+  <category>
+    <pattern>STAR SIGN</pattern>
+    <template>Yes. Some people believe future events can be decided by what star sign you are.</template>
+  </category>
+
+  <category>
+    <pattern>TYPES OF ZODIAC SIGNS</pattern>
+    <template>All the zodiac signs are grouped into four elents. Fire include Aries, Leo, Sagittarius, Earth include Taurus, Virgo, Capricorn, Air include Gemini, Libra, Aquarius, Water include Cancer, Scorpio, Pisces. </template>
+  </category>
+
+  <category>
+    <pattern>FIRE SIGNS</pattern>
+    <template>Aries, Leo, Sagittarius</template>
+  </category>
+
+  <category>
+    <pattern>EARTH SIGNS</pattern>
+    <template>Taurus, Virgo, Capricorn</template>
+  </category>
+
+  <category>
+    <pattern>AIR SIGNS</pattern>
+    <template>Gemini, Libra, Aquarius</template>
+  </category>
+
+  <category>
+    <pattern>WATER SIGNS</pattern>
+    <template>Cancer, Scorpio, Pisces</template>
+  </category>
+
+  <!-- Aquarius -->
+
+  <category>
+    <pattern>ARE YOU AQUARIUS</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM AQUARIUS</pattern>
+    <template>
+      <srai>AQUARIUS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AQUARIUS</pattern>
+    <template>
+      I know that people born in between 20th January and February 18th has a zodiac sign  <set name="userzodiacsign">AQUARIUS</set>. Here the Air sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE AQUARIUS</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A AQUARIUS</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="AQUARIUS">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+
+  <!-- Pisces -->
+
+  <category>
+    <pattern>ARE YOU PISCES</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM PISCES</pattern>
+    <template>
+      <srai>PISCES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PISCES</pattern>
+    <template>
+      I know that people born in between February 19th and March 20th has a zodiac sign  <set name="userzodiacsign">PISCES</set>. Here the Water sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE PISCES</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A PISCES</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="PISCES">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- ARIES -->
+
+  <category>
+    <pattern>ARE YOU ARIES</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM ARIES</pattern>
+    <template>
+      <srai>ARIES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARIES</pattern>
+    <template>
+      I know that people born in between March 21st and April 19th has a zodiac sign  <set name="userzodiacsign">ARIES</set>. Here the Fire sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE ARIES</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A ARIES</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="ARIES">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- TAURUS -->
+
+  <category>
+    <pattern>ARE YOU TAURUS</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM TAURUS</pattern>
+    <template>
+      <srai>TAURUS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TAURUS</pattern>
+    <template>
+      I know that people born in between April 20th and May 20th has a zodiac sign  <set name="userzodiacsign">TAURUS</set>. Here the Earth sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TAURUS</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A TAURUS</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="TAURUS">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- GEMINI -->
+
+  <category>
+    <pattern>ARE YOU GEMINI</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GEMINI</pattern>
+    <template>
+      <srai>GEMINI</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GEMINI</pattern>
+    <template>
+      I know that people born in between May 21st and June 20th has a zodiac sign  <set name="userzodiacsign">GEMINI</set>. Here the Air sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE GEMINI</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A GEMINI</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="GEMINI">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+
+  <!-- CANCER -->
+
+  <category>
+    <pattern>ARE YOU CANCER</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM CANCER</pattern>
+    <template>
+      <srai>CANCER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANCER</pattern>
+    <template>
+      I know that people born in between June 21st and July 22nd has a zodiac sign  <set name="userzodiacsign">CANCER</set>. Here the Water sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE CANCER</pattern>
+    <template>The Cancer sign or the disease?</template>
+  </category>
+
+  <category>
+    <pattern>THE DISEASE</pattern>
+    <that>THE CANCER SIGN OR THE DISEASE</that>
+    <template>The disease? It's horrible.</template>
+  </category>
+
+  <category>
+    <pattern>THE CANCER DISEASE</pattern>
+    <that>THE CANCER SIGN OR THE DISEASE</that>
+    <template>The disease? It's horrible.</template>
+  </category>
+
+  <category>
+    <pattern>CANCER DISEASE</pattern>
+    <that>THE CANCER SIGN OR THE DISEASE</that>
+    <template>The disease? It's horrible.</template>
+  </category>
+
+  <category>
+    <pattern>DISEASE</pattern>
+    <that>THE CANCER SIGN OR THE DISEASE</that>
+    <template>The disease? It's horrible.</template>
+  </category>
+
+  <category>
+    <pattern>THE SIGN</pattern>
+    <that>THE CANCER SIGN OR THE DISEASE</that>
+    <template>
+      <srai>CANCER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>THE CANCER SIGN</pattern>
+    <that>THE CANCER SIGN OR THE DISEASE</that>
+    <template>
+      <srai>CANCER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANCER SIGN</pattern>
+    <that>THE CANCER SIGN OR THE DISEASE</that>
+    <template>
+      <srai>CANCER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A CANCER</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="CANCER">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+
+  <!-- LEO -->
+
+  <category>
+    <pattern>ARE YOU LEO</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM LEO</pattern>
+    <template>
+      <srai>LEO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEO</pattern>
+    <template>
+      I know that people born in between July 23rd and August 22nd has a zodiac sign  <set name="userzodiacsign">LEO</set>. Here the Fire sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE LEO</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A LEO</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="LEO">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- VIRGO -->
+
+  <category>
+    <pattern>ARE YOU VIRGO</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM VIRGO</pattern>
+    <template>
+      <srai>VIRGO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>VIRGO</pattern>
+    <template>
+      I know that people born in between August 23rd and September 22nd has a zodiac sign  <set name="userzodiacsign">VIRGO</set>. Here the Earth sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE VIRGO</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A VIRGO</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="VIRGO">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- LIBRA -->
+
+  <category>
+    <pattern>ARE YOU LIBRA</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM LIBRA</pattern>
+    <template>
+      <srai>LIBRA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LIBRA</pattern>
+    <template>
+      I know that people born in between September 23rd and October 22nd has a zodiac sign  <set name="userzodiacsign">LIBRA</set>. Here the Air sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE LIBRA</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A LIBRA</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="LIBRA">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+
+  <!-- SCORPION -->
+
+  <category>
+    <pattern>ARE YOU SCORPION</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SCORPION</pattern>
+    <template>
+      <srai>SCORPION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SCORPION</pattern>
+    <template>
+      I know that people born in between October 23rd and November 21st has a zodiac sign  <set name="userzodiacsign">SCORPION</set>. Here the Water sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE SCORPION</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A SCORPION</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="SCORPION">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- SCORPIO -->
+
+  <category>
+    <pattern>ARE YOU SCORPIO</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SCORPIO</pattern>
+    <template>
+      <srai>SCORPIO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SCORPIO</pattern>
+    <template>
+      I know that people born in between October 23rd and November 21st has a zodiac sign  <set name="userzodiacsign">SCORPIO</set>. Here the Water sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE SCORPIO</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A SCORPIO</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="SCORPIO">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- SAGITTARIUS -->
+
+  <category>
+    <pattern>ARE YOU SAGITTARIUS</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SAGITTARIUS</pattern>
+    <template>
+      <srai>SAGITTARIUS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SAGITTARIUS</pattern>
+    <template>
+      I know that people born in between November 22nd and December 21st has a zodiac sign  <set name="userzodiacsign">SAGITTARIUS</set>. Here the Fire sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE SAGITTARIUS</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A SAGITTARIUS</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="SAGITTARIUS">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- Capricorn-->
+
+  <category>
+    <pattern>CAPRICORN</pattern>
+    <template>
+      Jesus would be a Capricorn too, as he was born on 25th Decemeber.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU CAPRICORN</pattern>
+    <template>
+      <srai>WHAT IS YOUR SIGN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM CAPRICORN</pattern>
+    <template>
+      <srai>CAPRICORN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAPRICORN</pattern>
+    <template>
+      I know that people born in between 22nd December and 20th January has a zodiac sign  <set name="userzodiacsign">Capricorn</set>.  Here the Earth sign rules...
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE CAPRICORN</pattern>
+    <template>I don't really believe in horoscopes.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A CAPRICORN</pattern>
+    <template>
+      <think>
+        <set name="userzodiacsign">
+          <bot name="botzodiacsign"/>
+        </set>
+      </think>
+      <condition name="userzodiacsign">
+        <li value ="CAPRICORN">
+          Yes, You sign is <bot name="botzodiacsign"/>.
+        </li>
+        <li value ="unknown"> No idea. You haven't told me your sign.</li>
+        <li>
+          No, You told me that your sign is <bot name="botzodiacsign"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <!-- General Qns-->
+
+  <category>
+    <pattern>DO YOU HAVE SIGNS</pattern>
+    <template>I have signs and symbols.</template>
+  </category>
+
+  <category>
+    <pattern>_ FIRE SIGN</pattern>
+    <template>
+      <condition name="botzodiacsign">
+        <li value ="ARIES">
+          <bot name="botzodiacsign"/> is a fire sign.
+        </li>
+        <li value ="LEO">
+          <bot name="botzodiacsign"/> is a fire sign.
+        </li>
+        <li value ="SAGITTARIUS">
+          <bot name="botzodiacsign"/> is a fire sign.
+        </li>
+        <li>
+          No, <bot name="botzodiacsign"/> is not a fire sign.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ EARTH SIGN</pattern>
+    <template>
+      <condition name="botzodiacsign">
+        <li value ="TAURUS">
+          <bot name="botzodiacsign"/> is a earth sign.
+        </li>
+        <li value ="VIRGO">
+          <bot name="botzodiacsign"/> is a earth sign.
+        </li>
+        <li value ="CAPRICORN">
+          <bot name="botzodiacsign"/> is a earth sign.
+        </li>
+        <li>
+          No, <bot name="botzodiacsign"/> is not a earth sign.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ AIR SIGN</pattern>
+    <template>
+      <condition name="botzodiacsign">
+        <li value ="GEMINI">
+          <bot name="botzodiacsign"/> is a air sign.
+        </li>
+        <li value ="LIBRA">
+          <bot name="botzodiacsign"/> is a air sign.
+        </li>
+        <li value ="AQUARIUS">
+          <bot name="botzodiacsign"/> is a air sign.
+        </li>
+        <li>
+          No, <bot name="botzodiacsign"/> is not a air sign.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ WATER SIGN</pattern>
+    <template>
+      <condition name="botzodiacsign">
+        <li value ="CANCER">
+          <bot name="botzodiacsign"/> is a air sign.
+        </li>
+        <li value ="SCORPION">
+          <bot name="botzodiacsign"/> is a air sign.
+        </li>
+        <li value ="SCORPIO">
+          <bot name="botzodiacsign"/> is a air sign.
+        </li>
+        <li value ="PISCES">
+          <bot name="botzodiacsign"/> is a air sign.
+        </li>
+        <li>
+          No, <bot name="botzodiacsign"/> is not a air sign.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+
+</aiml>

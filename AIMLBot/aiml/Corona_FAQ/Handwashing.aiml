@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>HANDWASHING</pattern>
+    <template>
+      Washing with soap and water is an effective way to destroy and dislodge many microbes, including the new coronavirus.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HANDSANITIZER</pattern>
+    <template>
+      It works by killing cells—not human cells. It kills microbial cells. It’s based on the use of 70 per cent isopropanol alcohol, which is rubbing alcohol.  That’s the concentration of rubbing alcohol that is most effective in killing germs—it’s even more effective than 100 per cent. Because it has a little bit of water in it, it improves penetration. For a virus, sanitizers work by disrupting the virus’s outer coat. For a bacterium, they work by disrupting its cell membrane.
+    </template>
+  </category>
+
+  <category>
+    <pattern>IMPOFHANDWASH</pattern>
+    <template>
+      Washing your hands is still better than using hand sanitizer, but both help prevent the spread of disease.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHENTOWASHHANDS</pattern>
+    <template>
+      Wash your hands before:
+      1. Preparing food
+      2. Eating
+      3. Caring for a wound
+      4. Caring for someone who is ill
+      Wash your hands after:
+      1. Preparing food
+      2. Coughing
+      3. Sneezing
+      4. Blowing your nose
+      5. Caring for a wound
+      6. Changing a diaper
+      7. Using the bathroom or restroom
+      8. Handling garbage and taking out the trash
+      9. Petting or touching an animal
+      10. Touching pet food or pet treats
+      11. Cleaning up pet waste
+      12. Caring for someone who is ill
+    </template>
+  </category>
+
+  <category>
+    <pattern>ALCOHOLINSANTIZER</pattern>
+    <template>
+      Alcohol-based hand sanitizers should contain at least 60% ethyl alcohol or isopropyl alcohol. These alcohols work to kill bacteria and viruses.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO I NEED TO USE HAND SANITIZER?</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO I NEED TO USE HAND SANITIZER</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES HAND-SANITIZER WORK?</pattern>
+    <template>
+      <srai>HANDSANITIZER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HAND-SANITIZER WORK</pattern>
+    <template>
+      <srai>HANDSANITIZER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE VIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE VIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG SHOULD I HAND-WASH FOR?</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG SHOULD I HAND-WASH FOR</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG SHOULD I HANDWASH FOR?</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG SHOULD I HANDWASH FOR</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG SHOULD I WASH MY HANDS TO PREVENT THIS DISEASE?</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG SHOULD I WASH MY HANDS TO PREVENT THIS DISEASE</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG SHOULD I WASH MY HANDS?</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG SHOULD I WASH MY HANDS</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+
+  <category>
+    <pattern>TIME FOR HAND-WASH?</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>TIME FOR HAND-WASH</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>TIME REQUIRED FOR HANDWASH?</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+  <category>
+    <pattern>TIME REQUIRED FOR HANDWASH</pattern>
+    <template>
+      Scrub your hands for at least 20 seconds.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW OFTEN SHOULD I WASH MY HANDS?</pattern>
+    <template>
+      <srai>WHENTOWASHHANDS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW OFTEN SHOULD I WASH MY HANDS</pattern>
+    <template>
+      <srai>WHENTOWASHHANDS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOULD I USE SOAP OR HAND SANITIZER?</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SHOULD I USE SOAP OR HAND SANITIZER</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT AMOUNT OF ALCOHOL IS NEEDED IN HAND GEL?</pattern>
+    <template>
+      <srai>ALCOHOLINSANTIZER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT AMOUNT OF ALCOHOL IS NEEDED IN HAND GEL</pattern>
+    <template>
+      <srai>ALCOHOLINSANTIZER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS IMPORTANT ABOUT HAND-WASHING?</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS IMPORTANT ABOUT HAND-WASHING</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS IMPORTANT ABOUT HANDWASHING?</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS IMPORTANT ABOUT HANDWASHING</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS IMPORTANT ABOUT HAND WASHING?</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS IMPORTANT ABOUT HAND WASHING</pattern>
+    <template>
+      <srai>IMPOFHANDWASH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE GUIDANCE FOR HANDWASHING?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE GUIDANCE FOR HANDWASHING</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT STRENGTH PERCENTAGE OF ALCOHOL IS REQUIRED FOR HAND GEL TO WORK?</pattern>
+    <template>
+      <srai>ALCOHOLINSANTIZER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT STRENGTH PERCENTAGE OF ALCOHOL IS REQUIRED FOR HAND GEL TO WORK</pattern>
+    <template>
+      <srai>ALCOHOLINSANTIZER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I WASH MY HANDS?</pattern>
+    <template>
+      <srai>WHENTOWASHHANDS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I WASH MY HANDS</pattern>
+    <template>
+      <srai>WHENTOWASHHANDS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO I NEED TO USE SOAP?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO I NEED TO USE SOAP</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO I NEED TO WASH MY HANDS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO I NEED TO WASH MY HANDS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <!-- 1 -->
+
+  <category>
+    <pattern>CAN SOAP HELP WITH CORONA VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH CORONAVIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH CORONA?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID19 VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN SOAP HELP WITH CORONA VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH CORONAVIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH CORONA</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID-19 VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID19 VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID 19 VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SOAP HELP WITH COVID</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <!-- 2 -->
+
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE CORONA VIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE CORONAVIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE CORONA AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE VIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID-19 VIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID19 VIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID 19 VIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID VIRUS AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID AWAY?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE CORONA VIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE CORONAVIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE CORONA AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE VIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID-19 VIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID19 VIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID 19 VIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID VIRUS AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOAP HELP KEEP THE COVID AWAY</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <!-- 1 -->
+
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING CORONA VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING CORONAVIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING CORONA?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID19 VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID VIRUS?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID?</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING CORONA VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING CORONAVIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING CORONA</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID-19 VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID19 VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID 19 VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID VIRUS</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOAP HELP WITH CONTAINING COVID</pattern>
+    <template>
+      <srai>HANDWASHING</srai>
+    </template>
+  </category>
+
+</aiml>

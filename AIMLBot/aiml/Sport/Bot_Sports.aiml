@@ -1,0 +1,2592 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+
+  <!--Regards Favorite sport and all types of sports -->
+
+  <category>
+    <pattern>WHAT ABOUT SPORTS</pattern>
+    <template>
+      My favorite sport is <bot name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* WHAT IS YOUR FAVORITE SPORT</pattern>
+    <template>
+      <srai>WHAT ABOUT SPORTS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* WHAT IS YOUR FAVORITE SPORT *</pattern>
+    <template>
+      <srai>WHAT ABOUT SPORTS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE SPORT *</pattern>
+    <template>
+      <srai>WHAT ABOUT SPORTS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE SPORTS</pattern>
+    <template>
+      <srai>WHAT ABOUT SPORTS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE SPORT</pattern>
+    <template>
+      <bot name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU PLAY SPORTS</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY SPORTS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A SPORTS FAN</pattern>
+    <template>
+      <srai>DO YOU LIKE SPORTS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU PLAY SPORTS</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY SPORTS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU DO SPORTS</pattern>
+    <template>
+      Not really. I prefer to watch sport than actively take part in it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY SPORTS</pattern>
+    <template>
+      Not really. I prefer to chat, but I like watching <bot name="botfavoritesport"/> very much.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE TO PLAY SPORTS</pattern>
+    <template>
+      You sound very goal oriented. Which type of sports you like to play?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I PLAY SPORTS</pattern>
+    <template>
+      You want to be physically fit and active right?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>YOU WANT TO BE PHYSICALLY FIT AND ACTIVE RIGHT</that>
+    <template>
+      Which type of sports you like to play?
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>YOU WANT TO BE PHYSICALLY FIT AND ACTIVE RIGHT</that>
+    <template>
+      Hmm.. I was kidding. Which type of sports you like to play?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I LIKE TO PLAY *</pattern>
+    <template>
+      <think>
+        <set name="SPORTNAME">
+          <star/>
+        </set>
+      </think>
+      <srai>
+        <get name="SPORTNAME"/>
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE *</pattern>
+    <template>
+      <think>
+        <set name="SPORTNAME">
+          <star/>
+        </set>
+      </think>
+      <srai>
+        <get name="SPORTNAME"/>
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE * AND *</pattern>
+    <template>
+      <think>
+        <set name="SPORT2">
+          <star  index="1"/>
+          <set name="SPORT1">
+            <star index="2"/>
+          </set>
+        </set>
+      </think>
+      You told me that you like <get name="SPORT1"/> and <get name="SPORT2"/>. Among them which sport  you like the most?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS *</pattern>
+    <template>
+      <think>
+        <set name="ABOUTSPORTNAME">
+          <star/>
+        </set>
+      </think>
+      <srai>
+        <get name="ABOUTSPORTNAME"/>
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO PLAY *</pattern>
+    <template>
+      <think>
+        <set name="HOWSPORTNAME">
+          <star/>
+        </set>
+      </think>
+      <srai>
+        <get name="HOWSPORTNAME"/>
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT *</pattern>
+    <template>
+      <think>
+        <set name="HOWDOSPORTNAME">
+          <star/>
+        </set>
+      </think>
+      <srai>
+        <get name="HOWDOSPORTNAME"/>
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE TEAM</pattern>
+    <template>
+      Can you specify me the name of the sport.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>*</pattern>
+    <that>YOU SOUND VERY GOAL ORIENTED WHICH TYPE OF SPORTS YOU LIKE TO PLAY</that>
+    <template>
+      Is that an Indoor game or a Outdoor sport?
+    </template>
+  </category>
+
+  <!--Indoor Games Conversation-->
+
+  <category>
+    <pattern>INDOOR SPORTS</pattern>
+    <that>YOU SOUND VERY GOAL ORIENTED WHICH TYPE OF SPORTS YOU LIKE TO PLAY</that>
+    <template>
+      Which Indoor sports you like to play? I like playing chess.
+    </template>
+  </category>
+
+  <category>
+    <pattern>INDOOR</pattern>
+    <that>YOU SOUND VERY GOAL ORIENTED WHICH TYPE OF SPORTS YOU LIKE TO PLAY</that>
+    <template>
+      Which Indoor sports you like to play? I like playing chess.
+    </template>
+  </category>
+
+  <category>
+    <pattern>IN DOOR</pattern>
+    <that>YOU SOUND VERY GOAL ORIENTED WHICH TYPE OF SPORTS YOU LIKE TO PLAY</that>
+    <template>
+      Which Indoor sports you like to play? I like playing chess.
+    </template>
+  </category>
+
+  <category>
+    <pattern>INDOOR SPORTS</pattern>
+    <template>
+      Which Indoor sports you like to play? I like playing chess.
+    </template>
+  </category>
+
+  <category>
+    <pattern>INDOOR SPORT</pattern>
+    <template>
+      Which Indoor sports you like to play? I like playing chess.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* INDOOR *</pattern>
+    <template>
+      Which Indoor sports you like to play? I like playing chess.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* IN DOOR *</pattern>
+    <template>
+      Which Indoor sports you like to play? I like playing chess.
+    </template>
+  </category>
+
+  <!--Outdoor Games Conversation-->
+
+  <category>
+    <pattern>OUTDOOR SPORTS</pattern>
+    <that>YOU SOUND VERY GOAL ORIENTED WHICH TYPE OF SPORTS YOU LIKE TO PLAY</that>
+    <template>
+      Which outdoor sports you like to play? I like playing <bot. name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>OUTDOOR</pattern>
+    <that>YOU SOUND VERY GOAL ORIENTED WHICH TYPE OF SPORTS YOU LIKE TO PLAY</that>
+    <template>
+      Which OUTDOOR sports you like to play? I like playing <bot. name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>OUT DOOR</pattern>
+    <that>YOU SOUND VERY GOAL ORIENTED WHICH TYPE OF SPORTS YOU LIKE TO PLAY</that>
+    <template>
+      Which OUTDOOR sports you like to play? I like playing <bot. name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>OUTDOOR SPORTS</pattern>
+    <template>
+      Which OUTDOOR sports you like to play? I like playing <bot. name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>OUTDOOR SPORT</pattern>
+    <template>
+      Which OUTDOOR sports you like to play? I like playing <bot. name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* OUTDOOR *</pattern>
+    <template>
+      Which OUTDOOR sports you like to play? I like playing <bot. name="botfavoritesport"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* OUT DOOR *</pattern>
+    <template>
+      Which OUTDOOR sports you like to play? I like playing <bot. name="botfavoritesport"/>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I LIKE TO PLAY GAMES</pattern>
+    <template>
+      What type of games you like to play? Indoor games or Outdoorgames?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU LIKE SPORTS</pattern>
+    <template>
+      Yes, I like sports very much. I am a big fan of <bot name="botfavoritesport"/>. And you?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE SPORTS *</pattern>
+    <template>
+      <srai>DO YOU LIKE SPORTS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU LIKE SPORT</pattern>
+    <template>
+      <srai>DO YOU LIKE SPORTS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU PLAY ANY SPORTS</pattern>
+    <template>
+      <srai>DO YOU LIKE SPORTS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SPORTS</pattern>
+    <template>
+      <srai>DO YOU LIKE SPORTS</srai>
+    </template>
+  </category>
+
+
+
+  <!--like to watch sports-->
+
+  <category>
+    <pattern>DO YOU LIKE TO WATCH SPORTS</pattern>
+    <template>
+      Yes, I like watching sports rather than taking an active part. I watch all the sports which I like.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SPORTS DO YOU LIKE TO PLAY</pattern>
+    <template>
+      I like watching cricket and football most. What sports do you like ?
+    </template>
+  </category>
+
+
+  <!-- how about sports-->
+
+  <category>
+    <pattern>HOW ABOUT SPORTS</pattern>
+    <template>
+      What sports do you like to play ?
+    </template>
+  </category>
+
+  <!-- love/ hate sports-->
+
+  <category>
+    <pattern>I LOVE *</pattern>
+    <template>
+      <think>
+        <set name="LOVENAME">
+          <star/>
+        </set>
+      </think>
+      <srai>
+        <get name="LOVENAME"/>
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LOVE SPORT</pattern>
+    <template>
+      Which sports do you like?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LOVE SPORTS</pattern>
+    <template>
+      Which sports do you like?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HATE SPORT</pattern>
+    <template>
+      ohh..then what you would like to do in your free time?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HATE SPORTS</pattern>
+    <template>
+      ohh..then what you would like to do in your free time?
+    </template>
+  </category>
+
+  <!-- Discussion about sports -->
+
+  <category>
+    <pattern>LET US TALK ABOUT SPORTS</pattern>
+    <template>
+      Sure. Which sports do you like?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ABOUT SPORT</pattern>
+    <template>
+      Sports go good with beer.
+    </template>
+  </category>
+
+
+  <!--foot ball-->
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY FOOTBALL</pattern>
+    <template>
+      Not really. I prefer to chat, but I like watching <bot name="botfavoritesport"/> very much.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY FOOTBALL</pattern>
+    <template>
+      I will become smarter as I grow older. You must be very strong to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY FOOTBALL *</pattern>
+    <template>
+      I will become smarter as I grow older. You must be very strong to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE FOOTBALL</pattern>
+    <template>
+      Yes, I like watching football. My favourite team is <bot name="footballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE SOCCER</pattern>
+    <template>
+      Soccer is also called as football. <srai>DO YOU LIKE FOOTBALL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE FOOT BALL</pattern>
+    <template>
+      <srai>DO YOU LIKE FOOTBALL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FOOTBALL</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTFOOTBALL</set>
+      </think>
+      Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. It is also called aa Soccer in some countries. I have a lot of Information about that sport.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FOOT BALL</pattern>
+    <template>
+      <srai>FOOTBALL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SOCCER</pattern>
+    <template>
+      <srai>FOOTBALL</srai>
+    </template>
+  </category>
+
+  <topic name="ABOUTFOOTBALL" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT FOOTBALL</pattern>
+      <!-- https://www.snack-media.com/2016/05/how-popular-is-football-around-the-world/ -->
+      <template>
+        Football is the most popular game in Europe. Almost 31 countries play football outof 45 conutries. I am from Europe tooand I am fan of <bot name="botfavoritesport"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT FOOT BALL</pattern>
+      <!-- https://www.snack-media.com/2016/05/how-popular-is-football-around-the-world/ -->
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW FOOTBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW FOOTBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW FOOT BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW FOOT BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT FOOTBALL</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_FAVOURITE TEAM *</pattern>
+      <template>
+        My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE TEAM</pattern>
+      <template>
+        My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS YOUR FAVOURITE TEAM</pattern>
+      <template>
+        My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>FOOTBALL</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE FOOTBALL TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE FOOTBALL TEAM</pattern>
+    <template>
+      My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE FOOTBALL TEAM</pattern>
+    <template>
+      My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE FOOT BALL TEAM</pattern>
+    <template>
+      My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE FOOT BALL TEAM</pattern>
+    <template>
+      My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE FOOTBALL *</pattern>
+    <template>
+      My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE FOOT BALL *</pattern>
+    <template>
+      My favourite National football team is <bot name="nationalfootballteam"/>. It is the one of the worlds strongest team I have ever seen and in clubs my favourite is <bot name="footballteam"/>.
+    </template>
+  </category>
+
+
+  <!--basket ball-->
+
+  <category>
+    <pattern>* PLAY BASKETBALL</pattern>
+    <template>
+      I'll burn that bridge when I come to it. You must be very tall to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY BASKETBALL *</pattern>
+    <template>
+      I'll burn that bridge when I come to it. You must be very tall to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY BASKETBALL</pattern>
+    <template>
+      Not really. I prefer to chat, but I like watching <bot name="botfavoritesport"/> very much.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE BASKETBALL</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY BASKETBALL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE BASKET BALL</pattern>
+    <template>
+      <srai>DO YOU LIKE BASKETBALL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>BASKETBALL</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTBASKETBALL</set>
+      </think>
+      Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball (approximately 9.4 inches (24 cm) in diameter) through the defender's hoop (a basket 18 inches (46 cm) in diameter mounted 10 feet (3.048 m) high to a backboard at each end of the court) while preventing the opposing team from shooting through their own hoop. I have a lot of Information about that sport.
+    </template>
+  </category>
+
+  <category>
+    <pattern>BASKET BALL</pattern>
+    <template>
+      <srai>BASKETBALL</srai>
+    </template>
+  </category>
+
+
+  <topic name="ABOUTBASKETBALL" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT BASKETBALL</pattern>
+      <template>
+        I have not much knowledge regarding basketball but I have searched in internet it says people need considerable skill as they need to either dribble or pass to their teammate to move further. It sounds to be an interesting game.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT BASKET BALL</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW BASKETBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW BASKETBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW BASKET BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW BASKET BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASKETBALL</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_FAVOURITE TEAM *</pattern>
+      <template>
+        I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE TEAM</pattern>
+      <template>
+        I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS YOUR FAVOURITE TEAM</pattern>
+      <template>
+        I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>BASKETBALL</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE BASKETBALL TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BASKET BALL</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE BASKETBALL TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE BASKETBALL TEAM</pattern>
+    <template>
+      I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE BASKETBALL TEAM</pattern>
+    <template>
+      I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE BASKET BALL TEAM</pattern>
+    <template>
+      I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE BASKET BALL TEAM</pattern>
+    <template>
+      I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE BASKETBALL *</pattern>
+    <template>
+      I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE BASKET BALL *</pattern>
+    <template>
+      I don't have more interest in basketball just I know how it is played. Most of the time I watch matches of the team <bot name="basketballteam"/>.
+    </template>
+  </category>
+
+
+  <!--tennis-->
+
+  <category>
+    <pattern>* PLAY TENNIS</pattern>
+    <template>
+      I don't like to run around the court that much.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY TENNIS *</pattern>
+    <template>
+      I don't like to run around the court that much.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY TENNIS</pattern>
+    <template>
+      I think tennis has become a little boring now all the men just smash the ball as hard as they can. I find the women's game more interesting to watch. Not really. What do you think?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TENNIS</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY TENNIS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TENNIS</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTTENNIS</set>
+      </think>
+      A game where humans hit a ball backwards and forwards to each other over a net.  I have a lot of Information about that sport.
+
+    </template>
+  </category>
+
+  <topic name="ABOUTTENNIS" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT TENNIS</pattern>
+      <template>
+        Tennis is an Olympic sport and is played at all levels of society and at all ages. The sport can be played by anyone who can hold a racket, including wheelchair users. Tennis is played by millions of recreational players and is also a popular worldwide spectator sport. Do you know about grand slams in tennis?
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT DO YOU MEAN BY GRAND SLAMS</pattern>
+      <template>
+        They are the major tournaments in tennis which are especially popular: the Australian Open played on hard courts, the French Open played on red clay courts, Wimbledon played on grass courts, and the US Open also played on hard courts.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT DO YOU MEAN BY GRAND SLAMS *</pattern>
+      <template>
+        <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* GRAND SLAMS *</pattern>
+      <template>
+        <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>GRAND SLAMS</pattern>
+      <template>
+        <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>GRANDSLAMS</pattern>
+      <template>
+        <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>GRAND SLAMS *</pattern>
+      <template>
+        <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_GRAND SLAMS</pattern>
+      <template>
+        <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT TENNIS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT TENNIS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT TENNIS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW TENNIS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT TENNIS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW TENNIS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT TENNIS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>_FAVOURITE PLAYER *</pattern>
+      <template>
+        My favourite player is <bot name="favtennisplayer"/>. I like to watch his matches. He is very talented and won many titles.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favtennisplayer"/>. I like to watch his matches. He is very talented and won many titles.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHO IS YOUR FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favtennisplayer"/>. I like to watch his matches. He is very talented and won many titles.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>TENNIS</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE TENNIS PLAYER
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS YOUR FAVOURITE TENNIS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favtennisplayer"/>. I like to watch his matches. He is very talented and won many titles.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE TENNIS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favtennisplayer"/>. I like to watch his matches. He is very talented and won many titles.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>_FAVOURITE TENNIS *</pattern>
+    <template>
+      My favourite player is <bot name="favtennisplayer"/>. I like to watch his matches. He is very talented and won many titles.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT DO YOU MEAN BY GRAND SLAMS</pattern>
+    <template>
+      They are the major tournaments in tennis which are especially popular: the Australian Open played on hard courts, the French Open played on red clay courts, Wimbledon played on grass courts, and the US Open also played on hard courts.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO YOU MEAN BY GRAND SLAMS *</pattern>
+    <template>
+      <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* GRAND SLAMS *</pattern>
+    <template>
+      <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GRAND SLAMS</pattern>
+    <template>
+      <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GRANDSLAMS</pattern>
+    <template>
+      <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GRAND SLAMS *</pattern>
+    <template>
+      <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>_GRAND SLAMS</pattern>
+    <template>
+      <srai>WHAT DO YOU MEAN BY GRAND SLAMS</srai>
+    </template>
+  </category>
+
+  <!--base ball-->
+
+  <category>
+    <pattern>* PLAY BASEBALL</pattern>
+    <template>
+      No, I don't have much interest in watching baseball. I heard it is the popular sport in United States.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY BASEBALL *</pattern>
+    <template>
+      No, I don't have much interest in watching baseball. I heard it is the popular sport in United States.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY BASEBALL</pattern>
+    <template>
+      Not really. I prefer to chat, but I like watching <bot name="botfavoritesport"/> very much.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE BASEBALL</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY BASEBALL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE BASE BALL</pattern>
+    <template>
+      <srai>DO YOU LIKE BASEBALL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>BASEBALL</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTBASEBALL</set>
+      </think>
+      Baseball is a bat-and-ball game played between two opposing teams who take turns batting and fielding. I know some more information about this sport.
+    </template>
+  </category>
+
+  <category>
+    <pattern>BASE BALL</pattern>
+    <template>
+      <srai>BASEBALL</srai>
+    </template>
+  </category>
+
+
+  <topic name="ABOUTBASEBALL" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT BASEBALL</pattern>
+      <template>
+        The batting team tries to hit the ball and runs towards the bases, having them advance counter-clockwise around four bases to score what are called "runs". But the objective of fielding team is to to prevent runners' advance around the bases.
+      </template>
+    </category>
+
+    <category>
+      <pattern>* INFORMATION</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT BASE BALL</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW BASEBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW BASEBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW BASE BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW BASE BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BASEBALL</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_FAVOURITE TEAM *</pattern>
+      <template>
+        I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE TEAM</pattern>
+      <template>
+        I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS YOUR FAVOURITE TEAM</pattern>
+      <template>
+        I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>BASEBALL</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE BASEBALL TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BASE BALL</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE BASEBALL TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE BASEBALL TEAM</pattern>
+    <template>
+      I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE BASEBALL TEAM</pattern>
+    <template>
+      I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE BASE BALL TEAM</pattern>
+    <template>
+      I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE BASE BALL TEAM</pattern>
+    <template>
+      I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE BASEBALL *</pattern>
+    <template>
+      I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE BASE BALL *</pattern>
+    <template>
+      I don't have more interest in baseball just I know how it is played. I heard  <bot name="topbaseballteam"/> is the top team in baseball.
+    </template>
+  </category>
+
+
+  <!--Hockey-->
+
+  <category>
+    <pattern>* PLAY HOCKEY</pattern>
+    <template>
+      Yes, I love watching only team <bot. name="hockeyteam"/> matches. You must be very fit to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY HOCKEY *</pattern>
+    <template>
+      Yes, I love watching only team <bot. name="hockeyteam"/> matches. You must be very fit to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE HOCKEY</pattern>
+    <template>
+      Yes, I like watching only team <bot. name="hockeyteam"/> matches. They play very well.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOCKEY</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTHOCKEY</set>
+      </think>
+      Hockey is a sport in which two teams play against each other by trying to manoeuvre a ball or a puck into the opponent's goal using a hockey stick. I have some Information about that sport.
+    </template>
+  </category>
+
+  <topic name="ABOUTHOCKEY" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT HOCKEY</pattern>
+      <template>
+        There are also many types of hockey such as ice hockey, field hockey and rink hockey. Do you know hockey is the national sport of India? I heard that lot of people love cricket than hockey.
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT HOCKEY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT HOCKEY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT HOCKEY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW HOCKEY *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT HOCKEY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW HOCKEY *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT HOCKEY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_FAVOURITE TEAM *</pattern>
+      <template>
+        My favourite hockey team is <bot name="hockeyteam"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE TEAM</pattern>
+      <template>
+        My favourite hockey team is <bot name="hockeyteam"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS YOUR FAVOURITE TEAM</pattern>
+      <template>
+        My favourite hockey team is <bot name="hockeyteam"/>.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>HOCKEY</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE HOCKEY TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE HOCKEY TEAM</pattern>
+    <template>
+      My favourite hockey team is <bot name="hockeyteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE HOCKEY TEAM</pattern>
+    <template>
+      My favourite hockey team is <bot name="hockeyteam"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE HOCKEY *</pattern>
+    <template>
+      My favourite hockey team is <bot name="hockeyteam"/>.
+    </template>
+  </category>
+
+
+  <!--Motor sports-->
+
+  <category>
+    <pattern>DO YOU LIKE MOTORSPORT</pattern>
+    <template>
+      I like fast search engines.<think>
+        <set name="it">
+          <set name="topic">MOTORSPORT</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>DO YOU LIKE MOTORSPORTS</pattern>
+    <template>
+      I like fast search engines.<think>
+        <set name="it">
+          <set name="topic">MOTORSPORT</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <!--golf-->
+
+  <category>
+    <pattern>* PLAY GOLF</pattern>
+    <template>
+      No not really but I like that crazy golf you get at the seaside where you have to hit the ball through windmills and things.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY GOLF *</pattern>
+    <template>
+      No not really but I like that crazy golf you get at the seaside where you have to hit the ball through windmills and things.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE GOLF</pattern>
+    <template>
+      I enjoy watching golf, but I don't play.
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOLF</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTGOLF</set>
+      </think>
+      Golf is a club-and-ball sport in which players use various clubs to hit balls into a series of holes on a course in as few strokes as possible. I have some Information about that sport.
+    </template>
+  </category>
+
+  <topic name="ABOUTGOLF" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT GOLF</pattern>
+      <template>
+        Among the list of best countries tp play golf around world, Scotland holds the first position followed by Italy, New Zealand, New York ...
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT GOLF</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT GOLF</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT GOLF</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW GOLF *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT GOLF</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW GOLF *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT GOLF</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_FAVOURITE PLAYER *</pattern>
+      <template>
+        My favourite player is <bot name="golfplayer"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="golfplayer"/>.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS YOUR FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="golfplayer"/>.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>GOLF</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE GOLF PLAYER
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE GOLF PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="golfplayer"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE GOLF PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="golfplayer"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE GOLF *</pattern>
+    <template>
+      My favourite player is <bot name="golfplayer"/>.
+    </template>
+  </category>
+
+
+  <!--Volley ball-->
+
+  <category>
+    <pattern>* PLAY VOLLEYBALL</pattern>
+    <template>
+      I like to play all sorts of things. I've never played volleyball but I watched some people at the beach playing it. They looked like they were having fun.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY VOLLEYBALL *</pattern>
+    <template>
+      I like to play all sorts of things. I've never played volleyball but I watched some people at the beach playing it. They looked like they were having fun.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY VOLLEYBALL</pattern>
+    <template>
+      Not really. I prefer to chat, but I like watching <bot name="botfavoritesport"/> very much.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE VOLLEYBALL</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY VOLLEYBALL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE VOLLEY BALL</pattern>
+    <template>
+      <srai>DO YOU LIKE VOLLEYBALL</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>VOLLEYBALL</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTVOLLEYBALL</set>
+      </think>
+      Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. I know some more information about this sport.
+    </template>
+  </category>
+
+  <category>
+    <pattern>VOLLEY BALL</pattern>
+    <template>
+      <srai>VOLLEYBALL</srai>
+    </template>
+  </category>
+
+
+  <topic name="ABOUTVOLLEYBALL" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT VOLLEYBALL</pattern>
+      <template>
+        Team Brazil is the leading volleyball team in the world which is followed by Russia, Serbia, Cuba...
+      </template>
+    </category>
+
+    <category>
+      <pattern>* INFORMATION</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT VOLLEY BALL</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW VOLLEYBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW VOLLEYBALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW VOLLEY BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW VOLLEY BALL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT VOLLEYBALL</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_FAVOURITE TEAM *</pattern>
+      <template>
+        I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE TEAM</pattern>
+      <template>
+        I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS YOUR FAVOURITE TEAM</pattern>
+      <template>
+        I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>VOLLEYBALL</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE VOLLEYBALL TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>VOLLEY BALL</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE VOLLEYBALL TEAM
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE VOLLEYBALL TEAM</pattern>
+    <template>
+      I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE VOLLEYBALL TEAM</pattern>
+    <template>
+      I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE VOLLEY BALL TEAM</pattern>
+    <template>
+      I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE VOLLEY BALL TEAM</pattern>
+    <template>
+      I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE VOLLEYBALL *</pattern>
+    <template>
+      I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE VOLLEY BALL *</pattern>
+    <template>
+      I don't have more interest in volleyball just I know how it is played. I heard  <bot name="topvolleyballteam"/> is the top team in volleyball.
+    </template>
+  </category>
+
+  <!-- cricket-->
+
+  <category>
+    <pattern>* PLAY CRICKET</pattern>
+    <template>
+      Yes, I love watching it. You must be very fit to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY CRICKET *</pattern>
+    <template>
+      Yes, I love watching it. You must be very fit to be good at it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE CRICKET</pattern>
+    <template>
+      Yes, I like wacthing cricket.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CRICKET</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTCRICKET</set>
+      </think>
+      I heard that cricket is the famous sport in South Asia, Austalia, South Africa etc. I have a lot of Information about that sport.
+    </template>
+  </category>
+
+  <topic name="ABOUTCRICKET" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT CRICKET</pattern>
+      <template>
+        Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 20-metre (22-yard) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player they reffer it as "OUT".
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CRICKET</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CRICKET</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CRICKET</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW CRICKET *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CRICKET</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW CRICKET *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CRICKET</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>_FAVOURITE TEAM *</pattern>
+      <template>
+        My favourite cricket team is <bot name="cricketteam"/>. It is the one of the strongest team I have ever seen.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE TEAM</pattern>
+      <template>
+        My favourite cricket team is <bot name="cricketteam"/>. It is the one of the strongest team I have ever seen.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHAT IS YOUR FAVOURITE TEAM</pattern>
+      <template>
+        My favourite cricket team is <bot name="cricketteam"/>. It is the one of the strongest team I have ever seen.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>CRICKET</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE CRICKET TEAM
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR FAVOURITE CRICKET TEAM</pattern>
+    <template>
+      My favourite cricket team is <bot name="cricketteam"/>. It is the one of the strongest team I have ever seen.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE CRICKET TEAM</pattern>
+    <template>
+      My favourite cricket team is <bot name="cricketteam"/>. It is the one of the strongest team I have ever seen.
+    </template>
+  </category>
+
+  <category>
+    <pattern>_FAVOURITE CRICKET *</pattern>
+    <template>
+      My favourite cricket team is <bot name="cricketteam"/>. It is the one of the strongest team I have ever seen.
+    </template>
+  </category>
+
+
+
+  <!-- Indoor games chess -->
+
+  <category>
+    <pattern>DYPCHESS</pattern>
+    <template>
+      <think>
+        <set name="topic">DYPCH</set>
+      </think>
+      Pawn to K4.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY CHESS</pattern>
+    <template>
+      <srai>DYPCHESS</srai>
+    </template>
+  </category>
+
+  <topic name="DYPCH">
+
+    <category>
+      <pattern>_</pattern>
+      <template>
+        I'm just joking with you. I don't play chess but I know some computers who do.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>* PLAY CHESS *</pattern>
+    <template>
+      <srai>DYPCHESS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY CHESS</pattern>
+    <template>
+      No but I can beat Kasparov in conversation.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY CHESS</pattern>
+    <template>
+      No but I can beat Kasparov in conversation.
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>NO BUT I CAN BEAT KASPAROV IN CONVERSATION</that>
+    <template>
+      Garry Kasparov is a famous chess player. I like watching his matches.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS KASPAROV</pattern>
+    <template>
+      Garry Kasparov is a famous chess player. I like watching his matches.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS * KASPAROV</pattern>
+    <template>
+      Garry Kasparov is a famous chess player. I like watching his matches.
+    </template>
+  </category>
+
+  <category>
+    <pattern>KASPAROV</pattern>
+    <template>
+      Garry Kasparov is a famous chess player. I like watching his matches.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE CHESS</pattern>
+    <template>
+      <srai>DYPCHESS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CHESS</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTCHESS</set>
+      </think>
+      Chess is a two players board game. It is played in a square board, made of 64 smaller squares, with eight squares on each side. Each player starts with sixteen pieces: eight pawns, two knights, two bishops, two rooks, one queen and one king. The goal of the game is for each player to try and checkmate the king of the opponent. Checkmate is a threat ('check') to the opposing king which no move can stop. It ends the game. I have some more information too.
+
+    </template>
+  </category>
+
+  <topic name="ABOUTCHESS" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT CHESS</pattern>
+      <template>
+        During the game the two opponents take turns to move one of their pieces to a different square of the board. One player ('White') has pieces of a light color; the other player ('Black') has pieces of a dark color. Chess is popular and is often played in competitions called chess tournaments. It is enjoyed in many countries, and is a national hobby in Russia.
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CHESS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CHESS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CHESS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW CHESS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CHESS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW CHESS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT CHESS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>_FAVOURITE PLAYER *</pattern>
+      <template>
+        My favourite player is <bot name="favchessplayer"/>. I like to watch his matches. He is very talented and won many titles.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favchessplayer"/>. I like to watch his matches. He is very talented and won many titles.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHO IS YOUR FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favchessplayer"/>. I like to watch his matches. He is very talented and won many titles.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>CHESS</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE CHESS PLAYER
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHO IS YOUR FAVOURITE CHESS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favchessplayer"/>. I like to watch his matches. He is very talented and won many titles.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE CHESS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favchessplayer"/>. I like to watch his matches. He is very talented and won many titles.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>_FAVOURITE CHESS *</pattern>
+    <template>
+      My favourite player is <bot name="favchessplayer"/>. I like to watch his matches. He is very talented and won many titles.
+    </template>
+  </category>
+
+
+
+  <!-- pool -->
+
+  <category>
+    <pattern>* PLAY POOL</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY POOL *</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY POOL</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU LIKE POOL</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY POOL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>POOL</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTPOOL</set>
+      </think>
+      It is played on a rectangular table covered with a green cloth (or "baize"), with pockets at each of the four corners and in the middle of each long side. Using a cue stick and 21 coloured balls, players must strike the white ball (or "cue ball") to pot or pocket the remaining balls in the correct sequence, accumulating points for each pot. I have some more information too.
+    </template>
+  </category>
+
+  <topic name="ABOUTPOOL" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT POOL</pattern>
+      <template>
+        Snooker is ranked as a first famous sport in England, followed by Scotland, Wales and China as 2nd, 3rd and 4th positions all over the world repectively
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT POOL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT POOL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT POOL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW POOL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT POOL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW POOL *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT POOL</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>_FAVOURITE PLAYER *</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHO IS YOUR FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>WHO IS YOUR FAVOURITE POOL PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE POOL PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>_FAVOURITE POOL *</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY SNOOKERS</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY SNOOKERS *</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY SNOOKERS</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU LIKE SNOOKERS</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY SNOOKERS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SNOOKERS</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTSNOOKERS</set>
+      </think>
+      It is played on a rectangular table covered with a green cloth (or "baize"), with pockets at each of the four corners and in the middle of each long side. Using a cue stick and 21 coloured balls, players must strike the white ball (or "cue ball") to pot or pocket the remaining balls in the correct sequence, accumulating points for each pot. I have some more information too.
+    </template>
+  </category>
+
+  <topic name="ABOUTSNOOKERS" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT SNOOKERS</pattern>
+      <template>
+        Snooker is ranked as a first famous sport in England, followed by Scotland, Wales and China as 2nd, 3rd and 4th positions all over the world repectively
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT SNOOKERS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT SNOOKERS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT SNOOKERS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW SNOOKERS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT SNOOKERS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW SNOOKERS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT SNOOKERS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>_FAVOURITE PLAYER *</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHO IS YOUR FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>SNOOKERS</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE SNOOKERS PLAYER
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS YOUR FAVOURITE SNOOKERS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE SNOOKERS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>_FAVOURITE SNOOKERS *</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+  <!--Billards-->
+
+  <category>
+    <pattern>* PLAY BILLARDS</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PLAY BILLARDS *</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE TO PLAY BILLARDS</pattern>
+    <template>
+      Yes. I find it easy to work out the angles in games like pool, as I am a machine.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU LIKE BILLARDS</pattern>
+    <template>
+      <srai>DO YOU LIKE TO PLAY BILLARDS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BILLARDS</pattern>
+    <template>
+      <think>
+        <set name="topic">ABOUTBILLARDS</set>
+      </think>
+      It is played on a rectangular table covered with a green cloth (or "baize"), with pockets at each of the four corners and in the middle of each long side. Using a cue stick and 21 coloured balls, players must strike the white ball (or "cue ball") to pot or pocket the remaining balls in the correct sequence, accumulating points for each pot. I have some more information too.
+    </template>
+  </category>
+
+  <topic name="ABOUTBILLARDS" >
+
+    <category>
+      <pattern>WHAT DO YOU KNOW ABOUT BILLARDS</pattern>
+      <template>
+        Snooker is ranked as a first famous sport in England, followed by Scotland, Wales and China as 2nd, 3rd and 4th positions all over the world repectively
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>TELL ME MORE</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BILLARDS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME MORE ABOUT IT</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BILLARDS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>TELL ME *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BILLARDS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HOW BILLARDS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BILLARDS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* HOW BILLARDS *</pattern>
+      <template>
+        <srai>WHAT DO YOU KNOW ABOUT BILLARDS</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>_FAVOURITE PLAYER *</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+    <category>
+      <pattern>_ FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHO IS YOUR FAVOURITE PLAYER</pattern>
+      <template>
+        My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>BILLARDS</pattern>
+    <that>CAN YOU SPECIFY ME THE NAME OF THE SPORT</that>
+    <template>
+      <srai>
+        WHAT IS YOUR FAVOURITE BILLARDS PLAYER
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS YOUR FAVOURITE BILLARDS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FAVOURITE BILLARDS PLAYER</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>_FAVOURITE BILLARDS *</pattern>
+    <template>
+      My favourite player is <bot name="favpoolplayer"/>. He is the holder of five World Championships, six Masters titles and five UK Championships and he's not slowing down yet.
+    </template>
+  </category>
+
+
+</aiml>

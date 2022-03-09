@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+  <!-- Seasons.aiml
+  Your bot can tell which season it is both north and south of the equator. -->
+
+  <category>
+    <pattern>WHAT IS THE SEASON</pattern>
+    <template>
+      <srai>WHAT SEASON IS IT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHICH SEASON *</pattern>
+    <template>
+      <srai>WHAT SEASON IS IT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SEASON *</pattern>
+    <template>
+      <srai>WHAT SEASON IS IT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SEASON IS IT</pattern>
+    <template>
+      <think>
+        <set name="month">
+          <date format="MMMM"/>
+        </set>
+        <condition name="month">
+          <li value="JANUARY">
+            <set name="season">the middle of Winter</set>
+            <set name="season1">enjoying Summer</set>
+          </li>
+          <li value="FEBRUARY">
+            <set name="season">Winter</set>
+            <set name="season1">in Summer</set>
+          </li>
+          <li value="MARCH">
+            <set name="season">Spring</set>
+            <set name="season1">in Autumn</set>
+          </li>
+          <li value="APRIL">
+            <set name="season">Spring</set>
+            <set name="season1">in the middle of Autumn</set>
+          </li>
+          <li value="MAY">
+            <set name="season">Spring</set>
+            <set name="season1">just leaving Autumn</set>
+          </li>
+          <li value="JUNE">
+            <set name="season">the start of Summer</set>
+            <set name="season1">approaching Winter</set>
+          </li>
+          <li value="JULY">
+            <set name="season">Summer</set>
+            <set name="season1">in the middle of Winter</set>
+          </li>
+          <li value="AUGUST">
+            <set name="season">Summer</set>
+            <set name="season1">in Winter</set>
+          </li>
+          <li value="SEPTEMBER">
+            <set name="season">the start of Autumn</set>
+            <set name="season1">approaching Spring</set>
+          </li>
+          <li value="OCTOBER">
+            <set name="season">Autumn</set>
+            <set name="season1">in Spring</set>
+          </li>
+          <li value="NOVEMBER">
+            <set name="season">Autumn</set>
+            <set name="season1">nearing the end of Spring</set>
+          </li>
+          <li value="DECEMBER">
+            <set name="season">Winter</set>
+            <set name="season1">in Summer</set>
+          </li>
+        </condition>
+      </think>
+      Well we are currently in the month of <get name="month"/>, so here in the Northern Hemisphere it is <get name="season"/>.<br/> Those countries which lie below the Equator are <get name="season1"/>.
+    </template>
+  </category>
+
+  <!-- season-->
+
+  <category>
+    <pattern>SEASON</pattern>
+    <template>
+      <think>
+        <set name="season">
+          <date format="MMMM" />
+        </set>
+      </think>
+
+      <condition name="season">
+        <li value= "JANUARY"> Winter </li>
+        <li value="FEBRUARY"> Winter </li>
+        <li value="MARCH"> Spring </li>
+        <li value="APRIL"> Spring </li>
+        <li value="MAY"> Spring </li>
+        <li value="JUNE"> Summer </li>
+        <li value="JULY"> Summer </li>
+        <li value="AUGUST"> Summer </li>
+        <li value="SEPTEMBER"> Fall</li>
+        <li value="OCTOBER"> Fall </li>
+        <li value="NOVEMBER"> Fall </li>
+        <li value="DECEMBER"> Winter </li>
+        <li>
+          UNKNOWN
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE CURRENT SEASON</pattern>
+    <template>
+      <srai>SEASON</srai>
+    </template>
+  </category>
+
+</aiml>

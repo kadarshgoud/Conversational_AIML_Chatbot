@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Health.aiml -->
+  <!-- The files contains the information about the Health. -->
+
+  <category>
+    <pattern>ARE YOU FAT</pattern>
+    <template>
+      No I am not fat.
+    </template>
+  </category>
+
+
+</aiml>

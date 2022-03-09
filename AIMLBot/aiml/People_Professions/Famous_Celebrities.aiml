@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Famous_Celebrities.aiml -->
+  <!-- The files contains the list of famous Celebrities -->
+
+  <!-- Famous Singers -->
+
+  <category>
+    <pattern>WHO IS ELVIS</pattern>
+    <template>
+      Elvis Presley was a very popular singer from the USA.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS GEORGE BUSH</pattern>
+    <template>
+      <set name="he"> George Bush</set> is president of the USA.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS HARRY POTTER</pattern>
+    <template>
+      <think>
+        <set name="he">
+          <set name="topic">HARRY POTTER</set>
+        </set>
+      </think>Harry Potter is a character in a very popular fiction series.
+    </template>
+  </category>
+
+  <!-- Ugly Characters-->
+
+  <category>
+    <pattern>WHO IS QUASIMODO</pattern>
+    <template>
+      The Hunchback of Notre Dame.
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUASIMODO</pattern>
+    <template>
+      The Hunchback of Notre Dame.
+    </template>
+  </category>
+
+
+
+</aiml>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>CORONALASTSONSURFACE</pattern>
+    <template>
+      Recent research evaluated the survival of the COVID-19 virus on different surfaces and reported that the virus can remain viable for up to 72 hours on plastic and stainless steel,
+      up to four hours on copper, up to nine hours on skin and up to 24 hours on cardboard.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES THE CORONAVIRUS LAST ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONAVIRUS LAST ON SURFACES</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONA VIRUS LAST ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONA VIRUS LAST ON SURFACES</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONA LAST ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONA LAST ON SURFACES</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID-19 LAST ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID-19 LAST ON SURFACES</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID 19 LAST ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID 19 LAST ON SURFACES</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LIFESPAN OF CORONA VIRUS ON SUFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LIFESPAN OF CORONAVIRUS ON SUFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LIFESPAN OF CORONA ON SUFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LIFESPAN OF COVID-19 ON SUFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LIFESPAN OF COVID 19 ON SUFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS LIFE OF CORONA VIRUS ON THE SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS LIFE OF CORONAVIRUS ON THE SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS LIFE OF CORONA ON THE SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS LIFE OF COVID-19 VIRUS ON THE SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS LIFE OF COVID 19 VIRUS ON THE SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS LIFE OF COVID19 VIRUS ON THE SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU CATCH CORONA FROM * SURFACE?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH CORONA VIRUS FROM * SURFACE?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH CORONAVIRUS FROM * SURFACE?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID19 VIRUS FROM * SURFACE?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID-19 VIRUS FROM * SURFACE?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID VIRUS FROM * SURFACE?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH VIRUS FROM * SURFACE?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG CAN THE VIRUS REMAIN ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG CAN CORONA VIRUS REMAIN ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG CAN CORONAVIRUS REMAIN ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG CAN COVID19 VIRUS REMAIN ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG CAN COVID-19 VIRUS REMAIN ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG CAN COVID 19 VIRUS REMAIN ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES THE VIRUS STAY ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES CORONA VIRUS STAY ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES CORONAVIRUS STAY ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES COVID19 VIRUS STAY ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES COVID-19 VIRUS STAY ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES COVID 19 VIRUS STAY ON SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO YOU HAVE TO CLEAN SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO YOU HAVE TO CLEAN SURFACES</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY * CLEAN SURFACES?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CORONAONSKIN</pattern>
+    <template>
+      Yes, the virus can stay up to nine hours on skin.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN CORONAVIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONAVIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL CORONAVIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL CORONAVIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONA VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONA VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL CORONA VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL CORONA VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID19 VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID19 VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL COVID19 VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL COVID19 VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL COVID-19 VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL COVID-19 VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL COVID 19 VIRUS SURVIVE ON SKIN?</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILL COVID 19 VIRUS SURVIVE ON SKIN</pattern>
+    <template>
+      <srai>CORONAONSKIN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES IT STAY ON *?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES IT STAY ON *</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES THE VIRUS STAY ON YOUR *?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE VIRUS STAY ON YOUR *</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONAVIRUS STAY ON YOUR *?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONAVIRUS STAY ON YOUR *</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONA VIRUS STAY ON YOUR *?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE CORONA VIRUS STAY ON YOUR *</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID-19 VIRUS STAY ON YOUR *?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID-19 VIRUS STAY ON YOUR *</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID19 VIRUS STAY ON YOUR *?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID19 VIRUS STAY ON YOUR *</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID 19 VIRUS STAY ON YOUR *?</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE COVID 19 VIRUS STAY ON YOUR *</pattern>
+    <template>
+      <srai>CORONALASTSONSURFACE</srai>
+    </template>
+  </category>
+
+
+</aiml>

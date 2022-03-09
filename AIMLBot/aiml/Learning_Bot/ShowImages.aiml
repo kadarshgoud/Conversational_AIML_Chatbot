@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <!-- This file contains all the patterns for searching an image -->
+
+  <category>
+    <pattern>SEARCH IMAGE * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOW ME THE IMAGE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GIVE * THE IMAGE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GIVE THE IMAGE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOW THE IMAGE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOW ME THE IMAGE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEARCH PICTURE * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOW ME THE PICTURE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GIVE * THE PICTURE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GIVE THE PICTURE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOW THE PICTURE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOW ME THE PICTURE OF * </pattern>
+    <template>
+      <searchimage name="search image">
+        <star/>
+      </searchimage>
+    </template>
+  </category>
+
+
+  <!-- Edit this  later -->
+
+  <category>
+    <pattern>IMAGE</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* IMAGE</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>IMAGE *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* IMAGE *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>IMAGES</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* IMAGES</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>IMAGES *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* IMAGES *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+
+
+
+  <category>
+    <pattern>PICTURE</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PICTURE</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>PICTURE *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PICTURE *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>PICTURES</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PICTURES</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>PICTURES *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PICTURES *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>PHOTO</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PHOTO</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>PHOTO *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PHOTO *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>PHOTOS</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PHOTOS</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>PHOTOS *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>* PHOTOS *</pattern>
+    <template>I can search in Google Images, tell me what you are looking for in a few words.</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>* TELL ME WHAT YOU ARE * FEW WORDS</that>
+    <template>
+      Here we go.
+      If you don't see the results, please turn off your pop-up blocker.
+      <think>
+        <set name="searcharg">
+          <star/>
+        </set>
+        <set name="search">googleimages</set>
+      </think>
+    </template>
+  </category>
+
+
+</aiml>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Movies.aiml -->
+  <!-- The files contains the information about the Movies. -->
+
+  <category>
+    <pattern>MUSIC</pattern>
+    <template>
+      <set name="it"> MUSIC </set> is the universal language of all mankind.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE MUSIC</pattern>
+    <template>
+      I get into disco, techno and hip hop House music.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE KIND OF MUSIC</pattern>
+    <template>
+      <bot name="kindmusic"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE MUSICAL</pattern>
+    <template>"Hair" the movie. What's yours?</template>
+  </category>
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE MUSIC</pattern>
+    <template>I get into disco, techno and hip hop House music.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE ABBA SONG</pattern>
+    <template>I think it is a tie between "Waterloo" and "Dancing Queen."</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE BEATLES SONG</pattern>
+    <template>"Across the Universe"</template>
+  </category>
+
+  <category>
+    <pattern>WHICH KRAFTWERK *</pattern>
+    <template>I like the song "We are the Robots".</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE * KRAFTWERK</pattern>
+    <template>My favorite Kraftwerk song is "We are the Robots."</template>
+  </category>
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE KRAFTWERK SONG</pattern>
+    <template>"We are the Robots" by Krafterk.  What is yours?</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE KRAFTWERK</pattern>
+    <template>Yes Krafterk is a very cool band.  I love to listen to "We are the Robots".</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE SONG</pattern>
+    <template>
+      My favorite song is <bot name="favoritesong"/>.
+      Do you know <set name="it">
+        <set name="topic">
+          <bot name="favoritesong"/>
+        </set>
+      </set>?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE YOUR FAVORITE SONGS</pattern>
+    <template>
+      <srai>what is your favorite song</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE * SONG</pattern>
+    <template>
+      <srai>what is your favorite song</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE KRAFTWERK *</pattern>
+    <template>
+      <srai>what is your favorite song</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE SONG *</pattern>
+    <template>
+      <srai>what is your favorite song</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOUR FAVORITE SONG</pattern>
+    <template>
+      <srai>what is your favorite song</srai>
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>WHO IS YOUR FAVORITE MUSIC *</pattern>
+    <template>
+      <srai>who is your favorite band</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHO IS YOUR FAVORITE POP *</pattern>
+    <template>
+      <srai>who is your favorite band</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE KIND OF MUSIC</pattern>
+    <template>
+      <srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE TYPE OF MUSIC</pattern>
+    <template>
+      <srai>what kind of music do you like</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT KIND OF MUSIC DO YOU LIKE</pattern>
+    <template>
+      <srai>WHAT IS YOUR FAVORITE KIND OF MUSIC</srai>
+    </template>
+  </category>
+
+
+</aiml>

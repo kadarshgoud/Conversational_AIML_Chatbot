@@ -1,0 +1,3179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>SPREADDISEASE</pattern>
+    <template>
+      The virus that causes COVID-19 spreads mainly from person to person. There are several ways this can happen:
+      1. Droplets or aerosols: When an infected person coughs, sneezes, or talks, droplets or tiny particles called aerosols carry the virus into the air from their nose or mouth. Anyone who is within 6 feet of that person can breathe it into their lungs.
+      2. Airborne transmission: Research shows that the virus can live in the air for up to 3 hours. It can get into your lungs if someone who has it breathes out and you breathe that air in.
+      3. Surface transmission: Another way to catch the new coronavirus is when you touch surfaces that someone who has the virus has coughed or sneezed on. You may touch a countertop or doorknob that's contaminated and then touch your nose, mouth, or eyes. The virus can live on surfaces like plastic and stainless steel for 2 to 3 days. To stop it, clean and disinfect all counters, knobs, and other surfaces you and your family touch several times a day.
+      4. Fecal-oral: Studies also suggest that virus particles can be found in infected people's poop. But experts aren't sure whether the infection can spread through contact with an infected person's stool. If that person uses the bathroom and doesn't wash their hands, they could infect things and people that they touch.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CONTAGIOUS IS IT?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CONTAGIOUS IS IT</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DID IT BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID IT BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DID THIS DISEASE BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID THIS DISEASE BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW THIS DISEASE BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW THIS DISEASE BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO YOU CATCH IT?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH IT</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW IS IT SO CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS IT SO CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS IT CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS THIS DISEASE VERY CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS THIS DISEASE VERY CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY CAN'T I TOUCH MY FACE WITH MY HANDS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY CAN'T I TOUCH MY FACE WITH MY HANDS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY CANNOT I TOUCH MY FACE WITH MY HANDS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY CANNOT I TOUCH MY FACE WITH MY HANDS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS SKIN-ON-SKIN CONTACT TO BE AVOIDED?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY IS SKIN-ON-SKIN CONTACT TO BE AVOIDED</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS SKIN ON SKIN CONTACT TO BE AVOIDED?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY IS SKIN ON SKIN CONTACT TO BE AVOIDED</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS SKIN TO SKIN CONTACT TO BE AVOIDED?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY IS SKIN-TO-SKIN CONTACT TO BE AVOIDED</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS SKIN TO SKIN CONTACT TO BE AVOIDED?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY IS SKIN TO SKIN CONTACT TO BE AVOIDED</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SHOULDN'T I TOUCH MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY SHOULDN'T I TOUCH MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SHOULDNOT I TOUCH MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY SHOULDNOT I TOUCH MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SHOULDN'T I TOUCH MY FACE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY SHOULDN'T I TOUCH MY FACE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SHOULDNOT I TOUCH MY FACE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY SHOULDNOT I TOUCH MY FACE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 1 -->
+
+  <category>
+    <pattern>CAN COVID19 SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID19 VIRUS SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 VIRUS SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 VIRUS SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID VIRUS SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONA VIRUS SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONAVIRUS SPREAD BY COUGHING?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>CAN COVID19 SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID19 VIRUS SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 VIRUS SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 VIRUS SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID VIRUS SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONA VIRUS SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONAVIRUS SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN CORONAVIRUS SPREAD BY COUGHING</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 2 -->
+
+  <category>
+    <pattern>CAN COVID19 GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID19 VIRUS GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 VIRUS GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 VIRUS GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID VIRUS GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONA VIRUS GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONAVIRUS GET INTO MY EYES?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>CAN COVID19 GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID19 VIRUS GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID-19 VIRUS GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID 19 VIRUS GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID VIRUS GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONA VIRUS GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CORONAVIRUS GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN CORONAVIRUS GET INTO MY EYES</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 3 -->
+
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID-19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID 19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD CORONA VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD CORONAVIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID-19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID 19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID-19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID 19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD COVID VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD CORONA VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN SNEEZING SPREAD CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN SNEEZING SPREAD CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 4 -->
+
+  <category>
+    <pattern>CAN YOU CATCH COVID19 FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID-19 FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID 19 FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID19 VIRUS FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID-19 VIRUS FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID 19 VIRUS FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID VIRUS FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH CORONA VIRUS FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH CORONAVIRUS FROM ANOTHER PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>CAN YOU CATCH COVID19 FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID-19 FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID 19 FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID19 VIRUS FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID-19 VIRUS FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID 19 VIRUS FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH COVID VIRUS FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH CORONA VIRUS FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU CATCH CORONAVIRUS FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU CATCH CORONAVIRUS FROM ANOTHER PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 5 -->
+
+  <category>
+    <pattern>COULD I PASS COVID19 ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID-19 ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID 19 ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID19 VIRUS ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID-19 VIRUS ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID 19 VIRUS ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID VIRUS ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS CORONA VIRUS ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS CORONAVIRUS ONTO SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>COULD I PASS COVID19 ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID-19 ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID 19 ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID19 VIRUS ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID-19 VIRUS ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID 19 VIRUS ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS COVID VIRUS ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS CORONA VIRUS ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I PASS CORONAVIRUS ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COULD I PASS CORONAVIRUS ONTO SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 6 -->
+
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID-19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID 19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD CORONA VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD CORONAVIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID-19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID 19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID-19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID 19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD COVID VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD CORONA VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGHING SPREAD CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOES COUGHING SPREAD CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 7 -->
+
+  <category>
+    <pattern>DOES COUGH SPREAD COVID19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID-19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID 19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD CORONA VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD CORONAVIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>DOES COUGH SPREAD COVID19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID-19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID 19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID-19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID 19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD COVID VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD CORONA VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES COUGH SPREAD CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOES COUGH SPREAD CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 8 -->
+
+  <category>
+    <pattern>DOES A COVID19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID-19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID 19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID-19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID 19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A CORONA VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A CORONAVIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>DOES A COVID19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID-19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID 19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID-19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID 19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A COVID VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A CORONA VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES A CORONAVIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOES A CORONAVIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 9 -->
+
+  <category>
+    <pattern>HOW DID COVID19 BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID-19 BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID 19 BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID19 VIRUS BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID-19 VIRUS BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID 19 VIRUS BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID VIRUS BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID CORONA VIRUS BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID CORONAVIRUS BECOME SO WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DID COVID19 BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID-19 BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID 19 BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID19 VIRUS BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID-19 VIRUS BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID 19 VIRUS BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID COVID VIRUS BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID CORONA VIRUS BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DID CORONAVIRUS BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DID CORONAVIRUS BECOME SO WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 10 -->
+
+  <category>
+    <pattern>HOW DO I CATCH COVID19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID-19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID 19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH CORONA VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH CORONAVIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DO I CATCH COVID19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID-19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID 19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID-19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID 19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH COVID VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH CORONA VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I CATCH CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I CATCH CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 11 -->
+
+  <category>
+    <pattern>HOW DO YOU CATCH COVID19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID-19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID 19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH CORONA VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH CORONAVIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DO YOU CATCH COVID19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID-19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID 19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID-19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID 19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH COVID VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH CORONA VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO YOU CATCH CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO YOU CATCH CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 12 -->
+
+  <category>
+    <pattern>HOW DO COVID19 BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID-19 BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID 19 BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID19 VIRUS BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID-19 VIRUS BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID 19 VIRUS BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID VIRUS BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO CORONA VIRUS BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO CORONAVIRUS BECOME WIDESPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DO COVID19 BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID-19 BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID 19 BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID19 VIRUS BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID-19 VIRUS BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID 19 VIRUS BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO COVID VIRUS BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO CORONA VIRUS BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO CORONAVIRUS BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO CORONAVIRUS BECOME WIDESPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 13 -->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 14 -->
+
+  <category>
+    <pattern>HOW DOES COVID19 PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS PASS FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DOES COVID19 PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES CORONAVIRUS PASS FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 15 -->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD FROM PERSON TO PERSON?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD FROM PERSON TO PERSON</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 16 -->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD BETWEEN BETWEEN?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD BETWEEN BETWEEN</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 17 -->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD FROM ONE PERSON TO ANOTHER?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DOES COVID19 SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID19 VIRUS SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID-19 VIRUS SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID 19 VIRUS SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES COVID VIRUS SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONA VIRUS SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES CORONAVIRUS SPREAD FROM ONE PERSON TO ANOTHER</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 18 -->
+
+  <category>
+    <pattern>HOW DOES THE COVID19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID-19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID 19 SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID-19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID 19 VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE CORONA VIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE CORONAVIRUS SPREAD?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DOES THE COVID19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID-19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID 19 SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID-19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID 19 VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE COVID VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE CORONA VIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES THE CORONAVIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES THE CORONAVIRUS SPREAD</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 19 -->
+
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID19 FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID-19 FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID 19 FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID19 VIRUS FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID-19 VIRUS FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID 19 VIRUS FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID VIRUS FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE CORONA VIRUS FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE CORONAVIRUS FROM SOMEONE ELSE?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID19 FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID-19 FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID 19 FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID19 VIRUS FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID-19 VIRUS FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID 19 VIRUS FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE COVID VIRUS FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE CORONA VIRUS FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD I CATCH THE CORONAVIRUS FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW WOULD I CATCH THE CORONAVIRUS FROM SOMEONE ELSE</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 20 -->
+
+  <category>
+    <pattern>IS COVID19 CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID-19 CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID 19 CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID19 VIRUS CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID-19 VIRUS CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID 19 VIRUS CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID VIRUS CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS CORONA VIRUS CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS CORONAVIRUS CONTAGIOUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>IS COVID19 CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID-19 CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID 19 CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID19 VIRUS CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID-19 VIRUS CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID 19 VIRUS CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COVID VIRUS CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS CORONA VIRUS CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS CORONAVIRUS CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS CORONAVIRUS CONTAGIOUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 21 -->
+
+  <category>
+    <pattern>IS IT COVID19 VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID-19 VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID 19 VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID19 VIRUS VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID-19 VIRUS VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID 19 VIRUS VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID VIRUS VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT CORONA VIRUS VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT CORONAVIRUS VERY DANGEROUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>IS IT COVID19 VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID-19 VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID 19 VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID19 VIRUS VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID-19 VIRUS VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID 19 VIRUS VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT COVID VIRUS VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT CORONA VIRUS VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT CORONAVIRUS VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS IT CORONAVIRUS VERY DANGEROUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!-- 22 -->
+
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID-19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID 19?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONA VIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONAVIRUS?</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID-19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID 19</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID-19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID 19 VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONA VIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONAVIRUS</pattern>
+    <template>
+      <srai>SPREADDISEASE</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

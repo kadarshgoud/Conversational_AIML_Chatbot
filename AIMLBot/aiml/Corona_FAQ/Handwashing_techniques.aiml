@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>WASHINGTECHNIQUES</pattern>
+    <template>
+      Follow these five steps every time.
+      Step 1. Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap.
+      Step 2. Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails.
+      Step 3. Scrub your hands for at least 20 seconds.
+      Step 4. Rinse your hands well under clean, running water.
+      Step 5. Dry your hands using a clean towel or air dry them.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE HANDWASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE HANDWASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE HAND WASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE HAND WASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE HANDWASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE HANDWASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE HAND WASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE HAND WASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HANDWASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HANDWASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAND WASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAND WASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE GOOD METHODS FOR HANDWASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE GOOD METHODS FOR HANDWASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE GOOD METHODS FOR HAND WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE GOOD METHODS FOR HAND WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD METHODS FOR HANDWASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GOOD METHODS FOR HANDWASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GOOD METHODS FOR HAND WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GOOD METHODS FOR HAND WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>METHODS FOR HANDWASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>METHODS FOR HANDWASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>METHODS FOR HAND WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>METHODS FOR HAND WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE HAND-WASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE HAND-WASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE INSTRUCTIONS FOR HAND-WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE INSTRUCTIONS FOR HAND-WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE INSTRUCTIONS FOR HAND WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE INSTRUCTIONS FOR HAND WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE INSTRUCTIONS FOR HANDWASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE INSTRUCTIONS FOR HANDWASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>INSTRUCTIONS FOR HAND-WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INSTRUCTIONS FOR HAND-WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>INSTRUCTIONS FOR HAND WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INSTRUCTIONS FOR HAND WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INSTRUCTIONS FOR HANDWASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INSTRUCTIONS FOR HANDWASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE TECHNIQUES FOR HAND WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE TECHNIQUES FOR HAND WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE TECHNIQUES FOR HANDWASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE TECHNIQUES FOR HANDWASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU KNOW ABOUT HANDWASHING STEPS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO YOU KNOW ABOUT HANDWASHING STEPS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU KNOW ABOUT HAND WASHING STEPS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO YOU KNOW ABOUT HAND WASHING STEPS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU KNOW ABOUT HANDWASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO YOU KNOW ABOUT HANDWASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO YOU KNOW ABOUT HAND WASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO YOU KNOW ABOUT HAND WASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HANDWASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HANDWASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAND WASHING TECHNIQUES?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAND WASHING TECHNIQUES</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO WASH HANDS DURINING THIS COVID TIME?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO WASH HANDS DURINING THIS COVID TIME</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO WASH HANDS DURINING THIS CORONA TIME?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO WASH HANDS DURINING THIS CORONA TIME</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO WASH HANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO WASH HANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WASHING HANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WASHING HANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>STEPS FOR WASHING HANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS FOR WASHING HANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TECHNIQUES FOR HAND WASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TECHNIQUES FOR HAND WASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOW TO WASHHANDS DURINING THIS COVID TIME?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO WASHHANDS DURINING THIS COVID TIME</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO WASHHANDS DURINING THIS CORONA TIME?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO WASHHANDS DURINING THIS CORONA TIME</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO WASHHANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO WASHHANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WASHINGHANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WASHINGHANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>STEPS FOR WASHINGHANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS FOR WASHINGHANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TECHNIQUES FOR HANDWASHING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TECHNIQUES FOR HANDWASHING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS HAND HYGIENE?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS HAND HYGIENE</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HAND HYGIENE?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAND HYGIENE</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO PREVENT GERMS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT GERMS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GERMS PREVENTION?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GERMS PREVENTION</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CLEANING HANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CLEANING HANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO CLEAN MY HANDS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO CLEAN MY HANDS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DETAIL PROCEDURE FOR HAND CLEANING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DETAIL PROCEDURE FOR HAND CLEANING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PROCEDURE FOR HAND CLEANING?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROCEDURE FOR HAND CLEANING</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO PREVENT CORONA VIRUS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT CORONA VIRUS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PREVENT CORONA VIRUS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PREVENT CORONA VIRUS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO PREVENT CORONAVIRUS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT CORONAVIRUS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PREVENT CORONA VIRUS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PREVENT CORONA VIRUS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PREVENT CORONAVIRUS?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PREVENT CORONAVIRUS</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PREVENT COVID19?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PREVENT COVID19</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PREVENT COVID-19?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PREVENT COVID-19</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PREVENT COVID 19?</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PREVENT COVID 19</pattern>
+    <template>
+      <srai>WASHINGTECHNIQUES</srai>
+    </template>
+  </category>
+
+
+</aiml>

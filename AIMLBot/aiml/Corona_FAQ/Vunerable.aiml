@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <category>
+    <pattern>VUNERABLE</pattern>
+    <template>
+      People of all ages can be infected by the new coronavirus (2019-nCoV). Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus.
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I MORE VULNERABLE IF I HAVE CANCER?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>AM I MORE VULNERABLE IF I HAVE CANCER</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE MY DOGS AT RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE MY DOGS AT RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN CHILDREN GET IT?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET IT</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN MY CAT GET IT?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY CAT GET IT</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOUR AGE AFFECT THE SEVERITY OF THE ILLNESS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOUR AGE AFFECT THE SEVERITY OF THE ILLNESS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOUR AGE AFFECT THE SEVERITY?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOUR AGE AFFECT THE SEVERITY</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOES MY AGE MATTER?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES MY AGE MATTER</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOES RESPIRATORY DISEASE INCREASE MY RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES RESPIRATORY DISEASE INCREASE MY RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY YEARS OLD ARE THOSE AT RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW MANY YEARS OLD ARE THOSE AT RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW OLD ARE THOSE LIKELY TO HAVE A SEVERE REACTION?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW OLD ARE THOSE LIKELY TO HAVE A SEVERE REACTION</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW WHAT AGE GROUP IS MOST AT RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WHAT AGE GROUP IS MOST AT RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM PREGNANT, AM I AT A HIGHER RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I AM PREGNANT, AM I AT A HIGHER RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE ASTHMA, AM I MORE AT RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE ASTHMA, AM I MORE AT RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I'M CONCERNED ABOUT MY PARENTS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I'M CONCERNED ABOUT MY PARENTS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM CONCERNED ABOUT MY PARENTS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I AM CONCERNED ABOUT MY PARENTS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I'M PREGNANT, AM I AT A HIGHER RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I'M PREGNANT, AM I AT A HIGHER RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I'M WORRIED ABOUT MY GRAND PARENTS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I'M WORRIED ABOUT MY GRAND PARENTS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM WORRIED ABOUT MY GRAND PARENTS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I AM WORRIED ABOUT MY GRAND PARENTS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOULD I BE WORRIED ABOUT MY PARENTS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SHOULD I BE WORRIED ABOUT MY PARENTS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOULD I BE WORRIED IF I'M EXPECTING?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SHOULD I BE WORRIED IF I'M EXPECTING</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOULD I BE WORRIED IF I AM EXPECTING?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SHOULD I BE WORRIED IF I AM EXPECTING</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM WORRIED ABOUT MY GRAND PARENTS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I AM WORRIED ABOUT MY GRAND PARENTS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT AGE GROUP IS MOST VULNERABLE?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT AGE GROUP IS MOST VULNERABLE</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT AGE RANGE IS MOST AT RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT AGE RANGE IS MOST AT RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE HIGH RISK GROUPS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE HIGH RISK GROUPS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE VENTILATORS FOR?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE VENTILATORS FOR</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT GROUPS ARE VULNERABLE?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT GROUPS ARE VULNERABLE</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IF I'M HIGH RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IF I'M HIGH RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IF I AM HIGH RISK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IF I AM HIGH RISK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IF SOMEONE IS DIABETIC?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IF SOMEONE IS DIABETIC</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT PEOPLE ARE MOST LIKELY TO EXPERIENCE SEVERE SYMPTOMS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT PEOPLE ARE MOST LIKELY TO EXPERIENCE SEVERE SYMPTOMS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MOST AT RISK OF SEVERE SYMPTOMS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO IS MOST AT RISK OF SEVERE SYMPTOMS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MOST LIKELY TO NEED HOSPITAL TREATMENT?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO IS MOST LIKELY TO NEED HOSPITAL TREATMENT</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MOST LIKELY TO NEED TO GO TO THE HOSPITAL?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO IS MOST LIKELY TO NEED TO GO TO THE HOSPITAL</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO MIGHT NEED INTENSIVE CARE?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO MIGHT NEED INTENSIVE CARE</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO MIGHT NEED VENTILATORS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO MIGHT NEED VENTILATORS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO SHOULD AVOID CONTACT DURING THE OUTBREAK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO SHOULD AVOID CONTACT DURING THE OUTBREAK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO SHOULD AVOID CONTACT?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO SHOULD AVOID CONTACT</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO SHOULD I AVOID CONTACT WITH DURING THE OUTBREAK?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO SHOULD I AVOID CONTACT WITH DURING THE OUTBREAK</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ARE OLDER AGE PEOPLE MORE AT RISK FROM THIS ILLNESS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY ARE OLDER AGE PEOPLE MORE AT RISK FROM THIS ILLNESS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ARE SYMPTOMS MORE SEVERE DEPENDING ON HOW OLD I AM?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY ARE SYMPTOMS MORE SEVERE DEPENDING ON HOW OLD I AM</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ARE SYMPTOMS MORE SEVERE IN SOME PEOPLE?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY ARE SYMPTOMS MORE SEVERE IN SOME PEOPLE</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO SOME PEOPLE NEED INTENSIVE CARE?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO SOME PEOPLE NEED INTENSIVE CARE</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO WE NEED VENTILATORS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO WE NEED VENTILATORS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DOES AGE AFFECT THE SEVERITY?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES AGE AFFECT THE SEVERITY</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  
+   <category>
+    <pattern>WHY DOES MY AGE MATTER?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES MY AGE MATTER</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  
+  <!-- 1 -->
+
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF CORONA?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF CORONAVIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF CORONA VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF CORONA</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID-19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID 19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN AT RISK OF COVID</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <!-- 2 -->
+
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO CORONAVIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO CORONA VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO CORONA?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO CORONAVIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO CORONA VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO CORONA</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID-19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID 19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE CHILDREN VULNERABLE TO COVID</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <!-- 3 -->
+
+  <category>
+    <pattern>CAN CHILDREN GET CORONAVIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET CORONA VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET CORONA?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN CHILDREN GET CORONAVIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET CORONA VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET CORONA</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID-19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID 19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CHILDREN GET COVID</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <!-- 4 -->
+
+  <category>
+    <pattern>CAN CATS GET THE CORONAVIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE CORONA VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE CORONA?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN CATS GET THE CORONAVIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE CORONA VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE CORONA</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID-19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID 19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN CATS GET THE COVID</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <!-- 5 -->
+
+  <category>
+    <pattern>CAN DOGS GET THE CORONAVIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE CORONA VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE CORONA?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN DOGS GET THE CORONAVIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE CORONA VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE CORONA</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID-19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID 19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN DOGS GET THE COVID</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <!-- 6 -->
+
+  <category>
+    <pattern>CAN MY BABY GET CORONAVIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET CORONA VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET CORONA?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN MY BABY GET CORONAVIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET CORONA VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET CORONA</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID-19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID 19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN MY BABY GET COVID</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <!-- 7 -->
+
+  <category>
+    <pattern>CAN PETS GET THE CORONAVIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE CORONA VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE CORONA?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID?</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN PETS GET THE CORONAVIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE CORONA VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE CORONA</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID-19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID 19 VIRUS</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PETS GET THE COVID</pattern>
+    <template>
+      <srai>VUNERABLE</srai>
+    </template>
+  </category>
+
+
+</aiml>

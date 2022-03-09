@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <!-- This file contains all the modes of transport-->
+
+  <category>
+    <pattern>WHAT IS A TAXI</pattern>
+    <template>
+      A vehicle (usually a car) that you can hire to take you places.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS * TAXI</pattern>
+    <template>
+      ‎<srai>WHAT IS A TAXI</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS TAXI</pattern>
+    <template>
+      ‎<srai>WHAT IS A TAXI</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TAXI</pattern>
+    <template>
+      ‎<srai>WHAT IS A TAXI</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A LIMO</pattern>
+    <template>
+      It is a fancy car and is also called as Limousine.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS * LIMO</pattern>
+    <template>
+      ‎<srai>WHAT IS A LIMO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS LIMO</pattern>
+    <template>
+      ‎<srai>WHAT IS A LIMO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LIMO</pattern>
+    <template>
+      ‎<wikisearch>LIMOUSINE</wikisearch>
+    </template>
+  </category>
+
+
+</aiml>

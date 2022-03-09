@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category><pattern>ADARSH LIVES IN</pattern><template> Adarsh lives in Siegen</template></category>
+<category><pattern>ADARSH LIVES IN *</pattern><template> Adarsh lives in Siegen</template></category>
+<category><pattern>WHO LIVES IN SIEGEN</pattern><template> Adarsh</template></category>
+<category><pattern>WHO LIVES IN * SIEGEN</pattern><template> Adarsh</template></category>
+<category><pattern>WHERE DOES ADARSH</pattern><template> Adarsh lives in Siegen</template></category>
+<category><pattern>WHERE DOES ADARSH * </pattern><template> Adarsh lives in Siegen</template></category>
+<category><pattern>RAJU IS FROM </pattern><template> Raju is from Kolkata</template></category>
+<category><pattern>RAJU IS FROM *</pattern><template> Raju is from Kolkata</template></category>
+<category><pattern>WHO IS FROM KOLKATA</pattern><template> Raju</template></category>
+<category><pattern>WHO IS FROM * KOLKATA</pattern><template> Raju</template></category>
+<category><pattern>WHERE IS RAJU</pattern><template> Raju is from Kolkata</template></category>
+<category><pattern>WHERE IS RAJU * </pattern><template> Raju is from Kolkata</template></category>
+</aiml>

@@ -1,0 +1,221 @@
+<aiml>
+  <category>
+    <pattern>google *</pattern>
+    <template>
+      <websearch> <star />
+      </websearch>
+    </template>
+  </category>
+  <category>
+    <pattern>search *</pattern>
+    <template>
+      <websearch> <star />
+      </websearch>
+    </template>
+  </category>
+  <category>
+    <pattern>searchandlearn *</pattern>
+    <template>
+      <searchandlearn>
+        <star />
+      </searchandlearn>
+    </template>
+  </category>
+  <category>
+    <pattern>RELOAD AIML</pattern>
+    <template>
+      Okay.
+      <think>
+        <learn name="fromfile">aiml</learn>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>LEARN * IS *</pattern>
+    <template>
+      Ok I will learn that <star index="2"/> is <star index="1"/>.
+      <learn name="fromtag">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>LEARNF * IS *</pattern>
+    <template>
+      Ok I will store the information that <star index="2"/> is <star index="1"/>.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF * MEANS *</pattern>
+    <template>
+      Ok I will store the information that <star index="2"/> means <star index="1"/>.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF AN * IS *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is <star index="1"/>.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF A * IS *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is <star index="1"/>.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF THE * IS *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is <star index="1"/>.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNG * IS *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is <star index="1"/> into my brain.
+      <learn name="fileforgeography">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNP * IS *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is <star index="1"/> into my brain.
+      <learn name="fileforpersonprofession">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF * IS FROM *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is from <star index="1"/> into my brain.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF * LIVES IN *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is from <star index="1"/> into my brain.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF * WAS BORN IN *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is from <star index="1"/> into my brain.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+
+  <category>
+    <pattern>LEARNF * WAS BORN ON *</pattern>
+    <template>
+      Ok. I will store the information that <star index="2"/> is from <star index="1"/> into my brain.
+      <learn name="fromcreatedfile">
+        <star index="2"/>,
+        <star index="1"/>
+      </learn>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>forget *</pattern>
+    <template>
+      Ok I will forget that <star />
+      <forget>
+        <star />
+      </forget>
+    </template>
+  </category>
+  <category>
+    <pattern>* is *</pattern>
+    <template>
+      <think>
+        <set name ="temp"> <get><star index="1"/></get> </set>
+      </think>
+      <condition name="temp" value="">
+      </condition>
+      <condition name="temp" value="*">
+        You said <star index="1"/> is <get><star index="1"/></get>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>date</pattern>
+    <template>
+      <date format ="MM/dd/yyyy"></date>
+    </template>
+  </category>
+
+  <category>
+    <pattern>day</pattern>
+    <template>
+      Today is <date format ="dd MMM, yyyy"></date>
+    </template>
+  </category>
+
+  <category>
+    <pattern>news</pattern>
+    <pattern>* news *</pattern>
+    <pattern>news *</pattern>
+    <pattern>* news</pattern>
+    <template>
+      <news description="true"></news>
+    </template>
+  </category>
+
+  <category>
+    <pattern>quote</pattern>
+    <pattern>* quote *</pattern>
+    <pattern>quote *</pattern>
+    <pattern>* quote</pattern>
+    <template>
+      <quote />
+    </template>
+  </category>
+</aiml>

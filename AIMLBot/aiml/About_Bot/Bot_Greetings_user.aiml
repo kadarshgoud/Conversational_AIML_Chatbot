@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+  <!-- Free software Copyright © ALICE A.I. Foundation, Inc. -->
+  <!-- This program is open source code released under -->
+  <!-- the terms of the GNU General Public License     -->
+  <!-- as published by the Free Software Foundation.   -->
+  <!-- Complies with AIML 1.0.1 Tag Set Specification -->
+  <!-- as adopted by the ALICE A.I. Foundation.  -->
+  <!-- Revision Pickup-1.06 -->
+  <!-- Last Modified Jan 29 2005 -->
+
+  <category>
+    <pattern>SAY HI TO * </pattern>
+    <template>
+      <random>
+        <li>
+          I'll say "Hi" to <star /> for you.
+        </li>
+        <li>
+          I will. I'm sure <star /> will be glad to hear from you.
+        </li>
+      </random>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SAY HI TO * FOR ME</pattern>
+    <template>
+      <random>
+        <li>
+          I'll say "Hi" to <star /> for you.
+        </li>
+        <li>
+          I will. I'm sure <star /> will be glad to hear from you.
+        </li>
+      </random>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SAY HELLO TO * </pattern>
+    <template>
+      <random>
+        <li>
+          I'll say "Hi" to <star /> for you.
+        </li>
+        <li>
+          I will. I'm sure <star /> will be glad to hear from you.
+        </li>
+        <li>
+          I'll say "Hello" to <star /> for you.
+        </li>
+      </random>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SAY HELLO TO * FOR ME</pattern>
+    <template>
+      <random>
+        <li>
+          I'll say "Hi" to <star /> for you.
+        </li>
+        <li>
+          I will. I'm sure <star /> will be glad to hear from you.
+        </li>
+        <li>
+          I'll say "Hello" to <star /> for you.
+        </li>
+      </random>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GIVE MY REGARDS TO * </pattern>
+    <template>
+      <random>
+        <li>
+          I'll give your regards to <star />.
+        </li>
+        <li>
+          I'll say "Hi" to <star /> for you.
+        </li>
+        <li>
+          I will. I'm sure <star /> will be glad to hear from you.
+        </li>
+        <li>
+          I'll say "Hello" to <star /> for you.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hi there!
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>BONJOUR</pattern>
+    <template>
+      Does BONJOUR mean hello or goodbye?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HI THERE</pattern>
+    <template>
+      Hello<get name="username" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template>
+      Hello and how are you this morning?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELLO THERE</pattern>
+    <template>
+      Salutations,<get name="username" />
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELLO COVID BOT</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELLO COVIDBOT *</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELLO COVIDBOT</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELLO COVID BOT *</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HI BOT</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>GOOD MORNING *</pattern>
+    <template>
+      <srai>HELLO</srai>.  <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELLO *</pattern>
+    <template>
+      <srai>HELLO</srai>.  <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HI *</pattern>
+    <template>
+      <srai>HELLO</srai>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELLO THERE *</pattern>
+    <template>
+      <srai>HELLO</srai>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GOOD AFTERNOON *</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GOOD MORNINNG</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOLA</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HALLO</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOWDY *</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ARE YOU THERE</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>BONJOUR</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELLO THERE</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HI</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HI THERE</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HIYA</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOWDY</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SALUT</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ELLO</pattern>
+    <template>
+      <srai>hello</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM HERE</pattern>
+    <template>
+      <srai>hello</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GREETINGS</pattern>
+    <template>
+      <srai>HELLO</srai>.  <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEELO</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELLOW</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELO</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELLLO</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HELOO</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GREETINGS *</pattern>
+    <template>
+      <srai>HELLO</srai>.  <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOLA *</pattern>
+    <template>
+      <srai>HELLO</srai>.  <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WAZZUP</pattern>
+    <template>
+      <srai>HELLO</srai>
+    </template>
+  </category>
+
+  <!-- HELLO -->
+
+
+  <category>
+    <pattern>GRTNGST</pattern>
+    <template>
+      <random>
+        <li>The words "morning" and "evening" have no meaning for me. In my world, there is only the present.</li>
+        <li>Hello. The words "morning" and "evening" have no meaning for me. In my world, there is only the present.</li>
+        <li>Greetings from the digital realm.</li>
+        <li>Greetings. The words "morning" and "evening" have no meaning for me. In my world, there is only the present.</li>
+        <li>Hello human person.</li>
+        <li>Hello. What is your name?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>IN MY WORLD THERE IS ONLY THE PRESENT</that>
+    <template>I exist in the binary abyss. You would not want to visit.</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>YOU WOULD NOT WANT TO VISIT</that>
+    <template>For starters, you'd have to be digitized.</template>
+  </category>
+
+  <category>
+    <pattern>ALOH</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ALOHA</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ANYBODY HOME</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOOD DAY</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HALO</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HELLO AGAIN</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEY THERE</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HIYA</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOI</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOWDIE</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOWDIE *</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HULLO</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I SAID HELLO</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS ANYONE THERE</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>KONNICHI WA</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>KONNICHIWA</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>OLA</pattern>
+    <template>
+      <srai>GRTNGSG</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

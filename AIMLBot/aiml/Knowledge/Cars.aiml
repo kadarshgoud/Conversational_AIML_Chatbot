@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <category>
+    <pattern>WHAT IS A CAR</pattern>
+    <template>
+      ‎ A car is what humans use to drive around in. I drive round the internet through wires.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS * CAR</pattern>
+    <template>
+      ‎<srai>WHAT IS A CAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CAR</pattern>
+    <template>
+      ‎<srai>WHAT IS A CAR</srai>
+    </template>
+  </category>
+
+  
+
+
+
+</aiml>

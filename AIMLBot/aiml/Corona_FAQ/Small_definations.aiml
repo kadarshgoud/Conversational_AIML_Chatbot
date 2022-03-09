@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- SMALL DEFINATIONS LIKE ISOLATION, HERD IMMUNITY, SOLIDITARY TRAIL, CONTACT TRACING  -->
+
+  <category>
+    <pattern>ISOLATION</pattern>
+    <template>
+      Isolation is used for people with COVID-19 symptoms or who have tested positive
+      for the virus. Being in isolation means being separated from other people, ideally
+      in a medically facility where you can receive clinical care.  If isolation in
+      a medical facility is not possible and you are not in a high risk group of developing
+      severe disease, isolation can take place at home. If you have symptoms, you
+      should remain in isolation for at least 10 days plus an additional 3 days without
+      symptoms. If you are infected and do not develop symptoms, you should remain
+      in isolation for 10 days from the time you test positive.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SELF ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELF ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELF ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SELF ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SELF ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELF ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELF ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELF ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELF ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELF ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SELF-ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELF-ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELF-ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF-ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF-ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SELF-ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SELF-ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF-ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELF-ISOLATION?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELF-ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELF-ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELF-ISOLATION *</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELF-ISOLATION</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FOR HOW LONG DO I NEED TO STAY AT HOME?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO I HAVE TO SELF-ISOLATE FOR?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO I HAVE TO STAY INSIDE?</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FOR HOW LONG DO I NEED TO STAY AT HOME</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO I HAVE TO SELF-ISOLATE FOR</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO I HAVE TO STAY INSIDE</pattern>
+    <template>
+      <srai>ISOLATION</srai>
+    </template>
+  </category>
+
+  <!-- QUARANTINE-->
+
+  <category>
+    <pattern>QUARANTINE</pattern>
+    <template>
+      Quarantine is used for anyone who is a contact of someone infected with the
+      SARS-CoV-2 virus, which causes COVID-19, whether the infected person has symptoms
+      or not. Quarantine means that you remain separated from others because you have
+      been exposed to the virus and you may be infected and can take place in a designated
+      facility or at home. For COVID-19, this means staying in the facility or at
+      home for 14 days.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * QUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* QUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SELF-QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELF-QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELF-QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF-QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF-QUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SELF-QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SELF-QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELF-QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELF-QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELF-QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELF-QUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELF-QUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELF-QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SELFQUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELFQUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SELFQUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELFQUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELFQUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SELFQUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SELFQUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SELFQUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELFQUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SELFQUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELFQUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELFQUARANTINE *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SELFQUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I STAY IN QUARANTINE?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I STAY IN QUARANTINE</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES QUARANTINE WORK?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW * QUARANTINE WORK?</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES QUARANTINE WORK *</pattern>
+    <template>
+      <srai>QUARANTINE</srai>
+    </template>
+  </category>
+
+  <!-- HERD IMMUNITY-->
+
+  <category>
+    <pattern>HERDIMMUNITY</pattern>
+    <template>
+      'Herd immunity', also known as 'population immunity', is the indirect protection from an infectious disease that happens
+      when a population is immune either through vaccination or immunity developed through previous infection. WHO supports
+      achieving 'herd immunity' through vaccination, not by allowing a disease to spread through any segment of the population, as this
+      would result in unnecessary cases and deaths.\nHerd immunity against COVID-19 should be achieved by protecting people through vaccination, not
+      by exposing them to the pathogen that causes the disease. \nVaccines train our immune systems to create proteins that fight disease, known
+      as "antibodies", just as would happen when we are exposed to a disease but 'crucially' vaccines work without making us sick.
+      Vaccinated people are protected from getting the disease in question and passing on the pathogen, breaking any chains of transmission.
+      To safely achieve herd immunity against COVID-19, a substantial proportion of a population would need to be vaccinated, lowering the
+      overall amount of virus able to spread in the whole population. One of the aims with working towards herd immunity is to keep vulnerable
+      groups who cannot get vaccinated (e.g. due to health conditions like allergic reactions to the vaccine) safe and protected from the
+      disease. Achieving herd immunity with safe and effective vaccines makes diseases rarer and saves lives.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS HERD IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS HERD IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * HERD IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * HERD IMMUNITY *</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF HERD IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT HERD IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * HERD IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE HERD IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE HERD IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HERD IMMUNITY *</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HERD IMMUNITY *</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HERD IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HERD-IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS HERD-IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS HERD-IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * HERD-IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * HERD-IMMUNITY *</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF HERD-IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT HERD-IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * HERD-IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE HERD-IMMUNITY?</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE HERD-IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HERD-IMMUNITY *</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HERD-IMMUNITY *</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HERD-IMMUNITY</pattern>
+    <template>
+      <srai>HERDIMMUNITY</srai>
+    </template>
+  </category>
+
+  <!-- SOLIDARITY TRIAL-->
+
+  <category>
+    <pattern>SOLIDARITYTRIAL</pattern>
+    <template>
+      The Solidarity Trial is an international clinical trial to help find an effective treatment for COVID-19, launched by WHO and partners.
+      It is hoped that one or more of the treatments under trial will result in improving clinical outcomes in COVID-19 patients and save lives.
+      Other trials are on-going around the world in addition to the Solidarity Trial.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SOLIDARITY TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SOLIDARITY TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SOLIDARITY TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SOLIDARITY TRIAL *</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SOLIDARITY TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SOLIDARITY TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SOLIDARITY TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SOLIDARITY TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SOLIDARITY TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SOLIDARITY TRIAL *</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SOLIDARITY TRIAL *</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SOLIDARITY TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SOLIDARITY-TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SOLIDARITY-TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SOLIDARITY-TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SOLIDARITY-TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SOLIDARITY-TRIAL *</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SOLIDARITY-TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SOLIDARITY-TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SOLIDARITY-TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SOLIDARITY-TRIAL?</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SOLIDARITY-TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SOLIDARITY-TRIAL *</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SOLIDARITY-TRIAL *</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SOLIDARITY-TRIAL</pattern>
+    <template>
+      <srai>SOLIDARITYTRIAL</srai>
+    </template>
+  </category>
+
+  <!--CONTACT TRACING-->
+
+  <category>
+    <pattern>CONTACTTRACING</pattern>
+    <template>
+      Contact tracing is the process of identifying, assessing, and managing people
+      who have been exposed to a disease to prevent onward transmission. These people
+      are called contacts. Contact tracing for COVID-19 requires identifying people
+      who may have been exposed to SARS-CoV-2, the virus that causes COVID-19, and
+      following them daily for 14 days. The goal is to stop transmission of the virus
+      by reducing the number of people who are circulating with the virus.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CONTACT TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CONTACT TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACT TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACT TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF CONTACT TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT CONTACT TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACT TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACT TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACT TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACT TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CONTACT TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACT TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CONTACT-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CONTACT-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CONTACT-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACT-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACT-TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF CONTACT-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT CONTACT-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACT-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACT-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACT-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACT-TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CONTACT-TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACT-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+
+  <!-- CONTACTS TRACING-->
+
+  <category>
+    <pattern>WHAT IS CONTACTS TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CONTACTS TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACTS TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACTS TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF CONTACTS TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT CONTACTS TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACTS TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACTS TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACTS TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACTS TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CONTACTS TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACTS TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CONTACTS-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CONTACTS-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CONTACTS-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACTS-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACTS-TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF CONTACTS-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT CONTACTS-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CONTACTS-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACTS-TRACING?</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE CONTACTS-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACTS-TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CONTACTS-TRACING *</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CONTACTS-TRACING</pattern>
+    <template>
+      <srai>CONTACTTRACING</srai>
+    </template>
+  </category>
+  
+</aiml>

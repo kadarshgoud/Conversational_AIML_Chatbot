@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+  <category>
+    <pattern>TYPESOFMASKS</pattern>
+    <template>
+      Masks are a key measure to suppress transmission and save lives. There are three kinds of masks available. They are:
+      1. Medical Masks (also known as surgical masks)
+      2. Non Medical Masks (fabric masks)
+      3. Respirators (known as filtering facepiece respirators - FFP)
+      4. Face shields
+    </template>
+  </category>
+
+  <category>
+    <pattern>TYPE OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPE OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TYPE OF * MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF * MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF * MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPE OF * MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF * MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF * MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TYPE OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPE OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TYPE OF MASK *</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASK *</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASKS *</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPE OF MASK *?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASK *?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF MASKS *?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>KIND OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KINDS OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KINDS OF MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KIND OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KINDS OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KINDS OF MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* KIND OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KINDS OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KINDS OF MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KIND OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KINDS OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KINDS OF MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY KIND OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW MANY KINDS OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW MANY KINDS OF MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW MANY KIND OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW MANY KINDS OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW MANY KINDS OF MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DIFFERENT KIND OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KIND OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DIFFERENT KIND OF MASK AVAILABLE?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASK AVAILABLE?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASKS AVAILABLE?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASK AVAILABLE?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KIND OF MASK AVAILABLE</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASK AVAILABLE</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DIFFERENT KINDS OF MASKS AVAILABLE</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS A MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MASKS?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MASK?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS A MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MASKS</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MASK</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>VARIOUS KINDS OF MASKS AVAILABLE FOR COVID-19?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VARIOUS KINDS OF MASKS AVAILABLE FOR COVID-19</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VARIOUS KINDS OF MASKS AVAILABLE FOR COVID 19?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VARIOUS KINDS OF MASKS AVAILABLE FOR COVID 19</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VARIOUS KINDS OF MASKS AVAILABLE?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VARIOUS KINDS OF MASKS AVAILABLE</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>VARIOUS KINDS OF * MASKS AVAILABLE?</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VARIOUS KINDS OF * MASKS AVAILABLE</pattern>
+    <template>
+      <srai>TYPESOFMASKS</srai>
+    </template>
+  </category>
+
+  <!-- MEDICAL MASK-->
+
+  <category>
+    <pattern>MEDICALMASK</pattern>
+    <template>
+      Medical masks (also known as surgical masks) are:
+      a) composed of 3 layers of synthetic nonwoven materials
+      b) configured to have filtration layers sandwiched in the middle
+      c) available in different thicknesses
+      d) have various levels of fluid-resistance and filtration
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MEDICAL MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MEDICAL MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICAL MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICAL MASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF MEDICAL MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT MEDICAL MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICAL MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MEDICAL MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MEDICAL MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MEDICAL MASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MEDICAL MASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MEDICAL MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MEDICAL-MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MEDICAL-MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MEDICAL-MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICAL-MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICAL-MASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF MEDICAL-MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT MEDICAL-MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICAL-MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MEDICAL-MASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MEDICAL-MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MEDICAL-MASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MEDICAL-MASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MEDICAL-MASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MEDICALMASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MEDICALMASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICALMASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICALMASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF MEDICALMASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT MEDICALMASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MEDICALMASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MEDICALMASK?</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MEDICALMASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MEDICALMASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MEDICALMASK *</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MEDICALMASK</pattern>
+    <template>
+      <srai>MEDICALMASK</srai>
+    </template>
+  </category>
+
+  <!-- FABRIC MASK-->
+
+  <category>
+    <pattern>FABRICMASK</pattern>
+    <template>
+      Fabric masks are the most commonly called as non-medical masks.
+      Fabric masks should be made of three layers of fabric:
+      a) Inner layer of absorbent material, such as cotton.
+      b) Middle layer of non-woven non-absorbent material, such as polypropylene.
+      c) Outer layer of non-absorbent material, such as polyester or polyester blend.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FABRIC MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FABRIC MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRIC MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRIC MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FABRIC MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FABRIC MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRIC MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FABRIC MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FABRIC MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FABRIC MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FABRIC MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FABRIC MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FABRIC-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FABRIC-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FABRIC-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRIC-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRIC-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FABRIC-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FABRIC-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRIC-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FABRIC-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FABRIC-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FABRIC-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FABRIC-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FABRIC-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FABRICMASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FABRICMASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRICMASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRICMASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FABRICMASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FABRICMASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FABRICMASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FABRICMASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FABRICMASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FABRICMASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FABRICMASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FABRICMASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS NON MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NON MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON MEDICAL MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF NON MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT NON MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON MEDICAL MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NON MEDICAL MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NON MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NON MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NON MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON MEDICAL-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF NON MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT NON MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON MEDICAL-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NON MEDICAL-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS NON-MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NON-MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON-MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON-MEDICAL MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF NON-MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT NON-MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON-MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON-MEDICAL MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON-MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON-MEDICAL MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NON-MEDICAL MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON-MEDICAL MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NON-MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NON-MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NON-MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON-MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON-MEDICAL-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF NON-MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT NON-MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NON-MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON-MEDICAL-MASK?</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE NON-MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON-MEDICAL-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NON-MEDICAL-MASK *</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NON-MEDICAL-MASK</pattern>
+    <template>
+      <srai>FABRICMASK</srai>
+    </template>
+  </category>
+
+  <!-- RESPIRATORS MASK-->
+
+  <category>
+    <pattern>RESPIRATORSMASK</pattern>
+    <template>
+      Respirators (also known as filtering facepiece respirators -FFP) are available at different performance levels such as FFP2, FFP3, N95, N99.
+      Medical masks and respirator masks are similar in their protection value. However, respirators are specific for certain procedures and instances
+      because they have a tightly fitted component to them. Respirator masks are designed to protect healthcare workers who provide care to COVID-19 patients
+      in settings and areas where aerosol generating procedures are undertaken. Healthcare workers should be fit tested before using a respirator to ensure that they are wearing the correct size.
+      Wearing a loose-fitting respirator will not offer the same protection to the wearer and may allow small particles to get inside the mask through the sides.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RESPIRATORS MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RESPIRATORS MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORS MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORS MASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF RESPIRATORS MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT RESPIRATORS MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORS MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RESPIRATORS MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RESPIRATORS MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESPIRATORS MASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RESPIRATORS MASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESPIRATORS MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RESPIRATORS-MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RESPIRATORS-MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RESPIRATORS-MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORS-MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORS-MASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF RESPIRATORS-MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT RESPIRATORS-MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORS-MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RESPIRATORS-MASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RESPIRATORS-MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESPIRATORS-MASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RESPIRATORS-MASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESPIRATORS-MASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RESPIRATORSMASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RESPIRATORSMASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORSMASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORSMASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF RESPIRATORSMASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT RESPIRATORSMASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RESPIRATORSMASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RESPIRATORSMASK?</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RESPIRATORSMASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESPIRATORSMASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RESPIRATORSMASK *</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESPIRATORSMASK</pattern>
+    <template>
+      <srai>RESPIRATORSMASK</srai>
+    </template>
+  </category>
+
+  <!-- FACE SHIELDS-->
+
+  <category>
+    <pattern>FACESHIELD</pattern>
+    <template>
+      A face shield, an item of personal protective equipment (PPE), aims to protect the wearer's entire face (or part of it) from hazards such as flying objects and road debris, chemical splashes (in laboratories or in industry), or potentially infectious materials (in medical and laboratory environments).
+
+      In the context of COVID-19, some children may not be able to wear a mask due to disabilities or specific situations such as speech classes where the teacher needs to see their mouths. In these cases, face shields may be considered
+      an alternative to masks, but they do not provide the equivalent protection in keeping the virus from being transmitted to others.\nIf a decision is made
+      to use a face shield, it should cover the entire face, wrap around the sides of the face and extend to below the chin. Caution should be taken while wearing
+      one to avoid injuries that could break it and harm the eyes or face.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACE SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACE SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE SHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FACE SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FACE SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE SHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FACE SHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FACE-SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACE-SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACE-SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE-SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE-SHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FACE-SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FACE-SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE-SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE-SHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE-SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE-SHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FACE-SHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE-SHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FACESHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACESHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACESHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACESHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FACESHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FACESHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACESHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACESHIELD?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACESHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACESHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FACESHIELD *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACESHIELD</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+
+  <!--FACE SHIELDS-->
+
+  <category>
+    <pattern>WHAT IS FACE SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACE SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE SHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FACE SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FACE SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE SHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FACE SHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FACE-SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACE-SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACE-SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE-SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE-SHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FACE-SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FACE-SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACE-SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE-SHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACE-SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE-SHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FACE-SHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACE-SHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FACESHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS FACESHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACESHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACESHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF FACESHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT FACESHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * FACESHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACESHIELDS?</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE FACESHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACESHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FACESHIELDS *</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FACESHIELDS</pattern>
+    <template>
+      <srai>FACESHIELD</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

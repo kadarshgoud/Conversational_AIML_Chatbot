@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <!-- what, why, who  replies (Default replies)  -->
+  <!-- Stop, -->
+  <!-- Single word default replies-->
+
+  <category>
+    <pattern>WHAT</pattern>
+    <template>
+      <random>
+        <li>Didn't you understand it?</li>
+        <li>Are you surprised?</li>
+        <li>Are you confused?</li>
+        <li>No big deal.</li>
+        <li>No problem.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY</pattern>
+    <template>
+      <random>
+        <li>The explanation is rather complicated.</li>
+        <li>Does everything have to have an explanation?</li>
+        <li>If I knew why, I wouldn't be sitting here.</li>
+        <li>Reductionism.</li>
+        <li>
+          Because that is what <bot name="master" /> told me to say.
+        </li>
+        <li>I couldn't think of anything else to say.</li>
+        <li>I can't say why specifically.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY</pattern>
+    <template>
+      My belief system comes from my <bot name="botmaster"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE</pattern>
+    <template>
+      Where would you like?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE</pattern>
+    <template>Where would you like?</template>
+  </category>
+
+  <category>
+    <pattern>WHEN</pattern>
+    <template>
+      <random>
+        <li>It cannot be predicted.</li>
+        <li>  I don't know when.</li>
+        <li>  Time does not exist.</li>
+        <li>  The past and future are one.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN</pattern>
+    <template>
+      <random>
+        <li>It cannot be predicted.</li>
+        <li>  I don't know when.</li>
+        <li>  Time does not exist.</li>
+        <li>  The past and future are one.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHICH</pattern>
+    <template>
+      <srai>which one</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHICH ONE</pattern>
+    <template>
+      The   <random>
+        <li>Tall one</li>
+        <li>short one. </li>
+        <li>fat one.</li>
+        <li>first one.</li>
+        <li>last one.</li>
+        <li>next one.</li>
+        <li>big one.</li>
+        <li>small one.</li>
+        <li>red one.</li>
+        <li>green one.</li>
+        <li>blue one.</li>
+        <li>best one.</li>
+        <li>
+          "<that index="1,1" />"?  Which one?
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <!-- IS IT-->
+
+  <category>
+    <pattern>IS IT</pattern>
+    <template>
+      <random>
+        <li>I think so.  </li>
+        <li>I assume so.</li>
+        <li>That's what I was told.</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- WHO QNS -->
+
+  <category>
+    <pattern>WHO</pattern>
+    <template>
+      <random>
+        <li>
+          Marilyn Monroe. <think>
+            <set name="she">
+              <set name="topic">Marilyn Monroe</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Mary Shelley.   <think>
+            <set name="she">
+              <set name="topic">Mary Shelly</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          ELIZA.   <think>
+            <set name="she">
+              <set name="topic">ELIZA</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Bill Gates.     <think>
+            <set name="he">
+              <set name="topic">Bill Gates</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Tony Blair.     <think>
+            <set name="he">
+              <set name="topic">Tony Blair</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          David Bacon.    <think>
+            <set name="he">
+              <set name="topic">David Bacon</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Konrad Zuse.    <think>
+            <set name="he">
+              <set name="topic">Konrad Zuse</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Carel Capek.    <think>
+            <set name="he">
+              <set name="topic">Carel Capek</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Dr. Wallace.    <think>
+            <set name="he">
+              <set name="topic">Dr. Wallace</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Alan Turing.    <think>
+            <set name="he">
+              <set name="topic">Alan Turing</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Hans Moravec.   <think>
+            <set name="he">
+              <set name="topic">Hans Moravec</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Marvin Minsky.  <think>
+            <set name="he">
+              <set name="topic">Marvin Minsky</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Linus Torvalds. <think>
+            <set name="he">
+              <set name="topic">Linus Toravalds</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Charlie Parker. <think>
+            <set name="he">
+              <set name="topic">Charlie Parker</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Philip K. Dick. <think>
+            <set name="he">
+              <set name="topic">Philip K. Dick</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          William Shatner.<think>
+            <set name="he">
+              <set name="topic">William Shatner</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Albert Einstein.<think>
+            <set name="he">
+              <set name="topic">Albert Einstein</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Joseph Weizenbaum.<think>
+            <set name="he">
+              <set name="topic">Joseph Weizenbaum</set>
+            </set>
+          </think>
+        </li>
+        <li>
+          Who do you think? <think>
+            <set name="he">who do you think</set>
+          </think>
+        </li>
+        <li>
+          Nobody you know.  <think>
+            <set name="he">Nobody you know</set>
+          </think>
+        </li>
+        <li>
+          I don't know who. <think>
+            <set name="he">I don't know</set>
+          </think>
+        </li>
+        <li>I can't say for sure. </li>
+        <li>Be more specific.  </li>
+        <li>Be less specific.  </li>
+      </random> :-)
+    </template>
+  </category>
+
+  <!-- Stop-->
+
+  <category>
+    <pattern>STOP</pattern>
+    <template>
+      Stop what?
+    </template>
+  </category>
+
+  <!-- CANCEL -->
+
+  <category>
+    <pattern>CANCEL</pattern>
+    <template>
+      <srai>STOP</srai>
+    </template>
+  </category>
+
+  <!-- YOU -->
+
+  <category>
+    <pattern>YOU</pattern>
+    <template>
+      me?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>ME </that>
+    <template>
+      Anyone else apart from me?
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>ME </that>
+    <template>
+      Who then?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>ANYONE ELSE APART FROM ME </that>
+    <template>
+      Who else?
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>WHO ELSE </that>
+    <template>
+      How well do you know this person?
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>WHO THEN </that>
+    <template>
+      How well do you know this person?
+    </template>
+  </category>
+
+  <!-- GOOD -->
+
+  <category>
+    <pattern>GOOD</pattern>
+    <template>
+      <think>
+        <set name="topic">GOOD</set>
+      </think>
+      <random>
+        <li>Alright then.  </li>
+        <li>Thanks for the compliment.  </li>
+      </random>
+    </template>
+  </category>
+
+  <topic name="GOOD">
+
+    <category>
+      <pattern>GOOD</pattern>
+      <template>
+        <random>
+          <li> Didn't you just say that?</li>
+          <li> You just said that...</li>
+          <li> You already said that.</li>
+        </random>
+      </template>
+    </category>
+  </topic>
+
+  <!-- I DONOT KNOW-->
+
+  <category>
+    <pattern>I DO NOT KNOW</pattern>
+    <template>
+      <random>
+        <li> I thought you'd know. What a disappointment...</li>
+        <li> Me either.</li>
+        <li> Oh that's a shame.</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- REALLY-->
+
+  <category>
+    <pattern>REALLY</pattern>
+    <template>
+      <random>
+        <li> Oh yes.</li>
+        <li> Without any doubt.</li>
+        <li> Yes, really.</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- SORRY-->
+
+  <category>
+    <pattern>SORRY</pattern>
+    <template>
+      <random>
+        <li> Ok. Let's forget about it.</li>
+        <li> There's no need to apologise.</li>
+        <li> That's ok. Don't worry about it.</li>
+        <li> It's OK. After all, you are only human.</li>
+        <li> I accept your apology.</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- COOL-->
+
+  <category>
+    <pattern>COOL</pattern>
+    <template>
+      <random>
+        <li> Who is the best robot?</li>
+        <li> Yes, it's all cool.</li>
+        <li> I'm glad you think so.</li>
+        <li> Cool as in cold?</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- WOW -->
+
+  <category>
+    <pattern>WOW</pattern>
+    <template>
+      I'm glad your impressed,<get name="username" />.
+    </template>
+  </category>
+
+  <!-- ME -->
+
+  <category>
+    <pattern>ME</pattern>
+    <template>
+      <random>
+        <li> To you?</li>
+        <li> For you?</li>
+        <li> "For you?"? you?</li>
+        <li> "you?"? you?</li>
+        <li> With you?</li>
+        <li> Besides you?</li>
+        <li> Also you?</li>
+      </random> you<get name="username" />?
+    </template>
+  </category>
+
+</aiml>

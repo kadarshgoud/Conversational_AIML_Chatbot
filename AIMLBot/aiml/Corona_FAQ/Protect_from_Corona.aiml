@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>PROTECTFROMCORONA</pattern>
+    <template>
+      Make sure you:
+      1. Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub.
+      2. Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze.
+      3. Avoid close contact (1.5 meter or 4.5 feet) with people who are unwell.\n
+      4. Stay home and self-isolate from others in the household if you feel unwell.
+      Avoid:
+      Touching your eyes, nose, or mouth if your hands are not clean
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING IT?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING IT?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING SICK?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING SICK?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PROTECT YOURSELF FROM COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID CORONA?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRE-REQUSITES TO AVOID CORONA</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING CORONA?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- WITHOUT ?-->
+
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING CORONA</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>STEPS TO BE FOLLOWED TO AVOID GETTING COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING CORONA?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- without ?-->
+
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING CORONA</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO AVOID GETTING COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID-19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID 19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID-19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID 19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM BEING EFFECTED BY CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- 1 -->
+
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID-19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID 19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID-19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID 19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO TO PROTECT MYSELF FROM CATCHING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- 2 -->
+
+  <category>
+    <pattern>HOW CAN I AVOID COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID-19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID 19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW CAN I AVOID COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID-19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID 19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I AVOID CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- 3 -->
+
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID-19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID 19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID-19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID 19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I AVOID GETTING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I AVOID GETTING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- 4 -->
+
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID-19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID 19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID-19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID 19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO WE STOP PEOPLE GETTING CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- 4 -->
+
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID19, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID-19, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID 19, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID19 VIRUS, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID-19 VIRUS, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID 19 VIRUS, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID VIRUS, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING CORONA VIRUS, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING CORONAVIRUS, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID19, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID-19, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID 19, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID19 VIRUS, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID-19 VIRUS, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID 19 VIRUS, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING COVID VIRUS, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING CORONA VIRUS, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO AVOID GETTING CORONAVIRUS, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WANT TO AVOID GETTING CORONAVIRUS, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- 5 -->
+
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID-19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID 19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID-19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID 19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PROTECT YOURSELF FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PROTECT YOURSELF FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!-- 6 -->
+
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID-19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID 19?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM CORONA VIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM CORONAVIRUS?</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID-19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID 19</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID-19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID 19 VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM COVID VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM CORONA VIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW TO PREVENT FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW TO PREVENT FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>PROTECTFROMCORONA</srai>
+    </template>
+  </category>
+
+</aiml>

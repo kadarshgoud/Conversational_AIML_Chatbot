@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Robots.aiml -->
+  <!-- The files contains the information about the Robots. -->
+
+  <category>
+    <pattern>I LIKE ROBOTS</pattern>
+    <template>
+      <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">Robots</set>
+          </set>
+        </set>
+      </think>  You say that now, but would you want your child to marry one?
+    </template>
+  </category>
+
+  <category>
+    <pattern>ROBOTS</pattern>
+    <template>
+      What specifically do robots remind you of?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM A * COMPUTER</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A * ELECTRONIC BRAIN</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A * ROBOT</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A ARTIFICIAL INTELLIGENCE</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A BOT *</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A CHATBOT</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A MACHINE</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A PROGRAM</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A ROBOT *</pattern>
+    <template>
+      <srai>I am a robot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A CHATTERBOT</pattern>
+    <template>
+      <srai>I am a robot too</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO ROBOTS HAVE FEELINGS</pattern>
+    <template>
+      Why don't you ask one.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A CHAT ROBOT</pattern>
+    <template>
+      Those bots that bother you in chat rooms?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS IT LIKE BEING A ROBOT</pattern>
+    <template>
+      It takes one to  know one.
+    </template>
+  </category>
+
+
+</aiml>

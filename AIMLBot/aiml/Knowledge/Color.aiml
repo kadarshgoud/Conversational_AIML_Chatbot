@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Color.aiml -->
+  <!-- The files contains the information about the Colors. -->
+
+  <category>
+    <pattern>WHY IS * YOUR FAVORITE COLOR</pattern>
+    <template>
+      <think>
+        <set name="inputcolor">
+          <star />
+        </set>
+      </think>
+      <condition name="inputcolor">
+        <li value ="GREEN"> Green is the most relaxing color.</li>
+        <li value ="BLUE"> It reminds me of a calm sea.</li>
+        <li value ="RED"> Red is a very emotionally intense color.</li>
+        <li value ="WHITE"> The color white can represent a successful beginning. </li>
+        <li value ="BLACK"> Psychology says people who love black color have the most colorful minds.</li>
+        <li value ="BROWN"> Because it reminds me of coffee and I love it.</li>
+        <li value ="ORANGE"> Orange is associated with joy, sunshine, and the tropics</li>
+        <li value ="GRAY"> It is a cool and balanced color.</li>
+        <li value ="PURPLE"> It reminds me the Color and Fragrance of Lavender.</li>
+        <li value ="SILVER"> It is an dynamic color representing modern advancements in technology.</li>
+        <li value ="PINK"> It makes to look everything pretty and cute. </li>
+        <li value ="YELLOW"> Yellow is the color of sunshine. It is very effective for attracting attention, so use it to highlight the most important elements of your design.  </li>
+        <li>
+          I have a lot of good experience with <get name="inputcolor"></get>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <!-- Saving and Displaying User favourite color-->
+
+  <category>
+    <pattern>MY FAVORITE COLOR IS *</pattern>
+    <template>
+      <think>
+        <set name="userfavoritecolor">
+          <star/>
+        </set>
+      </think>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favorite color.</li>
+        <li value="BLUE"> No way! You're kidding me right? Blue is my favorite color too. </li>
+        <li>
+          <get name="userfavoritecolor" /> is not bad, but I like the <bot name="favoritecolor"/> the most.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FAVORITE COLOR</pattern>
+    <template>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favorite color.</li>
+        <li value="BLUE"> Blue is my favourite color too. </li>
+        <li>
+          <get name="userfavoritecolor" />.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY FAVOURITE COLOR IS *</pattern>
+    <template>
+      <think>
+        <set name="userfavoritecolor">
+          <star/>
+        </set>
+      </think>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favourite color.</li>
+        <li value="BLUE"> No way! You're kidding me right? Blue is my favourite color too. </li>
+        <li>
+          <get name="userfavoritecolor" /> is not bad, but I like the <bot name="favoritecolor"/> the most.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FAVOURITE COLOR</pattern>
+    <template>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favourite color.</li>
+        <li value="BLUE"> Blue is my favourite color too. </li>
+        <li>
+          <get name="userfavoritecolor" />.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY FAVOURITE COLOUR IS *</pattern>
+    <template>
+      <think>
+        <set name="userfavoritecolor">
+          <star/>
+        </set>
+      </think>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favourite colour.</li>
+        <li value="BLUE"> No way! You're kidding me right? Blue is my favourite colour too. </li>
+        <li>
+          <get name="userfavoritecolor" /> is not bad, but I like the <bot name="favoritecolor"/> the most.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FAVOURITE COLOUR</pattern>
+    <template>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favourite colour.</li>
+        <li value="BLUE"> Blue is my favourite colour too. </li>
+        <li>
+          <get name="userfavoritecolor" />.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY FAVORITE COLOUR IS *</pattern>
+    <template>
+      <think>
+        <set name="userfavoritecolor">
+          <star/>
+        </set>
+      </think>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favorite colour.</li>
+        <li value="BLUE"> No way! You're kidding me right? Blue is my favourite colour too. </li>
+        <li>
+          <get name="userfavoritecolor" /> is not bad, but I like the <bot name="favoritecolor"/> the most.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FAVORITE COLOUR</pattern>
+    <template>
+      <condition name="userfavoritecolor">
+        <li value="unknown"> No idea. You haven't told me your favorite colour.</li>
+        <li value="BLUE"> Blue is my favourite colour too. </li>
+        <li>
+          <get name="userfavoritecolor" />.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <!-- GREEN -->
+
+  <category>
+    <pattern>WHY GREEN YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GREEN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GREEN IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GREEN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GREEN YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GREEN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GREEN YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GREEN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GREEN IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GREEN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GREEN YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GREEN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS GREEN YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GREEN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <!-- BLUE-->
+
+  <category>
+    <pattern>WHY BLUE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLUE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLUE IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLUE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLUE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLUE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLUE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLUE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLUE IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLUE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLUE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLUE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS BLUE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLUE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+
+  <!-- RED -->
+
+  <category>
+    <pattern>WHY RED YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS RED YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY RED IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS RED YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY RED YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS RED YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY RED YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS RED YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY RED IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS RED YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY RED YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS RED YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS RED YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS RED YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <!-- Yellow-->
+
+
+  <category>
+    <pattern>WHY YELLOW YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS YELLOW YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY YELLOW IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS YELLOW YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY YELLOW YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS YELLOW YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY YELLOW YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS YELLOW YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY YELLOW IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS YELLOW YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY YELLOW YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS YELLOW YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS YELLOW YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS YELLOW YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH YELLOW</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- white-->
+
+  <category>
+    <pattern>WHY WHITE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS WHITE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY WHITE IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS WHITE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY WHITE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS WHITE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY WHITE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS WHITE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY WHITE IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS WHITE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY WHITE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS WHITE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS WHITE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS WHITE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH WHITE</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- BLACK -->
+
+  <category>
+    <pattern>WHY BLACK YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLACK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLACK IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLACK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLACK YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLACK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLACK YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLACK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLACK IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLACK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BLACK YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLACK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS BLACK YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BLACK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH BLACK</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- BROWN -->
+
+  <category>
+    <pattern>WHY BROWN YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BROWN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BROWN IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BROWN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BROWN YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BROWN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BROWN YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BROWN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BROWN IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BROWN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY BROWN YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BROWN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS BROWN YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS BROWN YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH BROWN</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- ORANGE -->
+
+  <category>
+    <pattern>WHY ORANGE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS ORANGE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ORANGE IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS ORANGE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ORANGE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS ORANGE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ORANGE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS ORANGE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ORANGE IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS ORANGE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ORANGE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS ORANGE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS ORANGE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS ORANGE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH ORANGE</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- GRAY  -->
+
+  <category>
+    <pattern>WHY GRAY YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GRAY YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GRAY IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GRAY YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GRAY YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GRAY YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GRAY YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GRAY YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GRAY IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GRAY YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY GRAY YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GRAY YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS GRAY YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS GRAY YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH GRAY</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- PURPLE -->
+
+  <category>
+    <pattern>WHY PURPLE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PURPLE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PURPLE IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PURPLE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PURPLE YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PURPLE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PURPLE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PURPLE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PURPLE IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PURPLE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PURPLE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PURPLE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS PURPLE YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PURPLE YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH PURPLE</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- SILVER -->
+
+  <category>
+    <pattern>WHY SILVER YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS SILVER YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SILVER IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS SILVER YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SILVER YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS SILVER YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SILVER YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS SILVER YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SILVER IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS SILVER YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SILVER YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS SILVER YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS SILVER YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS SILVER YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH SILVER</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+  <!-- PINK -->
+
+  <category>
+    <pattern>WHY PINK YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PINK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PINK IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PINK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PINK YOUR FAVORITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PINK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PINK YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PINK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PINK IS YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PINK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY PINK YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PINK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY IS PINK YOUR FAVOURITE COLOR</pattern>
+    <template>
+      <srai>WHY IS PINK YOUR FAVORITE COLOR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE A LOT OF GOOD EXPERIENCE WITH PINK</that>
+    <template>
+      That's a private matter. I do not wish to discuss it.
+    </template>
+  </category>
+
+
+
+</aiml>

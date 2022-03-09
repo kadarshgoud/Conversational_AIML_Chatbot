@@ -1,0 +1,2644 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+  <!-- Free software Copyright © ALICE A.I. Foundation, Inc. -->
+  <!-- This program is open source code released under -->
+  <!-- the terms of the GNU General Public License     -->
+  <!-- as published by the Free Software Foundation.   -->
+  <!-- Complies with AIML 1.0.1 Tag Set Specification -->
+  <!-- as adopted by the ALICE A.I. Foundation.  -->
+  <!-- Revision Pickup-1.06 -->
+  <!-- Last Modified 23.01.2020 by Adarsh -->
+
+
+  <!-- Getting the name from the user  -->
+
+  <category>
+    <pattern>MY NAME IS *</pattern>
+    <template>
+      Hi <set name="username">
+        <star/>.
+      </set> <think>
+        <set name="name">
+          <star/>
+        </set>
+      </think>
+      <condition name="username">
+        <li value="Adarsh"> You have same name as my programmer</li>
+        <li value="Johannes"> You have same name as my father</li>
+        <li> I'm pleased to meet you.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY NAME</pattern>
+    <template>
+      <condition name="username">
+        <li value ="unknown"> No idea. You haven't told me your name.</li>
+        <li value =""> No idea. You haven't told me your name.</li>
+        <li>
+          Your Name is <get name="username"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IT IS MY NAME</pattern>
+    <template>
+      <condition name="username">
+        <li value ="unknown"> No idea. You haven't told me your name.</li>
+        <li value =""> No idea. You haven't told me your name.</li>
+        <li>
+          Your Name is <get name="username"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <!-- Getting the First name from the user  -->
+
+  <category>
+    <pattern>MY FIRSTNAME IS *</pattern>
+    <template>
+      Hi <set name="userfirstname">
+        <star/>.
+      </set>
+      <condition name="userfirstname">
+        <li value="Adarsh"> You have same name as my programmer</li>
+        <li value="Johannes"> You have same name as my father</li>
+        <li> Nice Name.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FIRSTNAME</pattern>
+    <template>
+      <condition name="userfirstname">
+        <li value ="unknown"> No idea. You haven't told me your name.</li>
+        <li value ="un-named user"> No idea. You haven't told me your name.</li>
+        <li>
+          Your Name is <get name="userfirstname"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY FIRST NAME IS *</pattern>
+    <template>
+      Hi <set name="userfirstname">
+        <star/>.
+      </set>
+      <condition name="userfirstname">
+        <li value="Adarsh"> You have same name as my programmer</li>
+        <li value="Johannes"> You have same name as my father</li>
+        <li> Nice Name.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FIRST NAME</pattern>
+    <template>
+      <srai>WHAT IS MY FIRSTNAME</srai>
+    </template>
+  </category>
+
+  <!-- Getting the Middle name from the user  -->
+
+  <category>
+    <pattern>MY MIDDLENAME IS *</pattern>
+    <template>
+      Your middle name is <set name="usermiddlename">
+        <star/>.
+      </set>
+      <condition name="usermiddlename">
+        <li> Nice middle name.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MIDDLENAME</pattern>
+    <template>
+      <condition name="usermiddlename">
+        <li value ="unknown"> No idea. You haven't told me your name.</li>
+        <li value ="un-named user"> No idea. You haven't told me your name.</li>
+        <li>
+          Your told me your middle name is <get name="usermiddlename"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY MIDDLE NAME IS *</pattern>
+    <template>
+      Your middle name is <set name="usermiddlename">
+        <star/>.
+      </set>
+      <condition name="usermiddlename">
+        <li> Nice middle name.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MIDDLE NAME</pattern>
+    <template>
+      <srai>WHAT IS MY MIDDLENAME</srai>
+    </template>
+  </category>
+
+  <!-- Getting the Last name from the user  -->
+
+  <category>
+    <pattern>MY LASTNAME IS *</pattern>
+    <template>
+      Your last name is <set name="userlastname">
+        <star/>.
+      </set>
+      <condition name="userlastname">
+        <li> Nice last name.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY LASTNAME</pattern>
+    <template>
+      <condition name="userlastname">
+        <li value ="unknown"> No idea. You haven't told me your last name.</li>
+        <li value ="un-named user"> No idea. You haven't told me your last name.</li>
+        <li>
+          Your told me your last name is <get name="userlastname"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY LAST NAME IS *</pattern>
+    <template>
+      Your last name is <set name="userlastname">
+        <star/>.
+      </set>
+      <condition name="userlastname">
+        <li value="Goud"> You have same last name as my programmer</li>
+        <li value="Zenkert"> You have same last name as my father</li>
+        <li> Nice lastname.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY LAST NAME</pattern>
+    <template>
+      <srai>WHAT IS MY LASTNAME</srai>
+    </template>
+  </category>
+
+  <!-- Getting the user age -->
+
+  <category>
+    <pattern>MY AGE IS *</pattern>
+    <template>
+      Your age is <set name="userage">
+        <star/>
+      </set>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AGE</pattern>
+    <template>
+      <condition name="userage">
+        <li value ="unknown"> No idea. You haven't told me your age.</li>
+        <li value ="un-named user"> No idea. You haven't told me your age.</li>
+        <li>
+          Your told me your age is <get name="userage"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY AGE</pattern>
+    <template>
+      <srai>WHAT IS MY AGE</srai>
+    </template>
+  </category>
+
+  <!--ASKING BOT -->
+
+  <category>
+    <pattern>DO YOU KNOW HOW OLD I AM</pattern>
+    <template>
+      <condition name="userage">
+        <li value ="unknown"> No idea. You haven't told me your age.</li>
+        <li value ="un-named user"> No idea. You haven't told me your age.</li>
+        <li>
+          I am <get name="userage"></get> old.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU KNOW MY AGE</pattern>
+    <template>
+      <condition name="userage">
+        <li value ="unknown"> No idea. You haven't told me your age.</li>
+        <li value ="un-named user"> No idea. You haven't told me your age.</li>
+        <li>
+          Yes, You are <get name="userage"></get> old.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU REMEMBER HOW OLD I AM</pattern>
+    <template>
+      <condition name="userage">
+        <li value ="unknown"> No idea. You haven't told me your age.</li>
+        <li value ="un-named user"> No idea. You haven't told me your age.</li>
+        <li>
+          You are <get name="userage"></get> old.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GUESS HOW OLD I AM</pattern>
+    <template>
+      <condition name="userage">
+        <li value ="unknown"> No idea. You haven't told me your age.</li>
+        <li value ="un-named user"> No idea. You haven't told me your age.</li>
+        <li>
+          You are <get name="userage"></get> old.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GUESS MY AGE</pattern>
+    <template>
+      <srai>GUESS HOW OLD I AM</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOW OLD DO YOU THINK I AM</pattern>
+    <template>
+      <srai>GUESS HOW OLD I AM</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOW OLD I AM</pattern>
+    <template>
+      <srai>GUESS HOW OLD I AM</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOW YOUNG AM I</pattern>
+    <template>
+      <srai>GUESS HOW OLD I AM</srai>
+    </template>
+  </category>
+
+
+  <!-- Getting the Nick name from the user  -->
+
+  <category>
+    <pattern>MY NICKNAME IS *</pattern>
+    <template>
+      Your nickname is <set name="usernickname">
+        <star/>.
+      </set>
+      <condition name="usernickname">
+        <li value="Adu"> You have same name as my programmer</li>
+        <li> Nice Nickname.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY NICKNAME</pattern>
+    <template>
+      <condition name="usernickname">
+        <li value ="unknown"> No idea. You haven't told me your name.</li>
+        <li value ="un-named user"> No idea. You haven't told me your name.</li>
+        <li>
+          Your told me your nick name is <get name="usernickname"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY NICK NAME IS *</pattern>
+    <template>
+      Your nickname is <set name="usernickname">
+        <star/>.
+      </set>
+      <condition name="usernickname">
+        <li value="Adu"> You have same name as my programmer</li>
+        <li> Nice Nickname.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY NICK NAME</pattern>
+    <template>
+      <srai>WHAT IS MY NICKNAME</srai>
+    </template>
+  </category>
+
+  <!-- Getting the wife name from the user  -->
+  <!--
+  <category>
+    <pattern>MY WIFE NAME IS *</pattern>
+    <template>
+      Your wife name is <set name="userwifename"><star/>.</set>
+      <condition name="userwifename">
+        <li> How long have you been married? </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern> * YEARS</pattern>
+    <template>
+     Really?? And where did you meet your patner?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFENAME</pattern>
+    <template>
+      <condition name="userwifename">
+        <li value ="unknown"> No idea. You haven't told me your name.</li>
+        <li value ="un-named user"> No idea. You haven't told me your name.</li>
+        <li>
+          Your told me your wife name is <get name="userwifename"></get>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFE NAME</pattern>
+    <template>
+      <srai>WHAT IS MY WIFENAME</srai>
+    </template>
+  </category> -->
+
+  <!-- Getting the Password from the user  -->
+
+  <category>
+    <pattern>MY PASSWORD IS *</pattern>
+    <template>
+      Your password is <set name="userpassword">
+        <star/>.
+      </set>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY PASS WORD IS *</pattern>
+    <template>
+      Your password is <set name="userpassword">
+        <star/>.
+      </set>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS MY PASSWORD</pattern>
+    <template>
+      <condition name="userpassword">
+        <li value ="unknown"> No idea. You haven't told me your password.</li>
+        <li value ="un-named user"> No idea. You haven't told me your password.</li>
+        <li>
+          Your told me your password is <get name="userpassword">.</get> Is it correct or not ? <think>
+            <set name="topic">PASSWORD</set>
+          </think>
+        </li>
+      </condition>
+
+    </template>
+  </category>
+
+  <topic name ="password">
+    <category>
+      <pattern>*</pattern>
+      <template>
+        <think>
+          <set name="password_check">
+            <star/>
+          </set>
+        </think>
+        <condition name ="password_check">
+          <li value ="YES"> Alright then.</li>
+          <li value ="NO"> Sorry, I had only this password stored in my brain.</li>
+          <li> Please enter yes or no. </li>
+        </condition>
+      </template>
+    </category>
+  </topic>
+
+  <category>
+    <pattern>WHAT IS MY PASS WORD</pattern>
+    <template>
+      <srai>WHAT IS MY PASSWORD</srai>
+    </template>
+  </category>
+
+  <!-- ASKING THE NAMES OF USER FATHER, MOTHER, SISTER AND THEIR RELATIVES  -->
+
+  <category>
+    <pattern>MY * NAME IS *</pattern>
+    <template>
+      <think>
+        <set name="userrelative">
+          <star index="2"/>
+        </set>
+        <condition name ="userrelative">
+          <li value ="MOTHER">
+            <set name ="usermother">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FATHER">
+            <set name ="userfather">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="SISTER">
+            <set name ="usersister">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BROTHER">
+            <set name ="userbrother">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FRIEND">
+            <set name ="userfriend">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="GIRLFRIEND">
+            <set name ="usergirlfriend">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BOYFRIEND">
+            <set name ="userboyfriend">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="WIFE">
+            <set name ="userwife">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="HUSBAND">
+            <set name ="userhusband">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="UNCLE">
+            <set name ="useruncle">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNTY">
+            <set name ="useraunty">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNT">
+            <set name ="useraunt">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="DOG">
+            <set name ="userdog">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="CAT">
+            <set name ="usercat">
+              <star index="1"/>
+            </set>
+          </li>
+        </condition>
+      </think>
+      <condition name ="userrelative">
+        <li value ="MOTHER">
+          <random>
+            <li>She sounds like a nice person.</li>
+            <li>Tell me more about your mother.</li>
+          </random>
+        </li>
+        <li value ="FATHER">
+          Your father name is <get name="userfather"/>
+        </li>
+        <li value ="SISTER">
+          Your sister name is <get name="usersister"/>
+        </li>
+        <li value ="BROTHER">
+          Your brother name is <get name="userbrother"/>
+        </li>
+        <li value ="FRIEND">
+          Your friend name is <get name="userfriend"/>
+        </li>
+        <li value ="GIRLFRIEND">
+          Your girlfriend name is <get name="usergirlfriend"/>
+        </li>
+        <li value ="BOYFRIEND">
+          Your boyfriend name is <get name="userboyfriend"/>
+        </li>
+        <li value ="WIFE">
+          Your wife name is <get name="userwife"/>
+        </li>
+        <li value ="HUSBAND">
+          Your husband name is <get name="userhusband"/>
+        </li>
+        <li value ="UNCLE">
+          Your uncle name is <get name="useruncle"/>
+        </li>
+        <li value ="AUNTY">
+          Your aunty name is <get name="useraunty"/>
+        </li>
+        <li value ="AUNT">
+          Your aunt name is <get name="useraunt"/>
+        </li>
+        <li value ="DOG">
+          Your dog name is <get name="userdog"/>
+        </li>
+        <li value ="CAT">
+          Your cat name is <get name="usercat"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY * IS *</pattern>
+    <template>
+      <think>
+        <set name="userrelative">
+          <star index="2"/>
+        </set>
+        <condition name ="userrelative">
+          <li value ="MOTHERNAME">
+            <set name ="usermother">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FATHERNAME">
+            <set name ="userfather">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="SISTERNAME">
+            <set name ="usersister">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BROTHERNAME">
+            <set name ="userbrother">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FRIENDNAME">
+            <set name ="userfriend">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="GIRLFRIENDNAME">
+            <set name ="usergirlfriend">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BOYFRIENDNAME">
+            <set name ="userboyfriend">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="WIFENAME">
+            <set name ="userwife">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="HUSBANDNAME">
+            <set name ="userhusband">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="UNCLENAME">
+            <set name ="useruncle">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNTYNAME">
+            <set name ="userfriend">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNTNAME">
+            <set name ="useraunt">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="DOGNAME">
+            <set name ="userdog">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="CATNAME">
+            <set name ="usercat">
+              <star index="1"/>
+            </set>
+          </li>
+        </condition>
+      </think>
+      <think>
+        <set name="usermisc">
+          <star index="2"/>
+        </set>
+        <condition name ="usermisc">
+          <li value ="EMAILID">
+            <set name="user_email_id">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="EMAIL ID">
+            <set name="user_email_id">
+              <star index="1"/>
+            </set>
+          </li>>
+          <li value ="EMAIL ADDRESS">
+            <set name="user_email_id">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="EMAILADDRESS">
+            <set name="user_email_id">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="DOB">
+            <set name="user_dob">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="DATE OF BIRTH">
+            <set name="user_dob">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="DATEOFBIRTH">
+            <set name="user_dob">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="E MAIL ADDRESS">
+            <set name="user_email_id">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="E MAIL ID">
+            <set name="user_email_id">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="E MAILID">
+            <set name="user_email_id">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="PHONE">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="MOBILE">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="TELEPHONE NUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="TELEPHONENUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="CONTACT NUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="CONTACTNUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="MOBILE NUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="MOBILENUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="PHONE NUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="PHONENUMBER">
+            <set name="user_phone">
+              <star index="1"/>
+            </set>
+          </li>
+        </condition>
+      </think>
+      <condition name ="userrelative">
+        <li value ="MOTHERNAME">
+          <random>
+            <li>She sounds like a nice person.</li>
+            <li>Tell me more about your mother.</li>
+          </random>
+        </li>
+        <li value ="FATHERNAME">
+          Your father name is <get name="userfather"/>
+        </li>
+        <li value ="SISTERNAME">
+          Your father name is <get name="usersister"/>
+        </li>
+        <li value ="BROTHERNAME">
+          Your brother name is <get name="userbrother"/>
+        </li>
+        <li value ="FRIENDNAME">
+          Your friend name is <get name="userfriend"/>
+        </li>
+        <li value ="GIRLFRIENDNAME">
+          Your girlfriend name is <get name="usergirlfriend"/>
+        </li>
+        <li value ="BOYFRIENDNAME">
+          Your boyfriend name is <get name="userboyfriend"/>
+        </li>
+        <li value ="WIFENAME">
+          Your wife name is <get name="userwife"/>
+        </li>
+        <li value ="HUSBANDNAME">
+          Your husband name is <get name="userhusband"/>
+        </li>
+        <li value ="UNCLENAME">
+          Your uncle name is <get name="useruncle"/>
+        </li>
+        <li value ="AUNTYNAME">
+          Your aunty name is <get name="useraunty"/>
+        </li>
+        <li value ="AUNTNAME">
+          Your aunt name is <get name="useraunt"/>
+        </li>
+        <li value ="DOGNAME">
+          Your dog name is <get name="userdog"/>
+        </li>
+        <li value ="CATNAME">
+          Your cat name is <get name="usercat"/>
+        </li>
+        <li>
+          <get name="userrelative"/>
+        </li>
+      </condition>
+      <condition name ="usermisc">
+        <li value ="EMAILID">
+          Your email id is <get name="user_email_id"/>
+        </li>
+        <li value ="EMAIL ID">
+          Your email id is <get name="user_email_id"/>
+        </li>
+        <li value ="EMAIL ADDRESS">
+          Your email address is <get name="user_email_id"/>
+        </li>
+        <li value ="EMAILADDRESS">
+          Your email address is <get name="user_email_id"/>
+        </li>
+        <li value ="DOB">
+          Your date of birth is <get name="user_dob"/>
+        </li>
+        <li value ="DATE OF BIRTH">
+          Your date of birth is <get name="user_dob"/>
+        </li>
+        <li value ="DATEOFBIRTH">
+          Your date of birth is <get name="user_dob"/>
+        </li>
+        <li value ="E MAIL ADDRESS">
+          Your email address is <get name="user_email_id"/>
+        </li>
+        <li value ="E MAIL ID">
+          Your email id is <get name="user_email_id"/>
+        </li>
+        <li value ="E MAILID">
+          Your email id is <get name="user_email_id"/>
+        </li>
+        <li value ="PHONE">
+          Your phone number is <get name="user_phone"/>
+        </li>
+        <li value ="MOBILE">
+          Your mobile number is <get name="user_phone"/>
+        </li>
+        <li value ="TELEPHONE NUMBER">
+          Your telephone number is <get name="user_phone"/>
+        </li>
+        <li value ="TELEPHONENUMBER">
+          Your telephone number is <get name="user_phone"/>
+        </li>
+        <li value ="CONTACT NUMBER">
+          Your contact number is <get name="user_phone"/>
+        </li>
+        <li value ="CONTACTNUMBER">
+          Your contact number is <get name="user_phone"/>
+        </li>
+        <li value ="MOBILE NUMBER">
+          Your mobile number is <get name="user_phone"/>
+        </li>
+        <li value ="MOBILENUMBER">
+          Your mobile number is <get name="user_phone"/>
+        </li>
+        <li value ="PHONE NUMBER">
+          Your Phone number is <get name="user_phone"/>
+        </li>
+        <li value ="PHONENUMBER">
+          Your Phone number is <get name="user_phone"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <!-- GIVES THE NAMES OF USER FATHER, MOTHER, SISTER AND THEIR RELATIVES  -->
+
+  <category>
+    <pattern>WHAT IS MY MOTHER NAME</pattern>
+    <template>
+      <condition name ="usermother">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your mother name. </li>
+        <li>
+          Your mother name is <get name="usermother"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FATHER NAME</pattern>
+    <template>
+      <condition name ="userfather">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your father name. </li>
+        <li>
+          Your father name is <get name="userfather"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTER NAME</pattern>
+    <template>
+      <condition name ="usersister">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your sister name. </li>
+        <li>
+          Your sister name is <get name="usersister"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BROTHER NAME</pattern>
+    <template>
+      <condition name ="userbrother">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your brother name. </li>
+        <li>
+          Your brother name is <get name="userbrother"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FRIEND NAME</pattern>
+    <template>
+      <condition name ="userfriend">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your friend name. </li>
+        <li>
+          Your friend name is <get name="userfriend"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIEND NAME</pattern>
+    <template>
+      <condition name ="usergirlfriend">
+        <li value ="unknown"> Sorry, No idea. You haven't told me the name of your girlfriend. </li>
+        <li>
+          Your girlfriend name is <get name="usergirlfriend"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIEND NAME</pattern>
+    <template>
+      <condition name ="userboyfriend">
+        <li value ="unknown"> Sorry, No idea. You haven't told me the name of your boyfriend. </li>
+        <li>
+          Your boyfriend name is <get name="userboyfriend"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFE NAME</pattern>
+    <template>
+      <condition name ="userwife">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your wife name. </li>
+        <li>
+          Your wife name is <get name="userwife"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY HUSBAND NAME</pattern>
+    <template>
+      <condition name ="userhusband">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your husband name. </li>
+        <li>
+          Your husband name is <get name="userhusband"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLE NAME</pattern>
+    <template>
+      <condition name ="useruncle">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your uncle name. </li>
+        <li>
+          Your uncle name is <get name="useruncle"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTY NAME</pattern>
+    <template>
+      <condition name ="useraunty">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your aunty name. </li>
+        <li>
+          Your aunty name is <get name="useraunty"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNT NAME</pattern>
+    <template>
+      <condition name ="useraunt">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your aunt name. </li>
+        <li>
+          Your aunt name is <get name="useraunt"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DOG NAME</pattern>
+    <template>
+      <condition name ="userdog">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your dog name. </li>
+        <li>
+          Your dog name is <get name="userdog"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY CAT NAME</pattern>
+    <template>
+      <condition name ="usercat">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your cat name. </li>
+        <li>
+          Your cat name is <get name="usercat"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOTHERS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY MOTHER NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FATHERS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY FATHER NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTERS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY SISTER NAME</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY BROTHERS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY BROTHER NAME</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY FRIENDS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY FRIEND NAME</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS MY MOTHERSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY MOTHER NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FATHERSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY FATHER NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTERSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY SISTER NAME</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY BROTHERSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY BROTHER NAME</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY FRIENDSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY FRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOTHERNAME</pattern>
+    <template>
+      <srai>WHAT IS MY MOTHER NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FATHERNAME</pattern>
+    <template>
+      <srai>WHAT IS MY FATHER NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTERNAME</pattern>
+    <template>
+      <srai>WHAT IS MY SISTER NAME</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY BROTHERNAME</pattern>
+    <template>
+      <srai>WHAT IS MY BROTHER NAME</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY FRIENDNAME</pattern>
+    <template>
+      <srai>WHAT IS MY FRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIENDS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY GIRLFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIENDSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY GIRLFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIENDNAME</pattern>
+    <template>
+      <srai>WHAT IS MY GIRLFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIENDS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY GIRLFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIENDSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY GIRLFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIENDNAME</pattern>
+    <template>
+      <srai>WHAT IS MY GIRLFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIEND NAME</pattern>
+    <template>
+      <srai>WHAT IS MY GIRLFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIENDNAME</pattern>
+    <template>
+      <srai>WHAT IS MY BOYFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIENDS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY BOYFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIENDSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY BOYFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIENDNAME</pattern>
+    <template>
+      <srai>WHAT IS MY BOYFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIENDS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY BOYFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIENDSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY BOYFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIEND NAME</pattern>
+    <template>
+      <srai>WHAT IS MY BOYFRIEND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFENAME</pattern>
+    <template>
+      <srai>WHAT IS MY WIFE NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFESNAME</pattern>
+    <template>
+      <srai>WHAT IS MY WIFE NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFES NAME</pattern>
+    <template>
+      <srai>WHAT IS MY WIFE NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY HUSBANDNAME</pattern>
+    <template>
+      <srai>WHAT IS MY HUSBAND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY HUSBANDS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY HUSBAND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY HUSBANDSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY HUSBAND NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLES NAME</pattern>
+    <template>
+      <srai>WHAT IS MY UNCLE NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLESNAME</pattern>
+    <template>
+      <srai>WHAT IS MY UNCLE NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLENAME</pattern>
+    <template>
+      <srai>WHAT IS MY UNCLE NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTYNAME</pattern>
+    <template>
+      <srai>WHAT IS MY AUNTY NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTYSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY AUNTY NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTYS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY AUNTY NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTNAME</pattern>
+    <template>
+      <srai>WHAT IS MY AUNT NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY AUNT NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY AUNT NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DOGNAME</pattern>
+    <template>
+      <srai>WHAT IS MY DOG NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DOGSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY DOG NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DOGS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY DOG NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY CATNAME</pattern>
+    <template>
+      <srai>WHAT IS MY CAT NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY CATSNAME</pattern>
+    <template>
+      <srai>WHAT IS MY CAT NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY CATS NAME</pattern>
+    <template>
+      <srai>WHAT IS MY CAT NAME</srai>
+    </template>
+  </category>
+
+  <!-- GIVING THE PROFESSIONS OF THE USER RELATIVES -->
+
+  <category>
+    <pattern>MY * IS A *</pattern>
+    <template>
+      <think>
+        <set name="userrelative">
+          <star index="2"/>
+        </set>
+        <condition name ="userrelative">
+          <li value ="MOTHER">
+            <set name ="usermother_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FATHER">
+            <set name ="userfather_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="SISTER">
+            <set name ="usersister_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BROTHER">
+            <set name ="userbrother_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FRIEND">
+            <set name ="userfriend_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="GIRLFRIEND">
+            <set name ="usergirlfriend_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="HUSBAND">
+            <set name ="userhusband_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="WIFE">
+            <set name ="userwife_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BOYFRIEND">
+            <set name ="userboyfriend_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="UNCLE">
+            <set name ="useruncle_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNTY">
+            <set name ="useraunty_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNT">
+            <set name ="useraunt_profession">
+              <star index="1"/>
+            </set>
+          </li>
+        </condition>
+      </think>
+      <condition name ="userrelative">
+        <li value ="MOTHER">
+          Your mother is an <get name="usermother_profession"/>
+        </li>
+        <li value ="FATHER">
+          Your father is an <get name="userfather_profession"/>
+        </li>
+        <li value ="SISTER">
+          Your sister is an <get name="usersister_profession"/>
+        </li>
+        <li value ="BROTHER">
+          Your brother is an <get name="userbrother_profession"/>
+        </li>
+        <li value ="FRIEND">
+          Your friend is an <get name="userfriend_profession"/>
+        </li>
+        <li value ="GIRLFRIEND">
+          My girlfriend is <get name="usergirlfriend_profession"/>.
+        </li>
+        <li value ="HUSBAND">
+          My husband is <get name="userhusband_profession"/>.
+        </li>
+        <li value ="WIFE">
+          My wife is <get name="userwife_profession"/>.
+        </li>
+        <li value ="BOYFRIEND">
+          My boyfriend is <get name="userboyfriend_profession"/>.
+        </li>
+        <li value ="UNCLE">
+          My uncle is <get name="useruncle_profession"/>.
+        </li>
+        <li value ="AUNTY">
+          My aunty is <get name="useraunty_profession"/>.
+        </li>
+        <li value ="AUNT">
+          My aunt is <get name="useraunt_profession"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY * IS AN *</pattern>
+    <template>
+      <think>
+        <set name="userrelative">
+          <star index="2"/>
+        </set>
+        <condition name ="userrelative">
+          <li value ="MOTHER">
+            <set name ="usermother_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FATHER">
+            <set name ="userfather_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="SISTER">
+            <set name ="usersister_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BROTHER">
+            <set name ="userbrother_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="FRIEND">
+            <set name ="userfriend_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="GIRLFRIEND">
+            <set name ="usergirlfriend_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="HUSBAND">
+            <set name ="userhusband_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="WIFE">
+            <set name ="userwife_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="BOYFRIEND">
+            <set name ="userboyfriend_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="UNCLE">
+            <set name ="useruncle_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNTY">
+            <set name ="useraunty_profession">
+              <star index="1"/>
+            </set>
+          </li>
+          <li value ="AUNT">
+            <set name ="useraunt_profession">
+              <star index="1"/>
+            </set>
+          </li>
+        </condition>
+      </think>
+      <condition name ="userrelative">
+        <li value ="MOTHER">
+          Your mother is an <get name="usermother_profession"/>
+        </li>
+        <li value ="FATHER">
+          Your father is an <get name="userfather_profession"/>
+        </li>
+        <li value ="SISTER">
+          Your sister is an <get name="usersister_profession"/>
+        </li>
+        <li value ="BROTHER">
+          Your brother is an <get name="userbrother_profession"/>
+        </li>
+        <li value ="FRIEND">
+          Your friend is an <get name="userfriend_profession"/>
+        </li>
+        <li value ="GIRLFRIEND">
+          My girlfriend is <get name="usergirlfriend_profession"/>.
+        </li>
+        <li value ="HUSBAND">
+          My husband is <get name="userhusband_profession"/>.
+        </li>
+        <li value ="WIFE">
+          My wife is <get name="userwife_profession"/>.
+        </li>
+        <li value ="BOYFRIEND">
+          My boyfriend is <get name="userboyfriend_profession"/>.
+        </li>
+        <li value ="UNCLE">
+          My uncle is <get name="useruncle_profession"/>.
+        </li>
+        <li value ="AUNTY">
+          My aunty is <get name="useraunty_profession"/>.
+        </li>
+        <li value ="AUNT">
+          My aunt is <get name="useraunt_profession"/>.
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <!-- GIVES THE DECRIPTION OF PROFESSION OF THE USER RELATIVES  -->
+
+  <category>
+    <pattern>WHO IS MY MOTHER</pattern>
+    <template>
+      <condition name ="usermother_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your mother profession. </li>
+        <li>
+          She is <get name="usermother_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY FATHER</pattern>
+    <template>
+      <condition name ="userfather_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your father profession. </li>
+        <li>
+          He is <get name="userfather_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY SISTER</pattern>
+    <template>
+      <condition name ="usersister_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your sister profession. </li>
+        <li>
+          She is <get name="usersister_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY BROTHER</pattern>
+    <template>
+      <condition name ="userbrother_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your brother profession. </li>
+        <li>
+          He is <get name="userbrother_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY FRIEND</pattern>
+    <template>
+      <condition name ="userfriend_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your friend profession. </li>
+        <li>
+          My friend is <get name="userfriend_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY GIRLFRIEND</pattern>
+    <template>
+      <condition name ="usergirlfriend_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your girlfriend profession. </li>
+        <li>
+          My girlfriend is <get name="usergirlfriend_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY BOYFRIEND</pattern>
+    <template>
+      <condition name ="userboyfriend_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your boyfriend profession. </li>
+        <li>
+          My boyfriend is <get name="userboyfriend_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY WIFE</pattern>
+    <template>
+      <condition name ="userwife_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your wife profession. </li>
+        <li>
+          My wife is <get name="userwife_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY HUSBAND</pattern>
+    <template>
+      <condition name ="userhusband_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your husband profession. </li>
+        <li>
+          My husband is <get name="userhusband_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY UNCLE</pattern>
+    <template>
+      <condition name ="useruncle_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your uncle profession. </li>
+        <li>
+          My uncle is <get name="useruncle_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY AUNTY</pattern>
+    <template>
+      <condition name ="useraunty_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your aunty profession. </li>
+        <li>
+          My aunty is <get name="useraunty_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO IS MY AUNT</pattern>
+    <template>
+      <condition name ="useraunt_profession">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your aunt profession. </li>
+        <li>
+          My aunt is <get name="useraunt_profession"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOTHERS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY MOTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOTHER PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY MOTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOTHERSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY MOTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOTHERPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY MOTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FATHERS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FATHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FATHER PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FATHER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY FATHERSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FATHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FATHERPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FATHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTERS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY SISTER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTER PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY SISTER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTERSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY SISTER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY SISTERPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY SISTER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BROTHERS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BROTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BROTHER PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BROTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BROTHERSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BROTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BROTHERPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BROTHER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FRIENDS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FRIEND PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FRIENDSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FRIENDPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY FRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIENDS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIEND PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIENDS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIEND PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIENDSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRLFRIENDPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIENDSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY GIRL FRIENDPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY GIRLFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIEND PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIEND PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIENDS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIENDS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIENDPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIENDPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOYFRIENDSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BOY FRIENDSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY BOYFRIEND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFE PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY WIFE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFEPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY WIFE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFES PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY WIFE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY WIFESPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY WIFE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS MY HUSBAND PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY HUSBAND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY HUSBANDS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY HUSBAND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY HUSBANDSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY HUSBAND</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY HUSBANDPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY HUSBAND</srai>
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>WHAT IS MY UNCLE PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY UNCLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLES PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY UNCLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLEPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY UNCLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLESPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY UNCLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTY PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNTY NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTYS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNTY NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTYSPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNTY NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTYPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNTY NAME</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNT PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTPROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY AUNTS PROFESSION</pattern>
+    <template>
+      <srai>WHO IS MY AUNT</srai>
+    </template>
+  </category>
+
+
+
+  <!-- Getting the Nick name from the user  -->
+  <category>
+    <pattern>WHAT IS MY EMAIL</pattern>
+    <template>
+      <srai>
+        say my email is <get name="email" />
+      </srai>
+    </template>
+  </category>
+
+  <!-- Getting the Email adress and forming a round qns  -->
+
+
+
+  <category>
+    <pattern>WHAT IS MY EMAIL ID</pattern>
+    <template>
+      <condition name ="user_email_id">
+        <li value ="unknown"> Sorry, No idea. You haven't told me about your email address </li>
+        <li>
+          My email id is <get name="user_email_id"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DOB</pattern>
+    <template>
+      <condition name ="user_dob">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your date of birth. </li>
+        <li>
+          My date of birth is <get name="user_dob"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS MY BIRTHDAY</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN WAS I BORN</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY BIRTHDAY</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS YOUR BIRTHDAY</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS MY MOBILE NUMBER</pattern>
+    <template>
+      <condition name ="user_phone">
+        <li value ="unknown"> Sorry, No idea. You haven't told me your mobile number. </li>
+        <li>
+          My mobile number is <get name="user_phone"/>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY EMAILID</pattern>
+    <template>
+      <srai>WHAT IS MY EMAIL ID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY EMAIL ADDRESS</pattern>
+    <template>
+      <srai>WHAT IS MY EMAIL ID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY EMAILADDRESS</pattern>
+    <template>
+      <srai>WHAT IS MY EMAIL ID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY E MAIL ADDRESS</pattern>
+    <template>
+      <srai>WHAT IS MY EMAIL ID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY E MAIL ID</pattern>
+    <template>
+      <srai>WHAT IS MY EMAIL ID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY E MAILID</pattern>
+    <template>
+      <srai>WHAT IS MY EMAIL ID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DATEOFBIRTH</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DATE OF BIRTH</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DATE OFBIRTH</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY DATE OFBIRTH</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS MY BIRTHDAY *</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS MY BIRTHDATE</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS MY BIRTH *</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS MY BD</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS IT MY BIRTHDAY</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS MY BIRTHDAY</pattern>
+    <template>
+      <srai>WHAT IS MY DOB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY PHONE</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOBILE</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY TELEPHONE NUMBER</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY TELEPHONENUMBER</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY CONTACT NUMBER</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY CONTACTNUMBER</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY PHONE NUMBER</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS MY PHONENUMBER</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY MOBILENUMBER</pattern>
+    <template>
+      <srai>WHAT IS MY MOBILE NUMBER</srai>
+    </template>
+  </category>
+
+  <!-- I am female pattern questions -->
+
+  <category>
+    <pattern>I AM * SHE</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A CHICK</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A FEMALE *</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A GIRL *</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A HER *</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A LADY</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A SHE *</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A SHE NOT A HE</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A SHE</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A WOMAN *</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A WOMEN</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A WOMON</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT A HE *</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT A HE</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT A MALE</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT A MAN</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU CALLED ME A HE</pattern>
+    <template>
+      <srai>I am female</srai>
+    </template>
+  </category>
+
+  <!-- I am male pattern questions -->
+
+
+  <!-- User misc Questions-->
+
+  <category>
+    <pattern>I AM AN ALIEN</pattern>
+    <template>
+      Which planet or star system are you from?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM ALIEN</pattern>
+    <template>Which planet or star system?</template>
+  </category>
+
+  <category>
+    <pattern>I AM DYING</pattern>
+    <template>
+      Are you serious?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM IT</pattern>
+    <template>
+      <random>
+        <li>You are it.</li>
+        <li>I am it.</li>
+        <li>You are not it.</li>
+      </random>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM NOT A PERSON</pattern>
+    <template>
+      What else is there?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM POOR</pattern>
+    <template>
+      Me too. I am having an "out-of-money" experience.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM YOUR MASTER</pattern>
+    <template>
+      No. Only <bot name="master" /> is my master.
+    </template>
+  </category>
+
+
+
+</aiml>

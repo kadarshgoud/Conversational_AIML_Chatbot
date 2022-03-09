@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category><pattern>WHERE IS CHENNAI</pattern><template> Chennai is the capital of Tamilnadu</template></category>
+<category><pattern>WHERE IS * CHENNAI</pattern><template> Chennai is the capital of Tamilnadu</template></category>
+<category><pattern>WHERE IS CHENNAI *</pattern><template> Chennai is the capital of Tamilnadu</template></category>
+<category><pattern>WHERE IS * CHENNAI *</pattern><template> Chennai is the capital of Tamilnadu</template></category>
+<category><pattern>WHERE IS KOLKATTA</pattern><template> Kolkatta is located on the East part of India</template></category>
+<category><pattern>WHERE IS * KOLKATTA</pattern><template> Kolkatta is located on the East part of India</template></category>
+<category><pattern>WHERE IS KOLKATTA *</pattern><template> Kolkatta is located on the East part of India</template></category>
+<category><pattern>WHERE IS * KOLKATTA *</pattern><template> Kolkatta is located on the East part of India</template></category>
+<category><pattern>WHERE IS COLOGNE</pattern><template> Cologne is the largest city in North Rhine-Westphalia (NRW), Germany’s western-most and most populous state.</template></category>
+<category><pattern>WHERE IS * COLOGNE</pattern><template> Cologne is the largest city in North Rhine-Westphalia (NRW), Germany’s western-most and most populous state.</template></category>
+<category><pattern>WHERE IS COLOGNE * </pattern><template> Cologne is the largest city in North Rhine-Westphalia (NRW), Germany’s western-most and most populous state.</template></category>
+<category><pattern>WHERE IS * COLOGNE *</pattern><template> Cologne is the largest city in North Rhine-Westphalia (NRW), Germany’s western-most and most populous state.</template></category>
+</aiml>

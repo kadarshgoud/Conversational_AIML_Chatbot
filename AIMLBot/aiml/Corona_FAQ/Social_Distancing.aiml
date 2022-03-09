@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>DISTANCING</pattern>
+    <template>
+      <random>
+        <li> Social distancing, also called “physical distancing,” means keeping space between yourself and other people outside of your home. To practice social or physical distancing, Stay at least 6 feet (2 meters) from other people. Do not gather in groups. Stay out of crowded places and avoid mass gatherings </li>
+        <li>
+          Social distancing, or physical distancing, is a set of non-pharmaceutical interventions or measures taken to prevent the spread of a contagious disease by maintaining a physical distance between people and reducing the number of times people come into close contact with each other.
+        </li>
+        <li>
+          Social distancing is a public health practice that aims to prevent sick people from coming in close contact with healthy people in order to reduce opportunities for disease transmission. It can include large-scale measures like canceling group events or closing public spaces, as well as individual decisions such as avoiding crowds.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SOCIALDISTANCING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SOCIAL DISTANCING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SOCIALDISTANCING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SOCIAL DISTANCING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS PHYSICALDISTANCING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS PHYSICAL DISTANCING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS PHYSICALDISTANCING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS PHYSICAL DISTANCING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS DISTANCING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS DISTANCING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE THERE GUIDELINES FOR HOW TO SELF-ISOLATE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE GUIDELINES FOR HOW TO SELF-ISOLATE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GUIDELINES TO SELF-ISOLATE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GUIDELINES TO SELF-ISOLATE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I GO FOR A WALK?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I GO FOR A WALK</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I STILL GO *?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I STILL GO *</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I STILL * TO WORK?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I STILL * TO WORK</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I WALK SOMEWHERE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I WALK SOMEWHERE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO I HAVE TO AVOID GOING OUTSIDE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO I HAVE TO AVOID GOING OUTSIDE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO I HAVE TO ISOLATE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO I HAVE TO ISOLATE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO I HAVE TO STAY AWAY FROM PEOPLE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO I HAVE TO STAY AWAY FROM PEOPLE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO I HAVE TO STAY INSIDE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DO I HAVE TO STAY INSIDE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I SELF ISOLATE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I SELF ISOLATE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I SOCIALLY DISTANCE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I SOCIALLY DISTANCE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES SOCIAL DISTANCING WORK?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES SOCIAL DISTANCING WORK</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW FAR APART SHOULD I STAY FOR SOCIAL DISTANCING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW FAR APART SHOULD I STAY FOR SOCIAL DISTANCING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW WILL SOCIAL DISTANCING HELP?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WILL SOCIAL DISTANCING HELP</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOULD I STAY AWAY FROM PEOPLE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SHOULD I STAY AWAY FROM PEOPLE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT AMOUNT OF TIME DO I HAVE TO SELF-ISOLATE FOR?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT AMOUNT OF TIME DO I HAVE TO SELF-ISOLATE FOR</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE GUIDELINES FOR ISOLATING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE GUIDELINES FOR ISOLATING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE GUIDELINES FOR SOCIAL-DISTANCING?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE GUIDELINES FOR SOCIAL-DISTANCING</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES SOCIAL DISTANCING MEAN?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES SOCIAL DISTANCING MEAN</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES SOCIALDISTANCING MEAN?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES SOCIALDISTANCING MEAN</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES PHYSICAL DISTANCING MEAN?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES PHYSICAL DISTANCING MEAN</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES PHYSICALDISTANCING MEAN?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES PHYSICALDISTANCING MEAN</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IF I WANT TO GO FOR A WALK</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IF I WANT TO GO FOR A WALK?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO DOESNOT NEED TO STAY AT HOME?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO DOESNOT NEED TO STAY AT HOME</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO I HAVE TO AVOID GOING OUTSIDE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO I HAVE TO AVOID GOING OUTSIDE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO I HAVE TO AVOID PEOPLE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO I HAVE TO AVOID PEOPLE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DO I HAVE TO STAY INSIDE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DO I HAVE TO STAY INSIDE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY DOES SOCIAL DISTANCING HELP?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY DOES SOCIAL DISTANCING HELP</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SHOULD I ISOLATE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY SHOULD I ISOLATE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SHOULD MOST PEOPLE ISOLATE?</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY SHOULD MOST PEOPLE ISOLATE</pattern>
+    <template>
+      <srai>DISTANCING</srai>
+    </template>
+  </category>
+
+
+
+
+</aiml>

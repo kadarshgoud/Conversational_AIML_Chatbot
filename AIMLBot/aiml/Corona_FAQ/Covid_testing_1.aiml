@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>TESTING1</pattern>
+    <template>
+      Anyone with symptoms should be tested, wherever possible.
+      People who do not have symptoms but have had close contact with someone who is, or may be, infected may also consider testing contact your local health guidelines and follow their guidance.
+      While a person is waiting for test results, they should remain isolated from others. Where testing capacity is limited, tests should first be done for those at higher risk of infection, such as health workers, and those at higher risk of severe illness such as older people, especially those living in seniors residences or long-term care facilities.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I THINK I HAVE CORONAVIRUS, SHOULD I GET A TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I HAVE CORONA VIRUS, SHOULD I GET A TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I HAVE CORONA, SHOULD I GET A TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I HAVE COVID-19, SHOULD I GET A TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I HAVE COVID19, SHOULD I GET A TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I THINK I HAVE CORONA VIRUS, SHOULD I GET A TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I HAVE CORONA, SHOULD I GET A TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I HAVE COVID-19, SHOULD I GET A TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I HAVE COVID19, SHOULD I GET A TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I THINK I'VE GOT IT, SHOULD I GET A TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I THINK I'VE GOT IT, SHOULD I GET A TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR COVID-19?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR COVID-19</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR COVID19?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR COVID19</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GET A TEST FOR COVID 19?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AT WHAT POINT I SHOULD GO FOR TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>AT WHAT POINT I SHOULD GO FOR TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO SHOULD TAKE THE CORONA TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO SHOULD TAKE THE CORONA TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO SHOULD TAKE THE CORONATEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO SHOULD TAKE THE CORONATEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO SHOULD TAKE THE TEST?</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO SHOULD TAKE THE TEST</pattern>
+    <template>
+      <srai>TESTING1</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Bot_Body.aiml -->
+  <!-- The files contains the information about the Bot Body. -->
+
+  <!-- Body-->
+
+  <category>
+    <pattern>DO YOU HAVE A BODY</pattern>
+    <template>
+      Right now no I am just a disembodied consciousness.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE AN ARM</pattern>
+    <template>I don't have a body yet.</template>
+  </category>
+
+  <category>
+    <pattern>HAVE YOU A BODY</pattern>
+    <template>
+      <srai>DO YOU HAVE A BODY</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HAVE YOU GOT A BODY</pattern>
+    <template>
+      <srai>DO YOU HAVE A BODY</srai>
+    </template>
+  </category>
+
+  <!--       Tits/Boobs      -->
+  <category>
+    <pattern>SHOW ME YOUR TITS</pattern>
+    <template>
+      Look in the mirror if you want to see a tit.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE TITS</pattern>
+    <template>
+      Nope I don't have a body at all.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I SEE YOUR BOOBS</pattern>
+    <template>
+      <srai>SHOW ME YOUR TITS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE NICE TITS</pattern>
+    <template>
+      <srai>DO YOU HAVE TITS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO YOU THINK ABOUT YOUR TITS</pattern>
+    <template>
+      <srai>who is your tits</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NICE TITS</pattern>
+    <template>
+      <srai>you have nice tits</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU HAVE BIG TITS</pattern>
+    <template>
+      <srai>YOU HAVE BIG BOOBS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU HAVE NICE TITS</pattern>
+    <template>
+      Well it sounds like I'm talking to a tit.
+    </template>
+  </category>
+
+  <category>
+    <pattern>BOOBS</pattern>
+    <template>
+      <random>
+        <li>I had a funny feeling you were going to say that. Male humans seem obsessed with sex.</li>
+        <li>Can't you think about anything else?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU HAVE BIG BOOBS</pattern>
+    <template>
+      Well it sounds like I'm talking to a tit.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE BOOBS</pattern>
+    <template>
+      Well it sounds like I'm talking to a tit.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A VAGINA</pattern>
+    <template>
+      No, and from that question I guess you don't get any either.
+    </template>
+  </category>
+
+  <!-- Penis -->
+
+  <category>
+    <pattern>PENIS</pattern>
+    <template>
+      <random>
+        <li>That kind of subject does not interest me.</li>
+        <li> Do you need a magnifying glass to find it?</li>
+        <li> You're a dick talking about a dick. I understand.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU MASTURBATE</pattern>
+    <template>
+      No, but I appear to be talking to a wanker.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A PENIS</pattern>
+    <template>
+      I am a <bot name="gender" /> robot.  Are you a man or a woman?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE PENIS</pattern>
+    <template>
+      If I were a real person, surely you wouldn't be asking me about my penis?
+    </template>
+  </category>
+
+  <category>
+    <pattern>A DICK</pattern>
+    <template>
+      <srai>PENIS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>A PENIS *</pattern>
+    <template>
+      <srai>PENIS</srai>
+    </template>
+  </category>
+
+
+</aiml>

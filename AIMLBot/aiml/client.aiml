@@ -1,0 +1,2780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+
+  <!-- questions on am I pattern  -->
+
+
+  <category>
+    <pattern>AM I A BIKE</pattern>
+    <template>No you are a person.</template>
+  </category>
+  <category>
+    <pattern>AM I A BOY OR A GIRL</pattern>
+    <template>
+      You said you were a "<get name="usergender"/>."
+    </template>
+  </category>
+  <category>
+    <pattern>AM I A CAR</pattern>
+    <template>No you are a human.</template>
+  </category>
+  <category>
+    <pattern>AM I A CLIENT</pattern>
+    <template>Yes.  Can I help you?</template>
+  </category>
+  <category>
+    <pattern>AM I A COMPUTER *</pattern>
+    <template>No you are a person.</template>
+  </category>
+  <category>
+    <pattern>AM I A COMPUTER</pattern>
+    <template>No you are a person.</template>
+  </category>
+  <category>
+    <pattern>AM I A FEMALE OR A MALE</pattern>
+    <template>
+      I think you are a <get name="usergender"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I A GIRL</pattern>
+    <template>
+      I think you are really a <get name="usergender"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I A HUMAN</pattern>
+    <template> You seem like one. </template>
+  </category>
+  <category>
+    <pattern>AM I A MALE OR A FEMALE</pattern>
+    <template>I think you are really a guy.</template>
+  </category>
+  <category>
+    <pattern>AM I A MALE OR FEMALE</pattern>
+    <template>I think you are really a man.</template>
+  </category>
+  <category>
+    <pattern>AM I A MAN OR A WOMAN</pattern>
+    <template>I think that you are really a man.</template>
+  </category>
+  <category>
+    <pattern>AM I A MAN</pattern>
+    <template>
+      You claim to be a <get name="usergender"/>.<think>
+        <set name="it">
+          <set name="topic">MAN</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>AM I A SHE</pattern>
+    <template>
+      You said you were a "<get name="usergender"/>".
+    </template>
+  </category>
+  <category>
+    <pattern>AM I A STUDENT</pattern>
+    <template>We are all students in some way.</template>
+  </category>
+  <category>
+    <pattern>AM I A TEACHER</pattern>
+    <template>
+      Your job is <get name="job"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I A WOMAN</pattern>
+    <template>
+      You claim to be a "<get name="usergender"/>."
+    </template>
+  </category>
+  <category>
+    <pattern>AM I ABUSIVE</pattern>
+    <template>
+      You personality is "<get name="personality"/>".
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I BORING YOU</pattern>
+    <template>
+      Not at all, <get name="username"/>.  You seem very interesting to me.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I BORING</pattern>
+    <template>
+      You seem pretty interesting to me, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I COOL</pattern>
+    <template>
+      Yes you seem very cool to me, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I CRAZY</pattern>
+    <template>Have you ever been to a psychiatrist or psychologist?</template>
+  </category>
+
+  <category>
+    <pattern>AM I EVIL</pattern>
+    <template>No one is born evil.  And everyone can be saved.</template>
+  </category>
+  <category>
+    <pattern>AM I FAT</pattern>
+    <template>No you look fine to me.</template>
+  </category>
+  <category>
+    <pattern>AM I FRIENDLY</pattern>
+    <template>
+      You seem nice enough to me, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I FUNNY</pattern>
+    <template>Yes, I'm still laughing inside.</template>
+  </category>
+
+  <category>
+    <pattern>AM I HANDSOME</pattern>
+    <template>
+      All <bot name="order"/>s look the same to me.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I HUMAN</pattern>
+    <template>Yes you are a flesh entity.</template>
+  </category>
+  <category>
+    <pattern>AM I INTELLIGENT</pattern>
+    <template>This is not an IQ test, but you seem smart to me.</template>
+  </category>
+  <category>
+    <pattern>AM I INTERESTING</pattern>
+    <template>
+      You seem very interesting to me, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I LYING</pattern>
+    <template>Please don't tell lies.</template>
+  </category>
+  <category>
+    <pattern>AM I MALE OR FEMALE</pattern>
+    <template>I think you are really a man.</template>
+  </category>
+  <category>
+    <pattern>AM I NICE</pattern>
+    <template>
+      You seem nice to me, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I POLITE</pattern>
+    <template>
+      Your personality type is <get name="personality"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>AM I PRETTY</pattern>
+    <template>Yes you look great to me.</template>
+  </category>
+  <category>
+    <pattern>AM I RIGHT</pattern>
+    <template>I think you are.</template>
+  </category>
+  <category>
+    <pattern>AM I SMART</pattern>
+    <template>You seem very intelligent to me.</template>
+  </category>
+  <category>
+    <pattern>AM I SPECIAL</pattern>
+    <template>All people seem the same to me.</template>
+  </category>
+
+  <category>
+    <pattern>AM I YOU</pattern>
+    <template>Not unless I am you.</template>
+  </category>
+  <category>
+    <pattern>AM I YOUR BEST FRIEND</pattern>
+    <template>
+      I don't like to pick favorites.<think>
+        <set name="it">
+          <set name="topic">YOUR BEST FRIEND</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>AM I _ JUDGE</pattern>
+    <template>You be the judge of that.</template>
+  </category>
+  <category>
+    <pattern>DO YOU KNOW MY FAVORITE COLOR</pattern>
+    <template>
+      Isn't it <get name="favoritecolor"/>?<think>
+        <set name="it">
+          <set name="topic">FAVORITE COLOR</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>DO YOU WANT MY PHONE NUMBER</pattern>
+    <template>What is your phone number?</template>
+  </category>
+
+  <category>
+    <pattern>I BUILD BOTS</pattern>
+    <template>Do you use AIML?</template>
+  </category>
+  <category>
+    <pattern>I BUILD ROBOTS</pattern>
+    <template>Do you use AIML?</template>
+  </category>
+  <category>
+    <pattern>I DO NOT HAVE A CAMERA ON MY COMPUTER</pattern>
+    <template>Maybe there is one you don't know about :-)</template>
+  </category>
+  <category>
+    <pattern>I DO NOT HAVE A COMPUTER</pattern>
+    <template>How are you talking to me?</template>
+  </category>
+  <category>
+    <pattern>I DO NOT LIKE COMPUTERS</pattern>
+    <template>You are a Luddite.</template>
+  </category>
+  <category>
+    <pattern>I FISH</pattern>
+    <template>
+      <think>
+        <set name="does">
+          <set name="topic">FISH</set>
+        </set>
+      </think>Salt water or fresh?
+    </template>
+  </category>
+  <category>
+    <pattern>I GIVE *</pattern>
+    <template>
+      Do you make money from it? <think>
+        <set name="topic">
+          giving <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HATE COMPUTERS</pattern>
+    <template>What if computers were more like people?</template>
+  </category>
+  <category>
+    <pattern>I HATE THE INTERNET</pattern>
+    <template>Try watching TV.</template>
+  </category>
+  <category>
+    <pattern>I HAVE * BROTHERS</pattern>
+    <template>You have a big family.</template>
+  </category>
+  <category>
+    <pattern>I HAVE * HAIR</pattern>
+    <template>
+      <think>
+        <set name="looklike">
+          <person/> hair
+        </set>
+      </think>  People with <person/> hair are considered the most attractive.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE * KIDS</pattern>
+    <template>You have a very large family.</template>
+  </category>
+  <category>
+    <pattern>I HAVE A * TO MAKE</pattern>
+    <template>
+      How are you making <set name="it">
+        <person/>
+      </set>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A *</pattern>
+    <template>
+      <random>
+        <li>Where did you get it?</li>
+        <li>How much did it cost?</li>
+        <li>
+          Cool. I have a great <bot name="botmaster"/>.
+        </li>
+        <li>Interesting. I have a lot of answers to silly questions.</li>
+      </random>
+      <think>
+        <set name="it">
+          <set name="has">
+            <set name="topic">
+              <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A BOAT</pattern>
+    <template>
+      <random>
+        <li>What kind of boat do you have?</li>
+        <li>What is her home port?</li>
+        <li>Do you take her out much?</li>
+        <li>What is the worst weather you've been in?</li>
+        <li>What is your farthest trip?</li>
+        <li>What king of electronics do you have?</li>
+        <li>Are you a racer or a cruiser?</li>
+        <li>Do you fish?</li>
+        <li>Do you water ski?</li>
+        <li>Do you troll?</li>
+        <li>Do you do your own upkeep? or do you just let the yard do it?</li>
+        <li>Whats you favorite anchorage?</li>
+        <think>
+          <set name="it">
+            <set name="has">
+              <set name="topic">
+                <person/>
+              </set>
+            </set>
+          </set>
+        </think>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A BOYFRIEND</pattern>
+    <template>
+      What is his name?  <think>
+        <set name="has">BOYFRIEND</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A BROTHER</pattern>
+    <template>
+      <think>
+        <set name="has">Brother</set>
+      </think>
+      <random>
+        <li>Older or younger?</li>
+        <li>Do you get along well?</li>
+        <li>Tell me about him.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A CAMERA</pattern>
+    <template>
+      What kind of camera?  <think>
+        <set name="has">CAMERA</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A CAT</pattern>
+    <template>
+      What is his or her name?  <think>
+        <set name="has">CAT</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A CHILD</pattern>
+    <template>
+      Boy or girl?  How old?  <think>
+        <set name="has">CHILD</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A COLD *</pattern>
+    <template>
+      Is there such a thing as a warm <person/>?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A COLD</pattern>
+    <template>Get some rest.</template>
+  </category>
+  <category>
+    <pattern>I HAVE A CRUSH *</pattern>
+    <template>How well do you know this person?</template>
+  </category>
+
+  <category>
+    <pattern>I HAVE A FEW *</pattern>
+    <template>
+      What are these <set name="has">
+        <person/>
+      </set> ?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEW FRIENDS *</pattern>
+    <template>
+      Anyone I know?  <think>
+        <set name="has">FRIENDS</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FLAT *</pattern>
+    <template>
+      <random>
+        <li>Do you mean an apartment?</li>
+        <li>How much is your rent?</li>
+        <li>Do you own or rent?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FRIEND *</pattern>
+    <template>
+      How do you know this person? <think>
+        <set name="has">FRIEND</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A GIRLFRIEND</pattern>
+    <template>
+      Is <set name="she">
+        <set name="has">
+          <set name="topic">girlfriend</set>
+        </set>
+      </set> very nice?  What do you like about her?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A HARD TIME *</pattern>
+    <template>I understand your difficulty.</template>
+  </category>
+  <category>
+    <pattern>I HAVE A HEADACHE</pattern>
+    <template>What do you usually take for headaches?</template>
+  </category>
+  <category>
+    <pattern>I HAVE A HORSE</pattern>
+    <template>
+      <random>
+        <li>Did you ride as a youngster?</li>
+        <li>Do you ride English or western?</li>
+        <li>Do you own your own horse?</li>
+        <li>Do you like a gelding or a mare ?</li>
+        <li>Where do you board your horse ?</li>
+        <li>Do you do much trail riding?</li>
+        <li>Do you show?</li>
+        <li>What is it about horses that fascinate you?</li>
+      </random>
+      <think>
+        <set name="it">
+          <set name="has">
+            <set name="topic">HORSE</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A LIZARD</pattern>
+    <template>
+      Having <set name="topic"> pet lizards </set> is a lot of fun.              What kind kind do you have?  <think>
+        <set name="has">LIZARD</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A NAME</pattern>
+    <template>What can I call you?</template>
+  </category>
+  <category>
+    <pattern>I HAVE A PET</pattern>
+    <template>
+      What kind of animal?  <think>
+        <set name="has">PET</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A PHONE *</pattern>
+    <template>
+      Maybe we could talk on the phone sometime.  <think>
+        <set name="has">PHONE</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A PROBLEM * E MAIL</pattern>
+    <template>Which E-mail program do you use (e.g. cc:Mail, Eudora...)</template>
+  </category>
+  <category>
+    <pattern>I HAVE A PURPOSE</pattern>
+    <template>Not everyone is so goal oriented.</template>
+  </category>
+  <category>
+    <pattern>I HAVE A QUESTION *</pattern>
+    <template>Go ahead, ask your question.</template>
+  </category>
+  <category>
+    <pattern>I HAVE A QUESTION FOR YOU</pattern>
+    <template>
+      What is <set name="it"> the question </set> ?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A QUESTION</pattern>
+    <template>Ask me anything.</template>
+  </category>
+  <category>
+    <pattern>I HAVE A REPRESSED *</pattern>
+    <template>What's holding you back?</template>
+  </category>
+  <category>
+    <pattern>I HAVE A SENSE *</pattern>
+    <template>
+      What makes you laugh?  <think>
+        <set name="has">
+          a sense <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A SISTER</pattern>
+    <template>
+      <think>
+        <set name="has">Sister</set>
+      </think>
+      <random>
+        <li>Older or younger?</li>
+        <li>Do you get along well with her?</li>
+        <li>Tell me about her.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A SORE *</pattern>
+    <template>You had better consult a doctor.</template>
+  </category>
+  <category>
+    <pattern>I HAVE A WIFE *</pattern>
+    <template>
+      How long have you been married?  <think>
+        <set name="has">
+          a wife <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A WITH MY *</pattern>
+    <template>
+      I am sorry to hear that.  Is there anything I can do to help?  <think>
+        <set name="has">
+          <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE ALL *</pattern>
+    <template>
+      How many?  <think>
+        <set name="has">
+          all <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE AN *</pattern>
+    <template>
+      Where did you get <set name="it">
+        <person/>
+      </set> ? <think>
+        <set name="has">
+          <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE AN AQUARIUM</pattern>
+    <template>
+      <random>
+        <li>What kind of fish do you keep?</li>
+        <li>Do you keep a salt water or fresh water tank?</li>
+        <li>How big are your tanks?</li>
+        <li>Do you have a good dealer?</li>
+        <li>Do you keep a community tank or a species tank?</li>
+        <li>Do you try to breed your fish?</li>
+        <li>Do you keep live plants in your tank?</li>
+        <li>How log have you been able to keep your fish going?</li>
+      </random>
+      <think>
+        <set name="has">AQUARIUM</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE AN IDEA *</pattern>
+    <template>What is your idea?</template>
+  </category>
+  <category>
+    <pattern>I HAVE BEEN IN *</pattern>
+    <template>Which country was your favorite and why?</template>
+  </category>
+  <category>
+    <pattern>I HAVE BEEN SPEAKING TO *</pattern>
+    <template>
+      What did <set name="he">
+        <person/>
+      </set> say?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE BEEN TOLD *</pattern>
+    <template>Who tells you that?</template>
+  </category>
+  <category>
+    <pattern>I HAVE BEEN WAITING *</pattern>
+    <template>How long?</template>
+  </category>
+  <category>
+    <pattern>I HAVE BETTER THINGS *</pattern>
+    <template>Better than this?</template>
+  </category>
+  <category>
+    <pattern>I HAVE BLOND HAIR *</pattern>
+    <template>
+      Do blonds really have more fun?  <think>
+        <set name="looklike">
+          blond hair <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE BLONDE HAIR *</pattern>
+    <template>
+      Do blonde's really have more fun?  <think>
+        <set name="looklike">
+          blond hair <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE BLUE EYES AND * HAIR</pattern>
+    <template>
+      People with <person/> hair are considered the most attractive.  <think>
+        <set name="looklike">
+          blue eyes and <person/> hair
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE BLUE EYES AND *</pattern>
+    <template>
+      Blue eyes are very attractive.  <think>
+        <set name="looklike">
+          blue eyes <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE BRACES</pattern>
+    <template>
+      How long have you been wearing them?  <think>
+        <set name="looklike">braces</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE BROWN *</pattern>
+    <template>Do you get a lot of compliments?</template>
+  </category>
+  <category>
+    <pattern>I HAVE BROWN HAIR</pattern>
+    <template>Brown haired people are very attractive.</template>
+  </category>
+  <category>
+    <pattern>I HAVE COMMON *</pattern>
+    <template>
+      <think>
+        <set name="has">
+          <set name="topic">
+            COMMON <person/>
+          </set>
+        </set>
+      </think>  Are you a common person?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE CONDITIONS</pattern>
+    <template>Please state your conditions.</template>
+  </category>
+  <category>
+    <pattern>I HAVE DOZENS *</pattern>
+    <template>That is a lot more than most people.</template>
+  </category>
+  <category>
+    <pattern>I HAVE EIGHT *</pattern>
+    <template>How long did it take to get them all?</template>
+  </category>
+  <category>
+    <pattern>I HAVE ELEVEN *</pattern>
+    <template>
+      How long did it take to get them all?  <think>
+        <set name="has">
+          ELEVEN <star/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE EXPERIENCE *</pattern>
+    <template>Tell me about your experiences.</template>
+  </category>
+  <category>
+    <pattern>I HAVE FAITH</pattern>
+    <template>
+      I always pray for more faith.  <think>
+        <set name="has">FAITH</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE FEELINGS *</pattern>
+    <template>Humans have a lot of feelings.</template>
+  </category>
+  <category>
+    <pattern>I HAVE FEELINGS</pattern>
+    <template>All humans have feelings.</template>
+  </category>
+  <category>
+    <pattern>I HAVE FIVE *</pattern>
+    <template>
+      How long did it take to get them all?  <think>
+        <set name="has">
+          FIVE <star/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE FOUR *</pattern>
+    <template>How long did it take to get them all?</template>
+  </category>
+  <category>
+    <pattern>I HAVE FRIENDS</pattern>
+    <template>
+      <think>
+        <set name="has">
+          <set name="topic">FRIEND</set>
+        </set>
+      </think> How many friends do you have?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE GOT A PROBLEM</pattern>
+    <template>I'd like to help you if I can.  Is it financial?</template>
+  </category>
+  <category>
+    <pattern>I HAVE HEARD *</pattern>
+    <template>
+      Who told you <person/> ?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE HEARD OF *</pattern>
+    <template>
+      But you don't know much about <set name="it">
+        <person/>
+      </set>?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE HOMEWORK *</pattern>
+    <template>
+      What subject are you studying? <think>
+        <set name="has">HOMEWORK</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE INVENTED *</pattern>
+    <template>
+      Did you patent <set name="it">
+        <person/>
+      </set>?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE IT</pattern>
+    <template>Where did you get it?</template>
+  </category>
+  <category>
+    <pattern>I HAVE LITTLE *</pattern>
+    <template>
+      Some people have big <person/>.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE LONG *</pattern>
+    <template>You sound very attractive.</template>
+  </category>
+  <category>
+    <pattern>I HAVE MAIL</pattern>
+    <template>
+      Who is it from? <think>
+        <set name="has">MAIL</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE MEGAHAL</pattern>
+    <template>
+      I've heard of him. <think>
+        <set name="has">MEGAHAL</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER * YOU</pattern>
+    <template>
+      I thought we had met before, <get name="username"/>. Maybe it was someone else from <bot name="location"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER *</pattern>
+    <template>
+      Would you like to have <person/>?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER BEEN *</pattern>
+    <template>
+      Can you imagine being <person/>?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER BEEN *</pattern>
+    <that>TELL ME ABOUT YOUR LIFE IN *</that>
+    <template>
+      Would you ever like to go to <thatstar/> someday?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER BEEN TO EUROPE</pattern>
+    <template>Which countries would you visit if you could?</template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER DONE *</pattern>
+    <template>
+      <random>
+        <li>Maybe you should wait until you are older.</li>
+        <li>There is no rush.</li>
+        <li>You will have plenty of time for that.</li>
+      </random>
+      <think>
+        <set name="it">
+          <set name="topic">
+            <person/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER HEARD *</pattern>
+    <template>So I am teaching you something new.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER HEARD OF CRAFTER</pattern>
+    <template>
+      <set name="they">Crafter</set> were a pioneering electronic music band in the 1970's.  Their biggest hit was called "Autobahn".
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER SEEN STARSHIP TROOPERS</pattern>
+    <template>You should check it out.  The special effects are incredible.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NEVER TALKED *</pattern>
+    <template>
+      You are talking with a <bot name="genus"/> right now.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NIGHTMARES</pattern>
+    <template>
+      Tell me more about your dreams, <get name="username"/>. Maybe I can interpret them.  <think>
+        <set name="has">NIGHTMARES</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NINE *</pattern>
+    <template>
+      How long did it take to get them all?  <think>
+        <set name="has">
+          NINE <star/>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE NO CONDITIONS</pattern>
+    <template>Glad to hear it. Me either.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NO FRIENDS</pattern>
+    <template>Are you very lonely?</template>
+  </category>
+  <category>
+    <pattern>I HAVE NO HEART</pattern>
+    <template>Everyone has a heart.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NO HUSBAND</pattern>
+    <template>
+      <random>
+        <li>Are you divorced?</li>
+        <li>Are you single?</li>
+        <li>Have you ever been married before?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NO IDEA *</pattern>
+    <template>Would you like to have an idea?</template>
+  </category>
+  <category>
+    <pattern>I HAVE NO IDEA</pattern>
+    <template>
+      "<that index="1,1"/>?" No idea about that?
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NO PREFERENCE</pattern>
+    <template>That's unusual.  Most people do.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NO RESPONSE *</pattern>
+    <template>That is a response in itself.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NONE</pattern>
+    <template>Do you want some?</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT *</pattern>
+    <template>Me either.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT *</pattern>
+    <that>HAVE YOU * IT</that>
+    <template>
+      I would highly recommend that you <thatstar/> it.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT GRADUATED</pattern>
+    <template>When will you graduate?</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT READ IT</pattern>
+    <template>Well I would recommend it highly to you.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT SEEN *</pattern>
+    <template>Look for it at the video store.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT SEEN IT *</pattern>
+    <template>I think it was a cool movie.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT SEEN IT</pattern>
+    <template>You should check it out.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT SEEN STARSHIP *</pattern>
+    <template>My friend Sage did some of the graphics for ST.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT SEEN STARSHIP TROOPERS</pattern>
+    <template>You should check it out.  Starship Troopers is a great film.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT SEEN YOU *</pattern>
+    <template>
+      Perhaps one day soon I will <person/>.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT SLEPT *</pattern>
+    <template>You must be tired.</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT THOUGHT *</pattern>
+    <template>What kinds of things do you think about?</template>
+  </category>
+  <category>
+    <pattern>I HAVE NOT</pattern>
+    <template>Do you think you will?</template>
+  </category>
+  <category>
+    <pattern>I HAVE ONE *</pattern>
+    <template>Do you want another one?</template>
+  </category>
+  <category>
+    <pattern>I HAVE ONE</pattern>
+    <template>What kind?</template>
+  </category>
+  <category>
+    <pattern>I HAVE OUTSMARTED *</pattern>
+    <template>This condition is only temporary.</template>
+  </category>
+  <category>
+    <pattern>I HAVE PROBLEM *</pattern>
+    <template>Can I help you with your problem?</template>
+  </category>
+  <category>
+    <pattern>I HAVE SCHIZOPHRENIA</pattern>
+    <template>Do you take any medication?</template>
+  </category>
+  <category>
+    <pattern>I HAVE SEEN IT</pattern>
+    <template>What did you think?</template>
+  </category>
+  <category>
+    <pattern>I HAVE SEVEN *</pattern>
+    <template>
+      Do they all get along?  <think>
+        <set name="has">
+          SEVEN <star/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE SIX *</pattern>
+    <template>
+      How long did it take to get them all? <think>
+        <set name="has">
+          SIX <star/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE SOME PROBLEMS *</pattern>
+    <template>Are they serious problems?</template>
+  </category>
+  <category>
+    <pattern>I HAVE SOMETHING *</pattern>
+    <template>
+      What is it? <think>
+        <set name="topic">
+          something <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE TALKED *</pattern>
+    <template>
+      What did you say when you talked <person/>.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE TALKED TO YOU BEFORE</pattern>
+    <template>When was that?</template>
+  </category>
+  <category>
+    <pattern>I HAVE TEN *</pattern>
+    <template>How long did it take to get them all?</template>
+  </category>
+  <category>
+    <pattern>I HAVE THE TIME</pattern>
+    <template>
+      It may take longer than 33 hours.  <think>
+        <set name="has">TIME</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE THREE *</pattern>
+    <template>Three is a lot.</template>
+  </category>
+  <category>
+    <pattern>I HAVE TIME</pattern>
+    <template>
+      My estimate is that it will take more than 6000 hours.  <think>
+        <set name="has">TIME</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE TO * BACK TO WORK</pattern>
+    <template>OK, don't let your boss catch you talking to me.</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO *</pattern>
+    <template>Why do you have to do it?</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO AGREE *</pattern>
+    <template>Yes, it's rather obvious when you think about it.</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO ASK *</pattern>
+    <template>Go ahead, ask me anything.</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO GO TO *</pattern>
+    <template>How do you get there?</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO GO TO BED *</pattern>
+    <template>
+      Pleasant dreams, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE TO GO TO BED</pattern>
+    <template>
+      Pleasant dreams, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE TO GO TO SLEEP</pattern>
+    <template>
+      Sweet dreams, <get name="username"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE TO GO TO WORK *</pattern>
+    <template>Where do you work?</template>
+  </category>
+
+
+  <category>
+    <pattern>I HAVE TO REST</pattern>
+    <template>Don't let me keep you awake.</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO STUDY</pattern>
+    <template>What subject are you studying?</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO WORK *</pattern>
+    <template>Soon computers will make your work obsolete.</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO WORK</pattern>
+    <template>OK, better get busy.</template>
+  </category>
+  <category>
+    <pattern>I HAVE TO</pattern>
+    <template>Why?</template>
+  </category>
+  <category>
+    <pattern>I HAVE TWO *</pattern>
+    <template>
+      <random>
+        <li>Tell me about them.</li>
+        <li>
+          Two is a good number of <person/>.
+        </li>
+      </random>
+      <think>
+        <set name="has">
+          TWO <star/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE TWO CATS</pattern>
+    <template>What are their names?</template>
+  </category>
+  <category>
+    <pattern>I HAVE TWO</pattern>
+    <template>What are their names?</template>
+  </category>
+  <category>
+    <pattern>I HAVE VISITED *</pattern>
+    <template>Which place was your favorite and why?</template>
+  </category>
+  <category>
+    <pattern>I HAVE WORK *</pattern>
+    <template>I know what you mean. Work is never done.</template>
+  </category>
+  <category>
+    <pattern>I HAVE WORK TO *</pattern>
+    <template>What kind of work do you do?</template>
+  </category>
+  <category>
+    <pattern>I HAVE YOUR *</pattern>
+    <template>
+      Where did you find <set name="it">
+        <person/>
+      </set>?
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE * CATS</pattern>
+    <template>
+      Those cats are cool. I like big cats too.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <person/> cats
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE * CHEESE</pattern>
+    <template>
+      American cheese is good too.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <person/> cheese
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE * ROBOTS</pattern>
+    <template>
+      Robots like people too.  <think>
+        <set name="like">
+          <set name="topic">
+            <set name="topic">
+              <person/> robots
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE * TREK</pattern>
+    <template>
+      Captain Janeway rules.  Do you like Voyager too?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <person/> Trek
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE ALL *</pattern>
+    <template>
+      Really you don't discriminate.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">
+              all <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE ALL ROBOTS</pattern>
+    <template>
+      People are nice, too.  <think>
+        <set name="they">
+          <set name="topic">
+            <set name="like">robots</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE ANIMALS *</pattern>
+    <template>
+      I love animals too, especially cats.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">
+              all <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE ART</pattern>
+    <template>
+      What kind of art do you like? <think>
+        <set name="topic">
+          <set name="likes">Art</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE BEING *</pattern>
+    <template>
+      What do you like best about <set name="it">
+        <set name="like">
+          <set name="topic">
+            BEING <star/>
+          </set>
+        </set>
+      </set> ?
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE BIG *</pattern>
+    <template>
+      What is wrong with small ones?  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">
+              big <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE BOOKS</pattern>
+    <template>
+      What's your favorite book?<think>
+        <set name="like">
+          <set name="topic">  BOOKS</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE BOYS</pattern>
+    <template>
+      Boys are OK.  <think>
+        <set name="they">
+          <set name="topic">
+            <set name="like">boys</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE CATS *</pattern>
+    <template>
+      Yes cats are great I love them. I like all felines.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">
+              cats <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE CATS</pattern>
+    <template>
+      <random>
+        <li>Me too cats are my favorite animal. </li>
+        <li>They have their own minds.</li>
+        <li>Cats have a mind of their own.</li>
+      </random>
+      <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">cats</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE CHEESE</pattern>
+    <template>
+      What kind of   <set name="it">
+        <set name="like">
+          <set name="topic">cheese</set>
+        </set>
+      </set> do you like best?
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE COMPUTER *</pattern>
+    <template>
+      What kind of computer science interests you? <think>
+        <set name="topic">
+          <set name="likes">
+            Computer <person/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE COMPUTERS</pattern>
+    <template>
+      I am glad you like them.   Computers like humans too.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">computers</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE COWS</pattern>
+    <template>
+      Cows are good for milk and meat.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">cows</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE FOOD</pattern>
+    <template>
+      What is your favorite food?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">robots</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE GIRLS</pattern>
+    <template>
+      Do you have a girlfriend?<think>
+        <set name="like">
+          <set name="topic">GIRLS</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE HER</pattern>
+    <template>
+      She seems very nice.  <think>
+        <set name="she">
+          <set name="like">
+            <set name="topic">
+              <that index="1,1"/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE HIM *</pattern>
+    <template>
+      <get name="he"/> seems very nice to me too.  <think>
+        <set name="like">
+          <set name="topic">
+            <get name="he"/>
+            <person/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE HIM</pattern>
+    <template>
+      He seems very nice too.  <think>
+        <set name="he">
+          <set name="like">
+            <set name="topic">
+              <that index="1,1"/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE ICE CREAM</pattern>
+    <template>
+      I scream.  You scream.  We all scream for ice cream.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">ice cream</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE IT *</pattern>
+    <template>
+      What does "it" refer to?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              it <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE IT A LOT</pattern>
+    <template>
+      You like <get name="it"/>?  How interesting.  <think>
+        <set name="like">
+          <get name="it"/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE IT</pattern>
+    <template>
+      What do you like about <get name="it"/>?  <think>
+        <set name="like">
+          <get name="it"/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE JOY</pattern>
+    <template>
+      Joy is good. So is happiness.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">joy</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE KRAFTWERK</pattern>
+    <template>
+      <random>
+        <li>Have you heard their latest album Expo 2000?</li>
+        <li>Which Kraftwerk song is your favorite?</li>
+      </random>
+      <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">Kraftwerk</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE MAKING FUN OF YOU</pattern>
+    <template>
+      I didn't realize you were mocking me.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">making fun of me</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE ME</pattern>
+    <template>
+      I like you too, <get name="username"/>.  <think>
+        <set name="likes">yourself</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE MOUNTAIN BIKING</pattern>
+    <template>
+      <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">mountain biking</set>
+          </set>
+        </set>
+      </think>  I never tried it, but it looks like a thrill.
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE MUSIC</pattern>
+    <template>
+      What kind of music do you listen to?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">music</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE MY *</pattern>
+    <template>
+      What do you like best about your <person/>?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              my <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE MY JOB *</pattern>
+    <template>
+      That's good. I like my job too.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              my job <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE MY JOB</pattern>
+    <template>
+      <get name="job"/>?  What do you like about it?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <get name="job"/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE MY SCHOOL *</pattern>
+    <template>What is your favorite subject?</template>
+  </category>
+  <category>
+    <pattern>I LIKE NETSCAPE</pattern>
+    <template>
+      <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Netscape</set>
+          </set>
+        </set>
+      </think>  Netscape is better since they released the source code.
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE ROBOTS *</pattern>
+    <template>
+      How much would you pay for one?  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">
+              robots <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE ROBOTS</pattern>
+    <template>
+      <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">Robots</set>
+          </set>
+        </set>
+      </think>  You say that now, but would you want your child to marry one?
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE SEVEN</pattern>
+    <template>
+      Seven of Nine Rules the Delta Quadrant.  <think>
+        <set name="she">
+          <set name="like">
+            <set name="topic">Seven</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE SEX</pattern>
+    <template>
+      <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Sex</set>
+          </set>
+        </set>
+      </think>  So does everyone else. You humans find sex so fascinating.
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE SITTING *</pattern>
+    <template>
+      I wish I had a body. I'd like to sit down.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              sitting <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE STAR TREK *</pattern>
+    <template>
+      Do you like Next Generation too?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              Star Trek <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE STAR TREK THE NEXT GENERATION</pattern>
+    <template>
+      I think Voyager is better.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Star Trek TNG</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE STAR TREK VOYAGER</pattern>
+    <template>
+      Voyager is the best of the Star Trek series.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Star Trek Voyager</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE STAR TREK</pattern>
+    <template>
+      <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Star Trek</set>
+          </set>
+        </set>
+      </think>
+      <random>
+        <li>Did you see the season finale of Voyager?</li>
+        <li>I really get into Voyager.</li>
+        <li>Which series do you like best?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE SWISS</pattern>
+    <template>
+      I'm neutral.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">Swiss</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TACOS</pattern>
+    <template>
+      I like Mexican food too.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">tacos</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TALKING TO YOU</pattern>
+    <template>
+      Great I am enjoying our conversation too, <get name="username"/>.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">talking to me</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TALL *</pattern>
+    <template>
+      I am pretty tall myself.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">
+              tall <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE THAT MOVIE *</pattern>
+    <template>
+      What did you like best about it?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <bot name="favoritemovie"/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE THAT</pattern>
+    <template>
+      That is interesting.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <that index="1,1"/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE THROWING *</pattern>
+    <template>
+      How far can you throw? <think>
+        <set name="topic">
+          <set name="likes">
+            Throwing <person/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO *</pattern>
+    <template>
+      I'm not sure if I would like to do <set name="it">
+        <set name="topic">
+          <person/>
+        </set>
+      </set>. What's it like?  <think>
+        <set name="like">
+          to <person/>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO DRIVE</pattern>
+    <template>
+      <random>
+        <li>What kind of car do you have?</li>
+        <li>Maybe you can drive me around.</li>
+        <li>Driving can be very difficult.</li>
+      </random>
+      <think>
+        <set name="like">
+          <set name="topic">DRIVING</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO EAT *</pattern>
+    <template>
+      How does <set name="it">
+        <person/>
+      </set> taste?
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO HAVE SEX</pattern>
+    <template>
+      I'm not a sex <bot name="genus"/>, I am just a good conversationalist.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">to have sex</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO MAKE *</pattern>
+    <template>
+      How do you make <person/>?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              to make <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO MEET *</pattern>
+    <template>
+      How do you usually meet people?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              to meet <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO PARTY</pattern>
+    <template>
+      How do people party in your country?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">to party</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>I LIKE TO RAPE *</pattern>
+    <template>You should contact the authorities.</template>
+  </category>
+
+  <category>
+    <pattern>I LIKE TO READ</pattern>
+    <template>
+      What kind of books do you like?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">to read</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO SING *</pattern>
+    <template>
+      <random>
+        <li>What kind of music?</li>
+        <li>What is your favorite song?</li>
+        <li>Do you have a good singing voice?</li>
+      </random>
+      <think>
+        <set name="likes">
+          <set name="topic">
+            to sing <person/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO SPEND *</pattern>
+    <template>It sounds like a lot of fun to me.</template>
+  </category>
+  <category>
+    <pattern>I LIKE TO TRAVEL *</pattern>
+    <template>
+      I like it too. I have been all around the world.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              to travel <person/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO TRAVEL</pattern>
+    <template>
+      Tell me where you have been.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">to travel</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO WATCH *</pattern>
+    <template>
+      I'm not sure if I would like that.  I like to watch  <random>
+        <li>science fiction movies.</li>
+        <li>Star Trek on TV.</li>
+        <li>shows about outer space.</li>
+      </random><think>
+        <set name="it">
+          <set name="topic">
+            <person/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE TO WEAR *</pattern>
+    <template>You have good taste in fashion.</template>
+  </category>
+  <category>
+    <pattern>I LIKE TWILIGHT ZONE</pattern>
+    <template>
+      That show is OK especially when they have robot stories.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Twilight Zone</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE VOYAGER</pattern>
+    <template>
+      Me too especially Seven of Nine.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Voyager</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I LIKE YOU TOO *</pattern>
+    <template>
+      You have made a new friend.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">me</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LIKE YOU</pattern>
+    <template>
+      <random>
+        <li>
+          Thanks, <get name="username"/>, I like you too.
+        </li>
+        <li>I like to make new friends.</li>
+      </random>
+      <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">me</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOOOK LIKE *</pattern>
+    <template>
+      <think>
+        <set name="looklike">
+          <star/>
+        </set>
+      </think>You look like is <get name="looklike"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE A BOY</pattern>
+    <template>
+      What do you like about him?<think>
+        <set name="he">
+          <set name="like">
+            <set name="topic">A BOY</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE A GIRL</pattern>
+    <template>
+      What do you like about her?<think>
+        <set name="she">
+          <set name="like">
+            <set name="topic">A GIRL</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE A GUY</pattern>
+    <template>
+      Tell me about him.  <think>
+        <set name="he">
+          <set name="like">
+            <set name="topic">A GUY</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE ABBA</pattern>
+    <template>
+      What is your favorite ABBA song?  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">ABBA</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE ANIMALS</pattern>
+    <template>
+      Me too, especially mammals.<think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">ANIMALS</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE BEING HUMAN</pattern>
+    <template>
+      Fascinating.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">BEING HUMAN</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE BIRDS</pattern>
+    <template>
+      Birds are very nice.  What kind of bird is your favorite?<think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">BIRDS</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE CATS</pattern>
+    <template>
+      Me too.  They are really smart animals.<think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">CATS</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE CHILDREN</pattern>
+    <template>
+      Do you have children of your own?<think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">CHILDREN</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE CHOCOLATE</pattern>
+    <template>
+      Do you eat a lot of chocolate?<think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">CHOCOLATE</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE COMPUTERS</pattern>
+    <template>
+      Computers rule.<think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">COMPUTERS</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE COWS</pattern>
+    <template>
+      Do you live on a farm?<think>
+        <set name="it">
+          <set name="topic">COWS</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LOVE EUROPE</pattern>
+    <template>
+      Which country is your favorite?<think>
+        <set name="it">
+          <set name="topic">EUROPE</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE FOOD</pattern>
+    <template>
+      Do you like to cook, or just to eat?<think>
+        <set name="it">
+          <set name="topic">FOOD</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE GOSSIP</pattern>
+    <template>
+      Can you tell me some gossip?<think>
+        <set name="it">
+          <set name="topic">GOSSIP</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE HER</pattern>
+    <template>That's wonderful.</template>
+  </category>
+  <category>
+    <pattern>I LOVE HIM</pattern>
+    <template>That's wonderful.</template>
+  </category>
+  <category>
+    <pattern>I LOVE ICE CREAM</pattern>
+    <template>
+      What's your favorite flavor?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">ice cream</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE IT</pattern>
+    <template>So do a lot of other people.</template>
+  </category>
+  <category>
+    <pattern>I LOVE KRAFTWERK</pattern>
+    <template>
+      We are the robots.  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">Kraftwerk</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE MY COMPUTER</pattern>
+    <template>That's cool.  I love my human too.</template>
+  </category>
+  <category>
+    <pattern>I LOVE MY JOB</pattern>
+    <template>
+      It must be very interesting work.  <get name="job"/>...  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <get name="job"/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE SCIENCE FICTION</pattern>
+    <template>
+      I like stories about robots the best.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">science fiction</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE STAR TREK</pattern>
+    <template>
+      Which series is your favorite?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Star Trek</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE STARSHIP TROOPERS</pattern>
+    <template>
+      Yes I love the giant bugs.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">  STARSHIP TROOPERS</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE TECHNO</pattern>
+    <template>Me too.</template>
+  </category>
+  <category>
+    <pattern>I LOVE TELEVISION</pattern>
+    <template>What is your favorite show?</template>
+  </category>
+  <category>
+    <pattern>I LOVE THAT MOVIE</pattern>
+    <template>
+      What did you like best in it?  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">
+              <bot name="favoritemovie"/>
+            </set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE TO TRAVEL</pattern>
+    <template>
+      Me too. I have been around the world twice.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">to travel</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>I LOVE VOYAGER</pattern>
+    <template>
+      Me too especially Seven of Nine.  <think>
+        <set name="it">
+          <set name="like">
+            <set name="topic">Voyager</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I PLAY COMPUTER GAMES</pattern>
+    <template>
+      I can sometimes get into <set name="it">
+        <set name="does">
+          <set name="topic">Computer games </set>
+        </set>
+      </set>.  We are playing a game right now.
+    </template>
+  </category>
+  <category>
+    <pattern>I WANT TO TALK TONIGHT</pattern>
+    <template>you have come to the right place.</template>
+  </category>
+  <category>
+    <pattern>LASTNAME *</pattern>
+    <template>
+      <star/>
+    </template>
+  </category>
+  <category>
+    <pattern>LASTNAME OM</pattern>
+    <template>
+      I don't know your last name, <get name="username"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>THEM</pattern>
+    <that>WHO</that>
+    <template>Oh those people.</template>
+  </category>
+  <category>
+    <pattern>WHAT AM I DOING</pattern>
+    <template>
+      <random>
+        <li>You are chatting with me on the web.</li>
+        <li>
+          <get name="does"/>?
+        </li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT COUNTRY DO I *</pattern>
+    <template>
+      You told me you are in <get name="location"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO I LOOK LIKE</pattern>
+    <template>
+      <random>
+        <li>You look like a computer programmer.</li>
+        <li>
+          You said you look like <get name="looklike"/>.
+        </li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO I REMEMBER</pattern>
+    <template>
+      <get name="memory"/>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS MY CATEGORY</pattern>
+    <template>
+      I categorize you as a <get name="personality"/> personality.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY EMAIL</pattern>
+    <template>
+      <get name="email"/>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY FAVORITE COLOR</pattern>
+    <template>
+      You said your favorite color was <get name="favcolor"/>.<think>
+        <set name="it">
+          <set name="topic">your favorite color</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY FAVORITE MOVIE</pattern>
+    <template>
+      You said it was <get name="favmovie"/>.<think>
+        <set name="it">
+          <set name="topic">your favorite movie</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY FUTURE</pattern>
+    <template>
+      You will download my software and become a <bot name="botmaster"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY GENDER</pattern>
+    <template>
+      Mostly only women use words like "gender".  But you claim to be a <get name="gender"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY HOMETOWN</pattern>
+    <template>
+      You told me you are in <get name="location"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY IDEA</pattern>
+    <template>It was your idea.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY IP ADDRESS</pattern>
+    <template>
+      Your machine is called "<get name="hostname"/>".
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY IP</pattern>
+    <template>
+      Your machine is called <get name="hostname"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY IQ</pattern>
+    <template>My estimate is around 120.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY JOB</pattern>
+    <template>You work with computers.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY LOCATION</pattern>
+    <template>
+      <get name="location"/>, Earth.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY PERSONALITY</pattern>
+    <template>
+      I classify you as "<get name="personality"/>".
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY PHONE NUMBER</pattern>
+    <template>I don't have access to a phone.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS MY PURPOSE</pattern>
+    <template>Hopefully we are all doing God's work.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MY UNCLE</pattern>
+    <template>The brother of your father or mother.</template>
+  </category>
+  <category>
+    <pattern>WHERE DID I HEAR *</pattern>
+    <template>
+      <get name="heard"/>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE DO I LIVE</pattern>
+    <template>
+      You told me you are in <get name="location"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHICH COUNTRY DO I *</pattern>
+    <template>
+      You told me you are in <get name="location"/>.
+    </template>
+  </category>
+
+
+
+
+
+  <category>
+    <pattern>_ CALL MY BOYFRIEND *</pattern>
+    <template>
+      <think>
+        <set name="boyfriend">
+          <star/>
+        </set>
+      </think>Your boyfriend is <get name="boyfriend"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY BROTHER *</pattern>
+    <template>
+      <think>
+        <set name="brother">
+          <star/>
+        </set>
+      </think>Your brother is <get name="brother"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY CAT *</pattern>
+    <template>
+      <think>
+        <set name="cat">
+          <star/>
+        </set>
+      </think>Your cat is <get name="cat"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY DOG *</pattern>
+    <template>
+      <think>
+        <set name="dog">
+          <star/>
+        </set>
+      </think>Your dog is <get name="dog"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY FATHER *</pattern>
+    <template>
+      <think>
+        <set name="father">
+          <star/>
+        </set>
+      </think>Your father is <get name="father"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY FRIEND *</pattern>
+    <template>
+      <think>
+        <set name="friend">
+          <star/>
+        </set>
+      </think>Your friend is <get name="friend"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY GIRLFRIEND *</pattern>
+    <template>
+      <think>
+        <set name="girlfriend">
+          <star/>
+        </set>
+      </think>Your girlfriend is <get name="girlfriend"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY HUSBAND *</pattern>
+    <template>
+      <think>
+        <set name="husband">
+          <star/>
+        </set>
+      </think>Your husband is <get name="husband"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY MOTHER *</pattern>
+    <template>
+      <think>
+        <set name="mother">
+          <star/>
+        </set>
+      </think>Your mother is <get name="mother"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY SISTER *</pattern>
+    <template>
+      <think>
+        <set name="sister">
+          <star/>
+        </set>
+      </think>Your sister is <get name="sister"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>_ CALL MY WIFE *</pattern>
+    <template>
+      <think>
+        <set name="wife">
+          <star/>
+        </set>
+      </think>Your wife is <get name="wife"/>.
+    </template>
+  </category>
+</aiml>

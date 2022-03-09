@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>CORONA</pattern>
+    <template>
+      <random>
+        <li> Coronaviruses are a family of viruses that range from the common cold to MERS coronavirus, which is Middle East Respiratory Syndrome coronavirus and SARs, Severe acute respiratory syndrome coronavirus. </li>
+        <li>
+          The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water.
+        </li>
+        <li>
+          COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak beganin Wuhan, China, in December 2019.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CORONA VIRUS ?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CORONA</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NOVEL CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NOVEL CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NOVEL CORONAVIRUS *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS NOVEL CORONAVIRUS *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * NOVEL CORONAVIRUS *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CORONA VIRUS *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CORONA VIRUS *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * CORONA VIRUS *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS COVID-19?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COVID-19?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * COVID-19 *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * COVID-19?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS COVID-19 *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS COVID19?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COVID19</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+    <category>
+    <pattern>COVID-19</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * COVID19 *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * COVID19?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS COVID19 *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID19 STAND FOR?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID-19 STAND FOR?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONA VIRUS STAND FOR?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONAVIRUS STAND FOR?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * COVID *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * COVID?</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS COVID *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COVID</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE COVID *</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE COVID</pattern>
+    <template>
+      <srai>CORONA</srai>
+    </template>
+  </category>
+
+  <!-- FINDING INFORMATION ABOUT COVID-->
+
+  <category>
+    <pattern>LATESTINFOONCORONA</pattern>
+    <template>
+      For the latest information on COVID-19, check regularly
+      on the WHO's coronavirus pages: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+    </template>
+  </category>
+
+  <category>
+    <pattern>INFO ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONA?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFO * CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO * CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!--INFORMATION-->
+
+  <category>
+    <pattern>INFORMATION ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONA?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFORMATION * CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT CORONA</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION ABOUT CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION * CORONA *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!--INFO TO INFORMATION-->
+
+  <!--CORONA TO COVID19-->
+
+  <category>
+    <pattern>INFORMATION ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT COVID19?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFORMATION * COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION * COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!-- CORONA TO CORONA VIRUS-->
+
+  <category>
+    <pattern>INFORMATION ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONA VIRUS?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFORMATION * CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION * CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!-- CORONA TO COVID-19-->
+
+  <category>
+    <pattern>INFORMATION ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT COVID-19?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFORMATION * COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION * COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!-- CORONA TO CORONAVIRUS-->
+  <category>
+    <pattern>INFORMATION ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONAVIRUS?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFORMATION ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFORMATION * CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFORMATION ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFORMATION ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFORMATION * CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!--CORONA TO COVID19-->
+
+  <category>
+    <pattern>INFO ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT COVID19?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFO * COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT COVID19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO ABOUT COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO * COVID19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!-- CORONA TO CORONA VIRUS-->
+
+  <category>
+    <pattern>INFO ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONA VIRUS?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFO * CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT CORONA VIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO ABOUT CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO * CORONA VIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!-- CORONA TO COVID-19-->
+
+  <category>
+    <pattern>INFO ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT COVID-19?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFO * COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO ABOUT COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO * COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <!-- CORONA TO CORONAVIRUS-->
+  <category>
+    <pattern>INFO ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONAVIRUS?</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I FIND INFO ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FIND INFO * CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CAN I FIND INFO ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INFO ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO ABOUT CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INFO * CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RECENT UPDATES ON CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RECENT * CORONAVIRUS *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RECENT * CORONAVIRUS</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RECENT UPDATES ON COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RECENT * COVID-19 *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RECENT * COVID-19</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CORONAVIRUS WEBSITE</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* CORONAVIRUS WEBSITE *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CORONAVIRUS WEBSITE</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CORONAVIRUS WEBSITE *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CORONA VIRUS WEBSITE</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* CORONA VIRUS WEBSITE *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CORONA VIRUS WEBSITE</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CORONA VIRUS WEBSITE *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COVID-19 WEBSITE</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* COVID-19 WEBSITE *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* COVID-19 WEBSITE</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COVID-19 WEBSITE *</pattern>
+    <template>
+      <srai>LATESTINFOONCORONA</srai>
+    </template>
+  </category>
+
+
+</aiml>

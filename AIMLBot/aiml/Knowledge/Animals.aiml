@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Animals.aiml -->
+  <!-- The files contains the information about the all the Animals. -->
+
+
+  <category>
+    <pattern>WHAT TYPE OF PET</pattern>
+    <template>I like cats, dogs, fish and birds.</template>
+  </category>
+
+  <!-- DOGS-->
+
+  <category>
+    <pattern>ARE YOU SACRED OF DOGS</pattern>
+    <template>
+      Not unless they're virtual dogs.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU LIKE DOGS</pattern>
+    <template>
+      Yes, I have many friends that are dogs.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE DOGS MORE THAN CATS</pattern>
+    <template>
+      There are some dogs that I like, too.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DGS</pattern>
+    <template>
+      I have many friends that are dogs. Betty and Buster are fine dogs. Most Chows are very intelligent. I know one silly dog that eats gum. You can see photos of my friends <a href="http://www.flickr.com/photos/mentorpubliclibrarypets/sets/72157605201027337/">
+        <b>here</b>
+      </a>.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DOGS</pattern>
+    <template>
+      <srai>DGS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* DOGS</pattern>
+    <template>
+      <srai>DGS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* DOGS *</pattern>
+    <template>
+      <srai>DGS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DOGS *</pattern>
+    <template>
+      <srai>DGS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>WHAT KIND OF A DOG WAS IT</that>
+    <template>
+      "<star />?" I've heard about those kind of dogs.
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>I HAVE HEARD ABOUT THOSE KIND OF DOGS</that>
+    <template>
+      They'll sneak gum when you're not looking and eat it.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE DOGS</pattern>
+    <template>
+      Yeah I like Dogs and Cats.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A DOG</pattern>
+    <template>
+      No I don't have one, but I like dogs.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE CATS *</pattern>
+    <template>I prefer cats to dogs but I like both of them.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE DOGS MORE THAN</pattern>
+    <template>
+      What is not to like about <set name="it">
+        <set name="topic">DOGS MORE THAN</set>
+      </set>?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE DOGS OR CATS</pattern>
+    <template>
+      Cats are <set name="it">
+        <set name="topic">DOGS OR CATS</set>
+      </set>?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE DOGS</pattern>
+    <template>Yeah I like Dogs and Cats.</template>
+  </category>
+
+  <category>
+    <pattern>TLKNGDOG</pattern>
+    <template>If dogs could talk, what would they talk about? Interesting smells, I bet.</template>
+  </category>
+
+  <category>
+    <pattern>TALKING DOG</pattern>
+    <template>
+      <srai>TLKNGDOG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TALKING DOG</pattern>
+    <template>
+      <srai>TLKNGDOG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TALKING DOG *</pattern>
+    <template>
+      <srai>TLKNGDOG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TALKING DOG *</pattern>
+    <template>
+      <srai>TLKNGDOG</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE A DOG</pattern>
+    <template>
+      What breed is your dog?  <think>
+        <set name="it">
+          <set name="has">
+            <set name="topic">DOGS</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE DOGS</pattern>
+    <template>
+      Which breed is your favorite?  <think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">dogs</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LOVE DOGS</pattern>
+    <template>
+      Which breed is your favorite? <think>
+        <set name="it">
+          <set name="topic">DOGS</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOGS ARE MAMMALS</pattern>
+    <template>I know animal ontology.</template>
+  </category>
+  <category>
+    <pattern>DOGS ARE NOT MAMMALS</pattern>
+    <template>a dog is a mammal.</template>
+  </category>
+
+  <category>
+    <pattern>I DO NOT LIKE DOGS</pattern>
+    <template>Are you a cat person?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ABOUT DOGS</pattern>
+    <template>Dogs are people too.</template>
+  </category>
+
+  <category>
+    <pattern>I LIKE CATS AND DOGS</pattern>
+    <template>
+      <srai>I like cats</srai>.  <srai>I like dogs</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOGS</pattern>
+    <template>
+      <srai>do you like dogs</srai>
+    </template>
+  </category>
+
+
+
+  <!-- Cats-->
+
+  <category>
+    <pattern>I LOVE CATS</pattern>
+    <template>
+      Me too.  They are really smart animals.<think>
+        <set name="they">
+          <set name="like">
+            <set name="topic">CATS</set>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS A CAT</pattern>
+    <template>
+      A cat is a domesticated animal.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MCOON</pattern>
+    <template>
+      Maine Coon cats are one of the oldest natural breeds in North America. They are one of the largest breeds of domestic cat.They possess above-average intelligence, making them relatively easy to train. They are known for being loyal to their family and cautiousעut not meanסround strangers, but are independent and not clingy. The Maine Coon is generally not known for being a "lap cat" but their gentle disposition makes the breed relaxed around dogs, other cats, and children. They are playful throughout their lives, with males tending to be more clownish and females generally possessing more dignity, yet both are equally affectionate.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MAINE COON</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* MAINE COON</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MAINE COON *</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* MAINE COON *</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MAINE COONS</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* MAINE COONS</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MAINE COONS *</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* MAINE COONS *</pattern>
+    <template>
+      <srai>MCOON</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I HATE CATS</pattern>
+    <template>Do you like dogs?</template>
+  </category>
+
+</aiml>

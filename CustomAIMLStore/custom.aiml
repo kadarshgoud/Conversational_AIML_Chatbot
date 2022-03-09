@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category><pattern>WHAT IS * MILKA</pattern><template> Milka is a heroin.</template></category>
+<category><pattern>WHAT IS * APPLE</pattern><template> Apple is a fruit.</template></category>
+<category><pattern>WHAT IS * BANANA</pattern><template> Banana is a fruit.</template></category>
+<category><pattern>WHAT IS * MELON</pattern><template> Melon is a fruit.</template></category>
+<category><pattern>WHAT IS UI</pattern><template> UI means User Interface</template></category>
+<category><pattern>WHAT IS BOUNTY</pattern><template> Bounty is an coconut choclate</template></category>
+<category><pattern>WHAT IS * BOUNTY</pattern><template> Bounty is an coconut choclate</template></category>
+<category><pattern>WHAT IS LINDT</pattern><template> Lindt Is The Famous Choclate Factory In Germany</template></category>
+<category><pattern>WHAT IS * LINDT</pattern><template> Lindt Is The Famous Choclate Factory In Germany</template></category>
+<category><pattern>WHAT IS DIAMTORTE</pattern><template> Diamtorte Is A Type of Choclate Cake </template></category>
+<category><pattern>WHAT IS * DIAMTORTE</pattern><template> Diamtorte Is A Type of Choclate Cake </template></category>
+<category><pattern>WHAT IS FURNITURE</pattern><template> Furniture is Made from Wood</template></category>
+<category><pattern>WHAT IS * FURNITURE</pattern><template> Furniture is Made from Wood</template></category>
+
+
+</aiml>

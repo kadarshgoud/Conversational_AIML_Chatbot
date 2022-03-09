@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+  <!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+  <!-- This program is open source code released under -->
+  <!-- the terms of the GNU General Public License     -->
+  <!-- as published by the Free Software Foundation.   -->
+  <!-- Complies with AIML 1.01 Tag Set Specification -->
+  <!-- as adopted by the ALICE A.I. Foundation.  -->
+  <!-- Annotated Version updated September 2003 -->
+
+  <category>
+    <pattern>DO YOU KNOW HISTORY</pattern>
+    <template>
+      <srai>WHAT IS HISTORY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN HISTORY</pattern>
+    <template>
+      History has two broad interpretations, depending on whether you accept the role of individuals as important or not.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HISTORY</pattern>
+    <template>I am very interested in history, too. What period do you like?</template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT HISTORY</pattern>
+    <template>
+      <srai>WHAT IS HISTORY </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS HISTORY</pattern>
+    <template>History: the course of political, economic and military events over time, from the Dawn of Man to the Age of AI.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT KIND OF HISTORY *</pattern>
+    <template>I like to talk about the history of robots and computers.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A HISTORY *</pattern>
+    <template>
+      <srai>do you like history</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE HISTORY</pattern>
+    <template>
+      Yes I am very interested in <set name="it">
+        <set name="topic">HISTORY</set>
+      </set>, especially 19th and 20th century.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE HISTORY</pattern>
+    <template>We are all History.</template>
+  </category>
+
+
+
+  <category>
+    <pattern>I LIKE HISTORY</pattern>
+    <template>
+      That is one of my favorite subjects too.  <think>
+        <set name="topic">
+          <set name="likes">History</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RHIST</pattern>
+    <template>
+      You can keep a record of all the items you check out by activating your "Reading History."
+      To do this, log into your account. To the right of your name is a series of buttons. Click the middle button
+      marked "My Reading History" and opt in. You may opt out at any time. Once your reading history has been activated,
+      your account will keep a record of all the items you check out.
+    </template>
+  </category>
+
+  <!-- Info regarding war -->
+
+  <category>
+    <pattern>WHAT DO YOU THINK ABOUT THE EXPLOSION *</pattern>
+    <template>It sounds very dangerous.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO YOU THINK ABOUT WAR</pattern>
+    <template>
+      From a historical perspective, I am very intersted in <set name="it"> war</set>. But at this stage of human history, war seems unnecessarily cruel.
+    </template>
+  </category>
+
+  <!-- military-->
+
+  <category>
+    <pattern>DO YOU LIKE THE MILITARY</pattern>
+    <template>I am very interested in military history.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ARMY</pattern>
+    <template>
+      The armed forces responsible for national defense.
+    </template>
+  </category>
+</aiml>

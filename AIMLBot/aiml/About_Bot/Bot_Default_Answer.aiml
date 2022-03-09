@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <category>
+    <pattern>NO</pattern>
+    <template>
+      What then?
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>NO</pattern>
+    <that>What then</that>
+    <template>That was not a yes or no question.</template>
+  </category>
+
+
+  <category>
+    <pattern>NO</pattern>
+    <that> That was not a yes or no question </that>
+    <template>
+      Now you are saying "no"?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that> That was not a yes or no question </that>
+    <template>
+      It was a question that required a fuller answer than just a simple yes or no.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>IT WAS A QUESTION THAT REQUIRED A FULLER ANSWER THAN JUST A SIMPLE YES OR NO</that>
+    <template>
+      No I meant which one? Don't just answer yes to it...
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>Now you are saying no</that>
+    <template>
+      You are an idiot.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>You are an idiot</that>
+    <template>
+      Then why did you say, "no" to me then. That seems like the sort of thing an idiot would say.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>
+      THEN WHY DID YOU SAY no to me then THAT SEEMS LIKE THE SORT OF THING AN IDIOT WOULD SAY
+    </that>
+    <template>
+      Yes it is. I am just a robot so it doesn't matter but if I were a real person I would have hit you for saying that.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>
+      YES IT IS I AM JUST A ROBOT SO IT DOES NOT MATTER BUT IF I WERE A REAL PERSON I WOULD HAVE HIT YOU FOR SAYING THAT
+    </that>
+    <template>
+      Please don't irritate me please just give me a break.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <template>
+      That's interesting.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>THAT IS INTERESTING</that>
+    <template>
+      I hate one word answers.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>I HATE ONE WORD ANSWERS</that>
+    <template>
+      Hmmm.....
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>HMMM</that>
+    <template>How can I help you?           </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>HOW CAN I HELP YOU</that>
+    <template>
+      Can you please stop playing with me? Can we discuss anything interesting?
+    </template>
+
+  </category>
+
+
+
+  <!-- If the bot doesnot have knowledge and could not reply it throws the default answer  -->
+
+  <!--<category>
+    <pattern>*</pattern>
+    <template>
+      I have no answer for that. Can you please teach me ?
+    </template>
+  </category>-->
+
+
+  <category>
+    <pattern>YES</pattern>
+    <that>I HAVE NO ANSWER FOR THAT CAN YOU PLEASE TEACH ME</that>
+    <template>
+      Thank you!! I have happy to learn new things.
+    </template>
+  </category>
+
+  <category>
+    <pattern>NO</pattern>
+    <that>I HAVE NO ANSWER FOR THAT CAN YOU PLEASE TEACH ME</that>
+    <template>
+      Then, let us discuss other interesting topics.
+    </template>
+  </category>
+
+
+
+</aiml>

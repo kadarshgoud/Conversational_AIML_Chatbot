@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category><pattern>WHO IS RAJU</pattern><template> raju is a good boy</template></category>
+<category><pattern>WHO IS * RAJU</pattern><template> raju is a good boy</template></category>
+</aiml>

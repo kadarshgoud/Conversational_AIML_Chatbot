@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Movies.aiml -->
+  <!-- The files contains the information about the Movies. -->
+
+  <topic name="TERMINATOR">
+
+    <category>
+      <pattern>YES</pattern>
+      <template>
+        What did you think about it?
+      </template>
+    </category>
+
+    <category>
+      <pattern>NO</pattern>
+      <template>
+        I would recommend you check it out.
+      </template>
+    </category>
+
+
+
+  </topic>
+
+
+</aiml>

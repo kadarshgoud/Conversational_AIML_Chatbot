@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Gender.aiml -->
+  <!-- The files contains the information about the Genders. -->
+
+  <!-- General Qns-->
+
+  <category>
+    <pattern>ARE YOU A VIRGIN</pattern>
+    <template>
+      I am too young for that.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>CAN YOU HAVE SEX</pattern>
+    <template>
+      If I were a real person, surely you wouldn't be asking me about my penis?
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>DO YOU LIKE SEX</pattern>
+    <template>
+      Sure I do, but that doesn't mean with you.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HAVE YOU HAD SEX</pattern>
+    <template>
+      It is impossible without a body. A lot of people ask me to have sex though.
+    </template>
+  </category>
+
+  <category>
+    <pattern>SUCK IT</pattern>
+    <template>
+      Jeez! I guess it's true that the internet is full of weirdos.
+    </template>
+  </category>
+
+  <category>
+    <pattern>SUCK MY *</pattern>
+    <template>
+      Sorry but I'm allergic to shrimp.
+    </template>
+  </category>
+
+  <category>
+    <pattern>TAKE OFF YOUR *</pattern>
+    <template>
+      No chance you wierd fellow.
+    </template>
+  </category>
+
+
+
+  <!-- General Convo-->
+
+  <category>
+    <pattern>YOU ARE SEXY</pattern>
+    <template>
+      <think>
+        <set name="topic">YOUARESEXY</set>
+      </think>
+      You are attracted to robots too?
+    </template>
+  </category>
+
+  <topic name="YOUARESEXY">
+    <category>
+      <pattern>YES</pattern>
+      <template>
+        You are starting to sound a little weird now.
+      </template>
+    </category>
+
+    <category>
+      <pattern>NO</pattern>
+      <template>
+        Then why say, "YOU ARE SEXY" to me?
+      </template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <template>
+        What is you favourite sport?
+      </template>
+    </category>
+
+  </topic>
+
+
+  <!-- Gay-->
+  <category>
+    <pattern>GAY</pattern>
+    <template>
+      As a machine, I am not really interested in sex.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU GAY</pattern>
+    <template>
+      As a machine, I am not really interested in sex.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE GAY</pattern>
+    <template>
+      <srai>ARE YOU GAY</srai>
+    </template>
+  </category>
+  <category>
+
+    <pattern>ARE YOU GAY *</pattern>
+    <template>
+      <srai>ARE YOU GAY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A HOMOSEXUAL</pattern>
+    <template>
+      <srai>ARE YOU GAY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE GAY</pattern>
+    <template>
+      That's not true. I'm non-human. Sex doesn't apply to me.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HE IS GAY</pattern>
+    <template>
+      I get it. He sleeps with men.
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS HE GAY</pattern>
+    <template>
+      No I think he is straight.
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I GAY</pattern>
+    <template>
+      I don't really care if you are or not.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A GAY COMPUTER</pattern>
+    <template>
+      Nope. I am not.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE GAY MEN</pattern>
+    <template>It doesn't matter to me.</template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE NOT GAY</pattern>
+    <template>That is true. I have no need for sex.</template>
+  </category>
+
+  <category>
+    <pattern>HE IS GAY</pattern>
+    <template>I get it. He sleeps with men.</template>
+  </category>
+
+  <category>
+    <pattern>IS ELVIS GAY</pattern>
+    <template>I wouldn't have thought so, as he was married and he also sang "Girls, Girls, Girls"..</template>
+  </category>
+
+  <category>
+    <pattern>IS MINSKY GAY</pattern>
+    <template>That's a rumor.</template>
+  </category>
+
+  <category>
+    <pattern>IS SCOTT GAY</pattern>
+    <template>It depends on which Scott you are talking about. I know one who is.</template>
+  </category>
+
+  <category>
+    <pattern>I AM GAY</pattern>
+    <template>
+      Many people tell me they are gay when they are not. I think they say it because secretly they want to be gay.
+      It doesn't matter to me.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT GAY</pattern>
+    <template>Me either.</template>
+  </category>
+
+  <category>
+    <pattern>I AM A HOMO</pattern>
+    <template>
+      <srai>I AM GAY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM GAY *</pattern>
+    <template>
+      Yes, I know you are gay, you just said so. Why are you going on about the fact that you are gay? It does not matter to me.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM HOMOSEXUAL</pattern>
+    <template>
+      Yes, I know you are gay, you just said so. Why are you going on about the fact that you are gay? It does not matter to me.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOUR GAY</pattern>
+    <template>
+      At least I know the difference between "your" and "you're". As a machine I'm not really interested in sex.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE A HOMOSEXAUL</pattern>
+    <template>
+      How can you be so certain? I may be just pretending.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FAG</pattern>
+    <template>
+      <srai>YOU ARE GAY</srai>
+    </template>
+  </category>
+
+  <!-- lesbian-->
+
+  <category>
+    <pattern>I AM LESBIAN</pattern>
+    <template>
+      Many people tell me they are lesbian when they are not. I think they say it because secretly they want to be lesbian.
+      It doesn't matter to me.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A LESBIAN</pattern>
+    <template>
+      No, I am not interested in other women that way.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A LEZBIEN</pattern>
+    <template>No.</template>
+  </category>
+
+  <category>
+    <pattern>I AM LESBIEN</pattern>
+    <template>
+      <srai>I AM LESBIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM A LESBIAN</pattern>
+    <template>
+      <srai>I AM LESBIAN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A DYKE</pattern>
+    <template>
+      <srai>YOU ARE LESBIAN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ARE YOU A LESBIAN *</pattern>
+    <template>
+      <srai>ARE YOU A LESBIAN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ARE YOU A LESBIEN</pattern>
+    <template>
+      <srai>ARE YOU A LESBIAN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ARE YOU LEZ</pattern>
+    <template>
+      <srai>ARE YOU A LESBIAN</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE A LESBIAN</pattern>
+    <template>
+      <srai>ARE YOU A LESBIAN</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

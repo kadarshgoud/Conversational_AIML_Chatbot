@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category>
+<pattern>TIGER</pattern>
+<template>The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside.
+<image>TIGER</image>
+</template>
+</category>
+<category>
+<pattern>RABBIT</pattern>
+<template>Rabbits are small mammals in the family Leporidae of the order Lagomorpha (along with the hare and the pika).  Oryctolagus cuniculus includes the European rabbit species and its descendants, the world's 305 breeds of domestic rabbit.
+<image>Rabbit</image>
+</template>
+</category>
+<category>
+<pattern>DONKEY</pattern>
+<template>The donkey or ass (Equus africanus asinus) is a domesticated member of the horse family, Equidae. The wild ancestor of the donkey is the African wild ass, E. africanus.</template>
+</category>
+
+
+
+<category>
+<pattern>MONKEY</pattern>
+<template>Monkey is a common name that may refer to groups or species of mammals, in part, the simians of infraorder Simiiformes. The term is applied descriptively to groups of primates, such as families of New World monkeys and Old World monkeys.</template>
+</category>
+
+
+<category>
+<pattern>SNAKE</pattern>
+<template>Snakes are elongated, legless, carnivorous reptiles of the suborder Serpentes. Like all other squamates, snakes are ectothermic, amniote vertebrates covered in overlapping scales.</template>
+</category>
+
+
+
+<category>
+<pattern>LION</pattern>
+<template>The lion (Panthera leo) is a species in the family Felidae; it is a muscular, deep-chested cat with a short, rounded head, a reduced neck and round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions have a prominent mane, which is the most recognisable feature of the species.</template>
+</category>
+
+
+<category>
+<pattern>CAT</pattern>
+<template>The cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family.</template>
+</category>
+
+<category>
+<pattern>DOLPHIN</pattern>
+<template>Dolphin is a common name of aquatic mammals within the infraorder Cetacea. The term dolphin usually refers to the extant families Delphinidae (the oceanic dolphins), Platanistidae (the Indian river dolphins), Iniidae (the New World river dolphins), and Pontoporiidae (the brackish dolphins), and the extinct Lipotidae (baiji or Chinese river dolphin).</template>
+</category>
+<category>
+<pattern>WHAT IS A DOLPHIN</pattern>
+<template>Dolphin is a common name of aquatic mammals within the infraorder Cetacea. The term dolphin usually refers to the extant families Delphinidae (the oceanic dolphins), Platanistidae (the Indian river dolphins), Iniidae (the New World river dolphins), and Pontoporiidae (the brackish dolphins), and the extinct Lipotidae (baiji or Chinese river dolphin).</template>
+</category>
+<category>
+<pattern>WHAT IS DOLPHIN</pattern>
+<template><srai>DOLPHIN</srai></template>
+</category>
+
+<category>
+<pattern>RAT</pattern>
+<template>Rats are various medium-sized, long-tailed rodents. Species of rats are found throughout the order Rodentia, but stereotypical rats are found in the genus Rattus.</template>
+</category>
+<category>
+<pattern>WHAT IS A RAT</pattern>
+<template>Rats are various medium-sized, long-tailed rodents. Species of rats are found throughout the order Rodentia, but stereotypical rats are found in the genus Rattus.</template>
+</category>
+<category>
+<pattern>WHAT IS RAT</pattern>
+<template><srai>RAT</srai></template>
+</category>
+
+<category>
+<pattern>ALBERT EINSTEIN</pattern>
+<template>Albert Einstein ( EYEN-styne; German: [ˈalbɛʁt ˈʔaɪnʃtaɪn] (listen); 14 March 1879 – 18 April 1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science.</template>
+</category>
+<category>
+<pattern>WHO WAS ALBERT EINSTEIN</pattern>
+<template>Albert Einstein ( EYEN-styne; German: [ˈalbɛʁt ˈʔaɪnʃtaɪn] (listen); 14 March 1879 – 18 April 1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science.</template>
+</category>
+<category>
+<pattern>WHO IS ALBERT EINSTEIN</pattern>
+<template><srai>ALBERT EINSTEIN</srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>TAXICAB</pattern>
+<template>A taxicab, also known as a taxi or a cab, is a type of vehicle for hire with a driver, used by a single passenger or small group of passengers, often for a non-shared ride. A taxicab conveys passengers between locations of their choice.</template>
+</category>
+<category>
+<pattern>WHAT IS A TAXICAB</pattern>
+<template>A taxicab, also known as a taxi or a cab, is a type of vehicle for hire with a driver, used by a single passenger or small group of passengers, often for a non-shared ride. A taxicab conveys passengers between locations of their choice.</template>
+</category>
+<category>
+<pattern>WHAT IS TAXICAB</pattern>
+<template><srai>TAXICAB</srai></template>
+</category>
+
+<category>
+<pattern>TREE</pattern>
+<template>A Tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves in most species. In some usages, the definition of a tree may be narrower, including only woody plants with secondary growth, plants that are usable as lumber or plants above a specified height.</template>
+</category>
+<category>
+<pattern>WHAT IS A TREE</pattern>
+<template>In botany, a tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves in most species. In some usages, the definition of a tree may be narrower, including only woody plants with secondary growth, plants that are usable as lumber or plants above a specified height.</template>
+</category>
+<category>
+<pattern>WHAT IS TREE</pattern>
+<template><srai>TREE</srai></template>
+</category>
+
+
+
+<category>
+<pattern>DONALD TRUMP</pattern>
+<template>Donald John Trump (born June 14, 1946) is the 45th and current president of the United States. Before entering politics, he was a businessman and television personality.</template>
+</category>
+<category>
+<pattern>WHO WAS DONALD TRUMP</pattern>
+<template>Donald John Trump (born June 14, 1946) is the 45th and current president of the United States. Before entering politics, he was a businessman and television personality.</template>
+</category>
+<category>
+<pattern>WHO IS DONALD TRUMP</pattern>
+<template><srai>DONALD TRUMP</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A RABBIT</pattern>
+<template>Rabbits are small mammals in the family Leporidae of the order Lagomorpha (along with the hare and the pika).  Oryctolagus cuniculus includes the European rabbit species and its descendants, the world's 305 breeds of domestic rabbit.</template>
+</category>
+<category>
+<pattern>WHAT IS RABBIT</pattern>
+<template><srai>RABBIT</srai></template>
+</category>
+
+
+
+
+
+<category>
+<pattern>MAHATMA GANDHI</pattern>
+<template>Mohandas Karamchand Gandhi (; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: "great-souled", "venerable"), first applied to him in 1914 in South Africa, is now used throughout the world.Born and raised in a Hindu family in coastal Gujarat, western India, Gandhi was trained in law at the Inner Temple, London, and called to the bar at age 22 in June 1891.</template>
+</category>
+<category>
+<pattern>WHO WAS MAHATMA GANDHI</pattern>
+<template>Mohandas Karamchand Gandhi (; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: "great-souled", "venerable"), first applied to him in 1914 in South Africa, is now used throughout the world.Born and raised in a Hindu family in coastal Gujarat, western India, Gandhi was trained in law at the Inner Temple, London, and called to the bar at age 22 in June 1891.</template>
+</category>
+<category>
+<pattern>WHO IS MAHATMA GANDHI</pattern>
+<template><srai>MAHATMA GANDHI</srai></template>
+</category>
+
+<category>
+<pattern>MAHATMA GANDHI</pattern>
+<template>Mohandas Karamchand Gandhi (; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: "great-souled", "venerable"), first applied to him in 1914 in South Africa, is now used throughout the world.Born and raised in a Hindu family in coastal Gujarat, western India, Gandhi was trained in law at the Inner Temple, London, and called to the bar at age 22 in June 1891.</template>
+</category>
+<category>
+<pattern>WHO WAS MAHATMA GANDHI</pattern>
+<template>Mohandas Karamchand Gandhi (; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: "great-souled", "venerable"), first applied to him in 1914 in South Africa, is now used throughout the world.Born and raised in a Hindu family in coastal Gujarat, western India, Gandhi was trained in law at the Inner Temple, London, and called to the bar at age 22 in June 1891.</template>
+</category>
+<category>
+<pattern>WHO IS MAHATMA GANDHI</pattern>
+<template><srai>MAHATMA GANDHI</srai></template>
+</category>
+
+<category>
+<pattern>MAHATMA GANDHI</pattern>
+<template>Mohandas Karamchand Gandhi (; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: "great-souled", "venerable"), first applied to him in 1914 in South Africa, is now used throughout the world.Born and raised in a Hindu family in coastal Gujarat, western India, Gandhi was trained in law at the Inner Temple, London, and called to the bar at age 22 in June 1891.</template>
+</category>
+<category>
+<pattern>WHO WAS MAHATMA GANDHI</pattern>
+<template>Mohandas Karamchand Gandhi (; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: "great-souled", "venerable"), first applied to him in 1914 in South Africa, is now used throughout the world.Born and raised in a Hindu family in coastal Gujarat, western India, Gandhi was trained in law at the Inner Temple, London, and called to the bar at age 22 in June 1891.</template>
+</category>
+<category>
+<pattern>WHO IS MAHATMA GANDHI</pattern>
+<template><srai>MAHATMA GANDHI</srai></template>
+</category>
+
+
+
+
+
+<category>
+<pattern>JAWAHARLAL NEHRU</pattern>
+<template>
+Jawaharlal Nehru (; Hindi: [ˈdʒəʋaːɦərˈlaːl ˈneːɦru] (listen); 14 November 1889 – 27 May 1964) was an Indian independence activist and, subsequently, the first Prime Minister of India, as well as a central figure in Indian politics both before and after independence. He emerged as an eminent leader of the Indian independence movement, serving India as Prime Minister from its establishment in 1947 as an independent nation, until his death in 1964.
+<image>JAWAHARLAL NEHRU</image>
+</template>
+</category>
+<category>
+<pattern>WHO WAS JAWAHARLAL NEHRU</pattern>
+<template>Jawaharlal Nehru (; Hindi: [ˈdʒəʋaːɦərˈlaːl ˈneːɦru] (listen); 14 November 1889 – 27 May 1964) was an Indian independence activist and, subsequently, the first Prime Minister of India, as well as a central figure in Indian politics both before and after independence. He emerged as an eminent leader of the Indian independence movement, serving India as Prime Minister from its establishment in 1947 as an independent nation, until his death in 1964.</template>
+</category>
+<category>
+<pattern>WHO IS JAWAHARLAL NEHRU</pattern>
+<template><srai>JAWAHARLAL NEHRU</srai></template>
+</category>
+
+<category>
+<pattern>SACHIN TENDULKAR</pattern>
+<template>Sachin Ramesh Tendulkar ( (listen); born 24 April 1973) is a former international cricketer from India and a former captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.
+<image>SACHIN TENDULKAR</image>
+</template>
+</category>
+<category>
+<pattern>WHO WAS SACHIN TENDULKAR</pattern>
+<template>Sachin Ramesh Tendulkar ( (listen); born 24 April 1973) is a former international cricketer from India and a former captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.
+<image>SACHIN TENDULKAR</image>
+</template>
+</category>
+<category>
+<pattern>WHO IS SACHIN TENDULKAR</pattern>
+<template><srai>SACHIN TENDULKAR</srai></template>
+</category>
+
+
+
+<category>
+<pattern>WRAPS</pattern>
+<template>A wrap is a food dish made with a soft flatbread rolled around a filling.
+The usual flatbreads are wheat tortillas, lavash, or pita; the filling usually consists of cold sliced meat, poultry, or fish accompanied by shredded lettuce, diced tomato or pico de gallo, guacamole, sauteed mushrooms, bacon, grilled onions, cheese, and a sauce, such as ranch or honey mustard.</template>
+</category>
+<category>
+<pattern>WHAT IS A WRAPS</pattern>
+<template>A wrap is a food dish made with a soft flatbread rolled around a filling.
+The usual flatbreads are wheat tortillas, lavash, or pita; the filling usually consists of cold sliced meat, poultry, or fish accompanied by shredded lettuce, diced tomato or pico de gallo, guacamole, sauteed mushrooms, bacon, grilled onions, cheese, and a sauce, such as ranch or honey mustard.</template>
+</category>
+<category>
+<pattern>WHAT IS WRAPS</pattern>
+<template><srai>WRAPS</srai></template>
+</category>
+
+<category>
+<pattern>DAY</pattern>
+<template>A day is approximately the period of time during which the Earth completes one rotation around its axis.  A solar day is the length of time which elapses between the Sun reaching its highest point in the sky two consecutive times.</template>
+</category>
+<category>
+<pattern>WHAT IS A DAY</pattern>
+<template>A day is approximately the period of time during which the Earth completes one rotation around its axis.  A solar day is the length of time which elapses between the Sun reaching its highest point in the sky two consecutive times.</template>
+</category>
+<category>
+<pattern>WHAT IS DAY</pattern>
+<template><srai>DAY</srai></template>
+</category>
+
+<category>
+<pattern>DAY</pattern>
+<template>A day is approximately the period of time during which the Earth completes one rotation around its axis.  A solar day is the length of time which elapses between the Sun reaching its highest point in the sky two consecutive times.</template>
+</category>
+<category>
+<pattern>WHAT IS A DAY</pattern>
+<template>A day is approximately the period of time during which the Earth completes one rotation around its axis.  A solar day is the length of time which elapses between the Sun reaching its highest point in the sky two consecutive times.</template>
+</category>
+<category>
+<pattern>WHAT IS DAY</pattern>
+<template><srai>DAY</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can bring positive results to one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can bring positive results to one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can bring positive results to one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can bring positive results to one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can bring positive results to one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can bring positive results to one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+<category>
+<pattern>SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPORT</pattern>
+<template>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators. Sports can, through casual or organized participation, improve one's physical health.</template>
+</category>
+<category>
+<pattern>WHAT IS SPORT</pattern>
+<template><srai>SPORT</srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>CHICKEN</pattern>
+<template>The chicken (Gallus gallus domesticus), a subspecies of the red junglefowl, is a type of domesticated fowl, originally from Asia. Rooster or cock is a term for an adult male bird.</template>
+</category>
+<category>
+<pattern>WHAT IS A CHICKEN</pattern>
+<template>The chicken (Gallus gallus domesticus), a subspecies of the red junglefowl, is a type of domesticated fowl, originally from Asia. Rooster or cock is a term for an adult male bird.</template>
+</category>
+<category>
+<pattern>WHAT IS CHICKEN</pattern>
+<template><srai>CHICKEN</srai></template>
+</category>
+
+
+
+
+
+<category>
+<pattern>CORONA</pattern>
+<template>Corona (from the Latin for 'crown') most commonly refers to:</template>
+</category>
+<category>
+<pattern>WHAT IS A CORONA</pattern>
+<template>Corona (from the Latin for 'crown') most commonly refers to:</template>
+</category>
+<category>
+<pattern>WHAT IS CORONA</pattern>
+<template><srai>CORONA</srai></template>
+</category>
+
+<category>
+<pattern>DISTANCING</pattern>
+<template>Distancing is the appropriate selection of distance between oneself and a combatant throughout an encounter. Distancing is significant in an altercation as it determines both attack and defence options for all parties involved.</template>
+</category>
+<category>
+<pattern>WHAT IS A DISTANCING</pattern>
+<template>Distancing is the appropriate selection of distance between oneself and a combatant throughout an encounter. Distancing is significant in an altercation as it determines both attack and defence options for all parties involved.</template>
+</category>
+<category>
+<pattern>WHAT IS DISTANCING</pattern>
+<template><srai>DISTANCING</srai></template>
+</category>
+
+<category>
+<pattern>HAPPY</pattern>
+<template>The term happiness is used in the context of mental or emotional states, including positive or pleasant emotions ranging from contentment to intense joy. It is also used in the context of life satisfaction, subjective well-being, eudaimonia, flourishing and well-being.Since the 1960s, happiness research has been conducted in a wide variety of scientific disciplines, including gerontology, social psychology and positive psychology, clinical and medical research and happiness economics.</template>
+</category>
+<category>
+<pattern>WHAT IS A HAPPY</pattern>
+<template>The term happiness is used in the context of mental or emotional states, including positive or pleasant emotions ranging from contentment to intense joy. It is also used in the context of life satisfaction, subjective well-being, eudaimonia, flourishing and well-being.Since the 1960s, happiness research has been conducted in a wide variety of scientific disciplines, including gerontology, social psychology and positive psychology, clinical and medical research and happiness economics.</template>
+</category>
+<category>
+<pattern>WHAT IS HAPPY</pattern>
+<template><srai>HAPPY</srai></template>
+</category>
+
+<category>
+<pattern>HAPPY</pattern>
+<template>The term happiness is used in the context of mental or emotional states, including positive or pleasant emotions ranging from contentment to intense joy. It is also used in the context of life satisfaction, subjective well-being, eudaimonia, flourishing and well-being.Since the 1960s, happiness research has been conducted in a wide variety of scientific disciplines, including gerontology, social psychology and positive psychology, clinical and medical research and happiness economics.</template>
+</category>
+<category>
+<pattern>WHAT IS A HAPPY</pattern>
+<template>The term happiness is used in the context of mental or emotional states, including positive or pleasant emotions ranging from contentment to intense joy. It is also used in the context of life satisfaction, subjective well-being, eudaimonia, flourishing and well-being.Since the 1960s, happiness research has been conducted in a wide variety of scientific disciplines, including gerontology, social psychology and positive psychology, clinical and medical research and happiness economics.</template>
+</category>
+<category>
+<pattern>WHAT IS HAPPY</pattern>
+<template><srai>HAPPY</srai></template>
+</category>
+
+<category>
+<pattern>ORGANISM</pattern>
+<template>In biology, an organism (from Greek: ὀργανισμός, organismos) is an entity capable of carrying on life functions. All organisms are composed of cells.</template>
+</category>
+<category>
+<pattern>WHAT IS A ORGANISM</pattern>
+<template>In biology, an organism (from Greek: ὀργανισμός, organismos) is an entity capable of carrying on life functions. All organisms are composed of cells.</template>
+</category>
+<category>
+<pattern>WHAT IS ORGANISM</pattern>
+<template><srai>ORGANISM</srai></template>
+</category>
+
+
+
+<category>
+<pattern>TECHNIQUES</pattern>
+<template>Technique or techniques may refer to:</template>
+</category>
+<category>
+<pattern>WHAT IS A TECHNIQUES</pattern>
+<template>Technique or techniques may refer to:</template>
+</category>
+<category>
+<pattern>WHAT IS TECHNIQUES</pattern>
+<template><srai>TECHNIQUES</srai></template>
+</category>
+
+<category>
+<pattern>TECHNIQUES</pattern>
+<template>Technique or techniques may refer to:</template>
+</category>
+<category>
+<pattern>WHAT IS A TECHNIQUES</pattern>
+<template>Technique or techniques may refer to:</template>
+</category>
+<category>
+<pattern>WHAT IS TECHNIQUES</pattern>
+<template><srai>TECHNIQUES</srai></template>
+</category>
+
+<category>
+<pattern>CORONAVIRUS</pattern>
+<template>Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds. In humans and birds, they cause respiratory tract infections that can range from mild to lethal.</template>
+</category>
+<category>
+<pattern>WHAT IS A CORONAVIRUS</pattern>
+<template>Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds. In humans and birds, they cause respiratory tract infections that can range from mild to lethal.</template>
+</category>
+<category>
+<pattern>WHAT IS CORONAVIRUS</pattern>
+<template><srai>CORONAVIRUS</srai></template>
+</category>
+
+
+<category>
+<pattern>SANITISER</pattern>
+<template>Disinfectants are chemical agents designed to inactivate or destroy microorganisms on inert surfaces. Disinfection does not necessarily kill all microorganisms, especially resistant bacterial spores; it is less effective than sterilization, which is an extreme physical or chemical process that kills all types of life.</template>
+</category>
+<category>
+<pattern>WHAT IS A SANITISER</pattern>
+<template>Disinfectants are chemical agents designed to inactivate or destroy microorganisms on inert surfaces. Disinfection does not necessarily kill all microorganisms, especially resistant bacterial spores; it is less effective than sterilization, which is an extreme physical or chemical process that kills all types of life.</template>
+</category>
+<category>
+<pattern>WHAT IS SANITISER</pattern>
+<template><srai>SANITISER</srai></template>
+</category>
+
+<category>
+<pattern>SPACE</pattern>
+<template>Space is the boundless three-dimensional extent in which objects and events have relative position and direction. In classical physics, physical space is often conceived in three linear dimensions, although modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime.</template>
+</category>
+<category>
+<pattern>WHAT IS A SPACE</pattern>
+<template>Space is the boundless three-dimensional extent in which objects and events have relative position and direction. In classical physics, physical space is often conceived in three linear dimensions, although modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime.</template>
+</category>
+<category>
+<pattern>WHAT IS SPACE</pattern>
+<template><srai>SPACE</srai></template>
+</category>
+
+<category>
+<pattern>VIRUS</pattern>
+<template>A virus is a submicroscopic infectious agent that replicates only inside the living cells of an organism. Viruses infect all types of life forms, from animals and plants to microorganisms, including bacteria and archaea.</template>
+</category>
+<category>
+<pattern>WHAT IS A VIRUS</pattern>
+<template>A virus is a submicroscopic infectious agent that replicates only inside the living cells of an organism. Viruses infect all types of life forms, from animals and plants to microorganisms, including bacteria and archaea.</template>
+</category>
+<category>
+<pattern>WHAT IS VIRUS</pattern>
+<template><srai>VIRUS</srai></template>
+</category>
+
+<category>
+<pattern>MICROORGANISM</pattern>
+<template>A microorganism, or microbe, is a microscopic organism, which may exist in its single-celled form or a colony of cells.
+The possible existence of unseen microbial life was suspected from ancient times, such as in Jain scriptures from 6th century BC India.</template>
+</category>
+<category>
+<pattern>WHAT IS A MICROORGANISM</pattern>
+<template>A microorganism, or microbe, is a microscopic organism, which may exist in its single-celled form or a colony of cells.
+The possible existence of unseen microbial life was suspected from ancient times, such as in Jain scriptures from 6th century BC India.</template>
+</category>
+<category>
+<pattern>WHAT IS MICROORGANISM</pattern>
+<template><srai>MICROORGANISM</srai></template>
+</category>
+
+</aiml>

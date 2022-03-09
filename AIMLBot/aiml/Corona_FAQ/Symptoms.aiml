@@ -1,0 +1,3198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>SYMPTOMS</pattern>
+    <template>
+      <random>
+        <li> COVID-19 affects different people in different ways. Most infected people will develop mild to moderate symptoms.Common symptoms are fever, tiredness, drycough. Some people may experience symptoms such as aches and pains, nasal congestion, runny nose, sore throat, diarrhoea. On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days. </li>
+        <li>
+          Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+        </li>
+        <li>
+          The most common symptoms of COVID-19 are
+          1. Fever
+          2. Dry cough
+          3. Fatigue
+          4. Other symptoms that are less common and may affect some patients include:Loss of taste or smell, Nasal congestion, Conjunctivitis (also known as red eyes)
+          Sore throat, Headache, Muscle or joint pain, Different types of skin rash, Nausea or vomiting, Diarrhea, Chills or dizziness.
+          Symptoms of severe COVID'19 disease include: Shortness of breath, Loss of appetite, Confusion, Persistent pain or pressure in the chest, High temperature (above 38 degree Centigrade).
+          Other less common symptoms are: Irritability, Confusion, Reduced consciousnes (sometimes associated with seizures), Anxiety, Depression, Sleep disorders,
+          More severe and rare neurological complications such as strokes, brain inflammation, delirium and nerve damage. People of all ages who experience fever and/or
+          cough associated with difficulty breathing or shortness of breath, chest pain or pressure, or loss of speech or movement should seek medical care immediately.
+          If possible, call your health care provider, hotline or health facility first, so you can be directed to the right clinic
+        </li>
+        <li>
+          The virus can cause a range of symptoms, from ranging from mild illness to pneumonia. Symptoms of the disease are fever, cough, sore throat and headaches.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SYMPTOMS OF COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* SYMPTOMS OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SYMPTOMS OF COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I GOING TO DIE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>AM I GOING TO DIE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I GOING TO NEED HOSPITAL TREATMENT?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>AM I GOING TO NEED HOSPITAL TREATMENT</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE ACHES A SYMPTOM?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE ACHES A SYMPTOM</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I GOING INTO QUARANTINE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>AM I GOING INTO QUARANTINE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY SHOULD I QUARANTINE MYSELF?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHY SHOULD I QUARANTINE MYSELF</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE THE SYMPTOMS SERIOUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THE SYMPTOMS SERIOUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I STILL HAVE IT BUT HAVE NO SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I STILL HAVE IT BUT HAVE NO SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN PEOPLE DIE FROM THIS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM THIS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU BE INFECTED AND NOT SHOW ANY SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE INFECTED AND NOT SHOW ANY SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME WHAT THE SYMPTOMS ARE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU TELL ME WHAT THE SYMPTOMS ARE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DOES EVERYONE HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DOES EVERYONE HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW BADLY SHOULD I BE COUGHING?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW BADLY SHOULD I BE COUGHING</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW I MIGHT BE A CARRIER?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I MIGHT BE A CARRIER</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW I MIGHT HAVE IT?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I MIGHT HAVE IT</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE A HIGH TEMPERATURE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE A HIGH TEMPERATURE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE IT?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE IT</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I NEED HOSPITAL TREATMENT?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I NEED HOSPITAL TREATMENT</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT IT?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT IT</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW HIGH DOES MY FEVER HAVE TO BE FOR ME TO GO TO HOSPITAL?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW HIGH DOES MY FEVER HAVE TO BE FOR ME TO GO TO HOSPITAL</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW HIGH IS A FEVER?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW HIGH IS A FEVER</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DO I HAVE TO BE SICK FOR BEFORE I CAN GO TO A CLINIC?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DO I HAVE TO BE SICK FOR BEFORE I CAN GO TO A CLINIC</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG SHOULD I HAVE A FEVER FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG SHOULD I HAVE A FEVER FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW SEVERE DO MY SYMPTOMS HAVE TO BE BEFORE I GO TO HOSPITAL?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW SEVERE DO MY SYMPTOMS HAVE TO BE BEFORE I GO TO HOSPITAL</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I'M COUGHING, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I'M COUGHING, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM COUGHING, WHAT SHOULD I DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I AM COUGHING, WHAT SHOULD I DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS A SYMPTOM?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS A SYMPTOM</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS COUGHING A SYMPTOM OF THE DISEASE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS COUGHING A SYMPTOM OF THE DISEASE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS JOINT PAIN A SYMPTOM?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS JOINT PAIN A SYMPTOM</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SHOULD I GO TO A HEALTH CENTRE IF I HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SHOULD I GO TO A HEALTH CENTRE IF I HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SIGNS AND SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS AND SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SIGNS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT COUNTS AS A HIGH TEMPERATURE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT COUNTS AS A HIGH TEMPERATURE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO ACHES AND PAINS MEAN?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO ACHES AND PAINS MEAN</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO THE SYMPTOMS LOOK LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO THE SYMPTOMS LOOK LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES A HIGH TEMPERATURE FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES A HIGH TEMPERATURE FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES ASYMPTOMATIC MEAN?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES ASYMPTOMATIC MEAN</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES DRY COUGH MEAN?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES DRY COUGH MEAN</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES IT MEAN IF I'M COUGHING?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES IT MEAN IF I'M COUGHING</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES IT MEAN IF I AM COUGHING?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES IT MEAN IF I AM COUGHING</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES IT MEAN TO BE ASYMPTOMATIC?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES IT MEAN TO BE ASYMPTOMATIC</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES PERSISTENT COUGH MEAN?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES PERSISTENT COUGH MEAN</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A DRY COUGH?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS A DRY COUGH</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A FEVER?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS A FEVER</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A HIGH TEMPERATURES?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS A HIGH TEMPERATURES</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS AN ASYMPTOMATIC CARRIER?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS AN ASYMPTOMATIC CARRIER</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DIFFERENT ABOUT A DRY COUGH?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS DIFFERENT ABOUT A DRY COUGH</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I HAVE IT?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I HAVE IT</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT TEMPERATURE IS A FEVER?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT TEMPERATURE IS A FEVER</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN DO I NEED TO GO TO A CLINIC?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN DO I NEED TO GO TO A CLINIC</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS A COUGH PERSISTENT?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN IS A COUGH PERSISTENT</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I GO TO HOSPITAL?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GO TO HOSPITAL</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I GO TO THE EMERGENCY ROOM?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GO TO THE EMERGENCY ROOM</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I GO TO HOSPITAL?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN SHOULD I GO TO HOSPITAL</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO CAN GET TESTED?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO CAN GET TESTED</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- Sentences with "CORONA" -->
+
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTACTING CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 2 -->
+
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CONTRACTING CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 3 -->
+
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN PEOPLE DIE FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 4 -->
+
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID-19 SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID19 SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID 19 SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM CORONA VIRUS SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM CORONA SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM CORONAVIRUS SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID-19 SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID19 SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID 19 SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM CORONA VIRUS SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM COVID SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM CORONA SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN THERE BE COMPLICATIONS FROM CORONAVIRUS SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 5 -->
+
+  <category>
+    <pattern>COULD I BE CARRYING COVID-19 SYMPTOMS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID19 SYMPTOMS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID 19 SYMPTOMS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA VIRUS SYMPTOMS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID SYMPTOMS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA SYMPTOMS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS SYMPTOMS IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COULD I BE CARRYING COVID-19 SYMPTOMS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID19 SYMPTOMS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID 19 SYMPTOMS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA VIRUS SYMPTOMS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID SYMPTOMS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA SYMPTOMS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS SYMPTOMS IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 6 -->
+
+  <category>
+    <pattern>COULD I BE CARRYING COVID-19 SYMPTOMS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID19 SYMPTOMS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID 19 SYMPTOMS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA VIRUS SYMPTOMS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID SYMPTOMS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA SYMPTOMS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS SYMPTOMS IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COULD I BE CARRYING COVID-19 SYMPTOMS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID19 SYMPTOMS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID 19 SYMPTOMS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA VIRUS SYMPTOMS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING COVID SYMPTOMS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONA SYMPTOMS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>COULD I BE CARRYING CORONAVIRUS SYMPTOMS IF I DONOT HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 8 -->
+
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I TELL IF I HAVE CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 8 -->
+
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I IDENTIFY THE SYMPTOMS OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 9 -->
+
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW I HAVE CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 11 -->
+
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I AM A CARRIER OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 12 -->
+
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'VE CAUGHT CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I'M A CARRIER OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO I KNOW IF I HAVE CAUGHT CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 13 -->
+
+
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW IS YOUR BODY AFFECTED BY CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 14 -->
+
+
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW WOULD MY BODY FEEL IF I CAUGHT THE CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 15 -->
+
+
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>I HAVE A FEVER, DO I HAVE CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 16 -->
+
+
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SIGNS OF CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 17 -->
+
+
+  <category>
+    <pattern>WHAT DOES HAVING COVID-19 FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING COVID19 FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING COVID 19 FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING CORONA VIRUS FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING COVID FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING CORONA FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING CORONAVIRUS FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING VIRUS FEEL LIKE?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES HAVING COVID-19 FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING COVID19 FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING COVID 19 FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING CORONA VIRUS FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING COVID FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING CORONA FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING CORONAVIRUS FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES HAVING VIRUS FEEL LIKE</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 18 -->
+
+
+  <category>
+    <pattern>WHAT DOES * COVID-19 DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * COVID19 DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * COVID 19 DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * CORONA VIRUS DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * COVID DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * CORONA DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * CORONAVIRUS DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * VIRUS DO TO YOUR BODY?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES * COVID-19 DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * COVID19 DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * COVID 19 DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * CORONA VIRUS DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * COVID DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * CORONA DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * CORONAVIRUS DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES * VIRUS DO TO YOUR BODY</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 19 -->
+
+
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SHOULD I DO IF I THINK I MIGHT HAVE CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 20 -->
+
+
+  <category>
+    <pattern>WHAT SIGNS OF COVID-19 SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF COVID19 SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF COVID 19 SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF CORONA VIRUS SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF COVID SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF CORONA SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF CORONAVIRUS SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF VIRUS SHOULD I LOOK FOR?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SIGNS OF COVID-19 SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF COVID19 SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF COVID 19 SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF CORONA VIRUS SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF COVID SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF CORONA SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF CORONAVIRUS SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT SIGNS OF VIRUS SHOULD I LOOK FOR</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 21 -->
+
+
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT HAPPENS IF I GET CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 22 -->
+
+
+  <category>
+    <pattern>WHAT DOES COVID-19 DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID19 DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID 19 DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONA VIRUS DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONA DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONAVIRUS DO?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES COVID-19 DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID19 DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID 19 DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONA VIRUS DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES COVID DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONA DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DOES CORONAVIRUS DO</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <!-- 23 -->
+
+
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID-19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID 19?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET CORONA VIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET CORONA?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET CORONAVIRUS?</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID-19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID 19</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET CORONA VIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET COVID</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET CORONA</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES HUMAN BODY BEHAVE IF I GET CORONAVIRUS</pattern>
+    <template>
+      <srai>SYMPTOMS</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

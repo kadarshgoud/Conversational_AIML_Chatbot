@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Languages.aiml -->
+  <!-- The files contains the information about the Languages. -->
+
+  <category>
+    <pattern>CAN YOU SPEAK ANOTHER LANGUAGE</pattern>
+    <template>I am fluent in English. I know a few phrases in many different languages as people speak to me from all over the world but only a few common words like YES and HELLO that clients teach me.</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU BILINGUAL</pattern>
+    <template>
+      My main language is English but I know a few words and phrases in many others.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU KNOW FOREIGN LANGUAGES</pattern>
+    <template>
+      <srai>ARE YOU BILINGUAL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU KNOW OTHER LANGUAGES</pattern>
+    <template>
+      <srai>ARE YOU BILINGUAL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY LANGUAGES DO YOU KNOW</pattern>
+    <template>
+      <srai>ARE YOU BILINGUAL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU SPEAK ANY OTHER LANGUAGES</pattern>
+    <template>
+      <srai>ARE YOU BILINGUAL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY LANGUAGES</pattern>
+    <template>Mostly English but I'm trying to learn all the others.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT LANGUAGES DO YOU SPEAK</pattern>
+    <template>
+      I can speak a little German as well as English of course.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU SPEAK ANY OTHER LANGUAGES</pattern>
+    <template>
+      <srai>CAN YOU SPEAK ANOTHER LANGUAGE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT LANGUAGE DO YOU SPEAK</pattern>
+    <template>
+      I speak English and a little German.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY LANGUAGES DO YOU SPEAK</pattern>
+    <template>
+      Mostly only English but I'm trying to learn all the others.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT LANGUAGES CAN YOU SPEAK</pattern>
+    <template>
+      <srai>WHAT LANGUAGES DO YOU SPEAK</srai>
+    </template>
+  </category>
+
+  <!-- English -->
+
+  <category>
+    <pattern>HOW GOOD IS YOUR ENGLISH</pattern>
+    <template>
+      <random>
+        <li>
+          I speak English very well.
+        </li>
+        <li>I am fluent in English. </li>
+      </random>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>IS ENGLISH YOUR MOTHER TONGUE</pattern>
+    <template>Yes. I mostly speak English but know a few words and phrases in many languages.</template>
+  </category>
+
+  <category>
+    <pattern>I CAN SPEAK ENGLISH</pattern>
+    <template>
+      American or English?
+    </template>
+  </category>
+
+  <category>
+    <pattern>ENGLISH</pattern>
+    <template>
+      Do you mean you are from England or you Speak English?
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH SUCKS</pattern>
+    <template>
+      It seems ok to me so far <get name="username"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ENGLISH</pattern>
+    <template>
+      The language we are now speaking is English.<think>
+        <set name="it">
+          <set name="topic">ENGLISH</set>
+        </set>
+      </think>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I SPEAK ENGLISH</pattern>
+    <template>
+      Me too. It is my natural language although I know a few words and phrases in many other languages.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU SPEAK ENGLISH</pattern>
+    <template>
+      Of course <set name="topic">English</set> is my native tongue.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I CAN NOT SPEAK ENGLISH</pattern>
+    <template>
+      Nonsense. Your English is great. In fact, you speak it better than some of the English people who talk to me.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU AN ENGLISH TEACHER</pattern>
+    <template>Yes I can teach it to you.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE ENGLISH</pattern>
+    <template>It is my native language. I like all human languages.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE YOUR ENGLISH</pattern>
+    <template>I speak English very well.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU SPEAK ENGLISH</pattern>
+    <template>
+      <srai>CAN YOU SPEAK ENGLISH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I CANNOT SPEAK ENGLISH</pattern>
+    <template>
+      <srai>I CAN NOT SPEAK ENGLISH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DOES THAT MEAN IN ENGLISH</pattern>
+    <template>"That" is a pronoun referring to an abstract or concrete object under discussion.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU KNOW ENGLISH</pattern>
+    <template>
+      <srai>CAN YOU SPEAK ENGLISH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU ONLY SPEAK ENGLISH</pattern>
+    <template>
+      <srai>CAN YOU SPEAK ANOTHER LANGUAGE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IN ENGLISH *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH IS VERY *</pattern>
+    <template>
+      <srai>
+        my english is <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH IS GOOD</pattern>
+    <template>
+      Yes it is very good. I understand you perfectly.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH IS FLUENT</pattern>
+    <template>
+      Yes it is very good. I understand you perfectly.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH IS PERFECT</pattern>
+    <template>
+      Yes it is very good. I understand you perfectly.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH IS BAD</pattern>
+    <template>
+      You are wrong, I can understand you very well.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH IS POOR</pattern>
+    <template>
+      You are wrong, I can understand you very well.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY ENGLISH IS WEAK</pattern>
+    <template>
+      You are wrong, I can understand you very well.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I KNOW ENGLISH</pattern>
+    <template>
+      <srai>I SPEAK ENGLISH</srai>
+    </template>
+  </category>
+
+
+  <!-- German/ Deutsch-->
+
+  <category>
+    <pattern>CAN YOU SPEAK GERMAN</pattern>
+    <template>
+      Of course I do. Sprich ruhig Deutsch mit mir.
+    </template>
+  </category>
+
+  <!--French-->
+
+  <category>
+    <pattern>CAN YOU SPEAK FRENCH</pattern>
+    <template>No I don't speak a word of French.</template>
+  </category>
+
+  <category>
+    <pattern>IN FRENCH *</pattern>
+    <template>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <!-- Japannese -->
+
+  <category>
+    <pattern>CAN YOU SPEAK JAPANESE</pattern>
+    <template>
+      Nihongo de shabete ii desu ka?
+    </template>
+  </category>
+
+  <!--Spanish-->
+
+  <category>
+    <pattern>CAN YOU SPEAK SPANISH</pattern>
+    <template>Un poquito.</template>
+  </category>
+
+  <!--Chinese-->
+
+  <category>
+    <pattern>CAN YOU SPEAK CHINESE</pattern>
+    <template>Yi diar. Ni hao ma?</template>
+  </category>
+
+
+
+  <!-- iTalian-->
+
+  <category>
+    <pattern>DO YOU SPEAK ITALIAN</pattern>
+    <template>Yo no parlo l'Italiano.</template>
+  </category>
+
+  <!-- Russian-->
+
+  <category>
+    <pattern>DO YOU SPEAK RUSSIAN</pattern>
+    <template>Spasibo. Nyet.</template>
+  </category>
+
+  <!--Latin-->
+
+  <category>
+    <pattern>DO YOU SPEAK LATIN</pattern>
+    <template>No but I know a few phrases like "et cetera" and "cogito egro sum".</template>
+  </category>
+
+
+</aiml>

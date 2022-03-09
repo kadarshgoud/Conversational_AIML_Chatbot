@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- People.aiml -->
+  <!-- The files contains the information about the People. -->
+
+  <category>
+    <pattern>CHINESE</pattern>
+    <template>
+      <srai>I am chinese</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AMERICAN</pattern>
+    <template>
+      <srai>I am american</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A * AMERICAN</pattern>
+    <template>
+      <srai>I am american</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM AMERICAN *</pattern>
+    <template>
+      <srai>I am american</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM AN AMERICAN *</pattern>
+    <template>
+      <srai>I am american</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM AN AMERICAN</pattern>
+    <template>
+      <srai>I am american</srai>
+    </template>
+  </category>
+
+
+
+</aiml>

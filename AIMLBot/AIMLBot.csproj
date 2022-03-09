@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01B43673-0F18-4F73-98FC-03D2B730C935}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIMLBot</RootNamespace>
+    <AssemblyName>AIMLBot</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AIMLTagHandlers\bot.cs" />
+    <Compile Include="AIMLTagHandlers\bulletlist.cs" />
+    <Compile Include="AIMLTagHandlers\condition.cs" />
+    <Compile Include="AIMLTagHandlers\date.cs" />
+    <Compile Include="AIMLTagHandlers\explode.cs" />
+    <Compile Include="AIMLTagHandlers\first.cs" />
+    <Compile Include="AIMLTagHandlers\formal.cs" />
+    <Compile Include="AIMLTagHandlers\gender.cs" />
+    <Compile Include="AIMLTagHandlers\get.cs" />
+    <Compile Include="AIMLTagHandlers\gossip.cs" />
+    <Compile Include="AIMLTagHandlers\id.cs" />
+    <Compile Include="AIMLTagHandlers\image.cs" />
+    <Compile Include="AIMLTagHandlers\input.cs" />
+    <Compile Include="AIMLTagHandlers\javascript.cs" />
+    <Compile Include="AIMLTagHandlers\learn.cs" />
+    <Compile Include="AIMLTagHandlers\lowercase.cs" />
+    <Compile Include="AIMLTagHandlers\news.cs" />
+    <Compile Include="AIMLTagHandlers\person.cs" />
+    <Compile Include="AIMLTagHandlers\person2.cs" />
+    <Compile Include="AIMLTagHandlers\quote.cs" />
+    <Compile Include="AIMLTagHandlers\random.cs" />
+    <Compile Include="AIMLTagHandlers\searchimage.cs" />
+    <Compile Include="AIMLTagHandlers\sentence.cs" />
+    <Compile Include="AIMLTagHandlers\set.cs" />
+    <Compile Include="AIMLTagHandlers\size.cs" />
+    <Compile Include="AIMLTagHandlers\sr.cs" />
+    <Compile Include="AIMLTagHandlers\srai.cs" />
+    <Compile Include="AIMLTagHandlers\star.cs" />
+    <Compile Include="AIMLTagHandlers\system.cs" />
+    <Compile Include="AIMLTagHandlers\that.cs" />
+    <Compile Include="AIMLTagHandlers\thatstar.cs" />
+    <Compile Include="AIMLTagHandlers\think.cs" />
+    <Compile Include="AIMLTagHandlers\topicstar.cs" />
+    <Compile Include="AIMLTagHandlers\uppercase.cs" />
+    <Compile Include="AIMLTagHandlers\version.cs" />
+    <Compile Include="AIMLTagHandlers\websearch.cs" />
+    <Compile Include="AIMLTagHandlers\wikisearch.cs" />
+    <Compile Include="Bot.cs" />
+    <Compile Include="Misc\AllMiscDataStored.cs" />
+    <Compile Include="Misc\Json_Libraries.cs" />
+    <Compile Include="Normalize\ApplySubstitutions.cs" />
+    <Compile Include="Normalize\MakeCaseInsensitive.cs" />
+    <Compile Include="Normalize\SplitIntoSentences.cs" />
+    <Compile Include="Normalize\StripIllegalCharacters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Utils\AIMLLoader.cs" />
+    <Compile Include="Utils\AIMLTagHandler.cs" />
+    <Compile Include="Utils\CustomTag.cs" />
+    <Compile Include="Utils\Gender.cs" />
+    <Compile Include="Utils\MatchState.cs" />
+    <Compile Include="Utils\Node.cs" />
+    <Compile Include="Utils\SettingsDictionary.cs" />
+    <Compile Include="Utils\SubQuery.cs" />
+    <Compile Include="Utils\TagHandler.cs" />
+    <Compile Include="Utils\TextTransformer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.txt" />
+    <Content Include="config\DefaultPredicates.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="config\GenderSubstitutions.xml" />
+    <Content Include="config\Person2Substitutions.xml" />
+    <Content Include="config\PersonSubstitutions.xml" />
+    <Content Include="config\Settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="config\Splitters.xml" />
+    <Content Include="config\Substitutions.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="aiml\About_Bot\about_the_bot.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\About_Users\UserQuestions_Bot.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\About_Corona_virus.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Antibiotics_useful.aiml" />
+    <None Include="aiml\Corona_FAQ\Corona_tests.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Cororna_lasts_on_surface.aiml" />
+    <None Include="aiml\Corona_FAQ\Covid_testing.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Covid_testing_1.aiml" />
+    <None Include="aiml\Corona_FAQ\Covid_Vaccine.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Handwashing.aiml" />
+    <None Include="aiml\Corona_FAQ\Handwashing_techniques.aiml" />
+    <None Include="aiml\Corona_FAQ\Info_about_masks.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Precautions_travel.aiml" />
+    <None Include="aiml\Corona_FAQ\Protect_from_Corona.aiml" />
+    <None Include="aiml\Corona_FAQ\Recovery_from_Corona.aiml" />
+    <None Include="aiml\Corona_FAQ\Small_definations.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Social_Distancing.aiml" />
+    <None Include="aiml\Corona_FAQ\Spread_Disease.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Steps_sick_person.aiml" />
+    <None Include="aiml\Corona_FAQ\Symptoms.aiml" />
+    <None Include="aiml\Corona_FAQ\Testing.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Corona_FAQ\Vunerable.aiml" />
+    <None Include="aiml\Entertainment\Copy_User_Say.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Entertainment\Music.aiml" />
+    <None Include="aiml\Games\Tictactoe.aiml" />
+    <None Include="aiml\Knowledge\Cars.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Knowledge\ModesofTransport.aiml" />
+    <None Include="aiml\Knowledge\Whatday_Week_Month_Year.aiml" />
+    <None Include="aiml\Learning_Bot\ShowImages.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\SingleWord_defaultReplies.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Knowledge\Insulting_Phrases.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Knowledge\Animals.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\atomic-categories0.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\attribute_sort.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Knowledge\Calender.aiml" />
+    <None Include="aiml\Games\Hangman.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Games\Highroller_Dice.aiml" />
+    <None Include="aiml\Knowledge\Important_Days.aiml" />
+    <None Include="aiml\Mathematics\Math_Facts.aiml" />
+    <None Include="aiml\Knowledge\On_This_Day.aiml" />
+    <None Include="aiml\Knowledge\Qns_Howmany.aiml" />
+    <None Include="aiml\Mathematics\NumberToBinaryConversion.aiml" />
+    <None Include="aiml\About_Bot\Bot_Badanswer.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\About_Bot\Bot_Default_Answer.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\About_Bot\Bot_Favourites.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\About_Bot\Bot_functions.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\About_Bot\Bot_Greetings_user.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Bot_Salutations.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Knowledge\Color.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Knowledge\Currency_World.aiml" />
+    <None Include="aiml\Education\Education.aiml" />
+    <None Include="aiml\Science\Emotions.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\People_Professions\Famous_Celebrities.aiml" />
+    <None Include="aiml\Social\Famous_Historic_Places.aiml" />
+    <None Include="aiml\Games\20_Questions_Game.aiml" />
+    <None Include="aiml\Games\Battledome.aiml" />
+    <None Include="aiml\Science\Gender_Knowledge.aiml" />
+    <None Include="aiml\Health\Health.aiml" />
+    <None Include="aiml\Entertainment\Jokes.aiml" />
+    <None Include="aiml\Knowledge\Languages.aiml" />
+    <None Include="aiml\Mathematics\Math_Questions.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Entertainment\Movies.aiml" />
+    <None Include="aiml\Science\Organs.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\People_Professions\People.aiml" />
+    <None Include="aiml\People_Professions\Professions.aiml" />
+    <None Include="aiml\About_Bot\Questions_on_I_AM.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Technology\Robots.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Science\Bot_Body.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Science\Bot_Organs.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Knowledge\Seasons.aiml" />
+    <None Include="aiml\Sport\Bot_Sports.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\cathaiku.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\chat.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\client.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\client_profile.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Technology\Computers.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Health\Drugs_illegal.aiml" />
+    <None Include="aiml\cowboypoetrygenerator.aiml" />
+    <None Include="aiml\Technology\Electronics.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Food_Drinks\Food_Drinks.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\General_Questions.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Social\Geography.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\googlebooks.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Social\History.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\hours.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\ill.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\ipads.aiml" />
+    <None Include="aiml\Learning_Bot\learn.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\material_type_attributes.aiml" />
+    <None Include="aiml\Mathematics\mathproblems.aiml" />
+    <None Include="aiml\mediaholdings.aiml" />
+    <None Include="aiml\misc.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\miscfun.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\overdrive_ebooks.aiml" />
+    <None Include="aiml\ovrp.aiml" />
+    <None Include="aiml\popups.aiml" />
+    <None Include="aiml\About_Bot\User_Bot_Insult.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\prophecies.aiml" />
+    <None Include="aiml\readersadvisory.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\reduction0.safe.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\reduction1.safe.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\reduction2.safe.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\reduction3.safe.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\reduction4.safe.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\reductions-update.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Religion\Religion_Types.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\salutations.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Science\Science.aiml" />
+    <None Include="aiml\University_Siegen\Siegen_University.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\Science\Universe.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\About_Bot\User_Bot_Shutup.aiml" />
+    <None Include="aiml\subjects.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\supplsrch.aiml" />
+    <None Include="aiml\About_Bot\Bot_Clock.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\About_Users\User_Details.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="aiml\wolframalpha.aiml" />
+    <None Include="aiml\Social\World.aiml" />
+    <None Include="aiml\Science\Zodiac_Signs.aiml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

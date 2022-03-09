@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+<!--About University of Siegen-->
+
+  
+<category>
+<pattern>WHERE IS SIEGEN UNIVERSITY</pattern>
+<template>
+  The University of Siegen (German: Universität Siegen) is a public research university located in Siegen, North Rhine-Westphalia (NRW), Germany. It offers a total of 126 degree programmes across its four faculties.
+</template>
+</category>
+
+  <category>
+    <pattern>WHERE IS SIEGEN *</pattern>
+    <template>
+      <srai>WHERE IS SIEGEN UNIVERSITY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FACULTIES IN SIEGEN</pattern>
+    <template>
+      There are a total of four faculties and each has many departments. You can find the information in 
+    </template>
+  </category>
+
+  
+    
+  
+  
+</aiml>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- ABOUT COVID TESTING  -->
+
+  <category>
+    <pattern>WHAT IS CORONA?</pattern>
+    <template>
+      <random>
+        <li> Coronaviruses are a family of viruses that range from the common cold to MERS coronavirus, which is Middle East Respiratory Syndrome coronavirus and SARs, Severe acute respiratory syndrome coronavirus. </li>
+        <li>
+          The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water.
+        </li>
+        <li>
+          COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak beganin Wuhan, China, in December 2019.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <!-- MOLECULAR TEST-->
+
+  <category>
+    <pattern>MOLECULARTEST</pattern>
+    <template>
+      Molecular tests look for signs of an active infection. They usually involve taking a sample from the
+      back of the throat with a cotton swab. The doctor then sends the sample off for testing. The sample will undergo a
+      polymerase chain reaction (PCR) test. This type of test detects signs of the virus’s genetic material. A PCR test can
+      confirm a diagnosis of COVID-19 if it identifies two specific SARS-CoV-2 genes. If it identifies only one of
+      these genes, it will produce an inconclusive result. Molecular tests can only help diagnose current cases of COVID-19.
+      They cannot tell whether someone has had the infection and since recovered. Among them Rapid tests (RT-PCR) gives 100% acurate result.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MOLECULAR TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MOLECULAR TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MOLECULAR TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MOLECULAR TEST *</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF MOLECULAR TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT MOLECULAR TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MOLECULAR TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MOLECULAR TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MOLECULAR TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MOLECULAR TEST *</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MOLECULAR TEST *</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MOLECULAR TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MOLECULAR-TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MOLECULAR-TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS MOLECULAR-TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MOLECULAR-TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MOLECULAR-TEST *</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF MOLECULAR-TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT MOLECULAR-TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * MOLECULAR-TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MOLECULAR-TEST?</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE MOLECULAR-TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MOLECULAR-TEST *</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MOLECULAR-TEST *</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MOLECULAR-TEST</pattern>
+    <template>
+      <srai>MOLECULARTEST</srai>
+    </template>
+  </category>
+
+
+  <!-- SEROLOGICAL TEST-->
+
+  <category>
+    <pattern>SEROLOGICALTEST</pattern>
+    <template>
+      Serological tests detect antibodies that the body produces to fight the virus.
+      These antibodies are present in anyone who has recovered from COVID-19. The antibodies exist in blood and tissues
+      throughout the body. A serological test usually requires a blood sample. Serological tests are particularly useful
+      for detecting cases of infection with mild or no symptoms. The Centers for Disease Control and Prevention (CDC)
+      are currently developing a serological test for SARS-CoV-2, and they are looking for blood samples from anyone who
+      has had COVID-19. The samples would be taken at least 21 days after symptoms first developed.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SEROLOGICAL TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SEROLOGICAL TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SEROLOGICAL TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SEROLOGICAL TEST *</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SEROLOGICAL TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SEROLOGICAL TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SEROLOGICAL TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SEROLOGICAL TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SEROLOGICAL TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SEROLOGICAL TEST *</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SEROLOGICAL TEST *</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SEROLOGICAL TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SEROLOGICAL-TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SEROLOGICAL-TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS SEROLOGICAL-TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SEROLOGICAL-TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SEROLOGICAL-TEST *</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF SEROLOGICAL-TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT SEROLOGICAL-TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * SEROLOGICAL-TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SEROLOGICAL-TEST?</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE SEROLOGICAL-TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SEROLOGICAL-TEST *</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SEROLOGICAL-TEST *</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* SEROLOGICAL-TEST</pattern>
+    <template>
+      <srai>SEROLOGICALTEST</srai>
+    </template>
+  </category>
+
+
+  <!-- RAPID TEST-->
+
+  <category>
+    <pattern>RAPIDTEST</pattern>
+    <template>
+      Rapid antigen tests (sometimes known as a rapid diagnostic test - RDT) detect viral proteins (known as antigens). Samples are collected from
+      the nose and/or throat with a swab. These tests are cheaper than PCR and will
+      offer results more quickly, although they are generally less accurate. These
+      tests perform best when there is more virus circulating in the community and
+      when sampled from an individual during the time they are most infectious. rom anyone who
+      has had COVID-19. The samples would be taken at least 21 days after symptoms first developed.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RAPID TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RAPID TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RAPID TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RAPID TEST *</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF RAPID TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT RAPID TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RAPID TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RAPID TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RAPID TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RAPID TEST *</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RAPID TEST *</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RAPID TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>RAPID-TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RAPID-TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS RAPID-TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RAPID-TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RAPID-TEST *</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OF RAPID-TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT RAPID-TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT * RAPID-TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RAPID-TEST?</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE RAPID-TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RAPID-TEST *</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>RAPID-TEST *</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RAPID-TEST</pattern>
+    <template>
+      <srai>RAPIDTEST</srai>
+    </template>
+  </category>
+
+
+
+
+
+
+</aiml>

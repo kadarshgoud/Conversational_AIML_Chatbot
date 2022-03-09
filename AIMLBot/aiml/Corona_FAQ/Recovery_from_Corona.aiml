@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>RECOVERYFROMCORONA</pattern>
+    <template>
+      Using available preliminary data, the median time from onset to clinical recovery for mild cases is approximately 2 weeks and is 3-6 weeks for patients with severe or critical disease.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM CORONA VIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM CORONA VIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM CORONAVIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM COVID-19 VIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM COVID-19VIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM COVID-19VIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM COVID19 VIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES A PERSON TAKE TO GET RECOVERED FROM COVID19 VIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID-19?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID-19</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID 19?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID 19</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID-19 *?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID-19 *</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID19?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID19</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID19 VIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM COVID19 VIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM CORONA VIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM CORONA VIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM CORONAVIRUS?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIME TAKEN BY A PERSON TO GET RECOVERED FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE CORONAVIRUS DISEASE?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE CORONAVIRUS DISEASE</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE CORONA VIRUS DISEASE?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE CORONA VIRUS DISEASE</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE COVID19 VIRUS DISEASE?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE COVID19 VIRUS DISEASE</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE COVID-19 VIRUS DISEASE?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE COVID-19 VIRUS DISEASE</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE COVID19 VIRUS DISEASE?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE RECOVERY TIME FOR THE COVID19 VIRUS DISEASE</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE CORONA EFFECTED PERSON TO GET RECOVERED?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE CORONA EFFECTED PERSON TO GET RECOVERED</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE COVID19 EFFECTED PERSON TO GET RECOVERED?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE COVID19 EFFECTED PERSON TO GET RECOVERED</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE COVID-19 EFFECTED PERSON TO GET RECOVERED?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE COVID-19 EFFECTED PERSON TO GET RECOVERED</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE CORONA VIRUS EFFECTED PERSON TO GET RECOVERED?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE CORONA VIRUS EFFECTED PERSON TO GET RECOVERED</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE CORONAVIRUS EFFECTED PERSON TO GET RECOVERED?</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MINIMUM TIME REQUIRED BY THE CORONAVIRUS EFFECTED PERSON TO GET RECOVERED</pattern>
+    <template>
+      <srai>RECOVERYFROMCORONA</srai>
+    </template>
+  </category>
+
+</aiml>

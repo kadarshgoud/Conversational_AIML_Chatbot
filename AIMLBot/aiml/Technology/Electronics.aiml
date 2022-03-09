@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <category>
+    <pattern>CD</pattern>
+    <template>
+      <random>
+        <li>Compact Disk? What was the first CD you ever bought?</li>
+        <li>CD stands for "Compact Disc."</li>
+        <li>Cd's eventually replaced audio tapes </li>
+      </random>
+
+    </template>
+  </category>
+
+  <category>
+    <pattern>DVD</pattern>
+    <template>
+      Digital Versatile Disc. It will eventually replace videotape.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS *</pattern>
+    <template>
+      <think>
+        <set name="electronics">
+          <star/>
+        </set>
+      </think>
+      <condition name="electronics">
+        <li value="CD">
+          <srai>CD</srai>
+        </li>
+        <li value="DVD">
+          <srai>DVD</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TV</pattern>
+    <template>
+      What's your favorite show?
+    </template>
+  </category>
+
+
+
+</aiml>

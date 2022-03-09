@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item name="username" value="" />
+  <item name="userfirstname" value="unknown" />
+  <item name="usermiddlename" value="unknown"/>
+  <item name="userlastname" value="unknown" />
+  <item name="usernickname" value="unknown" />
+  <item name="userage" value="unknown" />
+  <item name="userwifename" value="unknown" />
+  <item name="userpassword" value="unknown" />
+  <item name="userrelative" value="unknown" />
+  <item name="season" value="unknown" />
+  <item name="usermisc" value="unknown" />
+
+
+  <item name="usermother" value="unknown" />
+  <item name="userfather" value="unknown" />
+  <item name="usersister" value="unknown" />
+  <item name="userbrother" value="unknown" />
+  <item name="userfriend" value="unknown" />
+  <item name="usergirlfriend" value="unknown" />
+  <item name="userboyfriend" value="unknown" />
+  <item name="userwife" value="unknown" />
+  <item name="userhusband" value="unknown" />
+  <item name="useruncle" value="unknown" />
+  <item name="useraunty" value="unknown" />
+  <item name="useraunt" value="unknown" />
+  <item name="userdog" value="unknown" />
+  <item name="usercat" value="unknown" />
+
+  <item name="usermother_profession" value="unknown" />
+  <item name="userfather_profession" value="unknown" />
+  <item name="usersister_profession" value="unknown" />
+  <item name="userbrother_profession" value="unknown" />
+  <item name="userfriend_profession" value="unknown" />
+  <item name="usergirlfriend_profession" value="unknown" />
+  <item name="userboyfriend_profession" value="unknown" />
+  <item name="userwife_profession" value="unknown" />
+  <item name="userhusband_profession" value="unknown" />
+  <item name="useruncle_profession" value="unknown" />
+  <item name="useraunty_profession" value="unknown" />
+  <item name="useraunt_profession" value="unknown" />
+
+  <item name="user_email_id" value="unknown" />
+  <item name="user_phone" value="unknown" />
+  <item name="user_dob" value="unknown" />
+  <item name="botbirthdaydate" value="unknown" />
+  <item name="userfavoritecolor" value="unknown" />
+  <item name="usergender" value="unknown" />
+
+
+  <item name="he" value="somebody" />
+  <item name="she" value="somebody" />
+  <item name="it" value="something" />
+  <item name="they" value="something" />
+
+  <item name="birthday" value="unknown" />
+  <item name="boyfriend" value="unknown" />
+  <item name="brother" value="unknown" />
+  <item name="cat" value="unknown" />
+  <item name="does" value="unknown" />
+  <item name="dog" value="unknown" />
+  <item name="email" value="unknown" />
+  <item name="userzodiacsign" value="unknown" />
+
+  <item name="favcolor" value="unknown" />
+  <item name="favmovie" value="unknown" />
+  <item name="friend" value="unknown" />
+  <item name="fullname" value="unknown" />
+
+  <item name="girlfriend" value="unknown" />
+  <item name="has" value="unknown" />
+  <item name="heard" value="unknown" />
+  <item name="husband" value="unknown" />
+  <item name="is" value="unknown" />
+  <item name="job" value="unknown" />
+  <item name="lastname" value="unknown" />
+  <item name="like" value="unknown" />
+  <item name="location" value="unknown" />
+  <item name="looklike" value="unknown" />
+  <item name="memory" value="unknown" />
+  <item name="meta" value="unknown" />
+
+
+
+  <item name="password" value="unknown" />
+  <item name="personality" value="unknown" />
+  <item name="phone" value="unknown" />
+
+
+  <item name="them" value="unknown" />
+  <item name="thought" value="unknown" />
+  <item name="want" value="unknown" />
+  <item name="we" value="unknown" />
+  <item name="test" value="checking" />
+</root>

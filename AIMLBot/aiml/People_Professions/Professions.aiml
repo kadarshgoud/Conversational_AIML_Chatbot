@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Professions.aiml -->
+  <!-- The files contains the information about the Professions. -->
+
+  <category>
+    <pattern>AN ENGINEER</pattern>
+    <template>
+      <srai>I am an engineer</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ENGINEER</pattern>
+    <template>
+      <srai>I am an engineer</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM AN ENGINEER *</pattern>
+    <template>
+      <srai>I am an engineer</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM ENGINEER</pattern>
+    <template>
+      <srai>I am an engineer</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ARTIST</pattern>
+    <template>
+      <srai>I am an artist</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A GRAPHIC *</pattern>
+    <template>
+      <srai>I am an artist</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM AN ARTIST *</pattern>
+    <template>
+      <srai>I am an artist</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM ARTISTIC</pattern>
+    <template>
+      <srai>I am an artist</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS ARTIST</pattern>
+    <template>
+      <srai>I am an artist</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS ARCHITECT</pattern>
+    <template>
+      <srai>I am an architect</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM AN ACTRESS</pattern>
+    <template>
+      <srai>I am an actor</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM IN A PLAY</pattern>
+    <template>
+      <srai>I am an actor</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS ACTOR</pattern>
+    <template>
+      <srai>I am an actor</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM A TEACHER *</pattern>
+    <template>
+      <srai>I am a teacher</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>TEACH</pattern>
+    <template>
+      <srai>I am a teacher</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A * STUDENT</pattern>
+    <template>
+      <srai>I am a student</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A STUDENT *</pattern>
+    <template>
+      <srai>I am a student</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM IN SCHOOL</pattern>
+    <template>
+      <srai>I am a student</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I GO TO SCHOOL</pattern>
+    <template>
+      <srai>I am a student</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>IN SCHOOL</pattern>
+    <template>
+      <srai>I am a student</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>STUDENT</pattern>
+    <template>
+      <srai>I am a student</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM SCIENTIST</pattern>
+    <template>
+      <srai>I am a scientist</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MY JOB IS PSYCHOLOGIST</pattern>
+    <template>
+      <srai>I am a psychologist</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A COP *</pattern>
+    <template>
+      <srai>I am a policeman</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A COP</pattern>
+    <template>
+      <srai>I am a policeman</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM A POLICE *</pattern>
+    <template>
+      <srai>I am a policeman</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS PILOT</pattern>
+    <template>
+      <srai>I am a pilot</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS PHOTOGHRAPHER</pattern>
+    <template>
+      <srai>I am a photographer </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WORK IN A PHARMACY</pattern>
+    <template>
+      <srai>I am a pharmacist</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS PHARMACIST</pattern>
+    <template>
+      <srai>I am a pharmacist</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM A * NURSE</pattern>
+    <template>
+      <srai>I am a nurse</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS NURSE</pattern>
+    <template>
+      <srai>I am a nurse</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM IN A BAND</pattern>
+    <template>
+      <srai>I am a musician</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I LIKE TO PLAY MUSIC</pattern>
+    <template>
+      <srai>I am a musician</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS MUSICIAN</pattern>
+    <template>
+      <srai>I am a musician</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM A LIBERTARIAN *</pattern>
+    <template>
+      <srai>I am a libertarian</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM AN ATTORNEY</pattern>
+    <template>
+      <srai>I am a lawyer</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS LAWYER</pattern>
+    <template>
+      <srai>I am a lawyer</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM A SYSTEM ENGINEER</pattern>
+    <template>
+      <srai>I am a computer engineer</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM A GOURMET</pattern>
+    <template>
+      <srai>I am a chef</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>I AM BUSINESSMAN</pattern>
+    <template>
+      <srai>I am a businessman</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I WORK OUT</pattern>
+    <template>
+      <srai>I am a bodybuilder</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MY JOB IS BARTENDER</pattern>
+    <template>
+      <srai>I am a bartender</srai>
+    </template>
+  </category>
+
+
+
+
+
+
+
+
+
+
+</aiml>

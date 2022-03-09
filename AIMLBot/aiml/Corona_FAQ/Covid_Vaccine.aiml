@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+
+  <!-- CORONA VIRUS VACCINE  -->
+
+  <category>
+    <pattern>CORONAVACCINE</pattern>
+    <template>
+      There are now several vaccines that are in use. The first mass vaccination programme started in early December 2020. WHO issued an Emergency Use Listing (EULs) for the Pfizer COVID-19 vaccine on 31 December 2020. On 15 February 2021, WHO issued EULs for two versions of the AstraZeneca/Oxford COVID-19 vaccine, manufactured by the Serum Institute of India and SKBio. On 12 March 2021, WHO issued an EUL for the COVID-19 vaccine Ad26.COV2.S, developed by Janssen. WHO is on track to EUL other vaccine products through June.
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS THERE A CURE?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS THERE A CURE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I IMMUNE ONCE I HAVE BEEN VACCINATED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I IMMUNE ONCE I HAVE BEEN VACCINATED</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE INOCULATIONS AVAILABLE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INOCULATIONS AVAILABLE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE INOCULATIONS AVAILABLE *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE INOCULATIONS *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INOCULATIONS *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE THEY RESEARCHING VACCINES?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE * RESEARCHING VACCINES</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESEARCHING VACCINES</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESEARCHING *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* RESEARCHING VACCINES *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE THEY * ON VACCINES</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE THEY * VACCINES</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THEY * ON VACCINES?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THEY * VACCINES?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN COVID BE CURED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN COVID BE CURED</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN * BE CURED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN * BE VACCINATED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN * BE CURED</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN * BE VACCINATED</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN INOCULATION PROTECT YOU FROM CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN INOCULATION PROTECT YOU FROM *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN RESEARCHING MAKE A VACCINE?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN RESEARCHING MAKE A VACCINE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN RESEARCH MAKE A VACCINE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN RESEARCH MAKE A VACCINE *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN VACCINES PROTECT YOU FROM CORONA?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN VACCINES PROTECT YOU FROM CORONA</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN VACCINES PROTECT YOU FROM *?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN VACCINES PROTECT YOU FROM *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU BE INOCULATED AGAINST THE VIRUS?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE INOCULATED AGAINST THE VIRUS</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE INOCULATED AGAINST THE *?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE INOCULATED AGAINST THE *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE * AGAINST THE VIRUS?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE * AGAINST THE VIRUS</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU BE INOCULATED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE INOCULATED</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE *?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU * INOCULATED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU * INOCULATED</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU * VACCINATED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU * VACCINATED</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU BE VACCINATED TO PROTECT YOU FROM COVID-19?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE VACCINATED TO PROTECT YOU FROM *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE VACCINATED TO PROTECT YOU FROM COVID-19</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE VACCINATED TO PROTECT YOU FROM *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE * TO PROTECT YOU FROM *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN YOU BE * TO PROTECT YOU FROM *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I BE VACCINATED?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I BE *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG WILL IT TAKE TO DEVELOP A VACCINE?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG WILL IT TAKE TO DEVELOP A *?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG WILL IT TAKE TO DEVELOP A *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW LONG WILL IT TAKE TO * A VACCINE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS THERE A CURE?</pattern>
+    <template>
+      Yes, <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS THERE A CURE</pattern>
+    <template>
+      Yes, <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS THERE A VACCINE AGAINST CORONAVIRUS?</pattern>
+    <template>
+      Yes, <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS THERE A VACCINE AGAINST CORONAVIRUS</pattern>
+    <template>
+      Yes, <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS THERE A VACCINE AGAINST *?</pattern>
+    <template>
+      Yes, <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS THERE A VACCINE AGAINST *</pattern>
+    <template>
+      Yes, <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS INOCULATION?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS INOCULATION</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INOCULATION</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN CAN WE EXPECTED A VACCINE?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN CAN WE EXPECTED A VACCINE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>EXPECTED VACCINE DATE FOR *</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN WILL INOCULATIONS BE AVAILABLE?</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN WILL INOCULATIONS BE AVAILABLE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN WILL * BE AVAILABLE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN WILL * AVAILABLE</pattern>
+    <template>
+      <srai>CORONAVACCINE</srai>
+    </template>
+  </category>
+
+
+</aiml>

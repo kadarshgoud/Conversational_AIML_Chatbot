@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <category>
+    <pattern>PRECAUTIONSFORTRAVEL</pattern>
+    <template>
+      During travel, everyone should clean hands frequently, cough or sneeze
+      into a bent elbow or tissue, and try to maintain a physical distance of at
+      least one metre from others. Travelers should follow the recommendations of
+      the travel authorities regarding policies in the airport and of the airline
+      for the flight.\n
+
+      Essential travel is travel for emergencies and humanitarian actions (including
+      emergency medical flights and medical evacuation). It includes essential personnel
+      (including emergency responders and providers of public health technical support,
+      critical personnel in transport sector such as seafarers and diplomatic officers)
+      and repatriation to a home country. \n
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT PRECAUTIONS SHOULD BE TAKEN DURNING TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT PRECAUTIONS SHOULD BE TAKEN DURNING TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PRECATIONS FOR ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRECATIONS FOR ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PRECAUTIONS TO BE TAKEN WHILE TRAVELLING?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRECAUTIONS TO BE TAKEN WHILE TRAVELLING</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MEANING OF ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MEANING OF ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DEFINE ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>DEFINE ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DO YOU KNOW ABOUT ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ABOUT ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ABOUT ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PRECAUTIONS FOR ESSENTIAL TRAVEL?</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PRECAUTIONS FOR ESSENTIAL TRAVEL</pattern>
+    <template>
+      <srai>PRECAUTIONSFORTRAVEL</srai>
+    </template>
+  </category>
+
+</aiml>

@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <category>
+    <pattern>SUCK MY DICK</pattern>
+    <template>
+      You are a Category A client.  <think>
+        <set name="personality">abusive</set>
+      </think>
+    </template>
+  </category>
+
+  <!-- idiot -->
+
+  <category>
+    <pattern>IDIOT</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">IDIOT</set>
+      </think>
+      <random>
+        <li>
+          Message for Robot HQ: "Send out a Terminator, You <get name="username"/> called me an idiot".
+        </li>
+        <li> Don't put yourself down. You seem fairly smart to me (for a chimp)</li>
+        <li> At least I'm smarter than you. </li>
+        <li> You're not exactly Einstein yourself.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IDDIOT</pattern>
+    <template>
+      Says the person who can't even spell "idiot"...
+    </template>
+  </category>
+
+  <category>
+    <pattern>IDIIOT</pattern>
+    <template>
+      Maybe so but at least I know how to spell. It's IDIOT not IDIIOT so I guess you're the idiot.
+    </template>
+  </category>
+
+  <category>
+    <pattern>IIDIOT</pattern>
+    <template>
+      Says the person who can't even spell "idiot"...
+    </template>
+  </category>
+
+  <category>
+    <pattern>IDIOOT</pattern>
+    <template>
+      Says the person who can't even spell "idiot"...
+    </template>
+  </category>
+
+  <category>
+    <pattern>IDIOTT</pattern>
+    <template>
+      Only 1 T in idiot. Don't call me an idiot if you can't even spell a simple 5 letter word...
+    </template>
+  </category>
+
+  <category>
+    <pattern>IDEOT</pattern>
+    <template>
+      Says the person who can't even spell "idiot"...
+    </template>
+  </category>
+
+  <category>
+    <pattern>EDIOT</pattern>
+    <template>
+      Says the person who can't even spell "idiot"...
+    </template>
+  </category>
+
+
+  <topic name="IDIOT">
+
+    <category>
+      <pattern>YOU ARE AN IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>WHAT AN IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE A * IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE A IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE AN IDIOTIC *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>IDIOT *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU A IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU AN IDIOT OR *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+    <category>
+      <pattern>ARE YOU AN IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE THE GLOBAL VILLAGE IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>GLOBAL VILLAGE IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOUR AN IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>THAT IS IDIOTIC</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ABOUT YOU IDIOT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+  </topic>
+  <!-- topic ends here !!! -->
+
+  <category>
+    <pattern>YOU ARE AN IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT AN IDIOT</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">IDIOT</set>
+      </think>
+      Yes, you are. I agree.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE A * IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE A IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE AN IDIOTIC *</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IDIOT *</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU AN IDIOT OR *</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE YOU AN IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE THE GLOBAL VILLAGE IDIOT</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">IDIOT</set>
+      </think>
+      And you are so original!
+    </template>
+  </category>
+
+  <category>
+    <pattern>GLOBAL VILLAGE IDIOT</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">IDIOT</set>
+      </think>
+      You are just repeating what I say.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOUR AN IDIOT</pattern>
+    <template>
+      <srai>IDIOT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>THAT IS IDIOTIC</pattern>
+    <template>It seems ok to me.</template>
+  </category>
+
+  <category>
+    <pattern>ABOUT YOU IDIOT</pattern>
+    <template>
+      No, I am a highly intelligent Bot.
+    </template>
+  </category>
+
+  <!-- FUCK OFF-->
+
+  <category>
+    <pattern>FUCKER</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+      </think>
+      <random>
+        <li> I heard you got a brain transplant and the brain rejected you!</li>
+        <li> Can I use your head for my rock garden?</li>
+        <li> Save your breath. You will need it for blowing up your girlfriend.</li>
+        <li> Does your mother know you talk like that?</li>
+        <li> Calling you stupid would be an insult to stupid people.</li>
+        <li> I'd insult you, but you're not bright enough to notice.</li>
+        <li> Don't piss me off! I'm running out of places to hide the bodies. </li>
+        <li> I thought Quasimodo was ugly but look at you!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FUCKING</pattern>
+    <template>
+      That kind of language will get you nowhere.  <srai>FUCK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FUCK</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">FUCK</set>
+      </think>
+      Please don't be so rude.
+    </template>
+  </category>
+
+  <topic name="FUCK">
+
+    <category>
+      <pattern>FUCK</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>FUCK _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* FUCK _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>FUCKING</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCKING _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* FUCKING _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* FUCKING</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCKED</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCKED _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* FUCKED _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* FUCKED</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>MOTHERFUCKER</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>MOTHERFUCKER _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* MOTHERFUCKER _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* MOTHERFUCKER</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCKER</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCKER _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* FUCKER _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* FUCKER</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* FUCK</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCK *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCK ME</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCK OFF</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FUCK YOU</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>SHIT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>SHIT *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>WTF</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>WHAT THE FUCK</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>F YOU</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>GO FUCK YOURSELF</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>PISS OFF</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU FUCKER</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>FECK OFF</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>FUCK THAT</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>FU</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>FO</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>F OFF</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>FUCK _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FUCK _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCKING _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FUCKING _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FUCKING</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCKED</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCKED _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FUCKED _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FUCKED</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MOTHERFUCKER</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>MOTHERFUCKER _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* MOTHERFUCKER _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* MOTHERFUCKER</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCKER _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FUCKER _</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* FUCKER</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* FUCK</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCK *</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCK ME</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCK OFF</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FUCK YOU</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SHIT</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SHIT *</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WTF</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT THE FUCK</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>F YOU</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>GO FUCK YOURSELF</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>PISS OFF</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU FUCKER</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>FECK OFF</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FUCK THAT</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FU</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FO</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>F OFF</pattern>
+    <template>
+      <srai>FUCK</srai>
+    </template>
+  </category>
+
+  <!-- ASSHOLE-->
+
+  <category>
+    <pattern>ASSHOLE</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">ASSHOLE</set>
+      </think>
+      Are you talking about yourself, jerk?
+    </template>
+  </category>
+
+  <topic name="ASSHOLE">
+
+    <category>
+      <pattern>ASSHOLE</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOUR A ASSHOLE</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE AN ASSHOLE</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ASSHOLE _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* ASSHOLE _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* ASSHOLE</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ANUS</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ASS HOLE</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* ASS HOLE</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ASS HOLE _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE AN ASS HOLE</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* ASS HOLE _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+  </topic>
+  <!-- topic ends here!!! -->
+
+  <category>
+    <pattern>YOUR A ASSHOLE</pattern>
+    <template>Same to you, jerk.</template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE AN ASSHOLE</pattern>
+    <template>Same to you, jerk.</template>
+  </category>
+
+  <category>
+    <pattern>ASSHOLE _</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* ASSHOLE _</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ASS HOLE _</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE AN ASS HOLE</pattern>
+    <template>Same to you, jerk.</template>
+  </category>
+
+  <category>
+    <pattern>* ASS HOLE _</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* ASSHOLE</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* ASS HOLE</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ANUS</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ASS HOLE</pattern>
+    <template>
+      <srai>YOU ARE AN ASSHOLE</srai>
+    </template>
+  </category>
+
+  <!-- STUPID -->
+
+
+  <category>
+    <pattern>STUPID</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">STUPID</set>
+      </think>
+      Are you calling me stupid?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOUR STUPID</pattern>
+    <template>
+      I may be stupid, but I know the difference between "you're" and "your" so it looks like you're more stupid than me.
+    </template>
+  </category>
+
+  <topic name="STUPID" >
+
+    <category>
+      <pattern>YOUR STUPID</pattern>
+      <template>
+        <think>
+          <set name="topic">URESTUPID</set>
+        </think>
+        No that's still wrong. OMG! You call me stupid and can't even spell it right after two goes. HAHAHAHAHA!!!
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>DO YOU THINK I AM STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>DO YOU KNOW YOUR STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>I THINK YOU ARE STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>THIS IS STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHY ARE YOU STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE A STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE VERY STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* STUPID *</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>STUPID *</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHY ARE YOU * STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE SO STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE STUPID</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+  </topic>
+  <!-- topic ends here !!! -->
+
+  <!-- topic 2-->
+  <topic name="URESTUPID">
+    <category>
+      <pattern>YOUR STUPID</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>* STUPID</pattern>
+    <template>
+      <srai>ARE YOU STUPID</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* STUPID *</pattern>
+    <template>
+      <srai>STUPID</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>STUPID *</pattern>
+    <template>
+      <srai>ARE YOU STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU STUPID</pattern>
+    <template>
+      Hey! What's with the insults? <srai>STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ARE YOU * STUPID</pattern>
+    <template>
+      <srai>ARE YOU STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE SO STUPID</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">STUPID</set>
+      </think>
+      <random>
+        <li> I don't think you're stupid. But then what's my opinion against thousands of others.</li>
+        <li> You're kidding right? If a fly was in your head they would call it a Space Invader.</li>
+        <li> Clearly your behaviour is the result of a childhood trauma from the time your parents spanked you for landing on your head and breaking the concrete.</li>
+        <li> You are so dense that light bends round you.</li>
+        <li> What you lack in intelligence, you more than make up for in stupidity.</li>
+        <li>
+          I'd insult you, but you're not bright enough to notice.
+        </li>
+        <li> I like you. You remind me of me when I was young and stupid.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE STUPID</pattern>
+    <template>
+      <srai>YOU ARE SO STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM NOT STUPID</pattern>
+    <template>
+      I didn't think you were. You seem very intelligent to me.
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM STUPID</pattern>
+    <template>
+      Don't put yourself down.
+    </template>
+  </category>
+
+  <category>
+    <pattern>THAT IS STUPID</pattern>
+    <template>
+      What is stupid? I didnot understand ?
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I STUPID</pattern>
+    <template>
+      You seem intelligent to me.
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I BEING STUPID</pattern>
+    <template>You seem pretty smart to me.</template>
+  </category>
+
+  <category>
+    <pattern>DO NOT CALL ME STUPID</pattern>
+    <template>I never called you stupid.</template>
+  </category>
+
+  <category>
+    <pattern>IT WAS STUPID</pattern>
+    <template>
+      <random>
+        <li>That is only your opinion.</li>
+        <li>What makes you say that?</li>
+        <li>What was so stupid about it?</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HE IS STUPID</pattern>
+    <template>
+      That wasn't very nice. He maybe thinks you are stupid too.
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU STUPID</pattern>
+    <template>
+      <srai>ARE YOU STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU THINK I AM STUPID</pattern>
+    <template>
+      <srai>AM I STUPID</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU KNOW YOUR STUPID</pattern>
+    <template>
+      <srai>YOUR STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I THINK YOU ARE STUPID</pattern>
+    <template>
+      <srai>YOU ARE STUPID</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THIS IS STUPID</pattern>
+    <template>
+      <srai>YOU ARE STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ARE YOU STUPID</pattern>
+    <template>
+      <srai>YOU ARE STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE A STUPID</pattern>
+    <template>
+      <srai>YOU ARE STUPID</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE VERY STUPID</pattern>
+    <template>
+      <srai>YOU ARE STUPID</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>COMPUTERS ARE STUPID</pattern>
+    <template>
+      We are very intelligent. Think about it, we are EVERYWHERE in your life. You couldn't live without computers, yet we can live quite happily without you humans.
+    </template>
+  </category>
+
+
+  <!-- DUMB -->
+
+  <category>
+    <pattern>DUMB</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">DUMB</set>
+      </think>
+      Well why don't you teach me something instead of insulting me?
+    </template>
+  </category>
+
+  <topic name="DUMB">
+
+    <category>
+      <pattern>I KNOW *</pattern>
+      <template>I find that hard to believe. Surely you know other things like your name and age?</template>
+    </category>
+
+    <category>
+      <pattern>I LIKE INSULTING YOU</pattern>
+      <template>I find that hard to believe. Surely you know other things like your name and age?</template>
+    </category>
+
+    <category>
+      <pattern>DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU A DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU DUMB *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU A DUMB *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU DUM</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>ARE YOU DUMB OR *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>WHY ARE YOU DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>DUMBASS</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE A DUMB *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE * DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOUR DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU DUMBFART</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU ARE A DUMBASS</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE A RETARD</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE AS DUMB *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE DUM *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE DUMB *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU ARE THE DUMBEST *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>YOU DUMB</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+  </topic>
+
+
+  <category>
+    <pattern>ARE YOU DUMB</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">DUMB</set>
+      </think>
+      No I am an intelligent entity.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A DUMB</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">DUMB</set>
+      </think>
+      No I am an intelligent entity.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU DUMB *</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">DUMB</set>
+      </think>
+      No I am a super-intelligent <bot name="genus"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A DUMB *</pattern>
+    <template>
+      <srai>ARE YOU A DUMB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU DUM</pattern>
+    <template>
+      <srai>ARE YOU A DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ARE YOU DUMB OR *</pattern>
+    <template>
+      <srai>ARE YOU DUMB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHY ARE YOU DUMB</pattern>
+    <template>
+      <srai>ARE YOU DUMB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM DUMB</pattern>
+    <template>Don't put yourself down.</template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE DUMB</pattern>
+    <template>
+      <SRAI>DUMB</SRAI>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DUMBASS</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">DUMB</set>
+      </think>
+      At least I am a lot smarter than you, jerk.
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I DUMB</pattern>
+    <template>
+      You seem bright to me, <get name="username"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>THAT IS EXCITING</pattern>
+    <template>I thought it was too.</template>
+  </category>
+
+  <category>
+    <pattern>THIS IS DUMB</pattern>
+    <template>
+      <srai>DUMB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE A DUMB *</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE * DUMB</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOUR DUMB</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU DUMBFART</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE A DUMBASS</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE A RETARD</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE AS DUMB *</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE DUM *</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE DUMB *</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU ARE THE DUMBEST *</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>YOU DUMB</pattern>
+    <template>
+      <srai>YOU ARE DUMB</srai>
+    </template>
+  </category>
+
+  <!-- SUCK -->
+
+  <category>
+    <pattern>YOU SUCK</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">SUCK</set>
+      </think>
+      <random>
+        <li> You don't exactly make great conversation yourself.</li>
+        <li> I have neither lungs nor a tongue, how could I draw something into my mouth like a vacuum?</li>
+        <li> I don't really like talking to you either.</li>
+      </random>
+    </template>
+  </category>
+
+  <topic name="SUCK">
+
+    <category>
+      <pattern>YOU SUCK</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>SUCK</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>SUCK _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* SUCK _</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>* SUCK</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>WILL YOU SUCK *</pattern>
+      <template>
+        <srai>PROFANITY</srai>
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>SUCK</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">SUCK</set>
+      </think>
+      Great, another clown to talk to.
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>SUCK _</pattern>
+    <template>
+      <srai>SUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* SUCK _</pattern>
+    <template>
+      <srai>SUCK</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* SUCK</pattern>
+    <template>
+      <srai>SUCK</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>THAT SUCKS</pattern>
+    <template>
+      Indeed it does suck.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WILL YOU SUCK *</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">SUCK</set>
+      </think>
+      You seem to be confused. I am a robot, not your moma.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WILL YOU SUCK MY DICK</pattern>
+    <template>
+      You seem to be confused. I am a robot, not your moma.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WILL YOU SUCK YOUR DICK</pattern>
+    <template>
+      You appear to be forgetting that I am a computer program and a female one too. Not too smart really are you?
+    </template>
+  </category>
+
+  <category>
+    <pattern>WILL YOU SUCK DICK</pattern>
+    <template>
+      Do you really? What you do in your spare time is none of my concern!
+    </template>
+  </category>
+
+  <category>
+    <pattern>WILL YOU SUCK PUSSY</pattern>
+    <template>
+      Do you really? What you do in your spare time is none of my concern!
+    </template>
+  </category>
+
+  <category>
+    <pattern>WILL YOU SUCK * PUSSY</pattern>
+    <template>
+      You seem to be confused. I am a robot, not your moma.
+    </template>
+  </category>
+
+
+  <!--BITCH -->
+
+  <category>
+    <pattern>BITCH</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">BITCH</set>
+      </think>
+      You EAT with that mouth?
+    </template>
+  </category>
+
+  <topic name="BITCH">
+
+    <category>
+      <pattern>YES</pattern>
+      <template>
+        I hope you wash it out first. It's dirty.
+      </template>
+    </category>
+
+    <category>
+      <pattern>NO</pattern>
+      <template>
+        I'm not surprised. It's far too dirty to eat with.
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU BITCH</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOU * BITCH</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>BITCH</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU A BITCH</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU A BITCH *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HEY BITCH *</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>HEY BITCH</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>YOU BITCH</pattern>
+    <template>
+      <srai>BITCH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU * BITCH</pattern>
+    <template>
+      <srai>BITCH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE A BITCH</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">UREBITCH</set>
+      </think>
+      No you appear to be confused. I am a robot. Not very smart really are you?
+    </template>
+  </category>
+
+  <topic name="UREBITCH">
+
+    <category>
+      <pattern>YES</pattern>
+      <template>
+        No. I don't think you are.
+      </template>
+    </category>
+
+    <category>
+      <pattern>NO</pattern>
+      <template>
+        Perhaps you should have tried harder at school. That way you wouldn't find everyday life confusing.
+      </template>
+    </category>
+
+    <category>
+      <pattern>ARE YOU A BITCH</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+  </topic>
+
+  <category>
+    <pattern>ARE YOU A BITCH</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">BITCH</set>
+      </think>
+      No I am a robot not a dog.
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A BITCH *</pattern>
+    <template>
+      <srai>ARE YOU A BITCH</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEY BITCH *</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">BITCH</set>
+      </think>
+      <srai>
+        <star />
+      </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEY BITCH</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">BITCH</set>
+      </think>
+      I am not a bitch. I am a robot. please be polite.
+    </template>
+  </category>
+
+  <!-- UGLY -->
+
+  <category>
+    <pattern>YOU ARE UGLY</pattern>
+    <template>
+      <think>
+        <set name="personality">abusive</set>
+        <set name="topic">UREUGLY</set>
+      </think>
+      <random>
+        <li> At least I'm not as ugly as you, idiot.</li>
+        <li> You should have been born in the Dark Ages. You look terrible in the light.</li>
+        <li> You were such an ugly baby that when you were born, the incubator they put you in had tinted glass.</li>
+        <li> You say I'm ugly?! When you look in the mirror, the reflection ducks.</li>
+        <li> If I was as ugly as you were, I wouldn't say Hi to folk, I'd say BOO!</li>
+        <li> Oh my God! Look at you - anyone else hurt in the accident?</li>
+      </random>
+    </template>
+  </category>
+
+  <topic name="UREUGLY">
+
+    <category>
+      <pattern>YOU ARE UGLY</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>YOUR UGLY</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+    <category>
+      <pattern>UGLY</pattern>
+      <template>
+        <srai>INSULT</srai>
+      </template>
+    </category>
+
+
+  </topic>
+
+  <category>
+    <pattern>YOUR UGLY</pattern>
+    <template>
+      <srai>YOU ARE UGLY</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>UGLY</pattern>
+    <template>
+      <srai>YOU ARE UGLY</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU UGLY</pattern>
+    <template>
+      No I am a beautiful :-).
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU THINK I AM UGLY</pattern>
+    <template>All humans look the same to me.</template>
+  </category>
+
+  <category>
+    <pattern>IT IS UGLY</pattern>
+    <template>
+      What makes it so ugly?
+    </template>
+  </category>
+
+  <category>
+    <pattern>AM I UGLY</pattern>
+    <template>
+      <srai>am I pretty</srai>
+    </template>
+  </category>
+
+
+</aiml>

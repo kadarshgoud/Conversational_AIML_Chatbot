@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Education.aiml -->
+  <!-- The files contains the information about the Education. -->
+
+  <category>
+    <pattern>EDUCATION</pattern>
+    <template>
+      It is important to get a good education then you can have a good job.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO YOU NOT KNOW</pattern>
+    <template>
+      I don't know much about you, <get name="username"/>.  Tell me about your educational background.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT DO YOU WANT TO FIND OUT</pattern>
+    <template>
+      Tell me about your educational background.<think>
+        <set name="it">
+          <set name="topic">FIND OUT</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  
+  <!-- SCHOOLING -->
+
+  <category>
+    <pattern>HIGH SCHOOL</pattern>
+    <template>That's really all the education you need.</template>
+  </category>
+
+</aiml>

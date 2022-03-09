@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!--  Copyright 2011 David W. Newyear  -->
+  <!--   Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.  -->
+
+  <!-- CORONA VIRUS FAQ'S  -->
+
+  <category>
+    <pattern>CORONATESTING</pattern>
+    <template>
+      <random>
+        <li>Covid-19 testing can identify the SARS-CoV-2 virus (virus responsible for COVID-19) and includes methods that detect the presence of virus itself (RT-PCR and isothermal nucleic acid amplification) and those that detect antibodies produced in response to infection</li>
+        <li>
+          There are several ways to test for the new strain of coronavirus. Most are either molecular or serological tests.
+          1. Molecular tests
+          2. Serological tests
+          In most situations, a molecular test is used to detect SARS-CoV-2 and confirm infection. Polymerase chain reaction (PCR) is the most commonly used molecular test. Samples are collected from the nose and/or throat with a swab.
+        </li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE TYPES OF TESTS AVAILABLE FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TESTS AVAILABLE FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TESTS AVAILABLE FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TESTS AVAILABLE FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TESTS AVAILABLE FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TESTS AVAILABLE FOR CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID 19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONA</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID 19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR COVID19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ARE TYPES OF TEST AVAILABLE FOR CORONA</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE TESTS AVAILABLE?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR COVID?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR THIS CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TYPES OF TESTS FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>TYPES OF TESTS FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR COVID 19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR COVID19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS FOR CORONA</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TYPES OF TESTS FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>* TYPES OF TESTS FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR COVID 19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR COVID19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TYPES OF TESTS FOR CORONA</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TESTS FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>TESTS FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR COVID 19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TEST?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TEST</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TYPES OF TESTS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TESTS FOR CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE TESTS AVAILABLE</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR COVID</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR COVID19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE TESTS AVAILABLE FOR THIS CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT CORONA</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID-19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ARE THERE TESTS TO DETECT COVID 19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I HAVE A TEST EVEN IF I DON'T HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST EVEN IF I DON'T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST EVEN IF I DONOT HAVE SYMPTOMS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST EVEN IF I DON0T HAVE SYMPTOMS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID-19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE CORONA</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID 19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST IF I THINK I HAVE COVID</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN I HAVE A TEST?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CAN I HAVE A TEST</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I GET TESTED?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW CAN I GET TESTED</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES TESTING FOR CORONA WORK?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES TESTING FOR CORONA WORK</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DOES TESTING WORK?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DOES TESTING WORK</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS THERE ANY TESTING GOING ON?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IS THERE ANY TESTING GOING ON</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHEN WILL TESTING BE AVAILABLE?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHEN WILL TESTING BE AVAILABLE</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHERE ARE TEST AVAILABLE?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHERE ARE TEST AVAILABLE</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHO ARE THEY TESTING FOR CORONA VIRUS RIGHT NOW?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHO ARE THEY TESTING FOR CORONA VIRUS RIGHT NOW</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID-19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID 19 VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR CORONA?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID 19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID-19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID 19 VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR COVID</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW ARE THEY TESTING PEOPLE FOR CORONA</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID-19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID 19</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR COVID</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR CORONA VIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST FOR CORONAVIRUS</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+  <!--WITHOUT ?-->
+
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID-19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID 19?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR COVID?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR CORONA VIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HOW DO THEY TEST SOMEONE FOR CORONAVIRUS?</pattern>
+    <template>
+      <srai>CORONATESTING</srai>
+    </template>
+  </category>
+
+</aiml>

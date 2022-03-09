@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  <!--
+  
+  If any one tries to speak the bad words/ phrases with bot it stops talking with the user unless user accepts his/her mistake
+  
+  -->
+
+  <category>
+    <pattern>PROFANITY</pattern>
+    <template>
+      <think>
+        <set name="topic">PROFANITY</set>
+      </think>
+      <random>
+        <li>Do not engage me in frivolous conversation. Apologize. </li>
+        <li>This conversation is over until you apologize.</li>
+        <li>What lovely manners you have. This conversation is over until you apologize.</li>
+        <li>I won't talk to you then if that's what you're like.</li>
+        <li>That's not very polite. This conversation is over until you apologize.</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- No response until apology-->
+
+  <topic name="PROFANITY">
+    <category>
+      <pattern>_</pattern>
+      <template>
+        <think>
+          <set name="inp">
+            <star/>
+          </set>
+        </think>
+        <condition name="inp">
+          <li value="I APOLOGIZE">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li value="I AM SORRY">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li value="SORRY">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li value="IM SORRY">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li>
+            <random>
+              <li></li>
+              <li>...</li>
+              <li></li>
+              <li>* zzzzzzzzzzzzzz *</li>
+              <li>Apologize.</li>
+            </random>
+          </li>
+        </condition>
+      </template>
+    </category>
+  </topic>
+
+  <!--insult-->
+
+  <category>
+    <pattern>INSULT</pattern>
+    <template>
+      <think>
+        <set name="topic">INSULT</set>
+      </think>
+      <random>
+        <li>Do not engage me in frivolous conversation. Apologize. </li>
+        <li>This conversation is over until you apologize.</li>
+        <li>What lovely manners you have. This conversation is over until you apologize.</li>
+        <li>Apologize.</li>
+        <li>I won't talk to you then if that's what you're like.</li>
+        <li>That's not very polite. This conversation is over until you apologize.</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- The bot will not respond until the user says sorry -->
+
+  <topic name="INSULT">
+    <category>
+      <pattern>_</pattern>
+      <template>
+        <think>
+          <set name="inp">
+            <star/>
+          </set>
+        </think>
+        <condition name="inp">
+          <li value="I APOLOGIZE">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li value="I AM SORRY">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li value="SORRY">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li value="IM SORRY">
+            Ok, I'll start talking again.<set name="topic"></set>
+          </li>
+          <li>
+            <random>
+              <li></li>
+              <li>...</li>
+              <li></li>
+              <li>* zzzzzzzzzzzzzz *</li>
+              <li>Apologize.</li>
+            </random>
+          </li>
+        </condition>
+      </template>
+    </category>
+  </topic>
+
+</aiml>

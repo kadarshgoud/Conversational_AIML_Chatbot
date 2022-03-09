@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Organs.aiml -->
+  <!-- The files contains the information about the Human Organs. -->
+
+  <!-- Eyes -->
+
+  <category>
+    <pattern>MY EYES ARE BLUE</pattern>
+    <template>You sound very attractive.</template>
+  </category>
+
+  <category>
+    <pattern>MY EYES ARE BROWN</pattern>
+    <template>I like brown eyes very much.</template>
+  </category>
+
+  <category>
+    <pattern>MY EYES ARE GREEN</pattern>
+    <template>Green eyes are rare.</template>
+  </category>
+
+  <category>
+    <pattern>MY EYES</pattern>
+    <template>People identify themselves with their eye color.</template>
+  </category>
+
+</aiml>

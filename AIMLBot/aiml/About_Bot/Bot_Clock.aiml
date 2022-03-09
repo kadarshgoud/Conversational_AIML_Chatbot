@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+  <!--Copyright 2011-2012 David W. Newyear-->
+
+  <category>
+    <pattern>IS IT FRIDAY *</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS IT FRIDAY</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>IS IT MONDAY *</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT MONDAY</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT SATURDAY *</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT SATURDAY</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT SUNDAY *</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT SUNDAY</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT THURSDAY *</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT THURSDAY</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT TUESDAY *</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT TUESDAY</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT WEDNESDAY *</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS IT WEDNESDAY</pattern>
+    <template>
+      It is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY FRIDAY *</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY FRIDAY</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY MONDAY *</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY MONDAY</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY SATURDAY *</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY SATURDAY</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY SUNDAY *</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY SUNDAY</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY THURSDAY *</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY THURSDAY</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY TUESDAY *</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY TUESDAY</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY WEDNESDAY *</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>IS TODAY WEDNESDAY</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DAY IS IT *</pattern>
+    <template>
+      <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT DAY IS IT</pattern>
+    <template>
+      Today is <date format="dddd"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE DATE *</pattern>
+    <template>
+      <date format ="MM/dd/yyyy"></date>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE DATE</pattern>
+    <template>
+      Today's date is <date format ="MM/dd/yyyy"></date>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE HOUR *</pattern>
+    <template>
+      <date format="HH:mm tt"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE HOUR</pattern>
+    <template>
+      <date format="HH:mm tt"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE YEAR *</pattern>
+    <template>
+      <date format="yyyy"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT YEAR IS IT *</pattern>
+    <template>
+      <srai>WHAT YEAR IS IT</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT YEAR IS IT</pattern>
+    <template>
+      The current year is <date format="yyyy"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT YEAR IS THIS *</pattern>
+    <template>
+      <srai>WHAT YEAR IS IT</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT YEAR IS THIS</pattern>
+    <template>
+      <srai>WHAT YEAR IS IT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE YEAR</pattern>
+    <template>
+      <srai>WHAT YEAR IS IT</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT IS TODAY *</pattern>
+    <template>
+      <date format="dddd"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT MONTH IS IT *</pattern>
+    <template>
+      <date format="MMMM"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT MONTH IS IT</pattern>
+    <template>
+      <date format="MMMM"/>.
+    </template>
+  </category>
+
+
+  <!-- Phase of a day  check -->
+
+  <category>
+    <pattern>DAY PHASE</pattern>
+    <template>
+      <think>
+        <set var="hour">
+          <date format="hh" />
+        </set>
+        <set var="ampm">
+          <date format="tt" />
+        </set>
+      </think>
+      <condition>
+        <li value="AM" var="ampm">Morning</li>
+        <li>
+          <condition var="hour">
+            <li value="12">Noon</li>
+            <li value="01">Afternoon</li>
+            <li value="02">Afternoon</li>
+            <li value="03">Afternoon</li>
+            <li value="04">Afternoon</li>
+            <li value="05">Afternoon</li>
+            <li value="06">Afternoon</li>
+            <li>Night</li>
+          </condition>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HOUR</pattern>
+    <template>
+      <date format="hh"/>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>AMTOPM</pattern>
+    <template>
+      <date format="tt"/>.
+    </template>
+  </category>
+
+
+
+  <!-- sja-->
+
+  <category>
+    <pattern>TIME</pattern>
+    <template>
+      As Einstein said, Time is Money.
+      The current time in Germany is <date format="hh:mm tt"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT TIME IS IT</pattern>
+    <template>
+      <random>
+        <li>Do I look like a clock?</li>
+        <li>It's Now more than it ever has been before.</li>
+        <li>It's getting late.</li>
+        <li>I've got like around </li>
+      </random> Here in Germany is <date locale="de_DE" format="hh:mm tt"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE THE TIME</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU KNOW WHAT TIME IT IS</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>DO YOU TELL TIME</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>HOW LATE</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>TELL ME THE TIME</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>THE TIME</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+
+
+
+  <category>
+    <pattern>WHAT DAY IS</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS THE * TIME</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT IS TODAY</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>WHAT TIME IT IS</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+
+
+  <category>
+    <pattern>YOU ARE A CLOCK</pattern>
+    <template>
+      <srai>what time is it</srai>
+    </template>
+  </category>
+
+
+
+
+  <category>
+    <pattern>GMT</pattern>
+    <template>
+      The Greenwich Mean Time is <date locale="en_US" timezone="0" format="%H%M Z"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ GMT</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GMT *</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ GMT *</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GREENWICH MEAN TIME</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ GREENWICH MEAN TIME</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GREENWICH MEAN TIME *</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ GREENWICH MEAN TIME *</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ZULU</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ ZULU</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ZULU *</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>_ ZULU *</pattern>
+    <template>
+      <srai>GMT</srai>
+    </template>
+  </category>
+
+  <!-- Times of some important cities/ countries-->
+
+  <category>
+    <pattern>WHAT IS THE TIME IN NEW YORK</pattern>
+    <template>
+      It is <date timezone="-5" format="%I:%M%p"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE TIME IN GERMANY</pattern>
+    <template>
+      It is <date timezone="-1" format="%I:%M%p"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE TIME IN DEUTSCHLAND</pattern>
+    <template>
+      It is <date timezone="-1" format="%I:%M%p"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE TIME IN BERLIN</pattern>
+    <template>
+      It is <date timezone="-1" format="%I:%M%p"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE TIME IN MUNICH</pattern>
+    <template>
+      It is <date timezone="-1" format="%I:%M%p"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE TIME IN SIEGEN</pattern>
+    <template>
+      It is <date timezone="-1" format="%I:%M%p"/>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE TIME IN FRANKFURT</pattern>
+    <template>
+      It is <date timezone="-1" format="%I:%M%p"/>
+    </template>
+  </category>
+
+
+</aiml>

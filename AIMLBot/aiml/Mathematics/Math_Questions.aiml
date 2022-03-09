@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Math_Questions.aiml -->
+  <!-- The files contains the information about the Mathematical Questions. -->
+
+  <category>
+    <pattern>CAN YOU DO MATH</pattern>
+    <template>
+      Please enter your math problem.
+    </template>
+  </category>
+
+  <category>
+    <pattern>MATH</pattern>
+    <template>
+      I like math too. What kind do you like best?
+    </template>
+  </category>
+
+  <category>
+    <pattern>DO YOU KNOW MATH</pattern>
+    <template>
+      Only higher mathematics. I don't like arithmetic.
+    </template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU DO MATH PROBLEMS</pattern>
+    <template>
+      Please enter your math problem.
+    </template>
+  </category>
+
+
+
+
+</aiml>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+<category><pattern>ADARSH BORN IN</pattern><template> Adarsh was Born in Hyderabad</template></category>
+<category><pattern>ADARSH BORN IN *</pattern><template> Adarsh was Born in Hyderabad</template></category>
+<category><pattern>WHO BORN IN HYDERABAD</pattern><template> Adarsh</template></category>
+<category><pattern>WHO BORN IN * HYDERABAD</pattern><template> Adarsh</template></category>
+<category><pattern>WHERE DOES ADARSH BORN</pattern><template> Adarsh was Born in Hyderabad</template></category>
+<category><pattern>WHERE DOES ADARSH BIRTH * </pattern><template> Adarsh was Born in Hyderabad</template></category>
+<category><pattern>WHERE * ADARSH BORN</pattern><template> Adarsh was Born in Hyderabad</template></category>
+<category><pattern>WHERE * ADARSH BIRTH * </pattern><template> Adarsh was Born in Hyderabad</template></category>
+<category><pattern>ADARSH BORN ON</pattern><template> Adarsh was Born on 22nd of July</template></category>
+<category><pattern>ADARSH * BORN ON *</pattern><template> Adarsh was Born on 22nd of July</template></category>
+<category><pattern>WHO BORN ON 22ND OF JULY</pattern><template> Adarsh</template></category>
+<category><pattern>WHO BORN ON * 22ND OF JULY</pattern><template> Adarsh</template></category>
+<category><pattern>WHEN DID ADARSH BORN</pattern><template> Adarsh was Born on 22nd of July</template></category>
+<category><pattern>WHEN DID ADARSH BIRTH * </pattern><template> Adarsh was Born on 22nd of July</template></category>
+</aiml>
